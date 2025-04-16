@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <!--search bar-->
+    <div class="search-container">
+      <div class="bar">
+        <input
+          type="text"
+          id="search-bar"
+          onkeyup="myFunction()"
+          placeholder="Search"
+        />
+        <button>Search</button>
+      </div>
+      <div class="search-result">
+        <ul>
+          <li><a href="#">My Favorites</a></li>
+          <li><a href="#">Horror</a></li>
+          <li><a href="#">Romance</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
