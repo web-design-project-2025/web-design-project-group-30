@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Review Website Velour</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,7 +15,22 @@
     </header>
     <main>
         <img src="#" alt="mainpage picture">
-        <p>CATEGORIES</p>
+        <div class="categories"> 
+            <div class="categories-row">
+                <button onclick="categoriesFunction()"> CATEGORIES </button>
+            </div>
+            <div>
+                <ul class="category-list">
+                    <li><a href="#">ACTION</a></li>
+                    <li><a href="#">COMEDY</a></li>
+                    <li><a href="#">DOCUMENTARY</a></li>
+                    <li><a href="#">HORROR</a></li>
+                    <li><a href="#">ROMANCE</a></li>
+                    <li><a href="#">SCIENCE FICTION</a></li>
+                </ul>
+            </div>
+        </div>
+        
         <section class="image-homepage-container">
            <a href="#">
             <figure>
