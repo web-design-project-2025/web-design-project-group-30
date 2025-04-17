@@ -5,6 +5,10 @@
 }
 
 /*TRENDING*/
+/*https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
+.trending-heading{
+    border-bottom: 4px solid white;
+}
 .product{
     position: relative;
     overflow: hidden;
