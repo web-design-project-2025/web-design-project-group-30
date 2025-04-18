@@ -1,4 +1,5 @@
 
+// categories button
 function categoriesFunction(){
     var categoryList = document.querySelector(".category-list");
     
@@ -8,13 +9,16 @@ function categoriesFunction(){
         categoryList.classList.add("show");
     }
 }
-document.addEventListener("click", function(event){
+document.addEventListener("click", function(event) {
     const button = document.querySelector(".categories-row button");
     const list = document.querySelector(".category-list");
 
     if(!button.contains(event.target)&& !list.contains(event.target)){
         list.classList.remove("show");
     }
+    });
+
+// carousel effect
 const productContainers = [...document.querySelectorAll(".product-container")];
 const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
 const preBtn = [...document.querySelectorAll(".pre-btn")];
@@ -77,3 +81,20 @@ function toggleHamburgerMenu() {
   }
 }
 
+//Read more button
+//https://www.w3schools.com/howto/howto_js_read_more.asp
+function myFunction(){
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readMoreButton");
+
+  if(dots.style.display === "none"){
+    dots.style.display = "inline";
+    btnText.innerHTML = "READ MORE";
+    moreText.style.display = "none";
+  } else{
+    dots.style.display ="none";
+    btnText.innerHTML = "READ LESS";
+    moreText.style.display = "inline";
+  }
+}

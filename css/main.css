@@ -215,6 +215,7 @@
   border-radius: 0 4px 4px 0;
   background-color: #f0f0f0;
   cursor: pointer;
+}
 
 /*DETALED MOVIE REVIEW PAGE*/
 .movie-poster-detailed-review-page{
@@ -238,4 +239,13 @@
     display: flex;
     align-items: center;
     gap: 3%;
+}
+
+#more { display: none;}
+
+#readMoreButton{
+    width: 100%;
+    color: #8220B3;
+    background-color: #D9D9D9;
+    border: none;
 }
