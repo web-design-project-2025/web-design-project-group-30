@@ -1,4 +1,5 @@
 
+// categories button
 function categoriesFunction(){
     var categoryList = document.querySelector(".category-list");
     
@@ -9,6 +10,17 @@ function categoriesFunction(){
     }
 }
 document.addEventListener("click", function(event) {
+
+    const button = document.querySelector(".categories-row button");
+    const list = document.querySelector(".category-list");
+
+    if(!button.contains(event.target)&& !list.contains(event.target)){
+        list.classList.remove("show");
+    }
+    });
+
+// carousel effect
+
   const button = document.querySelector(".categories-row button");
   const list = document.querySelector(".category-list");
 
@@ -16,6 +28,7 @@ document.addEventListener("click", function(event) {
       list.classList.remove("show");
   }
 });
+
 
 const productContainers = [...document.querySelectorAll(".product-container")];
 const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
@@ -69,8 +82,36 @@ document.addEventListener("click", (event) => {
 });
 
 
+
+function toggleHamburgerMenu() {
+  const menu = document.getElementById("hamburgerContent");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+
+//Read more button
+//https://www.w3schools.com/howto/howto_js_read_more.asp
+function myFunction(){
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readMoreButton");
+
+  if(dots.style.display === "none"){
+    dots.style.display = "inline";
+    btnText.innerHTML = "READ MORE";
+    moreText.style.display = "none";
+  } else{
+    dots.style.display ="none";
+    btnText.innerHTML = "READ LESS";
+    moreText.style.display = "inline";
+  }
+
 /*toggle menu*/
 function toggleMenu() {
   const navLinks = document.querySelector(".nav-links");
   navLinks.classList.toggle("show");
+
 }
