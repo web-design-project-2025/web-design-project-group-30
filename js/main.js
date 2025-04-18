@@ -10,6 +10,7 @@ function categoriesFunction(){
     }
 }
 document.addEventListener("click", function(event) {
+
     const button = document.querySelector(".categories-row button");
     const list = document.querySelector(".category-list");
 
@@ -19,6 +20,16 @@ document.addEventListener("click", function(event) {
     });
 
 // carousel effect
+
+  const button = document.querySelector(".categories-row button");
+  const list = document.querySelector(".category-list");
+
+  if (!button.contains(event.target) && !list.contains(event.target)) {
+      list.classList.remove("show");
+  }
+});
+
+
 const productContainers = [...document.querySelectorAll(".product-container")];
 const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
 const preBtn = [...document.querySelectorAll(".pre-btn")];
@@ -28,12 +39,11 @@ productContainers.forEach((item, i) => {
   let containerWidth = containerDimensions.width;
 
   nxtBtn[i].addEventListener("click", () => {
-    item.scrollLeft += containerWidth;
+      item.scrollLeft += containerWidth;
   });
   preBtn[i].addEventListener("click", () => {
-    item.scrollLeft -= containerWidth;
+      item.scrollLeft -= containerWidth;
   });
-
 });
 
 // search bar
@@ -72,6 +82,7 @@ document.addEventListener("click", (event) => {
 });
 
 
+
 function toggleHamburgerMenu() {
   const menu = document.getElementById("hamburgerContent");
   if (menu.style.display === "block") {
@@ -97,4 +108,10 @@ function myFunction(){
     btnText.innerHTML = "READ LESS";
     moreText.style.display = "inline";
   }
+
+/*toggle menu*/
+function toggleMenu() {
+  const navLinks = document.querySelector(".nav-links");
+  navLinks.classList.toggle("show");
+
 }
