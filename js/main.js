@@ -68,12 +68,8 @@ document.addEventListener("click", (event) => {
 });
 
 
-function toggleHamburgerMenu() {
-  const menu = document.getElementById("hamburgerContent");
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "block";
-  }
+/*toggle menu*/
+function toggleMenu() {
+  const navLinks = document.querySelector(".nav-links");
+  navLinks.classList.toggle("show");
 }
-
