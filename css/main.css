@@ -167,6 +167,24 @@
 
 /*DETALED MOVIE REVIEW PAGE*/
 .movie-poster-detailed-review-page{
-    height: 20%;
+    height: auto;
     width: 20%;
+    padding-left: 3%;
+}
+
+.movie-header{
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.movie-information{
+    flex: 1;
+}
+
+.movie-titel-heart{
+    display: flex;
+    align-items: center;
+    gap: 3%;
 }
