@@ -1,4 +1,20 @@
 
+function categoriesFunction(){
+    var categoryList = document.querySelector(".category-list");
+    
+    if(categoryList.classList.contains("show")){
+        categoryList.classList.remove("show");
+    } else{
+        categoryList.classList.add("show");
+    }
+}
+document.addEventListener("click", function(event){
+    const button = document.querySelector(".categories-row button");
+    const list = document.querySelector(".category-list");
+
+    if(!button.contains(event.target)&& !list.contains(event.target)){
+        list.classList.remove("show");
+    }
 const productContainers = [...document.querySelectorAll(".product-container")];
 const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
 const preBtn = [...document.querySelectorAll(".pre-btn")];
@@ -13,6 +29,7 @@ productContainers.forEach((item, i) => {
   preBtn[i].addEventListener("click", () => {
     item.scrollLeft -= containerWidth;
   });
+
 });
 
 // search bar
