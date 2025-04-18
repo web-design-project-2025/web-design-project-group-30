@@ -32,13 +32,3 @@ document.addEventListener("click", (event) => {
     searchList.style.display = "none";
   }
 });
-
-
-function toggleHamburgerMenu() {
-  const menu = document.getElementById("hamburgerContent");
-  if (menu.style.display === "block") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "block";
-  }
-}
