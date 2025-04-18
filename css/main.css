@@ -165,3 +165,8 @@
   cursor: pointer;
 }
 
+/*DETALED MOVIE REVIEW PAGE*/
+.movie-poster-detailed-review-page{
+    height: 20%;
+    width: 20%;
+}
