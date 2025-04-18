@@ -32,3 +32,10 @@ document.addEventListener("click", (event) => {
     searchList.style.display = "none";
   }
 });
+
+
+/*toggle menu*/
+function toggleMenu() {
+  const navLinks = document.querySelector(".nav-links");
+  navLinks.classList.toggle("show");
+}
