@@ -46,6 +46,10 @@
     display: block;
 }
 
+.movie-thumbnail:hover{
+    transform: scale(1.1);
+}
+
 .pre-btn,
 .nxt-btn{
     border:none;
