@@ -19,17 +19,8 @@ document.addEventListener("click", function(event) {
     }
     });
 
+
 // carousel effect
-
-  const button = document.querySelector(".categories-row button");
-  const list = document.querySelector(".category-list");
-
-  if (!button.contains(event.target) && !list.contains(event.target)) {
-      list.classList.remove("show");
-  }
-});
-
-
 const productContainers = [...document.querySelectorAll(".product-container")];
 const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
 const preBtn = [...document.querySelectorAll(".pre-btn")];
@@ -47,7 +38,7 @@ productContainers.forEach((item, i) => {
 });
 
 // search bar
-function myFunction() {
+function filterSearchResults() {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById("search-bar");
   filter = input.value.toUpperCase();
@@ -94,7 +85,7 @@ function toggleHamburgerMenu() {
 
 //Read more button
 //https://www.w3schools.com/howto/howto_js_read_more.asp
-function myFunction(){
+function readMore(){
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("readMoreButton");
@@ -108,6 +99,7 @@ function myFunction(){
     btnText.innerHTML = "READ LESS";
     moreText.style.display = "inline";
   }
+}
 
 /*toggle menu*/
 function toggleMenu() {
