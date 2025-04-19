@@ -3,7 +3,68 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.search-container {
+  width: 300px;
+  margin: 0 auto;
+}
+.search-result {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 300px;
+}
+.search-result ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.search-result li a {
+  border: 1px solid rgb(80, 80, 80);
+  margin-top: 1px;
+  background-color: rgb(184, 183, 183);
+  padding: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #8220b3;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+.search-result li a:hover {
+  background-color: rgb(207, 205, 205);
+}
 
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
+#search-bar {
+  width: auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+.bar button {
+  padding: 8px 12px;
+  border: 1px solid #c4c3c3;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
 #logo {
   z-index: 20;
   font-size: 1.5em;
@@ -110,11 +171,12 @@ body {
     overflow: hidden;
 }
 
-.movie-thumbnail{
-    width: 20vw;
-    height: 30vw;
-    object-fit: cover;
-    display: block;
+.movie-thumbnail {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  display: block;
+  background-color: #222;
 }
 
 .movie-thumbnail:hover{
@@ -173,72 +235,6 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-
-
-/*Mobile phone search bar*/
-.search-container {
-  width: 300px;
-  margin: 0 auto;
-}
-.search-result {
-  display: none;
-  position: fixed;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 300px;
-}
-.search-result ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-.search-result li a {
-  border: 1px solid rgb(80, 80, 80);
-  margin-top: 1px;
-  background-color: rgb(184, 183, 183);
-  padding: 1px;
-  text-decoration: none;
-  font-size: 12px;
-  color: #8220b3;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-}
-.search-result li a:hover {
-  background-color: rgb(207, 205, 205);
-}
-
-.bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px;
-}
-#search-bar {
-  width: auto;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-right: none;
-  border-radius: 4px 0 0 4px;
-  outline: none;
-}
-.bar button {
-  padding: 8px 12px;
-  border: 1px solid #c4c3c3;
-  border-left: none;
-  border-radius: 0 4px 4px 0;
-  background-color: #f0f0f0;
-  cursor: pointer;
 }
 
 /*DETALED MOVIE REVIEW PAGE*/
@@ -355,6 +351,69 @@ body {
     position: static;
     font-size: 30px;
   }
+  /*Mobile phone search bar*/
+.search-container {
+  width: 300px;
+  margin: 0 auto;
+}
+.search-result {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 300px;
+}
+.search-result ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.search-result li a {
+  border: 1px solid rgb(80, 80, 80);
+  margin-top: 1px;
+  background-color: rgb(184, 183, 183);
+  padding: 1px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #8220b3;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+.search-result li a:hover {
+  background-color: rgb(207, 205, 205);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
+#search-bar {
+  width: auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+.bar button {
+  padding: 8px 12px;
+  border: 1px solid #c4c3c3;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
 }
 
 .movie-header{
