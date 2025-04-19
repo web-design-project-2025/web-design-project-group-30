@@ -4,6 +4,12 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+body {
+  background-color: #454545;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
 /*categories button*/
 .categories-row button{
     background-color: #8220B3;
