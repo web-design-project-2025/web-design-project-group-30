@@ -9,6 +9,7 @@ function categoriesFunction(){
         categoryList.classList.add("show");
     }
 }
+
 document.addEventListener("click", function(event) {
 
     const button = document.querySelector(".categories-row button");
@@ -19,17 +20,8 @@ document.addEventListener("click", function(event) {
     }
     });
 
+
 // carousel effect
-
-  const button = document.querySelector(".categories-row button");
-  const list = document.querySelector(".category-list");
-
-  if (!button.contains(event.target) && !list.contains(event.target)) {
-      list.classList.remove("show");
-  }
-});
-
-
 const productContainers = [...document.querySelectorAll(".product-container")];
 const nxtBtn = [...document.querySelectorAll(".nxt-btn")];
 const preBtn = [...document.querySelectorAll(".pre-btn")];
@@ -108,6 +100,26 @@ function myFunction(){
     btnText.innerHTML = "READ LESS";
     moreText.style.display = "inline";
   }
+}
+
+//scroll back to the top of the page button
+//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+document.addEventListener("DOMContentLoaded", ()=> {
+const scrolltotopbutton = document.getElementById("scrollToTopButton");
+// marks at 10px from the top the button will be showing 
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 3 || document.documentElement.scrollTop > 3) {
+    scrolltotopbutton.style.display = "block";
+  } else {
+    scrolltotopbutton.style.display = "none";
+  }
+});
+// makes the user as soon as he clicks the button scroll back to the top
+scrolltotopbutton.addEventListener("click", ()=> {
+  document.body.scrollTop = 0; //for safari
+  document.documentElement.scrollTop = 0; // for others
+});
+});
 
 /*toggle menu*/
 function toggleMenu() {
