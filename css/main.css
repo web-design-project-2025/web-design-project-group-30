@@ -12,7 +12,7 @@ body {
 /*banner*/
 .banner-image {
   width: 100%;
-  height: 40vh;
+  height: 60vh;
   overflow: hidden;
 }
 
@@ -308,33 +308,47 @@ body {
 }
 
 @media (max-width: 667px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px 0;
+  }
+
   .navbar-container {
-      flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
   }
 
   .nav-links {
-      list-style: none;
-      display: none;
-      width: 100%;
-      text-align: center;
-      padding: 10px 0;
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      background-color:#454545;
-      border-radius: 5px;
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #454545;
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0;
   }
 
   .nav-links.show {
-      display: block;
+    display: block;
   }
 
   .nav-links li {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 
   .hamburger {
-      display: block;
+    display: block;
+    position: static;
+    font-size: 30px;
   }
 }
 
