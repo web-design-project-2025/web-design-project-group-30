@@ -11,45 +11,43 @@
     <header>
         <div class="logo-container">
             <a href="index.html" id="logo">VELOUR</a>
-          </div>
-      <nav class="navbar">
-        <div class="navbar-container">
-            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-            
-
-            <ul class="nav-links">
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-            </ul>
         </div>
-    </nav>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+                <ul class="nav-links">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+                <!--search bar-->
+                <div class="search-container">
+                    <div class="bar">
+                        <input
+                            type="text"
+                            id="search-bar"
+                            onkeyup="filterSearchResults()"
+                            placeholder="Search"
+                        />
+                        <button onclick="filterSearchResults()">Search</button>
+                    </div>
+                    <div class="search-result">
+                        <ul>
+                            <li><a href="#">My Favorites</a></li>
+                            <li><a href="#">Horror</a></li>
+                            <li><a href="#">Romance</a></li>
+                            <li><a href="#">Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-      <!--search bar-->
-    <div class="search-container">
-      <div class="bar">
-        <input
-          type="text"
-          id="search-bar"
-          onkeyup="myFunction()"
-          placeholder="Search"
-        />
-        <button>Search</button>
-      </div>
-      <div class="search-result">
-        <ul>
-          <li><a href="#">My Favorites</a></li>
-          <li><a href="#">Horror</a></li>
-          <li><a href="#">Romance</a></li>
-          <li><a href="#">Profile</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="banner-image">
-        <img src="img/minecraftposter.jpg" class="banner-img">
-    </div>
+        <div class="banner-image">
+            <img src="img/minecraftposter.jpg" class="banner-img">
+        </div>
         <div class="categories"> 
             <div class="categories-row">
                 <button onclick="categoriesFunction()"> CATEGORIES </button>
@@ -67,42 +65,41 @@
         </div>
         
         <section class="image-homepage-container">
-           <a href="#">
-            <figure>
-                <img class="homepage-images" src="#" alt="Movie1">
-            </figure>
-           </a>
+            <a href="#">
+                <figure>
+                    <img class="homepage-images" src="#" alt="Movie1">
+                </figure>
+            </a>
 
-           <a href="#">
-            <figure>
-                <img class="homepage-images" src="#" alt="Movie1">
-            </figure>
-           </a>
+            <a href="#">
+                <figure>
+                    <img class="homepage-images" src="#" alt="Movie1">
+                </figure>
+            </a>
 
-           <a href="#">
-            <figure>
-                <img class="homepage-images" src="#" alt="Movie1">
-            </figure>
-           </a>
+            <a href="#">
+                <figure>
+                    <img class="homepage-images" src="#" alt="Movie1">
+                </figure>
+            </a>
 
-           <a href="#">
-            <figure>
-                <img class="homepage-images" src="#" alt="Movie1">
-            </figure>
-           </a>
+            <a href="#">
+                <figure>
+                    <img class="homepage-images" src="#" alt="Movie1">
+                </figure>
+            </a>
 
-           <a href="#">
-            <figure>
-                <img class="homepage-images" src="#" alt="Movie1">
-            </figure>
-           </a>
+            <a href="#">
+                <figure>
+                    <img class="homepage-images" src="#" alt="Movie1">
+                </figure>
+            </a>
 
-           <a href="#">
-            <figure>
-                <img class="homepage-images" src="#" alt="Movie1">
-            </figure>
-           </a>
-           
+            <a href="#">
+                <figure>
+                    <img class="homepage-images" src="#" alt="Movie1">
+                </figure>
+            </a>
         </section>
     </main>
     <footer>
@@ -110,4 +107,3 @@
     </footer>
 </body>
 </html>
-
