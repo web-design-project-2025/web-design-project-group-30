@@ -4,6 +4,11 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+#logo {
+  z-index: 20;
+  font-size: 1.5em;
+  font-weight: bold;
+}
 body {
   background-color: #454545;
   color: white;
