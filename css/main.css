@@ -256,7 +256,7 @@ body {
 .search-result {
   display: none;
   position: absolute;
-  bottom: 40px;
+  bottom: 35px;
   left: 40%;
   transform: translateX(-50%);
   width: 100%;
@@ -357,7 +357,6 @@ body {
     z-index: 1;
   }
   .search-result {
-    bottom: 50px;
     left: 50%;
   }
   }
