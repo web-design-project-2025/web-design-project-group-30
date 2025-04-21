@@ -1,7 +1,7 @@
 /* HOMEPAGE IMAGE GRID*/
-.image-homepage-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.image-homepage-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #logo {
@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: 60vh;
   overflow: hidden;
-  z-index:10;
+  z-index: 10;
 }
 
 .banner-img {
@@ -27,88 +27,40 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  z-index:10;
+  z-index: 10;
 }
 
-/*categories button*/
-.categories-row button{
-    background-color: #8220B3;
-    min-width: 160px;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-} 
-
-.category-list {
-    display: none;
-    position: absolute;
-    background-color: #B652E3;
-    min-width: 160px;
-    margin-top: 0px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    padding: 10px 0px;
-    list-style: none;
-
-  }
-  .category-list.show{
-    display: block;
-  }
-  .category-list li {
-    padding: 8px 16px;
-  }
-
-  .category-list li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: small;
-    text-align: center;
-    
-  }
-
-  .category-list li:hover {
-    background-color: #d06cff;
-  }
-.categories{
-    position: relative;
-}
- 
 /*TRENDING*/
-.trending-heading{
-    border-bottom: 4px solid white;
+.trending-heading {
+  border-bottom: 4px solid white;
 }
-.product{
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-}
-
-.product-container{
-    padding: 0 10vw;
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
 }
 
-.product-container::-webkit-scrollbar{
-    display: none;
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
-.product-card{
-    flex: 0 0 auto;
-    width: 250px;
-    height: auto;
-    margin-right: 1vw;
+.product-container::-webkit-scrollbar {
+  display: none;
 }
 
-.movie-image{
-    position: relative;
-    overflow: hidden;
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: auto;
+  margin-right: 1vw;
+}
+
+.movie-image {
+  position: relative;
+  overflow: hidden;
 }
 
 .movie-thumbnail {
@@ -119,93 +71,91 @@ body {
   background-color: #222;
 }
 
-.movie-thumbnail:hover{
-    transform: scale(1.1);
+.movie-thumbnail:hover {
+  transform: scale(1.1);
 }
 
 .pre-btn,
-.nxt-btn{
-    border:none;
-    width: 2vw;
-    height: 100%;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 9;
+.nxt-btn {
+  border: none;
+  width: 2vw;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9;
 }
 /*z-index makes the arrows stick on the top so they are never hidden by any image*/
-.arrow-image{
-    width: 30px;
-    height: 30px;
+.arrow-image {
+  width: 30px;
+  height: 30px;
 }
-.pre-btn{
-    left: 0;
-    transform: rotate(180deg);
-
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
 }
-.nxt-btn{
-    right: 0;
+.nxt-btn {
+  right: 0;
 }
 
 .pre-btn img,
-.nxt-btn img{
-    opacity:0.2
+.nxt-btn img {
+  opacity: 0.2;
 }
 
 .pre-btn:hover img,
-.nxt-btn:hover img{
-    opacity: 1;
+.nxt-btn:hover img {
+  opacity: 1;
 }
 
-.collection-container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.collection{
-    position: relative;
+.collection {
+  position: relative;
 }
 
 .collection img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*DETALED MOVIE REVIEW PAGE*/
-.movie-poster-detailed-review-page{
-    height: auto;
-    width: 20%;
-    padding-left: 3%;
-}
-  
-  .movie-header{
-    display: flex;
-    gap: 5%;
-    align-items: flex-start;
-    padding: 3%;
+.movie-poster-detailed-review-page {
+  height: auto;
+  width: 20%;
+  padding-left: 3%;
 }
 
-.movie-information{
-    flex: 1;
+.movie-header {
+  display: flex;
+  gap: 5%;
+  align-items: flex-start;
+  padding: 3%;
 }
 
-.movie-titel-heart{
-    display: flex;
-    align-items: center;
-    gap: 3%;
+.movie-information {
+  flex: 1;
 }
 
+.movie-titel-heart {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
 
 /*navigation*/
 .navbar {
   background-color: #454545;
-  color:white;
+  color: white;
   padding: 10px 20px;
   position: relative;
 }
@@ -221,7 +171,7 @@ body {
   font-size: 1.5em;
   font-weight: bold;
 }
-/*hamburger menu*/ 
+/*hamburger menu*/
 .hamburger {
   display: none;
   font-size: 30px;
@@ -359,49 +309,135 @@ body {
   .search-result {
     left: 50%;
   }
-  }
-  /*bigger screens*/
-  @media (min-width: 650px) {
-    .search-container {
-      position: absolute;
-      top: 40vh;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: block;
-      width: 300px;
-      z-index: 10;
-    }
-    .hamburger {
-      display: none;
-    }
-  }
-  
-.movie-header{
-    display: flex;
-    gap: 5%;
-    align-items: flex-start;
-    padding: 3%;
-}
-
-.movie-information{
-    flex: 1;
-}
-
-.movie-titel-heart{
-    display: flex;
-    align-items: center;
-    gap: 3%;
-}
-
-#more { display: none;}
-
-#readMoreButton{
-    width: 100%;
-    color: #8220B3;
-    background-color: #D9D9D9;
+  /*categories button*/
+  .categories-row button {
+    background-color: #8220b3;
+    min-width: 160px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
     border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .category-list {
+    display: none;
+    position: absolute;
+    background-color: #b652e3;
+    min-width: 160px;
+    margin-top: 0px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px 0px;
+    list-style: none;
+  }
+  .category-list.show {
+    display: block;
+  }
+  .category-list li {
+    padding: 8px 16px;
+  }
+
+  .category-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+    text-align: center;
+  }
+
+  .category-list li:hover {
+    background-color: #d06cff;
+  }
+  .categories {
+    position: relative;
+  }
+}
+/*bigger screens*/
+@media (min-width: 650px) {
+  .search-container {
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 300px;
+    z-index: 10;
+  }
+  .hamburger {
+    display: none;
+  }
+  .categories-row {
+    display: none;
+  }
+
+  .category-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    padding: 10px 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+  }
+
+  .category-list li {
+    display: inline-block;
+  }
+
+  .category-list li a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    background-color: #b652e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  .category-list li a:hover {
+    background-color: #8220b3;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+}
+.movie-header {
+  display: flex;
+  gap: 5%;
+  align-items: flex-start;
+  padding: 3%;
 }
 
+.movie-information {
+  flex: 1;
+}
+
+.movie-titel-heart {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+#more {
+  display: none;
+}
+
+#readMoreButton {
+  width: 100%;
+  color: #8220b3;
+  background-color: #d9d9d9;
+  border: none;
+}
 
 /*Sources/Refrences
 https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
