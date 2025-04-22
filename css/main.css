@@ -4,10 +4,16 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-/*.logo-text {
-  font-size: 1.5em;
-  color: white;
-}*/
+.logo-container{
+  position: relative;
+  display: inline-block;
+  
+}
+.logo-container img {
+  width: 50px;
+  height: 45px;
+  object-fit: contain; 
+}
 body {
   background-color: #454545;
   color: white;
@@ -144,11 +150,7 @@ body {
 .movie-information {
   flex: 1;
 }
-.logo-container img{
-  width: 80px;
-  height: 80px;
 
-}
 .movie-titel-heart {
   display: flex;
   align-items: center;
@@ -166,7 +168,7 @@ body {
 .navbar-container {
   position: relative;
   display: flex;
-  top: -90px;
+  top: -70px;
 }
 
 
