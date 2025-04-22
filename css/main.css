@@ -4,16 +4,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.logo-container{
-  position: relative;
-  display: inline-block;
-  
-}
-.logo-container img {
-  width: 50px;
-  height: 45px;
-  object-fit: contain; 
-}
+
 body {
   background-color: #454545;
   color: white;
@@ -197,8 +188,6 @@ body {
   cursor: pointer;
   z-index: 2;
   position: absolute;
-  top: 15px;
-  right: 20px;
 }
 
 .nav-links {
@@ -280,7 +269,7 @@ body {
   .navbar {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 70%;
     z-index: 10;
     padding: 10px 0;
   }
@@ -300,7 +289,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background-color: #454545;
-    width: 90%;
+    width: 80%;
     border-radius: 5px;
     text-align: center;
     padding: 10px 0;
@@ -308,12 +297,21 @@ body {
 
   .nav-links.show {
     display: block;
+    bottom:0;
+    z-index:3;
   }
 
   .nav-links li {
-    margin: 10px 0;
+    margin: 5px 3px;
+    width:max-content;
   }
-
+  .nav-links img {
+    width: 30px;
+    height: 25px;
+  }
+  .nav-links a{
+    height:10px;
+  }
   .hamburger {
     display: block;
     position: static;
@@ -324,7 +322,7 @@ body {
     align-items: center;
     position: absolute;
     top: 15px;
-    right: 80px;
+    right: 0px;
     z-index: 1;
   }
   .search-result {
@@ -380,7 +378,7 @@ body {
 @media (min-width: 650px) {
   .search-container {
     position: absolute;
-    top: 40vh;
+    top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
