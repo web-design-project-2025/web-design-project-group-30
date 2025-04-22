@@ -4,11 +4,10 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-#logo {
-  z-index: 20;
+/*.logo-text {
   font-size: 1.5em;
-  font-weight: bold;
-}
+  color: white;
+}*/
 body {
   background-color: #454545;
   color: white;
@@ -145,7 +144,11 @@ body {
 .movie-information {
   flex: 1;
 }
+.logo-container img{
+  width: 80px;
+  height: 80px;
 
+}
 .movie-titel-heart {
   display: flex;
   align-items: center;
@@ -161,15 +164,17 @@ body {
 }
 
 .navbar-container {
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  top: -90px;
 }
 
+
 .nav-links img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 45px;
+  object-fit: contain; 
+  /*display: block;*/
 
 }
 .nav-links a {
