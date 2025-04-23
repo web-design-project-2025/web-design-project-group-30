@@ -161,11 +161,10 @@ body {
   top: -70px;
 }
 
-
 .nav-links img {
   width: 50px;
   height: 45px;
-  object-fit: contain; 
+  object-fit: contain;
 }
 .nav-links a {
   display: flex;
@@ -176,7 +175,7 @@ body {
 }
 .nav-links span {
   position: relative;
-  top: -12px; 
+  top: -12px;
 }
 /*hamburger menu*/
 .hamburger {
@@ -294,20 +293,20 @@ body {
 
   .nav-links.show {
     display: block;
-    bottom:0;
-    z-index:3;
+    bottom: 0;
+    z-index: 3;
   }
 
   .nav-links li {
     margin: 5px 3px;
-    width:max-content;
+    width: max-content;
   }
   .nav-links img {
     width: 30px;
     height: 25px;
   }
-  .nav-links a{
-    height:10px;
+  .nav-links a {
+    height: 10px;
   }
   .hamburger {
     display: block;
@@ -318,9 +317,9 @@ body {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 15px;
-    right: 0px;
-    z-index: 1;
+    bottom: 0;
+    right: 6px;
+    z-index: 10;
   }
   .search-result {
     left: 50%;
