@@ -167,8 +167,6 @@ body {
   width: 50px;
   height: 45px;
   object-fit: contain; 
-  /*display: block;*/
-
 }
 .nav-links a {
   display: flex;
@@ -352,6 +350,7 @@ body {
     border-radius: 5px;
     padding: 10px 0px;
     list-style: none;
+    z-index: 11;
   }
   .category-list.show {
     display: block;
