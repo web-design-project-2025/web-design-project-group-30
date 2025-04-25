@@ -1,0 +1,62 @@
+/*DETALED MOVIE REVIEW PAGE*/
+.movie-poster-detailed-review-page{
+    height: auto;
+    width: 20%;
+    padding-left: 3%;
+}
+
+  .movie-header{
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.movie-information{
+    flex: 1;
+}
+
+.movie-titel-heart{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+.movie-header{
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.movie-information{
+    flex: 1;
+}
+
+.movie-titel-heart{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+#more { display: none;}
+
+#readMoreButton{
+    width: 100%;
+    color: #8220B3;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.cast{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.speech-bubble{
+    position: relative;
+    background-color: #454545;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
