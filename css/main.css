@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #454545;
+  background-color: #201F1F;
   color: white;
   font-family: Helvetica, sans-serif;
 }
@@ -149,7 +149,7 @@ body {
 
 /*navigation*/
 .navbar {
-  background-color: #454545;
+  background-color: #201F1F;
   color: white;
   padding: 10px 20px;
   position: relative;
@@ -182,8 +182,9 @@ body {
   display: none;
   font-size: 30px;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
   position: absolute;
+  color:#793E98;
 }
 
 .nav-links {
@@ -284,7 +285,7 @@ body {
     bottom: 60px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #454545;
+    background-color: #201F1F;
     width: 80%;
     border-radius: 5px;
     text-align: center;
