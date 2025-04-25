@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "@dicebear/avatars": "^4.10.8",
-    "@dicebear/core": "^9.2.2"
+    "@dicebear/core": "^9.2.2",
+    "themoviedb": "^0.1.0"
   }
 }
