@@ -60,3 +60,26 @@
 
 }
 
+/*bigger screens*/
+@media (min-width: 800px) {
+    .cast{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    #readMoreButton{
+        width: 50%;
+    }
+    .speech-bubble{
+        width: 50%;
+    }
+    .trailer-speechbubble-container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .trailer{
+        flex: 1;
+    }
+    .community-opinion{
+        flex: 2;
+    }
+}
