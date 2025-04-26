@@ -25,7 +25,31 @@ body {
   object-position: center;
   z-index: 10;
 }
-
+ /*Animation Velour*/
+ /*https://www.youtube.com/watch?v=lur8SDdUzPI*/
+ svg path{
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 0.5;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation: textAnimation 4s ease-in-out 1 forwards;
+  width: 100;
+ }
+ @keyframes textAnimation{
+0% {
+  stroke-dashoffset: 350;
+}
+80%{
+  fill: transparent;
+}
+100%{
+  fill: #ffffff;
+  stroke-dashoffset: 0;
+  
+}
+ }
+ 
 /*TRENDING*/
 .trending-heading {
   border-bottom: 4px solid white;
