@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  position: fixed;
-  left: 40%;
-  bottom: 250px;
   z-index: 2;
-  flex-wrap: wrap;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #avatar {
@@ -60,34 +61,103 @@ button:hover {
   color: white;
   width: 100%;
   height: 60vh;
-  overflow: visible;
-  z-index: 1;
-  object-fit: cover;
   flex-wrap: wrap;
   position: relative;
 }
+.name-display span:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#savedName {
+  font-size: 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.language-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.language-location .language,
+.language-location .location {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.language-location h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #793E98;
+}
+
+.language-location p {
+  font-size: 1rem;
+  color: #ffffff;
+}
 @media (max-width: 667px) {
-  .profile {
-    left: 50%;
-    bottom: 30%;
-    transform: translateX(-50%);
-    width: 90%;
+  .banner {
+    height: 60vh;
+    overflow:scroll;
   }
 
+  .profile {
+    position: static;
+    transform: none;
+    padding: 10px;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 250px; 
+  }
   #avatar {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   input {
-    width: 80%;
-  }
-
-  .name-container {
-    font-size: 1em;
+    width: 100%;
   }
 
   button {
     width: 100%;
+  }
+
+  .name-display {
+    font-size: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .name-display span:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 0;
+  }
+
+  #savedName {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .language-location {
+    margin-top: 10px;
+  }
+
+  .language-location .language,
+  .language-location .location {
+    margin: 5px 0;
+  }
+
+  .language-location h3 {
+    font-size: 1.2rem;
+  }
+
+  .language-location p {
+    font-size: 0.9rem;
   }
 }

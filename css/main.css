@@ -214,7 +214,9 @@ body {
   }
   .hamburger {
     display: block;
-    position: static;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
     font-size: 30px;
   }
   .search-container {
