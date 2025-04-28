@@ -25,16 +25,20 @@ body {
   object-position: center;
   z-index: 10;
 }
+.v-white{
+    width: 100px;
+    height: 100px;
+}
  /*Animation Velour*/
  /*https://www.youtube.com/watch?v=lur8SDdUzPI*/
  svg path{
+  width: 100%;
   fill: transparent;
   stroke: #ffffff;
   stroke-width: 0.5;
   stroke-dasharray: 350;
   stroke-dashoffset: 350;
   animation: textAnimation 4s ease-in-out 1 forwards;
-  width: 100;
  }
  @keyframes textAnimation{
 0% {
@@ -49,6 +53,21 @@ body {
   
 }
  }
+ .velour{
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  text-align: center;
+ }
+
+ /*smaller screens*/
+@media (max-width: 670px) {
+  .velour{
+    width: 120px;
+  }
+}
  
 /*TRENDING*/
 .trending-heading {
