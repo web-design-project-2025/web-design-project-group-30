@@ -1,14 +1,21 @@
 /*TRENDING*/
 .main-heading-trending{
     position: absolute;
-    top: 40vw;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    font-size: 100pt;
+    top: 15vw;
+    left: 50%;
+    transform: translateX(-50%);
+   text-align: center;
+    font-size: 10vw;
+    z-index: 1;
 }
+
+.trending-main-picture-container{
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+}
+
 .trending-heading {
     border-bottom: 3px solid white;
     padding-bottom: 1vw;
@@ -20,7 +27,8 @@
   }
   .trending-main-picture{
     width: 100%;
-    height: 40vw;
+    height: 100%;
+    object-fit: cover;
   }
   .product-container {
     padding: 0 3vw;
@@ -28,7 +36,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
   }
-  
+
   .product-container::-webkit-scrollbar {
     display: none;
   }
