@@ -93,6 +93,57 @@ function toggleMenu() {
 }
 
 
+function openModal(){
+  const modal = document.getElementById("modal");
+  modal.classList.add("show");
+}
+function closeModal(){
+  const modal = document.getElementById("modal");
+  modal.classList.remove("show");
+}
+function signin(){
+  const name = document.getElementById("name").value.trim();
+  const password = document.getElementById("password").value.trim();
+
+  if(name && password){
+    localStorage.setItem("isSignedIn", "true");
+    localStorage.setItem("username", name);
+    closeModal();
+    alert("Succesfully signed in");
+  } else {
+    alert("Please fill in both fields");
+  }
+}
+
+function checkSignin(){
+  const isSignedIn = localStorage.getItem("isSignedIn");
+
+  if(isSignedIn!=="true"){
+    openModal();
+  }
+}
+
+function blockInteraction(){
+  document.body.addEventListener("click", function(event){
+    const isSignedIn = localStorage.getItem("isSignedIn");
+
+    if(isSignedIn !== "true"){
+      event.preventDefault();
+      event.stopPropagation();
+      openModal();
+    }
+  }, true);
+}
+window.addEventListener("DOMContentLoaded", function(){
+  const isSignedIn = this.localStorage.getItem("isSignedIn");
+
+  if(isSignedIn !== "true"){
+    openModal();
+  } else{
+    console.log("user is signed in");
+  }
+  blockInteraction();
+});
 
 /*Source/Refrences
 Read More Button:

@@ -485,8 +485,9 @@ body {
 .profile-features :hover{
   color: #d06cff;
 }
-
-.sign-in{
+/* sign in*/
+#modal{
+  display: none;
   position: fixed;
   position: fixed;
   top: 0;
@@ -494,6 +495,10 @@ body {
   justify-content: center;
   align-items: center;
 
+}
+#modal.show{
+  display: flex;
+  opacity: 1;
 }
 .modal-content{
   display: flex;
