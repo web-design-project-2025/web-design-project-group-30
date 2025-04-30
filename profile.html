@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/profile.css">
   <script src="js/main.js" defer></script>
   <script src="js/script.js" defer></script>
+  <script src="js/profile.js" defer></script>
 </head>
 <body>
   <header>
@@ -76,16 +77,30 @@
       </div>
     </section>
     <div class="language-location">
-      <div class="language">
-        <h3>Language</h3>
-        <p>#</p>
+      <div class="dropdown-container">
+        <div class="dropdown-toggle" onclick="toggleDropdown('languageDropdown')">
+          <h3>Language</h3>
+          <p>English ▾</p>
+        </div>
+        <ul id="languageDropdown" class="dropdown hidden">
+          <li>English</li>
+        </ul>
       </div>
-      <div class="location">
-        <h3>Location</h3>
-        <p>#</p>
+      <div class="dropdown-container drop-up">
+        <div class="dropdown-toggle" onclick="toggleDropdown('locationDropdown')">
+          <h3>Location</h3>
+          <p>Select ▴</p>
+        </div>
+        <ul id="locationDropdown" class="dropdown hidden">
+          <li>Africa</li>
+          <li>Asia</li>
+          <li>Europe</li>
+          <li>North America</li>
+          <li>South America</li>
+          <li>Australia</li>
+        </ul>
       </div>
     </div>
-  </div>
   </main>
 </body>
 </html>

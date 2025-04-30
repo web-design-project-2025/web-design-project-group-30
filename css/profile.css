@@ -84,21 +84,60 @@ button:hover {
   margin-top: 20px;
 }
 
-.language-location .language,
-.language-location .location {
-  text-align: center;
+.dropdown-container {
   margin: 10px 0;
+  text-align: center;
+  position: relative;
 }
 
-.language-location h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #793E98;
+.dropdown-toggle p {
+  cursor: pointer;
+  color: #fff;
+  margin: 5px 0;
 }
 
-.language-location p {
-  font-size: 1rem;
-  color: #ffffff;
+.dropdown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 0;
+  margin: 5px 0 0;
+  list-style: none;
+  width: 150px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  z-index: 10;
+  top: 100%;
+}
+
+.dropdown li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #a6a6a6;
+}
+
+.dropdown.show {
+  max-height: 300px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*Dropdown for location goes upward*/
+.drop-up .dropdown {
+  top: auto;
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 @media (max-width: 667px) {
   .banner {
@@ -124,13 +163,14 @@ button:hover {
   }
 
   button {
-    width: 100%;
+    width: 80%;
   }
 
   .name-display {
     font-size: 1rem;
     flex-direction: column;
     text-align: center;
+    width: 60%;
   }
 
   .name-display span:first-child {
@@ -159,5 +199,33 @@ button:hover {
 
   .language-location p {
     font-size: 0.9rem;
+  }
+  .dropdown-toggle {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .dropdown-toggle p {
+    font-size: 1rem;
+  }
+  .dropdown-container,
+  .drop-up {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*Dropdown menu*/
+  .dropdown {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  .dropdown li {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .drop-up .dropdown {
+    top: auto;
   }
 }
