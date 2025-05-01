@@ -14,7 +14,6 @@ fetch("movie.json")
     <a href="detailed-movie-review-page.html?id=${movie.id}" class="movie-link">
             <img src="/img/${movie.poster}" alt="${movie.alt}">
           </a>
-          <h3>${movie.title}</h3>
     `;
 
         movieList.appendChild(movieCard);

@@ -1,17 +1,52 @@
 {
+
     "movies":[
         {
             "id": 1,
-            "title": "sinners",
-            "poster": "testpic.jpg",
+            "poster": "sinners.png",
             "alt":"poster"
         },
         {
             "id": 2,
-            "title": "spiderman",
-            "poster": "Science-fiction.jpg",
+            "poster": "spiderman-noway-home.png",
             "alt":"poster"
+        },
+        {
+            "id": 3,
+            "poster": "dune.png",
+            "alt": "poster"
+         },
+        {
+            "id": 4,
+            "poster": "barbie.png",
+            "alt": "poster"
+        },
+        {
+            "id": 5,
+            "poster": "oppenheimer.png",
+            "alt": "poster"
+        },
+        {
+            "id": 6,
+            "poster": "avatar-2.png",
+            "alt": "poster"
+        },
+        {
+            "id": 7,
+            "poster": "john-wick-4.png",
+            "alt": "poster"
+        },
+        {
+            "id": 8,
+            "poster": "the-batman.png",
+            "alt": "poster"
+        },
+        {
+            "id": 9,
+            "poster": "eeaao.png",
+            "alt": "poster"
         }
+        
 
     ]
 }
