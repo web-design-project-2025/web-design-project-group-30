@@ -202,7 +202,11 @@ button:hover {
   }
   .dropdown-toggle {
     font-size: 0.9rem;
-    padding: 8px;
+    display: inline-block;
+    width: auto;
+    padding: 4px 8px;
+    margin: 0 auto;
+    border-radius: 5px;
   }
 
   .dropdown-toggle p {
