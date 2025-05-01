@@ -3,8 +3,15 @@
         {
             "id": 1,
             "title": "sinners",
-            "poster": "",
+            "poster": "testpic.jpg",
+            "alt":"poster"
+        },
+        {
+            "id": 2,
+            "title": "spiderman",
+            "poster": "Science-fiction.jpg",
             "alt":"poster"
         }
+
     ]
 }

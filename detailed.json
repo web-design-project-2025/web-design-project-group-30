@@ -17,6 +17,27 @@
             "second-rating":"⭐️⭐️⭐️",
             "second-review":"Sinners offers an interesting mix of horror and musical elements, set against a Southern Gothic backdrop. The atmosphere is captivating, and the music adds depth to the story. Michael B. Jordan does a solid job, but the plot feels a bit overcomplicated at times. While it explores important themes of race and identity, it doesn’t fully deliver on its potential. Still, it’s a unique film worth watching if you’re into bold, genre-bending stories."
            
-        }
+        },
+        {
+            "id": 2,
+            "title": "Spider-Man: Web of Fate",
+            "poster": "img/science-fiction.jpg",
+            "year": "2025",
+            "genre": "action, superhero",
+            "rating": "⭐️⭐️⭐️⭐️½",
+            "summary": "Spider-Man: Web of Fate is a multiverse-spanning superhero epic directed by Jon Watts. When a mysterious force begins collapsing realities, Peter Parker must team up with alternate versions of Spider-Man to stop a cosmic threat from unraveling existence itself. With high-octane action, emotional stakes, and witty banter, the film dives into destiny, choice, and the burden of heroism.",
+            "our-review": "Web of Fate delivers on nearly every level—intense action, strong performances, and a surprisingly emotional core. Tom Holland anchors the film with his most mature portrayal of Peter Parker to date, while the multiverse concept adds thrilling layers of complexity and nostalgia. Some critics argue the plot occasionally relies too heavily on fan service, but the storytelling remains tight and satisfying. It’s a high point in the Spider-Man saga that balances spectacle with soul.",
+            "cast": "Tom Holland as Peter Parker / Spider-Man, Zendaya as MJ, Benedict Cumberbatch as Doctor Strange, Shameik Moore as Miles Morales, Hailee Steinfeld as Gwen Stacy, Oscar Isaac as Spider-Man 2099",
+            "first-name": "Jordan Lee",
+            "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+            "first-review": "Web of Fate blew me away. The action was next-level, and seeing different Spider-Men work together was awesome. Tom Holland absolutely nailed it, and the emotional weight of the story caught me off guard. Easily one of the best Spider-Man movies ever made.",
+            "second-name": "Alicia Grant",
+            "second-rating": "⭐️⭐️⭐️⭐️",
+            "second-review": "Great film overall. The visuals were stunning, and the multiverse angle added so much fun and depth. There were a few moments where it felt like it was trying to do too much at once, but it’s a must-watch for any Spider-Man fan."
+          }
+          
+
     ]  
+
+    
 }
