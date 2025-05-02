@@ -347,3 +347,41 @@ body {
 }
 /*Sources/Refrences
  https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
+
+
+ #movie-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+  scroll-snap-type: x mandatory;
+  background-color: #121212; /* dark theme background */
+}
+
+#movie-list::-webkit-scrollbar {
+  display: none; /* optional: hides the scrollbar */
+}
+
+.movie-card {
+  flex: 0 0 auto;
+  width: 180px;
+  scroll-snap-align: start;
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
