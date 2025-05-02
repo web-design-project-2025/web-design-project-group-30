@@ -130,251 +130,251 @@
   }  
 ],
   "trending-comedy-movies":[
-    {
-      "id": 20,
-      "poster": "mission-impossible-the-final-reckoning.jpeg",
-      "alt": "Mission: Impossible – The Final Reckoning movie poster",
-      "trending-number": "1"
-  },
   {
-      "id": 21,
-      "poster": "the-gorge.jpeg",
-      "alt": "The Gorge movie poster",
-      "trending-number": "2"
-  },
-  {
-      "id": 22,
-      "poster": "havoc.jpeg",
-      "alt": "Havoc movie poster",
-      "trending-number": "3"
-  },
-  {
-      "id": 23,
-      "poster": "the-amateur.jpeg",
-      "alt": "The Amateur movie poster",
-      "trending-number": "4"
-  },
-  {
-      "id": 24,
-      "poster": "extraction-2.jpeg",
-      "alt": "Extraction 2 movie poster",
-      "trending-number": "5"
-  },
-  {
-      "id": 25,
-      "poster": "fast-x.jpeg",
-      "alt": "Fast X movie poster",
-      "trending-number": "6"
-  },
-  {
-      "id": 26,
-      "poster": "john-wick-chapter-4.jpeg",
-      "alt": "John Wick: Chapter 4 movie poster",
-      "trending-number": "7"
-  },
-  {
-      "id": 27,
-      "poster": "ant-man-and-the-wasp-quantumania.jpeg",
-      "alt": "Ant-Man and The Wasp: Quantumania movie poster",
-      "trending-number": "8"
-  },
-  {
-      "id": 28,
-      "poster": "guardians-of-the-galaxy-vol-3.jpeg",
-      "alt": "Guardians of the Galaxy Vol. 3 movie poster",
-      "trending-number": "9"
-  },
-  {
-      "id": 29,
-      "poster": "scream-6.jpeg",
-      "alt": "Scream 6 movie poster",
-      "trending-number": "10"
-  }  
-],
-"trending-horro-movies":[
-  {
-    "id": 20,
-    "poster": "mission-impossible-the-final-reckoning.jpeg",
-    "alt": "Mission: Impossible – The Final Reckoning movie poster",
+    "id": 30,
+    "poster": "no-hard-feeling.jpeg",
+    "alt": "No Hard Feelings movie poster",
     "trending-number": "1"
-},
-{
-    "id": 21,
-    "poster": "the-gorge.jpeg",
-    "alt": "The Gorge movie poster",
+  },
+  {
+    "id": 31,
+    "poster": "barbie.jpeg",
+    "alt": "Barbie movie poster",
     "trending-number": "2"
-},
-{
-    "id": 22,
-    "poster": "havoc.jpeg",
-    "alt": "Havoc movie poster",
+  },
+  {
+    "id": 32,
+    "poster": "joy-ride.jpeg",
+    "alt": "Joy Ride movie poster",
     "trending-number": "3"
-},
-{
-    "id": 23,
-    "poster": "the-amateur.jpeg",
-    "alt": "The Amateur movie poster",
+  },
+  {
+    "id": 33,
+    "poster": "strays.jpeg",
+    "alt": "Strays movie poster",
     "trending-number": "4"
-},
-{
-    "id": 24,
-    "poster": "extraction-2.jpeg",
-    "alt": "Extraction 2 movie poster",
+  },
+  {
+    "id": 34,
+    "poster": "bottoms.jpeg",
+    "alt": "Bottoms movie poster",
     "trending-number": "5"
-},
-{
-    "id": 25,
-    "poster": "fast-x.jpeg",
-    "alt": "Fast X movie poster",
+  },
+  {
+    "id": 35,
+    "poster": "you-people.jpeg",
+    "alt": "You People movie poster",
     "trending-number": "6"
-},
-{
-    "id": 26,
-    "poster": "john-wick-chapter-4.jpeg",
-    "alt": "John Wick: Chapter 4 movie poster",
+  },
+  {
+    "id": 36,
+    "poster": "quiz-lady.jpeg",
+    "alt": "Quiz Lady movie poster",
     "trending-number": "7"
-},
-{
-    "id": 27,
-    "poster": "ant-man-and-the-wasp-quantumania.jpeg",
-    "alt": "Ant-Man and The Wasp: Quantumania movie poster",
+  },
+  {
+    "id": 37,
+    "poster": "dumb-money.jpeg",
+    "alt": "Dumb Money movie poster",
     "trending-number": "8"
-},
-{
-    "id": 28,
-    "poster": "guardians-of-the-galaxy-vol-3.jpeg",
-    "alt": "Guardians of the Galaxy Vol. 3 movie poster",
+  },
+  {
+    "id": 38,
+    "poster": "leo.jpeg",
+    "alt": "Leo movie poster",
     "trending-number": "9"
-},
-{
-    "id": 29,
-    "poster": "scream-6.jpeg",
-    "alt": "Scream 6 movie poster",
+  },
+  {
+    "id": 39,
+    "poster": "murder-mystery-2.jpeg",
+    "alt": "Murder Mystery 2 movie poster",
     "trending-number": "10"
-}  
+  }
+],
+"trending-horror-movies":[
+  {
+    "id": 40,
+    "poster": "the-nun-2.jpeg",
+    "alt": "The Nun 2 movie poster",
+    "trending-number": "1"
+  },
+  {
+    "id": 41,
+    "poster": "talk-to-me.jpeg",
+    "alt": "Talk to Me movie poster",
+    "trending-number": "2"
+  },
+  {
+    "id": 42,
+    "poster": "insidious-the-red-door.jpeg",
+    "alt": "Insidious: The Red Door movie poster",
+    "trending-number": "3"
+  },
+  {
+    "id": 43,
+    "poster": "cobweb.jpeg",
+    "alt": "Cobweb movie poster",
+    "trending-number": "4"
+  },
+  {
+    "id": 44,
+    "poster": "the-boogeyman.jpeg",
+    "alt": "The Boogeyman movie poster",
+    "trending-number": "5"
+  },
+  {
+    "id": 45,
+    "poster": "thanksgiving.jpeg",
+    "alt": "Thanksgiving movie poster",
+    "trending-number": "6"
+  },
+  {
+    "id": 46,
+    "poster": "the-exorcist-believer.jpeg",
+    "alt": "The Exorcist: Believer movie poster",
+    "trending-number": "7"
+  },
+  {
+    "id": 47,
+    "poster": "five-nights-at-freddys.jpeg",
+    "alt": "Five Nights at Freddy's movie poster",
+    "trending-number": "8"
+  },
+  {
+    "id": 48,
+    "poster": "evil-dead-rise.jpeg",
+    "alt": "Evil Dead Rise movie poster",
+    "trending-number": "9"
+  },
+  {
+    "id": 49,
+    "poster": "skinamarink.jpeg",
+    "alt": "Skinamarink movie poster",
+    "trending-number": "10"
+  }
 ],
 "trending-documentary-movies":[
   {
-    "id": 20,
-    "poster": "mission-impossible-the-final-reckoning.jpeg",
-    "alt": "Mission: Impossible – The Final Reckoning movie poster",
+    "id": 50,
+    "poster": "still-a-michael-j-fox-movie.jpeg",
+    "alt": "Still: A Michael J. Fox Movie poster",
     "trending-number": "1"
-},
-{
-    "id": 21,
-    "poster": "the-gorge.jpeg",
-    "alt": "The Gorge movie poster",
+  },
+  {
+    "id": 51,
+    "poster": "the-deepest-breath.jpeg",
+    "alt": "The Deepest Breath movie poster",
     "trending-number": "2"
-},
-{
-    "id": 22,
-    "poster": "havoc.jpeg",
-    "alt": "Havoc movie poster",
+  },
+  {
+    "id": 52,
+    "poster": "navalny.jpeg",
+    "alt": "Navalny movie poster",
     "trending-number": "3"
-},
-{
-    "id": 23,
-    "poster": "the-amateur.jpeg",
-    "alt": "The Amateur movie poster",
+  },
+  {
+    "id": 53,
+    "poster": "american-symphony.jpeg",
+    "alt": "American Symphony movie poster",
     "trending-number": "4"
-},
-{
-    "id": 24,
-    "poster": "extraction-2.jpeg",
-    "alt": "Extraction 2 movie poster",
+  },
+  {
+    "id": 54,
+    "poster": "the-pigeon-tunnel.jpeg",
+    "alt": "The Pigeon Tunnel movie poster",
     "trending-number": "5"
-},
-{
-    "id": 25,
-    "poster": "fast-x.jpeg",
-    "alt": "Fast X movie poster",
+  },
+  {
+    "id": 55,
+    "poster": "bobi-wine-the-peoples-president.jpeg",
+    "alt": "Bobi Wine: The People's President movie poster",
     "trending-number": "6"
-},
-{
-    "id": 26,
-    "poster": "john-wick-chapter-4.jpeg",
-    "alt": "John Wick: Chapter 4 movie poster",
+  },
+  {
+    "id": 56,
+    "poster": "beyond-utopia.jpeg",
+    "alt": "Beyond Utopia movie poster",
     "trending-number": "7"
-},
-{
-    "id": 27,
-    "poster": "ant-man-and-the-wasp-quantumania.jpeg",
-    "alt": "Ant-Man and The Wasp: Quantumania movie poster",
+  },
+  {
+    "id": 57,
+    "poster": "fire-of-love.jpeg",
+    "alt": "Fire of Love movie poster",
     "trending-number": "8"
-},
-{
-    "id": 28,
-    "poster": "guardians-of-the-galaxy-vol-3.jpeg",
-    "alt": "Guardians of the Galaxy Vol. 3 movie poster",
+  },
+  {
+    "id": 58,
+    "poster": "the-mission.jpeg",
+    "alt": "The Mission movie poster",
     "trending-number": "9"
-},
-{
-    "id": 29,
-    "poster": "scream-6.jpeg",
-    "alt": "Scream 6 movie poster",
+  },
+  {
+    "id": 59,
+    "poster": "desperate-souls-dark-city-and-the-legend-of-midnight-cowboy.jpeg",
+    "alt": "Desperate Souls, Dark City and the Legend of Midnight Cowboy movie poster",
     "trending-number": "10"
-}  
+  }
 ],
 "trending-science-fiction-movies":[
   {
-    "id": 20,
-    "poster": "mission-impossible-the-final-reckoning.jpeg",
-    "alt": "Mission: Impossible – The Final Reckoning movie poster",
+    "id": 60,
+    "poster": "dune-part-two.jpeg",
+    "alt": "Dune: Part Two movie poster",
     "trending-number": "1"
-},
-{
-    "id": 21,
-    "poster": "the-gorge.jpeg",
-    "alt": "The Gorge movie poster",
+  },
+  {
+    "id": 61,
+    "poster": "rebel-moon.jpeg",
+    "alt": "Rebel Moon movie poster",
     "trending-number": "2"
-},
-{
-    "id": 22,
-    "poster": "havoc.jpeg",
-    "alt": "Havoc movie poster",
+  },
+  {
+    "id": 62,
+    "poster": "the-marvels.jpeg",
+    "alt": "The Marvels movie poster",
     "trending-number": "3"
-},
-{
-    "id": 23,
-    "poster": "the-amateur.jpeg",
-    "alt": "The Amateur movie poster",
+  },
+  {
+    "id": 63,
+    "poster": "the-creator.jpeg",
+    "alt": "The Creator movie poster",
     "trending-number": "4"
-},
-{
-    "id": 24,
-    "poster": "extraction-2.jpeg",
-    "alt": "Extraction 2 movie poster",
+  },
+  {
+    "id": 64,
+    "poster": "relic.jpeg",
+    "alt": "Relic movie poster",
     "trending-number": "5"
-},
-{
-    "id": 25,
-    "poster": "fast-x.jpeg",
-    "alt": "Fast X movie poster",
+  },
+  {
+    "id": 65,
+    "poster": "65.jpeg",
+    "alt": "65 movie poster",
     "trending-number": "6"
-},
-{
-    "id": 26,
-    "poster": "john-wick-chapter-4.jpeg",
-    "alt": "John Wick: Chapter 4 movie poster",
+  },
+  {
+    "id": 66,
+    "poster": "infinite.jpeg",
+    "alt": "Infinite movie poster",
     "trending-number": "7"
-},
-{
-    "id": 27,
-    "poster": "ant-man-and-the-wasp-quantumania.jpeg",
-    "alt": "Ant-Man and The Wasp: Quantumania movie poster",
+  },
+  {
+    "id": 67,
+    "poster": "voyagers.jpeg",
+    "alt": "Voyagers movie poster",
     "trending-number": "8"
-},
-{
-    "id": 28,
-    "poster": "guardians-of-the-galaxy-vol-3.jpeg",
-    "alt": "Guardians of the Galaxy Vol. 3 movie poster",
+  },
+  {
+    "id": 68,
+    "poster": "after-yang.jpeg",
+    "alt": "After Yang movie poster",
     "trending-number": "9"
-},
-{
-    "id": 29,
-    "poster": "scream-6.jpeg",
-    "alt": "Scream 6 movie poster",
+  },
+  {
+    "id": 69,
+    "poster": "archive.jpeg",
+    "alt": "Archive movie poster",
     "trending-number": "10"
-}  
+  }
 ]
 }
