@@ -92,7 +92,7 @@ function toggleMenu() {
   navLinks.classList.toggle("show");
 }
 
-
+//sign in
 function openModal(){
   const modal = document.getElementById("modal");
   modal.classList.add("show");
