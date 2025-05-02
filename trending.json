@@ -190,6 +190,191 @@
       "alt": "Scream 6 movie poster",
       "trending-number": "10"
   }  
+],
+"trending-horro-movies":[
+  {
+    "id": 20,
+    "poster": "mission-impossible-the-final-reckoning.jpeg",
+    "alt": "Mission: Impossible – The Final Reckoning movie poster",
+    "trending-number": "1"
+},
+{
+    "id": 21,
+    "poster": "the-gorge.jpeg",
+    "alt": "The Gorge movie poster",
+    "trending-number": "2"
+},
+{
+    "id": 22,
+    "poster": "havoc.jpeg",
+    "alt": "Havoc movie poster",
+    "trending-number": "3"
+},
+{
+    "id": 23,
+    "poster": "the-amateur.jpeg",
+    "alt": "The Amateur movie poster",
+    "trending-number": "4"
+},
+{
+    "id": 24,
+    "poster": "extraction-2.jpeg",
+    "alt": "Extraction 2 movie poster",
+    "trending-number": "5"
+},
+{
+    "id": 25,
+    "poster": "fast-x.jpeg",
+    "alt": "Fast X movie poster",
+    "trending-number": "6"
+},
+{
+    "id": 26,
+    "poster": "john-wick-chapter-4.jpeg",
+    "alt": "John Wick: Chapter 4 movie poster",
+    "trending-number": "7"
+},
+{
+    "id": 27,
+    "poster": "ant-man-and-the-wasp-quantumania.jpeg",
+    "alt": "Ant-Man and The Wasp: Quantumania movie poster",
+    "trending-number": "8"
+},
+{
+    "id": 28,
+    "poster": "guardians-of-the-galaxy-vol-3.jpeg",
+    "alt": "Guardians of the Galaxy Vol. 3 movie poster",
+    "trending-number": "9"
+},
+{
+    "id": 29,
+    "poster": "scream-6.jpeg",
+    "alt": "Scream 6 movie poster",
+    "trending-number": "10"
+}  
+],
+"trending-documentary-movies":[
+  {
+    "id": 20,
+    "poster": "mission-impossible-the-final-reckoning.jpeg",
+    "alt": "Mission: Impossible – The Final Reckoning movie poster",
+    "trending-number": "1"
+},
+{
+    "id": 21,
+    "poster": "the-gorge.jpeg",
+    "alt": "The Gorge movie poster",
+    "trending-number": "2"
+},
+{
+    "id": 22,
+    "poster": "havoc.jpeg",
+    "alt": "Havoc movie poster",
+    "trending-number": "3"
+},
+{
+    "id": 23,
+    "poster": "the-amateur.jpeg",
+    "alt": "The Amateur movie poster",
+    "trending-number": "4"
+},
+{
+    "id": 24,
+    "poster": "extraction-2.jpeg",
+    "alt": "Extraction 2 movie poster",
+    "trending-number": "5"
+},
+{
+    "id": 25,
+    "poster": "fast-x.jpeg",
+    "alt": "Fast X movie poster",
+    "trending-number": "6"
+},
+{
+    "id": 26,
+    "poster": "john-wick-chapter-4.jpeg",
+    "alt": "John Wick: Chapter 4 movie poster",
+    "trending-number": "7"
+},
+{
+    "id": 27,
+    "poster": "ant-man-and-the-wasp-quantumania.jpeg",
+    "alt": "Ant-Man and The Wasp: Quantumania movie poster",
+    "trending-number": "8"
+},
+{
+    "id": 28,
+    "poster": "guardians-of-the-galaxy-vol-3.jpeg",
+    "alt": "Guardians of the Galaxy Vol. 3 movie poster",
+    "trending-number": "9"
+},
+{
+    "id": 29,
+    "poster": "scream-6.jpeg",
+    "alt": "Scream 6 movie poster",
+    "trending-number": "10"
+}  
+],
+"trending-science-fiction-movies":[
+  {
+    "id": 20,
+    "poster": "mission-impossible-the-final-reckoning.jpeg",
+    "alt": "Mission: Impossible – The Final Reckoning movie poster",
+    "trending-number": "1"
+},
+{
+    "id": 21,
+    "poster": "the-gorge.jpeg",
+    "alt": "The Gorge movie poster",
+    "trending-number": "2"
+},
+{
+    "id": 22,
+    "poster": "havoc.jpeg",
+    "alt": "Havoc movie poster",
+    "trending-number": "3"
+},
+{
+    "id": 23,
+    "poster": "the-amateur.jpeg",
+    "alt": "The Amateur movie poster",
+    "trending-number": "4"
+},
+{
+    "id": 24,
+    "poster": "extraction-2.jpeg",
+    "alt": "Extraction 2 movie poster",
+    "trending-number": "5"
+},
+{
+    "id": 25,
+    "poster": "fast-x.jpeg",
+    "alt": "Fast X movie poster",
+    "trending-number": "6"
+},
+{
+    "id": 26,
+    "poster": "john-wick-chapter-4.jpeg",
+    "alt": "John Wick: Chapter 4 movie poster",
+    "trending-number": "7"
+},
+{
+    "id": 27,
+    "poster": "ant-man-and-the-wasp-quantumania.jpeg",
+    "alt": "Ant-Man and The Wasp: Quantumania movie poster",
+    "trending-number": "8"
+},
+{
+    "id": 28,
+    "poster": "guardians-of-the-galaxy-vol-3.jpeg",
+    "alt": "Guardians of the Galaxy Vol. 3 movie poster",
+    "trending-number": "9"
+},
+{
+    "id": 29,
+    "poster": "scream-6.jpeg",
+    "alt": "Scream 6 movie poster",
+    "trending-number": "10"
+}  
 ]
-
 }

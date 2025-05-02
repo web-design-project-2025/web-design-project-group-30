@@ -47,7 +47,7 @@ fetch("trending.json")
       "trending-comedy-movies",
       "trending-horror-movies",
       "trending-documentary-movies",
-      "trending-sciencefiction-movies"
+      "trending-science-fiction-movies"
     ];
 
     categories.forEach((category) => {
