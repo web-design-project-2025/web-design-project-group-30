@@ -268,7 +268,7 @@
   },
   {
     "id": 52,
-    "poster": "navalny.jpeg",
+    "poster": "navalny.webp",
     "alt": "Navalny movie poster",
     "trending-number": "3"
   },
@@ -280,7 +280,7 @@
   },
   {
     "id": 54,
-    "poster": "the-pigeon-tunnel.jpeg",
+    "poster": "the-pigeon-tunnel.webp",
     "alt": "The Pigeon Tunnel movie poster",
     "trending-number": "5"
   },
@@ -324,7 +324,7 @@
   },
   {
     "id": 61,
-    "poster": "rebel-moon.jpeg",
+    "poster": "rebel-moon.webp",
     "alt": "Rebel Moon movie poster",
     "trending-number": "2"
   },
@@ -360,7 +360,7 @@
   },
   {
     "id": 67,
-    "poster": "voyagers.jpeg",
+    "poster": "voyagers.webp",
     "alt": "Voyagers movie poster",
     "trending-number": "8"
   },
