@@ -1,6 +1,6 @@
 {
     "all-movies-section-1": [
-      [
+    
         {
           "id": 70,
           "poster": "inception.jpeg",
@@ -48,16 +48,15 @@
         },
         {
           "id": 79,
-          "poster": "joker.jpeg",
+          "poster": "joker.webp",
           "alt": "Joker movie poster"
         }
-      ]
     ],
   
     "all-movies-section-2": [
       {
         "id": 80,
-        "poster": "black-panther.jpeg",
+        "poster": "black-panther.webp",
         "alt": "Black Panther movie poster"
       },
       {
