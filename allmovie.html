@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/trending.css" />
   <script src="js/allmovies.js" defer></script>
   <script src="js/secluded.js" defer></script>
+  <script src="js/starfilter.js" defer></script>
 </head>
 <body>
   <header>
@@ -34,14 +35,25 @@
   </header>
 
   <main>
-
     <div class="trending-main-picture-container">
       <img class="trending-main-picture" src="img/Science-fiction.jpg" alt="Trending" />
       <div class="main-heading-trending">ALL MOVIES</div>
     </div>
   </div> 
+</div> 
+<div id="star-filter">
+  <span data-value="1">★</span>
+  <span data-value="2">★</span>
+  <span data-value="3">★</span>
+  <span data-value="4">★</span>
+  <span data-value="5">★</span>
+</div>
+<div class="show-all-container">
+  <button id="show-all-button" class="show-all-btn">Show All Movies</button>
+</div>
 <section id="all-movie-sections-container"></section>
   </main>
+  
   <footer>
     <p>© 2025 Velour. All rights reserved.</p>
   </footer>
