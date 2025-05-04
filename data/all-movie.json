@@ -4,7 +4,8 @@
         {
           "id": 70,
           "poster": "inception.jpeg",
-          "alt": "Inception movie poster"
+          "alt": "Inception movie poster",
+          "rating":4
         },
         {
           "id": 71,
