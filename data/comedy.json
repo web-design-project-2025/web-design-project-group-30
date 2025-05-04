@@ -1,0 +1,161 @@
+{
+    "comedy-section-1": [
+   
+        {"id": 190,
+                "poster": "the-big-sick.jpeg",
+                "alt": "The Big Sick movie poster"
+              },
+              {
+                "id": 191,
+                "poster": "the-intern.jpeg",
+                "alt": "The Intern movie poster"
+              },
+              {
+                "id": 192,
+                "poster": "jumanji-welcome-to-the-jungle.jpeg",
+                "alt": "Jumanji: Welcome to the Jungle movie poster"
+              },
+              {
+                "id": 193,
+                "poster": "deadpool-2.jpeg",
+                "alt": "Deadpool 2 movie poster"
+              },
+              {
+                "id": 194,
+                "poster": "sing-2.jpeg",
+                "alt": "Sing 2 movie poster"
+              },
+              {
+                "id": 195,
+                "poster": "babe.jpeg",
+                "alt": "Babe movie poster"
+              },
+              {
+                "id": 196,
+                "poster": "pitch-perfect-2.jpeg",
+                "alt": "Pitch Perfect 2 movie poster"
+              },
+              {
+                "id": 197,
+                "poster": "the-heat.jpeg",
+                "alt": "The Heat movie poster"
+              },
+              {
+                "id": 198,
+                "poster": "trainwreck.jpeg",
+                "alt": "Trainwreck movie poster"
+              },
+              {
+                "id": 199,
+                "poster": "wedding-crashers.jpeg",
+                "alt": "Wedding Crashers movie poster"
+              }
+  ],
+  "comedy-section-2": [
+        {
+          "id": 200,
+          "poster": "tropic-thunder.jpeg",
+          "alt": "Tropic Thunder movie poster"
+        },
+        {
+          "id": 201,
+          "poster": "the-other-guys.jpeg",
+          "alt": "The Other Guys movie poster"
+        },
+        {
+          "id": 202,
+          "poster": "anchorman.jpeg",
+          "alt": "Anchorman: The Legend of Ron Burgundy movie poster"
+        },
+        {
+          "id": 203,
+          "poster": "borat.jpeg",
+          "alt": "Borat movie poster"
+        },
+        {
+          "id": 204,
+          "poster": "hot-fuzz.jpeg",
+          "alt": "Hot Fuzz movie poster"
+        },
+        {
+          "id": 205,
+          "poster": "deadpool.jpeg",
+          "alt": "Deadpool movie poster"
+        },
+        {
+          "id": 206,
+          "poster": "yes-man.jpeg",
+          "alt": "Yes Man movie poster"
+        },
+        {
+          "id": 207,
+          "poster": "knives-out.jpeg",
+          "alt": "Knives Out movie poster"
+        },
+        {
+          "id": 208,
+          "poster": "the-nice-guys.jpeg",
+          "alt": "The Nice Guys movie poster"
+        },
+        {
+          "id": 209,
+          "poster": "crazy-stupid-love.jpeg",
+          "alt": "Crazy, Stupid, Love movie poster"
+        }
+      
+  ],
+  "comedy-section-3": [
+    {
+        "id": 210,
+        "poster": "superbad.jpeg",
+        "alt": "Superbad movie poster"
+      },
+      {
+        "id": 211,
+        "poster": "the-hangover.jpeg",
+        "alt": "The Hangover movie poster"
+      },
+      {
+        "id": 212,
+        "poster": "bridesmaids.jpeg",
+        "alt": "Bridesmaids movie poster"
+      },
+      {
+        "id": 213,
+        "poster": "step-brothers.jpeg",
+        "alt": "Step Brothers movie poster"
+      },
+      {
+        "id": 214,
+        "poster": "mean-girls.jpeg",
+        "alt": "Mean Girls movie poster"
+      },
+      {
+        "id": 215,
+        "poster": "21-jump-street.jpeg",
+        "alt": "21 Jump Street movie poster"
+      },
+      {
+        "id": 216,
+        "poster": "pitch-perfect.jpeg",
+        "alt": "Pitch Perfect movie poster"
+      },
+      {
+        "id": 217,
+        "poster": "we-re-the-millers.jpeg",
+        "alt": "We're the Millers movie poster"
+      },
+      {
+        "id": 218,
+        "poster": "game-night.jpeg",
+        "alt": "Game Night movie poster"
+      },
+      {
+        "id": 219,
+        "poster": "zombieland.jpeg",
+        "alt": "Zombieland movie poster"
+      }
+      
+  ]
+}
+  
