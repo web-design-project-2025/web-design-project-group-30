@@ -2891,7 +2891,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "A brilliant satire with sharp humor. The ensemble cast is perfect, and the movie’s take on the ridiculousness of the film industry is spot on."
     },
-    
+
     {
       "id": 201,
       "title": "The Other Guys",
@@ -2909,7 +2909,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "A fun, action-packed comedy. The pairing of Ferrell and Wahlberg is perfect, and it’s one of those films that gets better with each watch."
     },
-    
+
     {
       "id": 202,
       "title": "Anchorman: The Legend of Ron Burgundy",
@@ -2927,7 +2927,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "It’s a comedy goldmine. The absurd humor, ridiculous characters, and iconic quotes make this movie a true classic in the comedy genre."
     },
-    
+
     {
       "id": 203,
       "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
@@ -2945,7 +2945,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "One of the most daring comedies ever made. Sacha Baron Cohen creates an unforgettable character with Borat, blending humor with biting social commentary."
     },
-    
+
     {
       "id": 204,
       "title": "Hot Fuzz",
@@ -2963,7 +2963,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "Hot Fuzz is hilarious and action-packed. The film is a perfect satire of cop movies and provides plenty of laughs while keeping things exciting."
     },
-    
+
     {
       "id": 205,
       "title": "Deadpool",
@@ -2998,7 +2998,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "A perfect feel-good movie! Jim Carrey is hilarious, and the message of saying yes to new experiences is inspiring."
     },
-    
+
     {
       "id": 207,
       "title": "Knives Out",
@@ -3016,7 +3016,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "A stellar mystery film with great performances all around. The humor mixed with suspense makes Knives Out a must-see."
     },
-    
+
     {
       "id": 208,
       "title": "The Nice Guys",
@@ -3034,7 +3034,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "The 70s vibe, along with the fantastic performances, make The Nice Guys a must-watch. It’s funny, fast-paced, and has a great mystery."
     },
-    
+
     {
       "id": 209,
       "title": "Crazy, Stupid, Love",
@@ -3069,7 +3069,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "A great mix of awkward humor and sweet moments. Superbad is the perfect balance of raunchy comedy and heartfelt moments."
     },
-    
+
     {
       "id": 211,
       "title": "The Hangover",
@@ -3087,7 +3087,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "A wild, hilarious adventure. The characters are so unique, and the plot keeps you hooked, never knowing what comes next."
     },
-    
+
     {
       "id": 212,
       "title": "Bridesmaids",
@@ -3105,7 +3105,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "The ensemble cast is amazing, and the film has the perfect balance of humor and heart. It’s a wedding comedy with depth."
     },
-    
+
     {
       "id": 213,
       "title": "Step Brothers",
@@ -3123,7 +3123,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "A goofy and hilarious film. The humor is silly, but the chemistry between the leads makes it surprisingly heartfelt."
     },
-    
+
     {
       "id": 214,
       "title": "Mean Girls",
@@ -3158,7 +3158,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "So much more than just a simple comedy. The dynamic between the leads is perfect, and the film keeps you laughing throughout."
     },
-    
+
     {
       "id": 216,
       "title": "Pitch Perfect",
@@ -3176,7 +3176,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "It’s a fun ride full of great songs, laughs, and an engaging plot. The performances from the entire cast are wonderful."
     },
-    
+
     {
       "id": 217,
       "title": "We're the Millers",
@@ -3194,7 +3194,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "Unexpectedly funny with lots of laughs. The cast's chemistry really brings the film to life, and it’s an overall entertaining experience."
     },
-    
+
     {
       "id": 218,
       "title": "Game Night",
@@ -3212,7 +3212,7 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "So much fun. The jokes are sharp, and the plot keeps you guessing. A fresh take on the comedy genre that works really well."
     },
-    
+
     {
       "id": 219,
       "title": "Zombieland",
@@ -3229,6 +3229,516 @@
       "second-name": "Lily Walker",
       "second-rating": "⭐️⭐️⭐️⭐️½",
       "second-review": "A fun zombie movie with a great sense of humor and a unique take on the genre. The cast is fantastic, and the action is intense."
+    },
+    {
+      "id": 220,
+      "title": "The Conjuring",
+      "poster": "the-conjuring.jpeg",
+      "year": "2013",
+      "genre": "horror",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Directed by James Wan, The Conjuring follows real-life paranormal investigators Ed and Lorraine Warren as they help a family terrorized by a dark presence in their farmhouse. The case becomes one of the most terrifying in their files.",
+      "our-review": "The Conjuring delivers classic haunted house scares with masterful suspense. James Wan creates an eerie atmosphere and the Warrens' compelling dynamic makes this a standout in modern horror. It’s a chilling, well-executed film that relies on mood and tension over gore.",
+      "cast": "Patrick Wilson as Ed Warren, Vera Farmiga as Lorraine Warren, Lili Taylor as Carolyn Perron, Ron Livingston as Roger Perron",
+      "first-name": "Daniel Cho",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy and suspenseful. One of the best haunted house movies in years.",
+      "second-name": "Emily Reyes",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "Super intense and atmospheric. The Conjuring sets a high bar for supernatural horror."
+    },
+    {
+      "id": 221,
+      "title": "Hereditary",
+      "poster": "hereditary.jpeg",
+      "year": "2018",
+      "genre": "horror, drama",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "Hereditary, directed by Ari Aster, tells the story of a grieving family unraveling terrifying secrets after the death of their secretive grandmother. As trauma and supernatural forces collide, the family faces a horrific fate.",
+      "our-review": "Deeply disturbing and brilliantly acted, Hereditary is a masterclass in psychological horror. Toni Collette gives a haunting performance, and Aster’s slow-burn direction builds to a shocking, unforgettable climax.",
+      "cast": "Toni Collette as Annie, Alex Wolff as Peter, Milly Shapiro as Charlie, Gabriel Byrne as Steve",
+      "first-name": "Nina Alvarez",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Unsettling and powerful. Toni Collette is phenomenal.",
+      "second-name": "Owen Park",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "One of the scariest and most emotionally intense horror films I’ve seen."
+    },
+    {
+      "id": 222,
+      "title": "It Follows",
+      "poster": "it-follows.jpeg",
+      "year": "2014",
+      "genre": "horror, mystery",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In It Follows, a young woman finds herself stalked by a supernatural entity after a strange sexual encounter. To escape, she must pass the curse to someone else—while the creature slowly, relentlessly follows.",
+      "our-review": "A fresh concept with a haunting atmosphere, It Follows is eerie and thought-provoking. The slow pacing adds dread, and its minimalistic approach to horror makes it stick with you long after it ends.",
+      "cast": "Maika Monroe as Jay, Keir Gilchrist as Paul, Daniel Zovatto as Greg, Lili Sepe as Kelly",
+      "first-name": "Lucas Kim",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "So creepy! The idea of something always coming after you is terrifying.",
+      "second-name": "Sophia Trent",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Unique and unsettling. A must-see for horror fans looking for something different."
+    },
+    {
+      "id": 223,
+      "title": "Get Out",
+      "poster": "get-out.jpeg",
+      "year": "2017",
+      "genre": "horror, thriller",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "Directed by Jordan Peele, Get Out follows a young Black man who visits his white girlfriend’s family for the weekend. What begins as uncomfortable quickly spirals into a nightmarish experience with dark secrets and twisted intentions.",
+      "our-review": "Get Out is an intelligent, socially conscious horror-thriller that’s both unsettling and razor-sharp. Peele’s direction and Daniel Kaluuya’s standout performance elevate this into one of the best genre films of the decade.",
+      "cast": "Daniel Kaluuya as Chris, Allison Williams as Rose, Bradley Whitford as Dean, Catherine Keener as Missy",
+      "first-name": "Marcus Lee",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Clever, creepy, and thought-provoking. A modern horror classic.",
+      "second-name": "Rachel Moore",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Incredible storytelling with real suspense. Jordan Peele knocked it out of the park."
+    },
+    {
+      "id": 224,
+      "title": "Us",
+      "poster": "us.jpeg",
+      "year": "2019",
+      "genre": "horror, thriller",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Us, also directed by Jordan Peele, follows a family on vacation who are terrorized by their doppelgängers—mysterious figures who look exactly like them but act with violent intent.",
+      "our-review": "Us is a chilling and ambitious horror film filled with symbolism and social commentary. Lupita Nyong’o delivers a mesmerizing dual performance, and the eerie concept keeps the suspense high throughout.",
+      "cast": "Lupita Nyong’o as Adelaide/Red, Winston Duke as Gabe/Abraham, Shahadi Wright Joseph as Zora/Umbrae, Evan Alex as Jason/Pluto",
+      "first-name": "Taylor Singh",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Freaky and fascinating. Nyong’o’s performance is next-level.",
+      "second-name": "Jordan Kent",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Creepy and complex. Peele’s creativity really shines in this one."
+    },
+    {
+      "id": 225,
+      "title": "Midsommar",
+      "poster": "midsommar.jpeg",
+      "year": "2019",
+      "genre": "horror, drama",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Midsommar, directed by Ari Aster, follows a grieving woman who joins her boyfriend and his friends on a trip to a remote Swedish village for a rare midsummer festival. What begins as a serene cultural retreat quickly descends into a surreal and terrifying nightmare.",
+      "our-review": "Visually stunning and deeply unsettling, Midsommar explores grief and codependency through folk horror. Florence Pugh’s performance is phenomenal, and Aster’s meticulous direction creates a slow-burn terror that’s hard to shake.",
+      "cast": "Florence Pugh as Dani, Jack Reynor as Christian, William Jackson Harper as Josh, Will Poulter as Mark",
+      "first-name": "Isabelle Grant",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Beautiful and disturbing. A horror movie like no other—Florence Pugh is incredible.",
+      "second-name": "Noah Martinez",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Creepy, surreal, and emotional. One of the most unique horror films I’ve seen."
+    },
+    {
+      "id": 226,
+      "title": "The Babadook",
+      "poster": "the-babadook.jpeg",
+      "year": "2014",
+      "genre": "horror, psychological thriller",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "The Babadook, directed by Jennifer Kent, is about a widowed mother struggling with her troubled son’s fear of a monster from a mysterious children's book. As events escalate, she begins to believe that something real is haunting them both.",
+      "our-review": "A chilling meditation on grief and trauma, The Babadook is emotionally potent and genuinely terrifying. Essie Davis gives a powerful performance, and the film’s creature is a metaphor that lingers well after the credits roll.",
+      "cast": "Essie Davis as Amelia, Noah Wiseman as Samuel, Daniel Henshall as Robbie, Barbara West as Gracie",
+      "first-name": "Derek Liu",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy and heartbreaking. It’s more than just a monster movie—it’s a story about loss.",
+      "second-name": "Haley Stone",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "Emotionally rich and deeply scary. A brilliant piece of psychological horror."
+    },
+    {
+      "id": 227,
+      "title": "A Quiet Place",
+      "poster": "a-quiet-place.jpeg",
+      "year": "2018",
+      "genre": "horror, sci-fi",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "Directed by John Krasinski, A Quiet Place is set in a world where blind alien creatures hunt humans through sound. A family must live in silence to survive, communicating only in sign language and soundproofed whispers.",
+      "our-review": "Innovative and nerve-wracking, A Quiet Place is a masterclass in tension. The concept is brilliantly executed, and the emotional weight of the family dynamic adds heart to the horror. It’s a thrilling, unique experience.",
+      "cast": "Emily Blunt as Evelyn, John Krasinski as Lee, Millicent Simmonds as Regan, Noah Jupe as Marcus",
+      "first-name": "Samira Patel",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Terrifyingly tense and emotionally moving. A brilliant use of silence and sound.",
+      "second-name": "Jared Flynn",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Incredibly suspenseful with strong performances. Loved the fresh take on survival horror."
+    },
+    {
+      "id": 228,
+      "title": "Insidious",
+      "poster": "insidious.jpeg",
+      "year": "2010",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Insidious, directed by James Wan, follows a couple whose son falls into a mysterious coma. As they try to help him, they uncover dark forces and a dangerous spirit realm known as 'The Further.'",
+      "our-review": "Insidious is a spine-tingling supernatural thriller with an eerie atmosphere and some truly terrifying moments. James Wan delivers an old-school haunted house vibe with a creative twist on astral projection and possession.",
+      "cast": "Patrick Wilson as Josh, Rose Byrne as Renai, Lin Shaye as Elise, Ty Simpkins as Dalton",
+      "first-name": "Elena Brooks",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy and effective. The atmosphere is so tense, and the scares feel earned.",
+      "second-name": "Kevin Ramos",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A really creepy ride. The concept of 'The Further' is haunting and original."
+    },
+    {
+      "id": 229,
+      "title": "The Ring",
+      "poster": "the-ring.jpeg",
+      "year": "2002",
+      "genre": "horror, mystery",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In The Ring, a journalist investigates a mysterious videotape that curses its viewers to die seven days after watching. As she unravels the truth behind the tape, a dark story of a vengeful spirit unfolds.",
+      "our-review": "The Ring is a terrifying and atmospheric remake that helped launch the J-horror trend in the West. Naomi Watts delivers a compelling performance, and the creepy visuals, including the now-iconic well scene, are unforgettable.",
+      "cast": "Naomi Watts as Rachel, Martin Henderson as Noah, David Dorfman as Aidan, Brian Cox as Richard Morgan",
+      "first-name": "Liam Chen",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy from start to finish. That cursed tape haunted me for weeks.",
+      "second-name": "Olivia Knight",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "Brilliant horror that doesn’t rely on jump scares. Super eerie and unforgettable."
+    },
+    {
+      "id": 230,
+      "title": "Sinister",
+      "poster": "sinister.jpeg",
+      "year": "2012",
+      "genre": "horror, mystery",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Sinister, directed by Scott Derrickson, follows a true-crime writer who discovers a box of disturbing home videos in his attic, each depicting a family's murder. As he investigates, a malevolent force known as Bughuul begins to haunt him and his family.",
+      "our-review": "Sinister delivers intense psychological horror and haunting imagery that lingers long after viewing. Ethan Hawke gives a strong lead performance, and the film’s found-footage elements are deeply unsettling.",
+      "cast": "Ethan Hawke as Ellison, Juliet Rylance as Tracy, James Ransone as Deputy So-and-So",
+      "first-name": "Marcus Hall",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy and creative. The home video scenes are incredibly disturbing.",
+      "second-name": "Jenna Lee",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "Terrifying atmosphere and a unique twist on supernatural horror."
+    },
+    {
+      "id": 231,
+      "title": "The Others",
+      "poster": "the-others.jpeg",
+      "year": "2001",
+      "genre": "horror, thriller",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "The Others, directed by Alejandro Amenábar, is a gothic horror story about a woman who lives in a dark, secluded house with her two light-sensitive children. As strange events unfold, she begins to suspect the house is haunted.",
+      "our-review": "A masterclass in atmospheric horror. Nicole Kidman is chilling in a role that builds suspense through tension rather than gore. The twist ending is one of the genre’s most memorable.",
+      "cast": "Nicole Kidman as Grace, Alakina Mann as Anne, James Bentley as Nicholas",
+      "first-name": "Claire Dalton",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "A slow burn with a powerful payoff. Beautifully acted and deeply haunting.",
+      "second-name": "Ethan Park",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Classic ghost story done right. Kidman gives an incredible performance."
+    },
+    {
+      "id": 232,
+      "title": "The Blair Witch Project",
+      "poster": "the-blair-witch-project.jpeg",
+      "year": "1999",
+      "genre": "horror, found footage",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "The Blair Witch Project, directed by Daniel Myrick and Eduardo Sánchez, follows three student filmmakers who venture into the Black Hills to investigate a local legend. Their footage is all that remains, capturing their terrifying descent into madness.",
+      "our-review": "A landmark in found-footage horror, The Blair Witch Project uses suggestion and raw realism to create a deeply immersive experience. Its low-budget aesthetic makes it feel disturbingly real.",
+      "cast": "Heather Donahue as Herself, Joshua Leonard as Himself, Michael C. Williams as Himself",
+      "first-name": "Rachel Yoon",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Unsettling and realistic. The fear feels genuine, and it’s incredibly immersive.",
+      "second-name": "Dylan Reyes",
+      "second-rating": "⭐️⭐️⭐️½",
+      "second-review": "The buildup is slow, but the dread is real. Groundbreaking for its time."
+    },
+    {
+      "id": 233,
+      "title": "Paranormal Activity",
+      "poster": "paranormal-activity.jpeg",
+      "year": "2007",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Directed by Oren Peli, Paranormal Activity uses found-footage style to tell the story of a young couple haunted by a supernatural entity in their home. They install cameras to document the terrifying events.",
+      "our-review": "Minimalist yet extremely effective, Paranormal Activity revives haunted house horror with subtle scares and rising tension. The realism makes every creak and shadow feel terrifying.",
+      "cast": "Katie Featherston as Katie, Micah Sloat as Micah, Mark Fredrichs as The Psychic",
+      "first-name": "Luis Romero",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Low-budget horror at its best. Quietly terrifying and very believable.",
+      "second-name": "Talia Greene",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "So creepy. I couldn’t sleep after watching this. Subtle horror done right."
+    },
+    {
+      "id": 234,
+      "title": "Scream",
+      "poster": "scream.webp",
+      "year": "1996",
+      "genre": "horror, slasher",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "Scream, directed by Wes Craven, revitalized the slasher genre with its meta-horror approach. When a masked killer begins terrorizing high school students, a group of teens must navigate horror tropes to survive.",
+      "our-review": "Smart, scary, and sharply self-aware, Scream is both a tribute to and reinvention of the slasher genre. The iconic Ghostface and clever script keep it endlessly rewatchable.",
+      "cast": "Neve Campbell as Sidney, Courteney Cox as Gale, David Arquette as Dewey, Skeet Ulrich as Billy",
+      "first-name": "Toby Graham",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Funny, clever, and genuinely scary. A horror classic with brains.",
+      "second-name": "Natalie Cho",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Loved the mix of satire and real slasher tension. So much fun to watch."
+    },
+    {
+      "id": 235,
+      "title": "The Texas Chainsaw Massacre",
+      "poster": "the-texas-chainsaw-massacre.jpeg",
+      "year": "1974",
+      "genre": "horror, slasher",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Directed by Tobe Hooper, The Texas Chainsaw Massacre follows a group of friends who fall victim to a family of cannibals, including the infamous Leatherface, in rural Texas. What ensues is a relentless and horrifying ordeal.",
+      "our-review": "Raw, gritty, and terrifying, this horror classic remains one of the most disturbing slasher films ever made. Its documentary-like feel and unrelenting terror make it unforgettable.",
+      "cast": "Marilyn Burns as Sally, Gunnar Hansen as Leatherface, Edwin Neal as Hitchhiker",
+      "first-name": "Zoe Alvarez",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Disturbing and intense. It’s horror stripped down to its terrifying core.",
+      "second-name": "Matt Jensen",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Terrifying in its realism. A brutal, iconic film that still holds up."
+    },
+    {
+      "id": 236,
+      "title": "Annabelle",
+      "poster": "annabelle.jpeg",
+      "year": "2014",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️",
+      "summary": "Annabelle, a prequel to The Conjuring, explores the origins of the demonic doll. When a young couple is targeted by a malevolent force shortly after acquiring the doll, they face increasing supernatural terror.",
+      "our-review": "While not as strong as its predecessor, Annabelle still delivers effective scares and eerie visuals. It expands the Conjuring universe with creepy atmosphere and tension, though it leans on familiar tropes.",
+      "cast": "Annabelle Wallis as Mia, Ward Horton as John, Alfre Woodard as Evelyn",
+      "first-name": "Kai Richards",
+      "first-rating": "⭐️⭐️⭐️",
+      "first-review": "Creepy at times, but not as strong as The Conjuring. Still worth a watch.",
+      "second-name": "Emily Zhao",
+      "second-rating": "⭐️⭐️⭐️½",
+      "second-review": "Atmospheric and creepy, especially in the first half. The doll is nightmare fuel."
+    },
+    {
+      "id": 237,
+      "title": "The Exorcist",
+      "poster": "the-exorcist.jpeg",
+      "year": "1973",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "Directed by William Friedkin, The Exorcist tells the harrowing story of a young girl possessed by a demon and the efforts of two priests to save her through an exorcism. It’s based on the novel by William Peter Blatty.",
+      "our-review": "Terrifying and emotionally powerful, The Exorcist is a genre-defining film. Its performances, chilling effects, and psychological depth have made it one of the most influential horror movies of all time.",
+      "cast": "Linda Blair as Regan, Ellen Burstyn as Chris, Max von Sydow as Father Merrin, Jason Miller as Father Karras",
+      "first-name": "Jordan Silva",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Still one of the scariest movies ever made. The atmosphere is relentless.",
+      "second-name": "Grace Lin",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A true classic. Creepy, intense, and emotionally haunting."
+    },
+    {
+      "id": 238,
+      "title": "The Shining",
+      "poster": "the-shining.jpeg",
+      "year": "1980",
+      "genre": "horror, psychological",
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "summary": "Stanley Kubrick’s adaptation of Stephen King’s novel follows Jack Torrance as he descends into madness while caring for a remote hotel during the off-season, haunted by its sinister past.",
+      "our-review": "A masterpiece of psychological horror. Jack Nicholson’s iconic performance, the eerie setting, and Kubrick’s precision make The Shining a must-watch for horror fans and cinephiles alike.",
+      "cast": "Jack Nicholson as Jack, Shelley Duvall as Wendy, Danny Lloyd as Danny, Scatman Crothers as Hallorann",
+      "first-name": "Lucas Moore",
+      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+      "first-review": "Absolutely chilling. The atmosphere and cinematography are unmatched.",
+      "second-name": "Nina Vasquez",
+      "second-rating": "⭐️⭐️⭐️⭐️½",
+      "second-review": "A deeply unsettling masterpiece. Haunting in every way."
+    },
+    {
+      "id": 239,
+      "title": "Barbarian",
+      "poster": "barbarian.webp",
+      "year": "2022",
+      "genre": "horror, thriller",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Barbarian follows a woman who discovers her Airbnb is double-booked and soon finds herself in a nightmare far worse than she imagined. With each twist, the horror becomes more bizarre and intense.",
+      "our-review": "A bold, unpredictable horror film that constantly subverts expectations. Barbarian blends suspense, dark humor, and grotesque terror in a way that keeps you on edge from start to finish.",
+      "cast": "Georgina Campbell as Tess, Bill Skarsgård as Keith, Justin Long as AJ",
+      "first-name": "Maya Reynolds",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "So unexpected! Each act gets crazier in the best way. Loved the tension.",
+      "second-name": "Andre Kim",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Wild and creative horror. Definitely one of the more original films I’ve seen recently."
+    },
+    {
+      "id": 240,
+      "title": "The Ring",
+      "poster": "the-ring.jpeg",
+      "year": "2002",
+      "genre": "horror, mystery",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In The Ring, a journalist investigates a cursed videotape that causes the viewer to die seven days after watching it. As she races to uncover its origins, she discovers a dark secret tied to a restless spirit.",
+      "our-review": "Chilling and suspenseful, The Ring brought J-horror to the mainstream. Naomi Watts delivers a strong lead performance, and the eerie visuals and cursed-tape concept remain iconic.",
+      "cast": "Naomi Watts as Rachel, David Dorfman as Aidan, Martin Henderson as Noah",
+      "first-name": "Erika Sloan",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Samara terrified me! The cursed tape concept is so creepy.",
+      "second-name": "Connor Hayes",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Creepy, atmospheric, and very effective. Great pacing and mystery."
+    },
+    {
+      "id": 241,
+      "title": "The Babadook",
+      "poster": "the-babadook.jpeg",
+      "year": "2014",
+      "genre": "horror, psychological",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "A grieving widow and her troubled son are haunted by a sinister entity from a mysterious children’s book in The Babadook. The film explores grief, trauma, and maternal stress through psychological horror.",
+      "our-review": "Deeply symbolic and genuinely unsettling, The Babadook redefines psychological horror. Essie Davis delivers a haunting performance in this emotionally rich and terrifying tale.",
+      "cast": "Essie Davis as Amelia, Noah Wiseman as Samuel, Daniel Henshall as Robbie",
+      "first-name": "Leo Zhang",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Creepy and heartbreaking at the same time. A brilliant horror metaphor.",
+      "second-name": "Hannah Briggs",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Unnerving and emotional. The acting and themes are next level."
+    },
+    {
+      "id": 242,
+      "title": "Us",
+      "poster": "us.jpeg",
+      "year": "2019",
+      "genre": "horror, thriller",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In Us, a family vacation turns into a nightmare when their doppelgängers appear and begin to terrorize them. As the mystery unfolds, a deeper societal allegory is revealed.",
+      "our-review": "Jordan Peele’s second horror film is smart, tense, and packed with symbolism. Lupita Nyong’o’s dual performance is unforgettable, and the concept of the 'tethered' is chilling.",
+      "cast": "Lupita Nyong’o as Adelaide/Red, Winston Duke as Gabe/Abraham, Shahadi Wright Joseph as Zora/Umbrae",
+      "first-name": "Aiden Brooks",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Clever and creepy. The idea of doppelgängers is so unsettling.",
+      "second-name": "Jasmine Cho",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Lupita’s performance is mind-blowing. Smart horror with depth."
+    },
+    {
+      "id": 243,
+      "title": "Midsommar",
+      "poster": "midsommar.jpeg",
+      "year": "2019",
+      "genre": "horror, folk horror",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "In Midsommar, a grieving woman joins her boyfriend and friends on a trip to a remote Swedish village for a midsummer festival, only to find themselves caught in a pagan cult’s terrifying rituals.",
+      "our-review": "Visually stunning and emotionally raw, Midsommar is a horror film that operates in broad daylight. Ari Aster crafts an unforgettable story of grief, toxicity, and rebirth.",
+      "cast": "Florence Pugh as Dani, Jack Reynor as Christian, Vilhelm Blomgren as Pelle",
+      "first-name": "Amira Patel",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "So disturbing but beautiful. Florence Pugh is incredible.",
+      "second-name": "Noah Greene",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Trippy, slow-burning horror. A visually mesmerizing nightmare."
+    },
+    {
+      "id": 244,
+      "title": "28 Days Later",
+      "poster": "28-days-later.jpeg",
+      "year": "2002",
+      "genre": "horror, apocalypse",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "After waking from a coma, a man finds London deserted and overrun by rage-infected humans. 28 Days Later follows his journey through a broken world as he searches for safety and answers.",
+      "our-review": "Danny Boyle's gritty and kinetic take on the zombie genre reinvigorates it with realism and urgency. It’s intense, bleak, and surprisingly emotional.",
+      "cast": "Cillian Murphy as Jim, Naomie Harris as Selena, Brendan Gleeson as Frank",
+      "first-name": "Sasha Lin",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Terrifying and fast-paced. The opening scenes are unforgettable.",
+      "second-name": "Elliot Young",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A fresh spin on zombies. Gripping and emotional."
+    },
+    {
+      "id": 245,
+      "title": "Candyman",
+      "poster": "candyman.jpeg",
+      "year": "1992",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Candyman tells the story of a grad student researching urban legends who discovers the vengeful ghost of a murdered man with a hook for a hand. Saying his name five times summons him—with deadly results.",
+      "our-review": "Smart and socially resonant, Candyman blends slasher horror with themes of race, trauma, and myth. Tony Todd’s performance is iconic and chilling.",
+      "cast": "Virginia Madsen as Helen, Tony Todd as Candyman, Xander Berkeley as Trevor",
+      "first-name": "Jordan Li",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy with real depth. Candyman’s backstory is so powerful.",
+      "second-name": "Rachel Kim",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Atmospheric and haunting. Still feels relevant today."
+    },
+    {
+      "id": 246,
+      "title": "Hereditary",
+      "poster": "hereditary.jpeg",
+      "year": "2018",
+      "genre": "horror, psychological",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "A grieving family is haunted by a sinister presence tied to their ancestry in Hereditary. As secrets unravel, a terrifying legacy emerges that pushes the family toward madness.",
+      "our-review": "Hereditary is an emotionally devastating and deeply disturbing experience. Toni Collette delivers a powerhouse performance in one of the most terrifying films of the decade.",
+      "cast": "Toni Collette as Annie, Alex Wolff as Peter, Milly Shapiro as Charlie",
+      "first-name": "Brandon Ellis",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Absolutely terrifying. The emotional trauma hit as hard as the horror.",
+      "second-name": "Isla Moreno",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "So unsettling and intense. Toni Collette is phenomenal."
+    },
+    {
+      "id": 247,
+      "title": "The Conjuring 2",
+      "poster": "the-conjuring-2.jpeg",
+      "year": "2016",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Ed and Lorraine Warren travel to England to investigate a new haunting in The Conjuring 2. They face off against demonic forces in one of their most famous real-life cases—the Enfield poltergeist.",
+      "our-review": "A worthy sequel with strong performances and expertly crafted scares. The Conjuring 2 keeps the heart and horror alive with a compelling, emotional core.",
+      "cast": "Vera Farmiga as Lorraine, Patrick Wilson as Ed, Madison Wolfe as Janet",
+      "first-name": "Daniela Cruz",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Scary and emotional. The Warrens are so compelling together.",
+      "second-name": "Tyler Kim",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Great sequel. The nun and Crooked Man scenes gave me chills."
+    },
+    {
+      "id": 248,
+      "title": "The Wailing",
+      "poster": "the-wailing.jpeg",
+      "year": "2016",
+      "genre": "horror, mystery, Korean",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "In a small Korean village, a mysterious illness spreads following the arrival of a stranger. The Wailing follows a bumbling cop as he investigates a series of gruesome deaths, only to uncover something far darker.",
+      "our-review": "Haunting, enigmatic, and emotionally charged. The Wailing masterfully blends folklore, supernatural horror, and police procedural into a uniquely unsettling experience.",
+      "cast": "Kwak Do-won as Jong-goo, Hwang Jung-min as the shaman, Jun Kunimura as the stranger",
+      "first-name": "Min-Jae Lee",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "Incredible mystery and atmosphere. Didn’t expect the emotional weight.",
+      "second-name": "Ella Cheng",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Creepy and confusing in a good way. Beautifully made and haunting."
+    },
+    {
+      "id": 249,
+      "title": "It Follows",
+      "poster": "it-follows.jpeg",
+      "year": "2014",
+      "genre": "horror, supernatural",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "After a strange sexual encounter, a young woman is pursued by a supernatural entity that can take any human form. It Follows blends a haunting atmosphere with psychological terror.",
+      "our-review": "Innovative and deeply unsettling, It Follows turns a simple concept into relentless horror. Its dreamlike cinematography and eerie soundtrack elevate every scene.",
+      "cast": "Maika Monroe as Jay, Keir Gilchrist as Paul, Olivia Luccardi as Yara",
+      "first-name": "Theo Garner",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Creepy and original. The slow pacing builds amazing tension.",
+      "second-name": "Sophie Tran",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Loved the atmosphere. A horror film that really sticks with you."
     }
   ]
 }
