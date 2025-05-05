@@ -60,4 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /*Sources/Refrences
-API taken from: https://www.dicebear.com/*/
+API taken from: https://www.dicebear.com/
+https://www.dicebear.com/styles/pixel-art/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals*/
