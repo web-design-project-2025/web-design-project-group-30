@@ -5,7 +5,6 @@ fetch("movie.json")
 
     const movieList = document.getElementById("movie-list");
     if (movieList) {
-      console.log("movieList element found"); // Check if the element exists
       data.movies.forEach((movie) => {
         const movieCard = document.createElement("div");
         movieCard.classList.add("movie-card");
@@ -21,44 +20,6 @@ fetch("movie.json")
     }
 
   }
-}
-
-const searchInput = document.getElementById("search-bar");
-const searchList = document.querySelector(".search-result");
-
-searchInput.addEventListener("focus", () => {
-  searchList.style.display = "block";
-});
-
-document.addEventListener("click", (event) => {
-  if (
-    !searchInput.contains(event.target) &&
-    !searchList.contains(event.target)
-  ) {
-    searchList.style.display = "none";
-  }
-});
-
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("readMoreButton");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "READ MORE";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "READ LESS";
-    moreText.style.display = "inline";
-  }
-}
-
-/*toggle menu*/
-function toggleMenu() {
-  const navLinks = document.querySelector(".nav-links");
-  navLinks.classList.toggle("show");
 }
 
 //sign in
