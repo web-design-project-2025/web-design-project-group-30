@@ -1,0 +1,159 @@
+{
+    "classics-2000s-movies": [
+      {
+        "id": 100,
+        "poster": "gladiator.jpeg",
+        "alt": "Gladiator movie poster"
+      },
+      {
+        "id": 101,
+        "poster": "memento.jpeg",
+        "alt": "Memento movie poster"
+      },
+      {
+        "id": 102,
+        "poster": "the-dark-knight.jpeg",
+        "alt": "The Dark Knight movie poster"
+      },
+      {
+        "id": 103,
+        "poster": "eternal-sunshine-of-the-spotless-mind.jpeg",
+        "alt": "Eternal Sunshine of the Spotless Mind movie poster"
+      },
+      {
+        "id": 104,
+        "poster": "no-country-for-old-men.jpeg",
+        "alt": "No Country for Old Men movie poster"
+      },
+      {
+        "id": 105,
+        "poster": "city-of-god.jpeg",
+        "alt": "City of God movie poster"
+      },
+      {
+        "id": 106,
+        "poster": "pan's-labyrinth.jpeg",
+        "alt": "Pan's Labyrinth movie poster"
+      },
+      {
+        "id": 107,
+        "poster": "the-departed.jpeg",
+        "alt": "The Departed movie poster"
+      },
+      {
+        "id": 108,
+        "poster": "there-will-be-blood.jpeg",
+        "alt": "There Will Be Blood movie poster"
+      },
+      {
+        "id": 109,
+        "poster": "slumdog-millionaire.jpeg",
+        "alt": "Slumdog Millionaire movie poster"
+      }
+    ],
+    "classics-award-winning-movies": [
+      {
+        "id": 110,
+        "poster": "the-king's-speech.jpeg",
+        "alt": "The King's Speech movie poster"
+      },
+      {
+        "id": 111,
+        "poster": "slumdog-millionaire.jpeg",
+        "alt": "Slumdog Millionaire movie poster"
+      },
+      {
+        "id": 112,
+        "poster": "no-country-for-old-men.jpeg",
+        "alt": "No Country for Old Men movie poster"
+      },
+      {
+        "id": 113,
+        "poster": "the-artist.webp",
+        "alt": "The Artist movie poster"
+      },
+      {
+        "id": 114,
+        "poster": "12-years-a-slave.jpeg",
+        "alt": "12 Years a Slave movie poster"
+      },
+      {
+        "id": 115,
+        "poster": "birdman.jpeg",
+        "alt": "Birdman movie poster"
+      },
+      {
+        "id": 116,
+        "poster": "moonlight.jpeg",
+        "alt": "Moonlight movie poster"
+      },
+      {
+        "id": 117,
+        "poster": "nomadland.jpeg",
+        "alt": "Nomadland movie poster"
+      },
+      {
+        "id": 118,
+        "poster": "everything-everywhere-all-at-once.jpeg",
+        "alt": "Everything Everywhere All at Once movie poster"
+      },
+      {
+        "id": 119,
+        "poster": "parasite.jpeg",
+        "alt": "Parasite movie poster"
+      }
+    ],
+    "classics-disney-movies": [
+      {
+        "id": 120,
+        "poster": "snow-white-and-the-seven-dwarfs.jpeg",
+        "alt": "Snow White and the Seven Dwarfs movie poster"
+      },
+      {
+        "id": 121,
+        "poster": "cinderella.jpeg",
+        "alt": "Cinderella movie poster"
+      },
+      {
+        "id": 122,
+        "poster": "sleeping-beauty.jpeg",
+        "alt": "Sleeping Beauty movie poster"
+      },
+      {
+        "id": 123,
+        "poster": "peter-pan.jpeg",
+        "alt": "Peter Pan movie poster"
+      },
+      {
+        "id": 124,
+        "poster": "bambi.jpeg",
+        "alt": "Bambi movie poster"
+      },
+      {
+        "id": 125,
+        "poster": "dumbo.jpeg",
+        "alt": "Dumbo movie poster"
+      },
+      {
+        "id": 126,
+        "poster": "lady-and-the-tramp.jpeg",
+        "alt": "Lady and the Tramp movie poster"
+      },
+      {
+        "id": 127,
+        "poster": "101-dalmatians.jpeg",
+        "alt": "101 Dalmatians movie poster"
+      },
+      {
+        "id": 128,
+        "poster": "the-jungle-book.jpeg",
+        "alt": "The Jungle Book movie poster"
+      },
+      {
+        "id": 129,
+        "poster": "robin-hood.jpeg",
+        "alt": "Robin Hood movie poster"
+      }
+    ]
+  }
+  
