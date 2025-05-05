@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li class="classics-link">
-                        <a href="#">
+                        <a href="classics.html">
                             <img src="img/movie.png" alt="Classics">
                             <span>Classics</span>
                         </a>
@@ -68,9 +68,9 @@
                     <div class="search-result">
                         <ul>
                             <li><a href="#">My Favorites</a></li>
-                            <li><a href="#">Horror</a></li>
-                            <li><a href="#">Romance</a></li>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="horror.html">Horror</a></li>
+                            <li><a href="romance.html">Romance</a></li>
+                            <li><a href="profile.html">Profile</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,15 +86,32 @@
             </div>
             <div>
                 <ul class="category-list">
-                    <li><a href="#">ACTION</a></li>
-                    <li><a href="#">COMEDY</a></li>
-                    <li><a href="#">DOCUMENTARY</a></li>
-                    <li><a href="#">HORROR</a></li>
-                    <li><a href="#">ROMANCE</a></li>
-                    <li><a href="#">SCIENCE FICTION</a></li>
+                    <li><a href="action.html">ACTION</a></li>
+                    <li><a href="comedy.html">COMEDY</a></li>
+                    <li><a href="documentary.html">DOCUMENTARY</a></li>
+                    <li><a href="horror.html">HORROR</a></li>
+                    <li><a href="romance.html">ROMANCE</a></li>
+                    <li><a href="science-fiction.html">SCIENCE FICTION</a></li>
                 </ul>
             </div>
         </div>
+sign-in-button
+
+        <!--sign in-->
+        <div class="sig-in" id="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()"> &times;</span>
+                <h2> SIGN IN</h2>
+                <p> NAME </p>
+                <input type="text" id="name" placeholder="Name">
+                <p> PASSWORD </p>
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="signin()"> SIGN IN</button>
+            </div>
+        </div>
+
+
+ main
     </main>
     <section id="movie-list">
             <div class="movie-card"></div>
