@@ -21,6 +21,53 @@
   max-width: 200px;
 }
 
+h3{
+  padding-top: 10px;
+  align-self: center;
+}
+
+.about-us{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
+}
+.about-container{
+  background-color: black;
+  padding-bottom: 10px;
+}
+.about-us img{
+  max-width: 100%;
+  padding-left: 30%;
+  height: 100%;
+
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 20%;
+}
+
+.about-text p {
+  margin-bottom: 16px;
+  max-width: 90%;
+}
+
+.about-btn{
+  background-color: #d06cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
 body {
   background-color: #201F1F;
   color: white;
@@ -312,7 +359,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    bottom: 80px;
+
     left: 50%;
     transform: translateX(-50%);
     z-index: 11;
