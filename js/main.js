@@ -19,8 +19,8 @@ fetch("movie.json")
       });
     }
 
-  }
-}
+  })
+  .catch((error) => console.error("Error loading movies:", error));
 
 //sign in
 function closeModal() {
@@ -57,10 +57,8 @@ window.addEventListener("DOMContentLoaded", function () {
   checkSignin();
 });
 
+
 /*Source/Refrences
 Read More Button:
 https://www.w3schools.com/howto/howto_js_read_more.asp*/
-
-  })
-  .catch((error) => console.error("Error loading movies:", error));
 

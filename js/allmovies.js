@@ -1,10 +1,10 @@
 let allMovies = [];
 let activeRating = null;
-let activeDateSort = "all"; // Tracks selected date sort
+let activeDateSort = "all";
 
 document.addEventListener("DOMContentLoaded", () => {
   const starSpans = document.querySelectorAll("#star-filter span");
-  const dateFilter = document.getElementById("date-filter"); // Date filter dropdown
+  const dateFilter = document.getElementById("date-filter");
   const allMoviesContainer = document.getElementById(
     "all-movie-sections-container"
   );

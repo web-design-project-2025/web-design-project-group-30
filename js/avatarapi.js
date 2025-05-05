@@ -59,3 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
     alert("Profile saved!");
   }
 });
+
+/*Sources/Refrences
+API taken from: https://www.dicebear.com/*/
