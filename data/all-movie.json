@@ -1,163 +1,220 @@
 {
-    "all-movies-section-1": [
-    
-        {
-          "id": 70,
-          "poster": "inception.jpeg",
-          "alt": "Inception movie poster",
-          "rating":4
-        },
-        {
-          "id": 71,
-          "poster": "parasite.jpeg",
-          "alt": "Parasite movie poster"
-        },
-        {
-          "id": 72,
-          "poster": "the-grand-budapest-hotel.jpeg",
-          "alt": "The Grand Budapest Hotel movie poster"
-        },
-        {
-          "id": 73,
-          "poster": "mad-max-fury-road.jpeg",
-          "alt": "Mad Max: Fury Road movie poster"
-        },
-        {
-          "id": 74,
-          "poster": "la-la-land.jpeg",
-          "alt": "La La Land movie poster"
-        },
-        {
-          "id": 75,
-          "poster": "get-out.jpeg",
-          "alt": "Get Out movie poster"
-        },
-        {
-          "id": 76,
-          "poster": "the-social-network.jpeg",
-          "alt": "The Social Network movie poster"
-        },
-        {
-          "id": 77,
-          "poster": "the-shape-of-water.jpeg",
-          "alt": "The Shape of Water movie poster"
-        },
-        {
-          "id": 78,
-          "poster": "moonlight.jpeg",
-          "alt": "Moonlight movie poster"
-        },
-        {
-          "id": 79,
-          "poster": "joker.webp",
-          "alt": "Joker movie poster"
-        }
-    ],
-  
-    "all-movies-section-2": [
-      {
-        "id": 80,
-        "poster": "black-panther.webp",
-        "alt": "Black Panther movie poster"
-      },
-      {
-        "id": 81,
-        "poster": "interstellar.jpeg",
-        "alt": "Interstellar movie poster"
-      },
-      {
-        "id": 82,
-        "poster": "whiplash.jpeg",
-        "alt": "Whiplash movie poster"
-      },
-      {
-        "id": 83,
-        "poster": "the-martian.jpeg",
-        "alt": "The Martian movie poster"
-      },
-      {
-        "id": 84,
-        "poster": "arrival.jpeg",
-        "alt": "Arrival movie poster"
-      },
-      {
-        "id": 85,
-        "poster": "her.jpeg",
-        "alt": "Her movie poster"
-      },
-      {
-        "id": 86,
-        "poster": "the-revenant.jpeg",
-        "alt": "The Revenant movie poster"
-      },
-      {
-        "id": 87,
-        "poster": "birdman.jpeg",
-        "alt": "Birdman movie poster"
-      },
-      {
-        "id": 88,
-        "poster": "spotlight.jpeg",
-        "alt": "Spotlight movie poster"
-      },
-      {
-        "id": 89,
-        "poster": "the-big-short.jpeg",
-        "alt": "The Big Short movie poster"
-      }
-    ],
-  
-    "all-movies-section-3": [
-      {
-        "id": 90,
-        "poster": "room.jpeg",
-        "alt": "Room movie poster"
-      },
-      {
-        "id": 91,
-        "poster": "brooklyn.jpeg",
-        "alt": "Brooklyn movie poster"
-      },
-      {
-        "id": 92,
-        "poster": "the-imitation-game.jpeg",
-        "alt": "The Imitation Game movie poster"
-      },
-      {
-        "id": 93,
-        "poster": "the-theory-of-everything.jpeg",
-        "alt": "The Theory of Everything movie poster"
-      },
-      {
-        "id": 94,
-        "poster": "selma.jpeg",
-        "alt": "Selma movie poster"
-      },
-      {
-        "id": 95,
-        "poster": "american-sniper.jpeg",
-        "alt": "American Sniper movie poster"
-      },
-      {
-        "id": 96,
-        "poster": "boyhood.jpeg",
-        "alt": "Boyhood movie poster"
-      },
-      {
-        "id": 97,
-        "poster": "the-hateful-eight.jpeg",
-        "alt": "The Hateful Eight movie poster"
-      },
-      {
-        "id": 98,
-        "poster": "bridge-of-spies.jpeg",
-        "alt": "Bridge of Spies movie poster"
-      },
-      {
-        "id": 99,
-        "poster": "inside-out.jpeg",
-        "alt": "Inside Out movie poster"
-      }
-    ]
-  }
-  
+  "all-movies-section-1": [
+    {
+      "id": 70,
+      "poster": "inception.jpeg",
+      "alt": "Inception movie poster",
+      "rating": 5,
+      "releaseDate": "2010-07-16"
+    },
+    {
+      "id": 71,
+      "poster": "parasite.jpeg",
+      "alt": "Parasite movie poster",
+      "rating": 4,
+      "releaseDate": "2019-10-11"
+    },
+    {
+      "id": 72,
+      "poster": "the-grand-budapest-hotel.jpeg",
+      "alt": "The Grand Budapest Hotel movie poster",
+      "rating": 4,
+      "releaseDate": "2014-03-28"
+    },
+    {
+      "id": 73,
+      "poster": "mad-max-fury-road.jpeg",
+      "alt": "Mad Max: Fury Road movie poster",
+      "rating": 3,
+      "releaseDate": "2015-05-15"
+    },
+    {
+      "id": 74,
+      "poster": "la-la-land.jpeg",
+      "alt": "La La Land movie poster",
+      "rating": 5,
+      "releaseDate": "2016-12-09"
+    },
+    {
+      "id": 75,
+      "poster": "get-out.jpeg",
+      "alt": "Get Out movie poster",
+      "rating": 4,
+      "releaseDate": "2017-02-24"
+    },
+    {
+      "id": 76,
+      "poster": "the-social-network.jpeg",
+      "alt": "The Social Network movie poster",
+      "rating": 5,
+      "releaseDate": "2010-10-01"
+    },
+    {
+      "id": 77,
+      "poster": "the-shape-of-water.jpeg",
+      "alt": "The Shape of Water movie poster",
+      "rating": 4,
+      "releaseDate": "2017-12-08"
+    },
+    {
+      "id": 78,
+      "poster": "moonlight.jpeg",
+      "alt": "Moonlight movie poster",
+      "rating": 5,
+      "releaseDate": "2016-10-21"
+    },
+    {
+      "id": 79,
+      "poster": "joker.webp",
+      "alt": "Joker movie poster",
+      "rating": 3,
+      "releaseDate": "2019-10-04"
+    }
+  ],
+
+  "all-movies-section-2": [
+    {
+      "id": 80,
+      "poster": "black-panther.webp",
+      "alt": "Black Panther movie poster",
+      "rating": 4,
+      "releaseDate": "2018-02-16"
+    },
+    {
+      "id": 81,
+      "poster": "interstellar.jpeg",
+      "alt": "Interstellar movie poster",
+      "rating": 5,
+      "releaseDate": "2014-11-07"
+    },
+    {
+      "id": 82,
+      "poster": "whiplash.jpeg",
+      "alt": "Whiplash movie poster",
+      "rating": 5,
+      "releaseDate": "2014-10-10"
+    },
+    {
+      "id": 83,
+      "poster": "the-martian.jpeg",
+      "alt": "The Martian movie poster",
+      "rating": 4,
+      "releaseDate": "2015-10-02"
+    },
+    {
+      "id": 84,
+      "poster": "arrival.jpeg",
+      "alt": "Arrival movie poster",
+      "rating": 5,
+      "releaseDate": "2016-11-11"
+    },
+    {
+      "id": 85,
+      "poster": "her.jpeg",
+      "alt": "Her movie poster",
+      "rating": 4,
+      "releaseDate": "2013-10-18"
+    },
+    {
+      "id": 86,
+      "poster": "the-revenant.jpeg",
+      "alt": "The Revenant movie poster",
+      "rating": 3,
+      "releaseDate": "2015-12-25"
+    },
+    {
+      "id": 87,
+      "poster": "birdman.jpeg",
+      "alt": "Birdman movie poster",
+      "rating": 5,
+      "releaseDate": "2014-10-17"
+    },
+    {
+      "id": 88,
+      "poster": "spotlight.jpeg",
+      "alt": "Spotlight movie poster",
+      "rating": 4,
+      "releaseDate": "2015-11-06"
+    },
+    {
+      "id": 89,
+      "poster": "the-big-short.jpeg",
+      "alt": "The Big Short movie poster",
+      "rating": 4,
+      "releaseDate": "2015-12-11"
+    }
+  ],
+
+  "all-movies-section-3": [
+    {
+      "id": 90,
+      "poster": "room.jpeg",
+      "alt": "Room movie poster",
+      "rating": 4,
+      "releaseDate": "2015-10-16"
+    },
+    {
+      "id": 91,
+      "poster": "brooklyn.jpeg",
+      "alt": "Brooklyn movie poster",
+      "rating": 4,
+      "releaseDate": "2015-11-06"
+    },
+    {
+      "id": 92,
+      "poster": "the-imitation-game.jpeg",
+      "alt": "The Imitation Game movie poster",
+      "rating": 4,
+      "releaseDate": "2014-11-28"
+    },
+    {
+      "id": 93,
+      "poster": "the-theory-of-everything.jpeg",
+      "alt": "The Theory of Everything movie poster",
+      "rating": 4,
+      "releaseDate": "2014-11-07"
+    },
+    {
+      "id": 94,
+      "poster": "selma.jpeg",
+      "alt": "Selma movie poster",
+      "rating": 3,
+      "releaseDate": "2014-12-25"
+    },
+    {
+      "id": 95,
+      "poster": "american-sniper.jpeg",
+      "alt": "American Sniper movie poster",
+      "rating": 3,
+      "releaseDate": "2014-12-25"
+    },
+    {
+      "id": 96,
+      "poster": "boyhood.jpeg",
+      "alt": "Boyhood movie poster",
+      "rating": 4,
+      "releaseDate": "2014-07-11"
+    },
+    {
+      "id": 97,
+      "poster": "the-hateful-eight.jpeg",
+      "alt": "The Hateful Eight movie poster",
+      "rating": 2,
+      "releaseDate": "2015-12-25"
+    },
+    {
+      "id": 98,
+      "poster": "bridge-of-spies.jpeg",
+      "alt": "Bridge of Spies movie poster",
+      "rating": 4,
+      "releaseDate": "2015-10-16"
+    },
+    {
+      "id": 99,
+      "poster": "inside-out.jpeg",
+      "alt": "Inside Out movie poster",
+      "rating": 5,
+      "releaseDate": "2015-06-19"
+    }
+  ]
+}
