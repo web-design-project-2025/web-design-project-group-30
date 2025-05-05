@@ -6,6 +6,7 @@
     <title>Movie Review Website Velour</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js" defer></script>
+    <script src="js/secluded.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,24 +20,24 @@
                 <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
                 <ul class="nav-links">
                     <li class="search-link">
-                        <a href="#">
-                          <img src="img/searchbar.png" alt="Search">
-                          <span>Search</span>
+                        <a href="index.html">
+                            <img src="img/searchbar.png" alt="Search">
+                            <span>Search</span>
                         </a>
-                      </li>
-                      <li class="explore-link">
-                        <a href="#">
-                          <img src="img/clip.png" alt="explore">
-                          <span>Explore</span>
+                    </li>
+                    <li class="explore-link">
+                        <a href="allmovie.html">
+                            <img src="img/clip.png" alt="Explore">
+                            <span>Explore</span>
                         </a>
-                      </li>
-                      <li class="classics-link">
-                        <a href="#">
-                          <img src="img/movie.png" alt="Classics">
-                          <span>Classics</span>
+                    </li>
+                    <li class="classics-link">
+                        <a href="classics.html">
+                            <img src="img/movie.png" alt="Classics">
+                            <span>Classics</span>
                         </a>
                         <li class="trending-link">
-                            <a href="#">
+                            <a href="trending.html">
                               <img src="img/point.png" alt="Trending">
                               <span>Trending</span>
                             </a>
@@ -46,11 +47,13 @@
                                   <span>Favorites</span>
                                 </a>
                                 <li class="profile-link">
-                                    <a href="#">
+                                    <a href="profile.html">
                                       <img src="img/profile.png" alt="Profile">
                                       <span>Profile</span>
                                     </a>
                 </ul>
+            </div>
+        </nav>
                 <!--search bar-->
                 <div class="search-container">
                     <div class="bar">
@@ -65,13 +68,12 @@
                     <div class="search-result">
                         <ul>
                             <li><a href="#">My Favorites</a></li>
-                            <li><a href="#">Horror</a></li>
-                            <li><a href="#">Romance</a></li>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="horror.html">Horror</a></li>
+                            <li><a href="romance.html">Romance</a></li>
+                            <li><a href="profile.html">Profile</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
         </nav>
     </header>
     <main>
@@ -84,54 +86,20 @@
             </div>
             <div>
                 <ul class="category-list">
-                    <li><a href="#">ACTION</a></li>
-                    <li><a href="#">COMEDY</a></li>
-                    <li><a href="#">DOCUMENTARY</a></li>
-                    <li><a href="#">HORROR</a></li>
-                    <li><a href="#">ROMANCE</a></li>
-                    <li><a href="#">SCIENCE FICTION</a></li>
+                    <li><a href="action.html">ACTION</a></li>
+                    <li><a href="comedy.html">COMEDY</a></li>
+                    <li><a href="documentary.html">DOCUMENTARY</a></li>
+                    <li><a href="horror.html">HORROR</a></li>
+                    <li><a href="romance.html">ROMANCE</a></li>
+                    <li><a href="science-fiction.html">SCIENCE FICTION</a></li>
                 </ul>
             </div>
         </div>
-        
-        <section class="image-homepage-container">
-            <a href="#">
-                <figure>
-                    <img class="homepage-images" src="#" alt="Movie1">
-                </figure>
-            </a>
-
-            <a href="#">
-                <figure>
-                    <img class="homepage-images" src="#" alt="Movie2">
-                </figure>
-            </a>
-
-            <a href="#">
-                <figure>
-                    <img class="homepage-images" src="#" alt="Movie3">
-                </figure>
-            </a>
-
-            <a href="#">
-                <figure>
-                    <img class="homepage-images" src="#" alt="Movie4">
-                </figure>
-            </a>
-
-            <a href="#">
-                <figure>
-                    <img class="homepage-images" src="#" alt="Movie5">
-                </figure>
-            </a>
-
-            <a href="#">
-                <figure>
-                    <img class="homepage-images" src="#" alt="Movie6">
-                </figure>
-            </a>
-        </section>
     </main>
+    <section id="movie-list">
+            <div class="movie-card"></div>
+  
+    </section>
     <footer>
         <p>© 2025 Velour</p>
     </footer>

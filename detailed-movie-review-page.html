@@ -1,123 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Review Website Velour</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/detailed-movie.css">
-    <script src="js/main.js" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="js/favourite.js" defer></script>
+    <script src="js/detailed.js" defer></script>
+  </head>
 <body>
-    <header>
-        <div class="logo-container">
-                <a href="index.html">
-                  <img src="img/LOGVO.png" alt="Logo">
-                </a>
-        </div>
-        <nav class="navbar">
-            <div class="navbar-container">
-                <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-                <ul class="nav-links">
-                    <li class="search-link">
-                        <a href="#">
-                          <img src="img/searchbar.png" alt="Search">
-                          <span>Search</span>
-                        </a>
-                      </li>
-                      <li class="explore-link">
-                        <a href="#">
-                          <img src="img/clip.png" alt="explore">
-                          <span>Explore</span>
-                        </a>
-                      </li>
-                      <li class="classics-link">
-                        <a href="#">
-                          <img src="img/movie.png" alt="Classics">
-                          <span>Classics</span>
-                        </a>
-                        <li class="trending-link">
-                            <a href="#">
-                              <img src="img/point.png" alt="Trending">
-                              <span>Trending</span>
-                            </a>
-                            <li class="favorites-link">
-                                <a href="#">
-                                  <img src="img/heart.png" alt="Favorites">
-                                  <span>Favorites</span>
-                                </a>
-                                <li class="profile-link">
-                                    <a href="#">
-                                      <img src="img/profile.png" alt="Profile">
-                                      <span>Profile</span>
-                                    </a>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="movie-header">
-        <img class="movie-poster-detailed-review-page" src="img/movie poster.jpeg" alt="">
-        <div class="movie-information">
-        <div class="movie-titel-heart"><h1>MOVIE TITEL</h1>
-        <span class="heart-icon">💜</span></div>
-        <div class="star-rating">⭐️⭐️⭐️⭐️⭐️</div>
-    </div>
-    </div>
-        <h2>MOVIE SUMMARY</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, beatae mollitia natus impedit iusto eos, officiis laborum ducimus quod iste praesentium sequi necessitatibus. Omnis ea itaque doloremque est incidunt quasi.</p>
-       <h2>VELOURS REVIEW</h2>
-       <p>fillng text Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur <span id="dots">...</span><span id="more">at iste totam dolore labore quibusdam, culpa iure facilis mollitia natus? Eum earum sunt sed. Voluptates, delectus saepe? Id, distinctio nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vitae debitis obcaecati, amet vel rem minima quaerat sed tenetur fugiat in molestiae, recusandae eius. Mollitia ullam natus cum ad magnam.</span></p>
-       <button onclick="readMore()" id="readMoreButton">READ MORE</button>
-       <h2>CAST</h2>
-       <section class="cast">
-        <figure>
-            <img class="cast-image" src="#" alt="#">
-            <figcaption class="cast-name">Actor name</figcaption>
-        </figure>
-        <figure>
-            <img class="cast-image" src="#" alt="#">
-            <figcaption class="cast-name">Actor name</figcaption>
-        </figure>
-        <figure>
-            <img class="cast-image" src="#" alt="#">
-            <figcaption class="cast-name">Actor name</figcaption>
-        </figure>
-        <figure>
-            <img class="cast-image" src="#" alt="#">
-            <figcaption class="cast-name">Actor name</figcaption>
-        </figure>
-       </section>
-       <div class="trailer-speechbubble-container">
-       <section class="trailer">
-       <h2>TRAILER</h2>
-       <p>VIDEO TRAILER HERE</p>
-    </section>
-       <section class="community-opinion">
-       <h2>COMMUNITY OPINION</h2>
-       <div class="opinion">
-        <p class="username"> USER 1</p>
-        <div class="speech-bubble">
-        <p class="stars">⭐️⭐️⭐️⭐️⭐️</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, facere et ea quae magni eaque iure ut esse ducimus nisi vel nihil quas cum repellat perferendis distinctio sequi quibusdam quis.</p>
-       </div>
-    </div>
-       <div class="opinion">
-        <p class="username"> USER 2</p>
-        <div class="speech-bubble">
-        <p class="stars">⭐️⭐️⭐️⭐️⭐️</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, facere et ea quae magni eaque iure ut esse ducimus nisi vel nihil quas cum repellat perferendis distinctio sequi quibusdam quis.</p>
-    </div>
-</div>
-</div>
-    </section>
-    <section class="own-opinion">
-       <h2>ADD YOUR OPINION</h2>
-       <div><input type="write your review here..."></div>
-    </section>
-    </main>
-    <footer>
-        <p>© 2025 Velour</p>
-    </footer>
+    <section id="detailed-movie"></section>
 </body>
 </html>

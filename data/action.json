@@ -1,0 +1,161 @@
+{"action-section-1": [
+        {
+          "id": 160,
+          "poster": "mad-max-fury-road.jpeg",
+          "alt": "Mad Max: Fury Road movie poster"
+        },
+        {
+          "id": 161,
+          "poster": "john-wick.jpeg",
+          "alt": "John Wick movie poster"
+        },
+        {
+          "id": 162,
+          "poster": "inception.jpeg",
+          "alt": "Inception movie poster"
+        },
+        {
+          "id": 163,
+          "poster": "the-dark-knight.jpeg",
+          "alt": "The Dark Knight movie poster"
+        },
+        {
+          "id": 164,
+          "poster": "gladiator.jpeg",
+          "alt": "Gladiator movie poster"
+        },
+        {
+          "id": 165,
+          "poster": "taken.avif",
+          "alt": "Taken movie poster"
+        },
+        {
+          "id": 166,
+          "poster": "the-bourne-identity.jpeg",
+          "alt": "The Bourne Identity movie poster"
+        },
+        {
+          "id": 167,
+          "poster": "edge-of-tomorrow.jpeg",
+          "alt": "Edge of Tomorrow movie poster"
+        },
+        {
+          "id": 168,
+          "poster": "die-hard.png",
+          "alt": "Die Hard movie poster"
+        },
+        {
+          "id": 169,
+          "poster": "mission-impossible-fallout.jpeg",
+          "alt": "Mission: Impossible – Fallout movie poster"
+        }
+          
+    ],
+"action-section-2": [
+        {
+          "id": 170,
+          "poster": "the-equalizer.jpeg",
+          "alt": "The Equalizer movie poster"
+        },
+        {
+          "id": 171,
+          "poster": "extraction.jpeg",
+          "alt": "Extraction movie poster"
+        },
+        {
+          "id": 172,
+          "poster": "the-old-guard.jpeg",
+          "alt": "The Old Guard movie poster"
+        },
+        {
+          "id": 173,
+          "poster": "atomic-blonde.jpeg",
+          "alt": "Atomic Blonde movie poster"
+        },
+        {
+          "id": 174,
+          "poster": "tenet.jpeg",
+          "alt": "Tenet movie poster"
+        },
+        {
+          "id": 175,
+          "poster": "baby-driver.jpeg",
+          "alt": "Baby Driver movie poster"
+        },
+        {
+          "id": 176,
+          "poster": "logan.jpeg",
+          "alt": "Logan movie poster"
+        },
+        {
+          "id": 177,
+          "poster": "black-widow.jpeg",
+          "alt": "Black Widow movie poster"
+        },
+        {
+          "id": 178,
+          "poster": "no-time-to-die.jpeg",
+          "alt": "No Time to Die movie poster"
+        },
+        {
+          "id": 179,
+          "poster": "the-gray-man.jpeg",
+          "alt": "The Gray Man movie poster"
+        }
+           
+          
+    ],
+"action-section-3": [
+           
+        {
+          "id": 180,
+          "poster": "red-notice.jpeg",
+          "alt": "Red Notice movie poster"
+        },
+        {
+          "id": 181,
+          "poster": "fast-furious-7.jpeg",
+          "alt": "Fast & Furious 7 movie poster"
+        },
+        {
+          "id": 182,
+          "poster": "the-suicide-squad.jpeg",
+          "alt": "The Suicide Squad movie poster"
+        },
+        {
+          "id": 183,
+          "poster": "the-hunger-games.jpeg",
+          "alt": "The Hunger Games movie poster"
+        },
+        {
+          "id": 184,
+          "poster": "alita-battle-angel.jpeg",
+          "alt": "Alita: Battle Angel movie poster"
+        },
+        {
+          "id": 185,
+          "poster": "dredd.jpeg",
+          "alt": "Dredd movie poster"
+        },
+        {
+          "id": 186,
+          "poster": "shang-chi.jpeg",
+          "alt": "Shang-Chi and the Legend of the Ten Rings movie poster"
+        },
+        {
+          "id": 187,
+          "poster": "wonder-woman.jpeg",
+          "alt": "Wonder Woman movie poster"
+        },
+        {
+          "id": 188,
+          "poster": "the-batman.jpeg",
+          "alt": "The Batman movie poster"
+        },
+        {
+          "id": 189,
+          "poster": "spider-man-no-way-home.jpeg",
+          "alt": "Spider-Man: No Way Home movie poster"
+        }
+          
+    ]}

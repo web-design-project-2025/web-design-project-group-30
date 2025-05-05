@@ -1,0 +1,25 @@
+{
+  "name": "web-design-project-group-30",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-design-project-2025/web-design-project-group-30.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-design-project-2025/web-design-project-group-30/issues"
+  },
+  "homepage": "https://github.com/web-design-project-2025/web-design-project-group-30#readme",
+  "description": "",
+  "dependencies": {
+    "@dicebear/avatars": "^4.10.8",
+    "@dicebear/core": "^9.2.2",
+    "themoviedb": "^0.1.0"
+  }
+}
