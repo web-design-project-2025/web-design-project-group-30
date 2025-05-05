@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   //Stops the code if container isnt found
   if (!allMoviesContainer) return;
-  //Loads JSON data
   fetch("data/all-movie.json")
     //converts data into a JS object
     .then((response) => response.json())
@@ -60,8 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
           );
         });
       }, 100);
-
-      //Starfilter setup
       handleStars(applyFilters);
 
       //Date filter setup
@@ -73,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-  //Show movies based on the filters (rating + date)
+  //Show movies based on the filters
   function applyFilters(selectedRating = activeRating) {
     //Clears the movies container before adding new movies
     allMoviesContainer.innerHTML = "";
@@ -103,7 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     }
 
-    //10 movies per section
     const sectionSize = 10;
     for (let i = 0; i < filtered.length; i += sectionSize) {
       const chunk = filtered.slice(i, i + sectionSize);
@@ -208,8 +204,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </section>
     `;
-
-    //new section to the page
     container.innerHTML += sectionHTML;
   }
 });

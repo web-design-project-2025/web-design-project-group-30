@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  //Load saved name and avatar
   loadProfile();
 
   //Generating avatar
