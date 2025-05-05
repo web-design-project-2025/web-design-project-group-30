@@ -93,56 +93,38 @@ function toggleMenu() {
 }
 
 //sign in
-function openModal(){
-  const modal = document.getElementById("modal");
-  modal.classList.add("show");
+function closeModal() {
+  alert("You must sign in first.");
 }
-function closeModal(){
-  const modal = document.getElementById("modal");
-  modal.classList.remove("show");
-}
-function signin(){
+
+function signin() {
   const name = document.getElementById("name").value.trim();
   const password = document.getElementById("password").value.trim();
 
-  if(name && password){
+  if (name && password) {
     localStorage.setItem("isSignedIn", "true");
     localStorage.setItem("username", name);
-    closeModal();
-    alert("Succesfully signed in");
+
+    const modal = document.getElementById("modal");
+    if (modal) modal.remove(); // Completely remove modal from the DOM
+
+    alert("Successfully signed in");
   } else {
     alert("Please fill in both fields");
   }
 }
 
-function checkSignin(){
+function checkSignin() {
   const isSignedIn = localStorage.getItem("isSignedIn");
+  const modal = document.getElementById("modal");
 
-  if(isSignedIn!=="true"){
-    openModal();
+  if (isSignedIn === "true" && modal) {
+    modal.remove(); // Remove it on load if already signed in
   }
 }
 
-function blockInteraction(){
-  document.body.addEventListener("click", function(event){
-    const isSignedIn = localStorage.getItem("isSignedIn");
-
-    if(isSignedIn !== "true"){
-      event.preventDefault();
-      event.stopPropagation();
-      openModal();
-    }
-  }, true);
-}
-window.addEventListener("DOMContentLoaded", function(){
-  const isSignedIn = this.localStorage.getItem("isSignedIn");
-
-  if(isSignedIn !== "true"){
-    openModal();
-  } else{
-    console.log("user is signed in");
-  }
-  blockInteraction();
+window.addEventListener("DOMContentLoaded", function () {
+  checkSignin();
 });
 
 /*Source/Refrences
