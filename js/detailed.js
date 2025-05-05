@@ -94,7 +94,7 @@ function buildDetailedPage(movie) {
             event.preventDefault();
             const movieId = favButton.dataset.id;
             const movieTitle = favButton.dataset.title;
-            const moviePoster = favButton.dataset.poster;
+            const moviePoster = favButton.dataset.image;
       
             toggleFavourite(movieId, movieTitle, moviePoster);
           });
@@ -106,7 +106,7 @@ function buildDetailedPage(movie) {
 
 // Fetch JSON and build page
 window.addEventListener("DOMContentLoaded", () => {
-  fetch("detailed.json") // Ensure this file is in your project directory
+  fetch("data/detailed.json") // Ensure this file is in your project directory
     .then((response) => response.json())
     .then((data) => {
       const movieId = getMovieIdFromURL();

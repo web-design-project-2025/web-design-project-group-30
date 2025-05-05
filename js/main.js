@@ -1,4 +1,4 @@
-fetch("movie.json")
+fetch("data/movie.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data); // Check if the data is loaded correctly
