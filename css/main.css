@@ -392,11 +392,11 @@ body {
   gap: 1rem;
   padding: 1rem;
   scroll-snap-type: x mandatory;
-  background-color: #121212; /* dark theme background */
+  background-color: #121212;
 }
 
 #movie-list::-webkit-scrollbar {
-  display: none; /* optional: hides the scrollbar */
+  display: none;
 }
 
 .movie-card {

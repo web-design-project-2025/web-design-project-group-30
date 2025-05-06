@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     }
 
-    //Clear current movie display
+    //clear current movie display
     allMoviesContainer.innerHTML = "";
 
     //filtered movies in sections of 10
