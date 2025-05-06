@@ -1,8 +1,7 @@
 fetch("data/movie.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data); // Check if the data is loaded correctly
-
+    console.log(data); 
     const movieList = document.getElementById("movie-list");
     if (movieList) {
       data.movies.forEach((movie) => {
@@ -11,7 +10,7 @@ fetch("data/movie.json")
 
         movieCard.innerHTML = `
     <a href="detailed-movie-review-page.html?id=${movie.id}" class="movie-link">
-            <img src="/img/${movie.poster}" alt="${movie.alt}">
+            <img src="img/${movie.poster}" alt="${movie.alt}">
           </a>
     `;
 

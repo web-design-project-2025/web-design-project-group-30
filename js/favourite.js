@@ -56,10 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
     favContainer.innerHTML = "";
   
     favourites.forEach((movie) => {
-        const moviePoster = `img/${movie.poster}`;
       favContainer.innerHTML += `
         <div class="favourite-item">
-          <img src="/img/${movie.poster}" alt="${movie.title}" />
+          <img src="img/${movie.poster}" alt="${movie.title}" />
         </div>
       `;
     });
