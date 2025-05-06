@@ -9,7 +9,7 @@
 
 #movie-list {
   display: grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: repeat(11,1fr);
   justify-content: center;
   gap: 10px;
   justify-items: center;
@@ -110,6 +110,7 @@ h3{
 
 .big-rate {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -117,7 +118,7 @@ h3{
   background: #2a0e3d;
   color: white;
   border-radius: 12px;
-  max-width: 300px;
+  width: 280px;
   margin: 30px auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
@@ -151,9 +152,20 @@ h3{
   color: #ffe600;
   text-shadow: 1px 1px 5px black;
 }
-
-
-
+.all-ratings{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10%;
+  flex-wrap: nowrap;
+}
+.most-reviewed h2{
+  font-size: larger;
+  font-weight: lighter;
+  margin-top: 10%;
+  margin-bottom:-10%;
+  text-align: center;
+}
 body {
   background-color: #201F1F;
   color: white;

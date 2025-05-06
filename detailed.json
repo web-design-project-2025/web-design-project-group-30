@@ -1669,7 +1669,7 @@
           {
             "id": 99,
             "title": "Inside Out",
-            "poster": "inside-out.jpeg",
+            "poster": "img/inside-out.jpeg",
             "year": "2015",
             "genre": "animation, adventure, comedy",
             "rating": "⭐️⭐️⭐️⭐️",
@@ -3063,7 +3063,7 @@
           {
             "id": 181,
             "title": "Furious 7",
-            "poster": "fast-furious-7.jpeg",
+            "poster": "img/fast-furious-7.jpeg",
             "year": "2015",
             "genre": "action, thriller",
             "rating": "⭐️⭐️⭐️⭐️",

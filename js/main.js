@@ -13,8 +13,7 @@ fetch("movie.json")
         movieCard.innerHTML = `
     <a href="detailed-movie-review-page.html?id=${movie.id}" class="movie-link">
             <img src="/img/${movie.poster}" alt="${movie.alt}">
-          </a>
-    `;
+          </a>`; 
 
         movieList.appendChild(movieCard);
       });
