@@ -209,10 +209,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* Sources/References:
-1. MDN Web Docs - Fetch API: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-2. MDN Web Docs - HTMLButtonElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement
-3. MDN Web Docs - Array.filter method: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-4. MDN Web Docs - Array.slice method: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
-5. MDN Web Docs - Loops and Iteration: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
-6. YouTube - JavaScript Crash Course For Beginners: https://www.youtube.com/watch?v=hdI2bqOjy3c
+1. MDN Web Docs - Loops and Iteration: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+2. YouTube - JavaScript Crash Course For Beginners: https://www.youtube.com/watch?v=hdI2bqOjy3c
 */
