@@ -1,11 +1,53 @@
 # VELOUR 
-# #Web Design Project Group 30 (Saara Hussein, Dania Al-Zubeidi and Kimberly Michalak
+## Web Design Project Group 30 (Saara Hussein, Dania Al-Zubeidi and Kimberly Michalak
 
 A sleek and interactive web application showcasing a wide variety of movies to suit every preference. The users can browse high-quality posters, explore detailed movie information, and read audience reviews. The app allows users to choose from genres like comedy, action, and classic cinema. They can favorite their preferred movies, filter selections based on their interests, and even share their own opinions and ratings on films they’ve watched.
 
 ## Installation Instructions:
 
 ## Project Structure:
+web-deign-project-group-30/
+│
+├── css/
+│   ├── main.css
+│   ├── profile.css
+│   └── trending.css
+├── data/
+│   ├── action.json
+│   ├── all-movie.json
+|   ├── classics.json
+|   ├── comedy.json
+|   ├── detailed.json
+|   ├── documentary.json
+|   ├── horror.json
+|   ├── movie.json
+|   ├── romance.json
+|   ├── science-fiction.json
+|   └── trending.json
+│
+├── img/
+│   
+│
+├── js/
+|   ├── action.js
+│   ├── allmovie.js
+|   ├── avatarapi.js
+|   ├── classics.js
+|   ├── comedy.js
+|   ├── detailed.js
+|   ├── documentary.js
+|   ├── favourite.js
+|   ├── horror.js
+|   ├── main.js
+|   ├── profile.js
+|   ├── romance.js
+|   ├── science-fiction.js
+|   ├── secluded.js
+|   └── trending.js
+
+├── detailed-movie-review-page.html
+├
+└── 
 
 
 
