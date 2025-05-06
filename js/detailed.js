@@ -102,23 +102,21 @@ function buildDetailedPage(movie) {
 
 // Fetch JSON and build page
 window.addEventListener("DOMContentLoaded", () => {
-  fetch("detailed.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const movieId = getMovieIdFromURL();
-      const movie = data.details.find((m) => m.id === movieId);
-      if (movie) {
-        buildDetailedPage(movie);
-      } else {
-        document.getElementById("detailed-movie").innerHTML =
-          "<p>Movie not found</p>";
-      }
-    })
-    .catch((err) => {
-      console.error("Error fetching movie data:", err);
-      document.getElementById("detailed-movie").innerHTML =
-        "<p>Error loading movie data</p>";
-    });
+    fetch('detailed.json')
+        .then(response => response.json())
+        .then(data => {
+            const movieId = getMovieIdFromURL();
+            const movie = data.details.find(m => m.id === movieId);
+            if (movie) {
+                buildDetailedPage(movie);
+            } else {
+                document.getElementById("detailed-movie").innerHTML = "<p>Movie not found</p>";
+            }
+        })
+        .catch(err => {
+            console.error("Error fetching movie data:", err);
+            document.getElementById("detailed-movie").innerHTML = "<p>Error loading movie data</p>";
+        });
 });
 
 //loads saved reviews from the localStorage and shows them

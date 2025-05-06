@@ -34,14 +34,34 @@
   </header>
 
   <main>
-
     <div class="trending-main-picture-container">
       <img class="trending-main-picture" src="img/Science-fiction.jpg" alt="Trending" />
       <div class="main-heading-trending">ALL MOVIES</div>
     </div>
   </div> 
+</div> 
+<div class="filter-toggle" onclick="toggleFilters()">&#127871;</div>
+<div id="filter-container">
+  <div id="star-filter">
+    <span data-value="1">★</span>
+    <span data-value="2">★</span>
+    <span data-value="3">★</span>
+    <span data-value="4">★</span>
+    <span data-value="5">★</span>
+  </div>
+
+  <label for="date-filter">Sort by Date:</label>
+  <select id="date-filter">
+    <option value="all">Default</option>
+    <option value="newest">Newest First</option>
+    <option value="oldest">Oldest First</option>
+  </select>
+</div>
+
 <section id="all-movie-sections-container"></section>
+
   </main>
+  
   <footer>
     <p>© 2025 Velour. All rights reserved.</p>
   </footer>
