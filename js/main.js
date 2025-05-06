@@ -1,7 +1,7 @@
 fetch("movie.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data); // Check if the data is loaded correctly
+    console.log(data);
 
     const movieList = document.getElementById("movie-list");
     if (movieList) {
@@ -19,8 +19,8 @@ fetch("movie.json")
       });
     }
 
-  }
-}
+  })
+  .catch((error) => console.error("Error loading movies:", error));
 
 //sign in
 function closeModal() {
@@ -36,8 +36,7 @@ function signin() {
     localStorage.setItem("username", name);
 
     const modal = document.getElementById("modal");
-    if (modal) modal.remove(); // Completely remove modal from the DOM
-
+    if (modal) modal.remove();
     alert("Successfully signed in");
   } else {
     alert("Please fill in both fields");
@@ -49,7 +48,7 @@ function checkSignin() {
   const modal = document.getElementById("modal");
 
   if (isSignedIn === "true" && modal) {
-    modal.remove(); // Remove it on load if already signed in
+    modal.remove();
   }
 }
 
@@ -57,10 +56,8 @@ window.addEventListener("DOMContentLoaded", function () {
   checkSignin();
 });
 
+
 /*Source/Refrences
 Read More Button:
 https://www.w3schools.com/howto/howto_js_read_more.asp*/
-
-  })
-  .catch((error) => console.error("Error loading movies:", error));
 
