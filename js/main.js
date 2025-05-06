@@ -1,11 +1,11 @@
 fetch("movie.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data); // Check if the data is loaded correctly
+    console.log(data); 
 
     const movieList = document.getElementById("movie-list");
     if (movieList) {
-      console.log("movieList element found"); // Check if the element exists
+      console.log("movieList element found"); 
       data.movies.forEach((movie) => {
         const movieCard = document.createElement("div");
         movieCard.classList.add("movie-card");

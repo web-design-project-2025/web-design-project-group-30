@@ -19,7 +19,6 @@
 
 .movie-card :hover{
   transform: scale(1.2);
-
 }
 
 .movie-card {
@@ -92,17 +91,29 @@ h3{
 .rating-home2{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
+  padding: 10px 0;
+  
 }
 .rating-home2 h4{
-  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20%;
 }
 .rating-home2 h5{
+  font-size: 1rem;
   margin: 5px 0;
+  
 }
 .rating-home2 span{
+  font-weight: normal;
+
+}
+.rating-score{
+  font-size: 9rem;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 
