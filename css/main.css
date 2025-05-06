@@ -407,19 +407,18 @@ body {
 }
  
 /*HEART ICON*/
-.favourite-button {
-  color: #793E98;
- background-color: transparent;
- outline: none;
- border: none;
+.favourite-button{
+  background-color: transparent;
+  border: none;
+}
+.favourite-button img {
+  width: 24px;
+  height: 24px;
 }
 
-.favourite-button.filled {
- color: #793E98;
- fill: #793E98;
- background-color: white;
- outline: none;
- border: none;
+.favourite-button.filled img {
+  width: 24px;
+  height: 24px;
 }
 
 .favourite-items{

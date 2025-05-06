@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
      
          const movieId = favButton.dataset.id;
          const movieTitle = favButton.dataset.title;
-         const movieImage = favButton.dataset.poster;
+         const moviePoster = favButton.dataset.poster;
      
-         toggleFavourite(movieId, movieTitle, movieImage);
+         toggleFavourite(movieId, movieTitle, moviePoster);
        });
      });
 
@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
     favContainer.innerHTML = "";
   
     favourites.forEach((movie) => {
-        const movieImage = `img/${movie.poster}`;
+        const moviePoster = `img/${movie.poster}`;
       favContainer.innerHTML += `
         <div class="favourite-item">
-          <img src="img/${movie.poster}" alt="${movie.title}" />
+          <img src="/img/${movie.poster}" alt="${movie.title}" />
         </div>
       `;
     });
@@ -68,20 +68,23 @@ document.addEventListener("DOMContentLoaded", () => {
   function updateFavouriteIcons() {
     const buttons = document.querySelectorAll(".favourite-button");
     const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
-
   
     buttons.forEach((button) => {
       const id = button.dataset.id;
       const isFav = favourites.find((movie) => movie.id === id);
+      const img = button.querySelector("img");
   
-      if (isFav) {
-        button.classList.add("filled");
-
-      } else {
-        button.classList.remove("filled");
-
+      if (img) {
+        if (isFav) {
+          img.src = "img/favourite-filled.png";
+          button.classList.add("filled");
+        } else {
+          img.src = "img/favourite-unfilled.png";
+          button.classList.remove("filled");
+        }
       }
     });
   }
+  
   
   

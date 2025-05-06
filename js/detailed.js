@@ -28,13 +28,11 @@ function buildDetailedPage(movie) {
         </header>
         <main>
             <div class="movie-header">
-                <img class="movie-poster-detailed-review-page" src="${
-                  movie.poster
-                }" alt="${movie.title}">
+                <img class="movie-poster-detailed-review-page" src="${movie.poster}" alt="${movie.title}">
                 <div class="movie-information">
                     <div class="movie-titel-heart">
                         <h1>${movie.title}</h1>
-                        <button class="favourite-button material-symbols-outlined" data-id="${movie.id}" data-title="${movie.title}" data-image="${movie.poster}">favorite</button>
+                        <button class="favourite-button" data-id="${movie.id}" data-title="${movie.title}" data-poster="${movie.poster}"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
                     </div>
                     <div class="star-rating">${movie.rating}</div>
                 </div>
