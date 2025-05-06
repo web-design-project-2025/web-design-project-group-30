@@ -211,4 +211,5 @@ document.addEventListener("DOMContentLoaded", () => {
 /* Sources/References:
 1. MDN Web Docs - Loops and Iteration: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
 2. YouTube - JavaScript Crash Course For Beginners: https://www.youtube.com/watch?v=hdI2bqOjy3c
+3. MDN Web Docs - Array.filter method: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 */
