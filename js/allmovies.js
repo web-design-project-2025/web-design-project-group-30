@@ -35,6 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       setTimeout(setupScrollButtons, 100);
+
+      //star rating + hover
       handleStars(applyFilters);
 
       if (dateFilter) {
@@ -48,14 +50,19 @@ document.addEventListener("DOMContentLoaded", () => {
   function applyFilters(selectedRating = activeRating) {
     activeRating = selectedRating;
 
+    //filter the movies by selected star rating
     let filtered = allMovies.filter((movie) => {
       const hasValidDate =
         movie.releaseDate && !isNaN(Date.parse(movie.releaseDate));
+
+      //show all movies if no rating is picked otherwise match the rating
       const matchesRating =
         activeRating === null || movie.rating === activeRating;
+
       return hasValidDate && matchesRating;
     });
 
+    //sort movies by date if a date if filter selected
     if (activeDateSort === "newest") {
       filtered.sort(
         (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
@@ -66,8 +73,10 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     }
 
+    //Clear current movie display
     allMoviesContainer.innerHTML = "";
 
+    //filtered movies in sections of 10
     const sectionSize = 10;
     for (let i = 0; i < filtered.length; i += sectionSize) {
       const chunk = filtered.slice(i, i + sectionSize);
@@ -84,23 +93,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
+      //get rating value from star eleemt
       const rating = parseInt(star.getAttribute("data-value"));
 
       star.addEventListener("click", () => {
+        //check if the clicked star is already selected
         const isActive = activeRating === rating;
+
+        //if same rating, unselect
         activeRating = isActive ? null : rating;
 
+        //highlight stars when selected
         starSpans.forEach((s, i) => {
           s.classList.toggle("active", !isActive && i < rating);
         });
 
+        //apply filter w updated rating
         applyFilterFn(activeRating);
       });
 
+      //hover effect
       star.addEventListener("mouseover", () => {
         starSpans.forEach((s, i) => s.classList.toggle("hover", i < rating));
       });
 
+      //remove hover effect
       star.addEventListener("mouseout", () => {
         starSpans.forEach((s) => s.classList.remove("hover"));
       });
