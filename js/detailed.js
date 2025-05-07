@@ -104,7 +104,7 @@ function buildDetailedPage(movie) {
 
 // Fetch JSON and build page
 window.addEventListener("DOMContentLoaded", () => {
-  fetch("data/detailed.json") // Ensure this file is in your project directory
+  fetch("data/detailed.json")
     .then((response) => response.json())
     .then((data) => {
       const movieId = getMovieIdFromURL();
