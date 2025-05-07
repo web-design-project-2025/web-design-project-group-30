@@ -46,7 +46,7 @@
       "cast": [
         {
           "name": "Tom Holland as Peter Parker",
-          "image": "img/tom_holland.jpeg"
+          "image": "img/tom_holland.webp"
         },
         {
           "name": "Zendaya as MJ",
@@ -146,7 +146,7 @@
         },
         {
           "name": "Kate McKinnon",
-          "image": "img/kate_mckinnon.jpeg"
+          "image": "img/kate_mckinnon.webp"
         },
         {
           "name": "Simu Liu",
@@ -230,7 +230,7 @@
         },
         {
           "name": "Kate Winslet",
-          "image": "img/kate_winslet.jpeg"
+          "image": "img/kate_winslet.webp"
         },
         {
           "name": "Stephen Lang",
@@ -264,7 +264,7 @@
         },
         {
           "name": "Hiroyuki Sanada",
-          "image": "img/hiroyuki_sanada.jpeg"
+          "image": "img/hiroyuki_sanada.webp"
         },
         {
           "name": "Bill Skarsgård",
@@ -298,7 +298,7 @@
         },
         {
           "name": "Zoë Kravitz as Selina Kyle",
-          "image": "img/zoe_kravitz.jpeg"
+          "image": "img/zoe_kravitz.webp"
         },
         {
           "name": "Paul Dano as The Riddler",
@@ -374,11 +374,11 @@
         },
         {
           "name": "Tom Holland",
-          "image": "img/tom_holland.jpeg"
+          "image": "img/tom_holland.webp"
         },
         {
           "name": "Lily Collins",
-          "image": "img/lily_collins.jpeg"
+          "image": "img/lily_collins.webp"
         },
         {
           "name": "Henry Golding",
@@ -438,7 +438,7 @@
       "cast": [
         {
           "name": "Chris Hemsworth",
-          "image": "img/chris_hemsworth.jpeg"
+          "image": "img/chris_hemsworth.webp"
         },
         {
           "name": "Alicia Vikander",
@@ -514,7 +514,7 @@
         },
         {
           "name": "Emma Mackey",
-          "image": "img/emma_mackey.jpeg"
+          "image": "img/emma_mackey.avif"
         },
         {
           "name": "Henry Cavill",
@@ -680,7 +680,7 @@
         },
         {
           "name": "Chris Hemsworth",
-          "image": "img/chris_hemsworth.jpeg"
+          "image": "img/chris_hemsworth.webp"
         },
         {
           "name": "Zazie Beetz",
@@ -774,7 +774,7 @@
       "cast": [
         {
           "name": "Chris Hemsworth as Ethan Hunt",
-          "image": "img/chris_hemsworth.jpeg"
+          "image": "img/chris_hemsworth.webp"
         },
         {
           "name": "Margot Robbie as Sophie Blake",
@@ -804,7 +804,7 @@
       "cast": [
         {
           "name": "Tom Holland as Alex Carter",
-          "image": "img/tom_holland.jpeg"
+          "image": "img/tom_holland.webp"
         },
         {
           "name": "Zendaya as Jessica Lee",
@@ -834,7 +834,7 @@
       "cast": [
         {
           "name": "Chris Hemsworth as Tyler Rake",
-          "image": "img/chris_hemsworth.jpeg"
+          "image": "img/chris_hemsworth.webp"
         },
         {
           "name": "Golshifteh Farahani as Nik",
@@ -4074,15 +4074,15 @@
 "cast": [
   {
     "name": "Leonardo DiCaprio",
-    "image": "img/leonardo_dicaprio.jpg"
+    "image": "img/leonardo_dicaprio.jepg"
   },
   {
     "name": "Kate Winslet",
-    "image": "img/kate_winslet.jpg"
+    "image": "img/kate_winslet.jepg"
   },
   {
     "name": "Billy Zane",
-    "image": "img/billy_zane.jpg"
+    "image": "img/billy_zane.jepg"
   }
 ],
       "first-name": "Isabella Rossi",
@@ -4104,15 +4104,15 @@
       "cast": [
   {
     "name": "Mandy Moore",
-    "image": "img/mandy_moore.jpg"
+    "image": "img/mandy_moore.jepg"
   },
   {
     "name": "Shane West",
-    "image": "img/shane_west.jpg"
+    "image": "img/shane_west.jepg"
   },
   {
     "name": "Peter Coyote",
-    "image": "img/peter_coyote.jpg"
+    "image": "img/peter_coyote.jepg"
   }
 ],
       "first-name": "Grace Kim",
@@ -4134,15 +4134,15 @@
       "cast": [
   {
     "name": "Emilia Clarke",
-    "image": "img/emilia_clarke.jpg"
+    "image": "img/emilia_clarke.jepg"
   },
   {
     "name": "Sam Claflin",
-    "image": "img/sam_claflin.jpg"
+    "image": "img/sam_claflin.jepg"
   },
   {
     "name": "Janet McTeer",
-    "image": "img/janet_mcteer.jpg"
+    "image": "img/janet_mcteer.jepg"
   }
 ],
       "first-name": "Chloe Anderson",
@@ -4164,15 +4164,15 @@
       "cast": [
   {
     "name": "Rachel McAdams",
-    "image": "img/rachel_mcadams.jpg"
+    "image": "img/rachel_mcadams.jepg"
   },
   {
     "name": "Channing Tatum",
-    "image": "img/channing_tatum.jpg"
+    "image": "img/channing_tatum.jepg"
   },
   {
     "name": "Sam Neill",
-    "image": "img/sam_neill.jpg"
+    "image": "img/sam_neill.jepg"
   }
 ],
       "first-name": "Natalie Brooks",
@@ -4194,15 +4194,15 @@
 "cast": [
   {
     "name": "Channing Tatum",
-    "image": "img/channing_tatum.jpg"
+    "image": "img/channing_tatum.jepg"
   },
   {
     "name": "Amanda Seyfried",
-    "image": "img/amanda_seyfried.jpg"
+    "image": "img/amanda_seyfried.jepg"
   },
   {
     "name": "Richard Jenkins",
-    "image": "img/richard_jenkins.jpg"
+    "image": "img/richard_jenkins.jepg"
   }
 ],
       "first-name": "Ella Martinez",
@@ -4224,15 +4224,15 @@
       "cast": [
   {
     "name": "Constance Wu",
-    "image": "img/constance_wu.jpg"
+    "image": "img/constance_wu.jepg"
   },
   {
     "name": "Henry Golding",
-    "image": "img/henry_golding.jpg"
+    "image": "img/henry_golding.jepg"
   },
   {
     "name": "Michelle Yeoh",
-    "image": "img/michelle_yeoh.jpg"
+    "image": "img/michelle_yeoh.jepg"
   }
 ],
       "first-name": "Lily Nguyen",
@@ -4254,15 +4254,15 @@
       "cast": [
   {
     "name": "Julia Roberts",
-    "image": "img/julia_roberts.jpg"
+    "image": "img/julia_roberts.jepg"
   },
   {
     "name": "Hugh Grant",
-    "image": "img/hugh_grant.jpg"
+    "image": "img/hugh_grant.jepg"
   },
   {
     "name": "Rhys Ifans",
-    "image": "img/rhys_ifans.jpg"
+    "image": "img/rhys_ifans.jepg"
   }
 ],
       "first-name": "Emily Rose",
@@ -4284,15 +4284,15 @@
       "cast": [
   {
     "name": "Joseph Gordon-Levitt",
-    "image": "img/joseph_gordon_levitt.jpg"
+    "image": "img/joseph_gordon_levitt.jepg"
   },
   {
     "name": "Zooey Deschanel",
-    "image": "img/zooey_deschanel.jpg"
+    "image": "img/zooey_deschanel.jepg"
   },
   {
     "name": "Geoffrey Arend",
-    "image": "img/geoffrey_arend.jpg"
+    "image": "img/geoffrey_arend.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -4314,15 +4314,15 @@
       "cast": [
   {
     "name": "Emilia Clarke",
-    "image": "img/emilia_clarke.jpg"
+    "image": "img/emilia_clarke.jepg"
   },
   {
     "name": "Sam Claflin",
-    "image": "img/sam_claflin.jpg"
+    "image": "img/sam_claflin.jepg"
   },
   {
     "name": "Janet McTeer",
-    "image": "img/janet_mcteer.jpg"
+    "image": "img/janet_mcteer.jepg"
   }
 ],
       "first-name": "Jessica Adams",
@@ -4344,15 +4344,15 @@
       "cast": [
   {
     "name": "Shailene Woodley",
-    "image": "img/shailene_woodley.jpg"
+    "image": "img/shailene_woodley.jepg"
   },
   {
     "name": "Ansel Elgort",
-    "image": "img/ansel_elgort.jpg"
+    "image": "img/ansel_elgort.jepg"
   },
   {
     "name": "Laura Dern",
-    "image": "img/laura_dern.jpg"
+    "image": "img/laura_dern.jepg"
   }
 ],
       "first-name": "Tina Williams",
@@ -4374,15 +4374,15 @@
       "cast": [
   {
     "name": "Domhnall Gleeson",
-    "image": "img/domhnall_gleeson.jpg"
+    "image": "img/domhnall_gleeson.jepg"
   },
   {
     "name": "Rachel McAdams",
-    "image": "img/rachel_mcadams.jpg"
+    "image": "img/rachel_mcadams.jepg"
   },
   {
     "name": "Bill Nighy",
-    "image": "img/bill_nighy.jpg"
+    "image": "img/bill_nighy.jepg"
   }
 ],
       "first-name": "Emily Rose",
@@ -4404,15 +4404,15 @@
       "cast": [
   {
     "name": "Rachel McAdams",
-    "image": "img/rachel_mcadams.jpg"
+    "image": "img/rachel_mcadams.jepg"
   },
   {
     "name": "Channing Tatum",
-    "image": "img/channing_tatum.jpg"
+    "image": "img/channing_tatum.jepg"
   },
   {
     "name": "Sam Neill",
-    "image": "img/sam_neill.jpg"
+    "image": "img/sam_neill.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -4434,15 +4434,15 @@
       "cast": [
   {
     "name": "Channing Tatum",
-    "image": "img/channing_tatum.jpg"
+    "image": "img/channing_tatum.jepg"
   },
   {
     "name": "Amanda Seyfried",
-    "image": "img/amanda_seyfried.jpg"
+    "image": "img/amanda_seyfried.jepg"
   },
   {
     "name": "Richard Jenkins",
-    "image": "img/richard_jenkins.jpg"
+    "image": "img/richard_jenkins.jepg"
   }
 ],
       "first-name": "Jessica Adams",
@@ -4464,15 +4464,15 @@
       "cast": [
   {
     "name": "Julianne Hough",
-    "image": "img/julianne_hough.jpg"
+    "image": "img/julianne_hough.jepg"
   },
   {
     "name": "Josh Duhamel",
-    "image": "img/josh_duhamel.jpg"
+    "image": "img/josh_duhamel.jepg"
   },
   {
     "name": "Cobie Smulders",
-    "image": "img/cobie_smulders.jpg"
+    "image": "img/cobie_smulders.jepg"
   }
 ],
       "first-name": "Tina Williams",
@@ -4494,15 +4494,15 @@
 "cast": [
   {
     "name": "Lana Condor",
-    "image": "img/lana_condor.jpg"
+    "image": "img/lana_condor.jepg"
   },
   {
     "name": "Noah Centineo",
-    "image": "img/noah_centineo.jpg"
+    "image": "img/noah_centineo.jepg"
   },
   {
     "name": "Janel Parrish",
-    "image": "img/janel_parrish.jpg"
+    "image": "img/janel_parrish.jepg"
   }
 ],
       "first-name": "Emily Rose",
@@ -4524,15 +4524,15 @@
       "cast": [
   {
     "name": "Lily Collins",
-    "image": "img/lily_collins.jpg"
+    "image": "img/lily_collins.webp"
   },
   {
     "name": "Sam Claflin",
-    "image": "img/sam_claflin.jpg"
+    "image": "img/sam_claflin.jepg"
   },
   {
     "name": "Christian Cooke",
-    "image": "img/christian_cooke.jpg"
+    "image": "img/christian_cooke.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -4554,15 +4554,15 @@
       "cast": [
   {
     "name": "Constance Wu",
-    "image": "img/constance_wu.jpg"
+    "image": "img/constance_wu.jepg"
   },
   {
     "name": "Henry Golding",
-    "image": "img/henry_golding.jpg"
+    "image": "img/henry_golding.jepg"
   },
   {
     "name": "Michelle Yeoh",
-    "image": "img/michelle_yeoh.jpg"
+    "image": "img/michelle_yeoh.jepg"
   }
 ],
       "first-name": "Tina Williams",
@@ -4584,15 +4584,15 @@
 "cast": [
   {
     "name": "Keira Knightley",
-    "image": "img/keira_knightley.jpg"
+    "image": "img/keira_knightley.jepg"
   },
   {
     "name": "Matthew Macfadyen",
-    "image": "img/matthew_macfadyen.jpg"
+    "image": "img/matthew_macfadyen.jepg"
   },
   {
     "name": "Rosamund Pike",
-    "image": "img/rosamund_pike.jpg"
+    "image": "img/rosamund_pike.jepg"
   }
 ],
       "first-name": "Emily Rose",
@@ -4614,15 +4614,15 @@
 "cast": [
   {
     "name": "Zac Efron",
-    "image": "img/zac_efron.jpg"
+    "image": "img/zac_efron.jepg"
   },
   {
     "name": "Taylor Schilling",
-    "image": "img/taylor_schilling.jpg"
+    "image": "img/taylor_schilling.jepg"
   },
   {
     "name": "Blythe Danner",
-    "image": "img/blythe_danner.jpg"
+    "image": "img/blythe_danner.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -4644,15 +4644,15 @@
       "cast": [
   {
     "name": "Mandy Moore",
-    "image": "img/mandy_moore.jpg"
+    "image": "img/mandy_moore.jepg"
   },
   {
     "name": "Shane West",
-    "image": "img/shane_west.jpg"
+    "image": "img/shane_west.jepg"
   },
   {
     "name": "Peter Coyote",
-    "image": "img/peter_coyote.jpg"
+    "image": "img/peter_coyote.jepg"
   }
 ],
       "first-name": "Jessica Adams",
@@ -4674,15 +4674,15 @@
       "cast": [
   {
     "name": "Kristen Stewart",
-    "image": "img/kristen_stewart.jpg"
+    "image": "img/kristen_stewart.jepg"
   },
   {
     "name": "Robert Pattinson",
-    "image": "img/robert_pattinson.jpg"
+    "image": "img/robert_pattinson.jepg"
   },
   {
     "name": "Taylor Lautner",
-    "image": "img/taylor_lautner.jpg"
+    "image": "img/taylor_lautner.jepg"
   }
 ],
       "first-name": "Tina Williams",
@@ -4704,15 +4704,15 @@
       "cast": [
   {
     "name": "Katherine Heigl",
-    "image": "img/katherine_heigl.jpg"
+    "image": "img/katherine_heigl.jepg"
   },
   {
     "name": "Josh Duhamel",
-    "image": "img/josh_duhamel.jpg"
+    "image": "img/josh_duhamel.jepg"
   },
   {
     "name": "Josh Lucas",
-    "image": "img/josh_lucas.jpg"
+    "image": "img/josh_lucas.jepg"
   }
 ],
       "first-name": "Emily Rose",
@@ -4734,15 +4734,15 @@
       "cast": [
   {
     "name": "Scott Eastwood",
-    "image": "img/scott_eastwood.jpg"
+    "image": "img/scott_eastwood.jepg"
   },
   {
     "name": "Britt Robertson",
-    "image": "img/britt_robertson.jpg"
+    "image": "img/britt_robertson.jepg"
   },
   {
     "name": "Alan Alda",
-    "image": "img/alan_alda.jpg"
+    "image": "img/alan_alda.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -4764,15 +4764,15 @@
 "cast": [
   {
     "name": "Amanda Seyfried",
-    "image": "img/amanda_seyfried.jpg"
+    "image": "img/amanda_seyfried.jepg"
   },
   {
     "name": "Gael García Bernal",
-    "image": "img/gael_garcia_bernal.jpg"
+    "image": "img/gael_garcia_bernal.jepg"
   },
   {
     "name": "Vanessa Redgrave",
-    "image": "img/vanessa_redgrave.jpg"
+    "image": "img/vanessa_redgrave.jepg"
   }
 ],
       "first-name": "Jessica Adams",
@@ -4794,15 +4794,15 @@
       "cast": [
   {
     "name": "Bella Thorne",
-    "image": "img/bella_thorne.jpg"
+    "image": "img/bella_thorne.jepg"
   },
   {
     "name": "Patrick Schwarzenegger",
-    "image": "img/patrick_schwarzenegger.jpg"
+    "image": "img/patrick_schwarzenegger.jepg"
   },
   {
     "name": "Rob Riggle",
-    "image": "img/rob_riggle.jpg"
+    "image": "img/rob_riggle.jepg"
   }
 ],
       "first-name": "Tina Williams",
@@ -4824,15 +4824,15 @@
       "cast": [
   {
     "name": "Alex Pettyfer",
-    "image": "img/alex_pettyfer.jpg"
+    "image": "img/alex_pettyfer.jepg"
   },
   {
     "name": "Gabriella Wilde",
-    "image": "img/gabriella_wilde.jpg"
+    "image": "img/gabriella_wilde.jepg"
   },
   {
     "name": "Bruce Greenwood",
-    "image": "img/bruce_greenwood.jpg"
+    "image": "img/bruce_greenwood.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -4854,15 +4854,15 @@
       "cast": [
   {
     "name": "Tom Hardy",
-    "image": "img/tom_hardy.jpg"
+    "image": "img/tom_hardy.jepg"
   },
   {
     "name": "Charlize Theron",
-    "image": "img/charlize_theron.jpg"
+    "image": "img/charlize_theron.jepg"
   },
   {
     "name": "Nicholas Hoult",
-    "image": "img/nicholas_hoult.jpg"
+    "image": "img/nicholas_hoult.jepg"
   }
 ],
       "first-name": "Alex Johnson",
@@ -4884,15 +4884,15 @@
       "cast": [
   {
     "name": "Keanu Reeves",
-    "image": "img/keanu_reeves.jpg"
+    "image": "img/keanu_reeves.jepg"
   },
   {
     "name": "Michael Nyqvist",
-    "image": "img/michael_nyqvist.jpg"
+    "image": "img/michael_nyqvist.jepg"
   },
   {
     "name": "Alfie Allen",
-    "image": "img/alfie_allen.jpg"
+    "image": "img/alfie_allen.jepg"
   }
 ],
       "first-name": "David Smith",
@@ -4914,15 +4914,15 @@
       "cast": [
   {
     "name": "Leonardo DiCaprio",
-    "image": "img/leonardo_dicaprio.jpg"
+    "image": "img/leonardo_dicaprio.jepg"
   },
   {
     "name": "Joseph Gordon-Levitt",
-    "image": "img/joseph_gordon_levitt.jpg"
+    "image": "img/joseph_gordon_levitt.jepg"
   },
   {
     "name": "Ellen Page",
-    "image": "img/ellen_page.jpg"
+    "image": "img/ellen_page.jepg"
   }
 ],
       "first-name": "Michael Brown",
@@ -4944,15 +4944,15 @@
       "cast": [
   {
     "name": "Christian Bale",
-    "image": "img/christian_bale.jpg"
+    "image": "img/christian_bale.jepg"
   },
   {
     "name": "Heath Ledger",
-    "image": "img/heath_ledger.jpg"
+    "image": "img/heath_ledger.jepg"
   },
   {
     "name": "Aaron Eckhart",
-    "image": "img/aaron_eckhart.jpg"
+    "image": "img/aaron_eckhart.jepg"
   }
 ],
       "first-name": "Emily Davis",
@@ -4974,15 +4974,15 @@
       "cast": [
   {
     "name": "Russell Crowe",
-    "image": "img/russell_crowe.jpg"
+    "image": "img/russell_crowe.jepg"
   },
   {
     "name": "Joaquin Phoenix",
-    "image": "img/joaquin_phoenix.jpg"
+    "image": "img/joaquin_phoenix.jepg"
   },
   {
     "name": "Connie Nielsen",
-    "image": "img/connie_nielsen.jpg"
+    "image": "img/connie_nielsen.jepg"
   }
 ],
       "first-name": "Sarah Thompson",
@@ -5004,15 +5004,15 @@
       "cast": [
   {
     "name": "Liam Neeson",
-    "image": "img/liam_neeson.jpg"
+    "image": "img/liam_neeson.jepg"
   },
   {
     "name": "Maggie Grace",
-    "image": "img/maggie_grace.jpg"
+    "image": "img/maggie_grace.jepg"
   },
   {
     "name": "Famke Janssen",
-    "image": "img/famke_janssen.jpg"
+    "image": "img/famke_janssen.jepg"
   }
 ],
       "first-name": "Anthony Clark",
@@ -5034,15 +5034,15 @@
       "cast": [
   {
     "name": "Matt Damon",
-    "image": "img/matt_damon.jpg"
+    "image": "img/matt_damon.jepg"
   },
   {
     "name": "Franka Potente",
-    "image": "img/franka_potente.jpg"
+    "image": "img/franka_potente.jepg"
   },
   {
     "name": "Chris Cooper",
-    "image": "img/chris_cooper.jpg"
+    "image": "img/chris_cooper.jepg"
   }
 ],
       "first-name": "Karen Lewis",
@@ -5064,15 +5064,15 @@
 "cast": [
   {
     "name": "Tom Cruise",
-    "image": "img/tom_cruise.jpg"
+    "image": "img/tom_cruise.jepg"
   },
   {
     "name": "Emily Blunt",
-    "image": "img/emily_blunt.jpg"
+    "image": "img/emily_blunt.jepg"
   },
   {
     "name": "Bill Paxton",
-    "image": "img/bill_paxton.jpg"
+    "image": "img/bill_paxton.jepg"
   }
 ],
       "first-name": "Laura Bennett",
@@ -5094,15 +5094,15 @@
 "cast": [
   {
     "name": "Bruce Willis",
-    "image": "img/bruce_willis.jpg"
+    "image": "img/bruce_willis.jepg"
   },
   {
     "name": "Alan Rickman",
-    "image": "img/alan_rickman.jpg"
+    "image": "img/alan_rickman.jepg"
   },
   {
     "name": "Bonnie Bedelia",
-    "image": "img/bonnie_bedelia.jpg"
+    "image": "img/bonnie_bedelia.jepg"
   }
 ],
       "first-name": "Steven Moore",
@@ -5124,15 +5124,15 @@
 "cast": [
   {
     "name": "Tom Cruise",
-    "image": "img/tom_cruise.jpg"
+    "image": "img/tom_cruise.jepg"
   },
   {
     "name": "Henry Cavill",
-    "image": "img/henry_cavill.jpg"
+    "image": "img/henry_cavill.jepg"
   },
   {
     "name": "Ving Rhames",
-    "image": "img/ving_rhames.jpg"
+    "image": "img/ving_rhames.jepg"
   }
 ],
       "first-name": "Olivia Turner",
@@ -5154,15 +5154,15 @@
       "cast": [
   {
     "name": "Denzel Washington",
-    "image": "img/denzel_washington.jpg"
+    "image": "img/denzel_washington.jepg"
   },
   {
     "name": "Marton Csokas",
-    "image": "img/marton_csokas.jpg"
+    "image": "img/marton_csokas.jepg"
   },
   {
     "name": "Chloë Grace Moretz",
-    "image": "img/chloe_grace_moretz.jpg"
+    "image": "img/chloe_grace_moretz.jepg"
   }
 ],
       "first-name": "Alex Johnson",
@@ -5184,15 +5184,15 @@
       "cast": [
   {
     "name": "Chris Hemsworth",
-    "image": "img/chris_hemsworth.jpg"
+    "image": "img/chris_hemsworth.jepg"
   },
   {
     "name": "Rudhraksh Jaiswal",
-    "image": "img/rudhraksh_jaiswal.jpg"
+    "image": "img/rudhraksh_jaiswal.jepg"
   },
   {
     "name": "Randeep Hooda",
-    "image": "img/randeep_hooda.jpg"
+    "image": "img/randeep_hooda.jepg"
   }
 ],
       "first-name": "David Smith",
@@ -5214,15 +5214,15 @@
       "cast": [
   {
     "name": "Charlize Theron",
-    "image": "img/charlize_theron.jpg"
+    "image": "img/charlize_theron.jepg"
   },
   {
     "name": "KiKi Layne",
-    "image": "img/kiki_layne.jpg"
+    "image": "img/kiki_layne.jepg"
   },
   {
     "name": "Matthias Schoenaerts",
-    "image": "img/matthias_schoenaerts.jpg"
+    "image": "img/matthias_schoenaerts.jepg"
   }
 ],
       "first-name": "Michael Brown",
@@ -5244,15 +5244,15 @@
       "cast": [
   {
     "name": "Charlize Theron",
-    "image": "img/charlize_theron.jpg"
+    "image": "img/charlize_theron.jepg"
   },
   {
     "name": "James McAvoy",
-    "image": "img/james_mcavoy.jpg"
+    "image": "img/james_mcavoy.jepg"
   },
   {
     "name": "John Goodman",
-    "image": "img/john_goodman.jpg"
+    "image": "img/john_goodman.jepg"
   }
 ],
       "first-name": "Emily Davis",
@@ -5274,15 +5274,15 @@
       "cast": [
   {
     "name": "John David Washington",
-    "image": "img/john_david_washington.jpg"
+    "image": "img/john_david_washington.jepg"
   },
   {
     "name": "Robert Pattinson",
-    "image": "img/robert_pattinson.jpg"
+    "image": "img/robert_pattinson.jepg"
   },
   {
     "name": "Elizabeth Debicki",
-    "image": "img/elizabeth_debicki.jpg"
+    "image": "img/elizabeth_debicki.jepg"
   }
 ],
       "first-name": "Sarah Thompson",
@@ -5304,15 +5304,15 @@
 "cast": [
   {
     "name": "Ansel Elgort",
-    "image": "img/ansel_elgort.jpg"
+    "image": "img/ansel_elgort.jepg"
   },
   {
     "name": "Kevin Spacey",
-    "image": "img/kevin_spacey.jpg"
+    "image": "img/kevin_spacey.jepg"
   },
   {
     "name": "Lily James",
-    "image": "img/lily_james.jpg"
+    "image": "img/lily_james.jepg"
   }
 ],
       "first-name": "Anthony Clark",
@@ -5334,15 +5334,15 @@
       "cast": [
   {
     "name": "Hugh Jackman",
-    "image": "img/hugh_jackman.jpg"
+    "image": "img/hugh_jackman.jepg"
   },
   {
     "name": "Patrick Stewart",
-    "image": "img/patrick_stewart.jpg"
+    "image": "img/patrick_stewart.jepg"
   },
   {
     "name": "Dafne Keen",
-    "image": "img/dafne_keen.jpg"
+    "image": "img/dafne_keen.jepg"
   }
 ],
       "first-name": "Karen Lewis",
@@ -5364,15 +5364,15 @@
 "cast": [
   {
     "name": "Scarlett Johansson",
-    "image": "img/scarlett_johansson.jpg"
+    "image": "img/scarlett_johansson.jepg"
   },
   {
     "name": "Florence Pugh",
-    "image": "img/florence_pugh.jpg"
+    "image": "img/florence_pugh.jepg"
   },
   {
     "name": "David Harbour",
-    "image": "img/david_harbour.jpg"
+    "image": "img/david_harbour.jepg"
   }
 ],
       "first-name": "Olivia Turner",
@@ -5394,15 +5394,15 @@
 "cast": [
   {
     "name": "Daniel Craig",
-    "image": "img/daniel_craig.jpg"
+    "image": "img/daniel_craig.jepg"
   },
   {
     "name": "Rami Malek",
-    "image": "img/rami_malek.jpg"
+    "image": "img/rami_malek.jepg"
   },
   {
     "name": "Léa Seydoux",
-    "image": "img/lea_seydoux.jpg"
+    "image": "img/lea_seydoux.jepg"
   }
 ],
       "first-name": "Steven Moore",
@@ -5424,15 +5424,15 @@
 "cast": [
   {
     "name": "Ryan Gosling",
-    "image": "img/ryan_gosling.jpg"
+    "image": "img/ryan_gosling.jepg"
   },
   {
     "name": "Chris Evans",
-    "image": "img/chris_evans.jpg"
+    "image": "img/chris_evans.jepg"
   },
   {
     "name": "Ana de Armas",
-    "image": "img/ana_de_armas.jpg"
+    "image": "img/ana_de_armas.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -5454,15 +5454,15 @@
 "cast": [
   {
     "name": "Dwayne Johnson",
-    "image": "img/dwayne_johnson.jpg"
+    "image": "img/dwayne_johnson.jepg"
   },
   {
     "name": "Ryan Reynolds",
-    "image": "img/ryan_reynolds.jpg"
+    "image": "img/ryan_reynolds.jepg"
   },
   {
     "name": "Gal Gadot",
-    "image": "img/gal_gadot.jpg"
+    "image": "img/gal_gadot.jepg"
   }
 ],
       "first-name": "Alex Morgan",
@@ -5484,19 +5484,19 @@
       "cast": [
   {
     "name": "Vin Diesel",
-    "image": "img/vin_diesel.jpg"
+    "image": "img/vin_diesel.jepg"
   },
   {
     "name": "Paul Walker",
-    "image": "img/paul_walker.jpg"
+    "image": "img/paul_walker.jepg"
   },
   {
     "name": "Dwayne Johnson",
-    "image": "img/dwayne_johnson.jpg"
+    "image": "img/dwayne_johnson.jepg"
   },
   {
     "name": "Jason Statham",
-    "image": "img/jason_statham.jpg"
+    "image": "img/jason_statham.jepg"
   }
 ],
       "first-name": "Chris Taylor",
@@ -5518,15 +5518,15 @@
 "cast": [
   {
     "name": "Chris Hemsworth",
-    "image": "img/chris_hemsworth.jpg"
+    "image": "img/chris_hemsworth.jepg"
   },
   {
     "name": "Rudhraksh Jaiswal",
-    "image": "img/rudhraksh_jaiswal.jpg"
+    "image": "img/rudhraksh_jaiswal.jepg"
   },
   {
     "name": "Randeep Hooda",
-    "image": "img/randeep_hooda.jpg"
+    "image": "img/randeep_hooda.jepg"
   }
 ],
       "first-name": "Liam Hart",
@@ -5548,15 +5548,15 @@
       "cast": [
   {
     "name": "Tom Hardy",
-    "image": "img/tom_hardy.jpg"
+    "image": "img/tom_hardy.jepg"
   },
   {
     "name": "Charlize Theron",
-    "image": "img/charlize_theron.jpg"
+    "image": "img/charlize_theron.jepg"
   },
   {
     "name": "Nicholas Hoult",
-    "image": "img/nicholas_hoult.jpg"
+    "image": "img/nicholas_hoult.jepg"
   }
 ],
       "first-name": "Sarah Kim",
@@ -5578,15 +5578,15 @@
       "cast": [
   {
     "name": "Charlize Theron",
-    "image": "img/charlize_theron.jpg"
+    "image": "img/charlize_theron.jepg"
   },
   {
     "name": "KiKi Layne",
-    "image": "img/kiki_layne.jpg"
+    "image": "img/kiki_layne.jepg"
   },
   {
     "name": "Matthias Schoenaerts",
-    "image": "img/matthias_schoenaerts.jpg"
+    "image": "img/matthias_schoenaerts.jepg"
   }
 ],
       "first-name": "Noah Evans",
@@ -5608,15 +5608,15 @@
 "cast": [
   {
     "name": "Keanu Reeves",
-    "image": "img/keanu_reeves.jpg"
+    "image": "img/keanu_reeves.jepg"
   },
   {
     "name": "Michael Nyqvist",
-    "image": "img/michael_nyqvist.jpg"
+    "image": "img/michael_nyqvist.jepg"
   },
   {
     "name": "Alfie Allen",
-    "image": "img/alfie_allen.jpg"
+    "image": "img/alfie_allen.jepg"
   }
 ],
       "first-name": "Logan Smith",
@@ -5638,15 +5638,15 @@
       "cast": [
   {
     "name": "John David Washington",
-    "image": "img/john_david_washington.jpg"
+    "image": "img/john_david_washington.jepg"
   },
   {
     "name": "Robert Pattinson",
-    "image": "img/robert_pattinson.jpg"
+    "image": "img/robert_pattinson.jepg"
   },
   {
     "name": "Elizabeth Debicki",
-    "image": "img/elizabeth_debicki.jpg"
+    "image": "img/elizabeth_debicki.jepg"
   }
 ],
       "first-name": "Zoe Banks",
@@ -5668,15 +5668,15 @@
       "cast": [
   {
     "name": "Daniel Craig",
-    "image": "img/daniel_craig.jpg"
+    "image": "img/daniel_craig.jepg"
   },
   {
     "name": "Javier Bardem",
-    "image": "img/javier_bardem.jpg"
+    "image": "img/javier_bardem.jepg"
   },
   {
     "name": "Judi Dench",
-    "image": "img/judi_dench.jpg"
+    "image": "img/judi_dench.jepg"
   }
 ],
       "first-name": "Grace Nolan",
@@ -5698,15 +5698,15 @@
       "cast": [
   {
     "name": "Chadwick Boseman",
-    "image": "img/chadwick_boseman.jpg"
+    "image": "img/chadwick_boseman.jepg"
   },
   {
     "name": "Michael B. Jordan",
-    "image": "img/michael_b_jordan.jpg"
+    "image": "img/michael_b_jordan.jepg"
   },
   {
     "name": "Lupita Nyong’o",
-    "image": "img/lupita_nyongo.jpg"
+    "image": "img/lupita_nyongo.jepg"
   }
 ],
       "first-name": "Jasmine Lee",
@@ -5728,15 +5728,15 @@
       "cast": [
   {
     "name": "Tom Cruise",
-    "image": "img/tom_cruise.jpg"
+    "image": "img/tom_cruise.jepg"
   },
   {
     "name": "Henry Cavill",
-    "image": "img/henry_cavill.jpg"
+    "image": "img/henry_cavill.jepg"
   },
   {
     "name": "Ving Rhames",
-    "image": "img/ving_rhames.jpg"
+    "image": "img/ving_rhames.jepg"
   }
 ],
       "first-name": "Carter Reed",
@@ -5758,19 +5758,19 @@
       "cast": [
   {
     "name": "Kumail Nanjiani",
-    "image": "img/kumail_nanjiani.jpg"
+    "image": "img/kumail_nanjiani.jepg"
   },
   {
     "name": "Zoe Kazan",
-    "image": "img/zoe_kazan.jpg"
+    "image": "img/zoe_kazan.jepg"
   },
   {
     "name": "Holly Hunter",
-    "image": "img/holly_hunter.jpg"
+    "image": "img/holly_hunter.jepg"
   },
   {
     "name": "Ray Romano",
-    "image": "img/ray_romano.jpg"
+    "image": "img/ray_romano.jepg"
   }
 ],
       "first-name": "Ethan Cole",
@@ -5792,19 +5792,19 @@
       "cast": [
   {
     "name": "Robert De Niro",
-    "image": "img/robert_de_niro.jpg"
+    "image": "img/robert_de_niro.jepg"
   },
   {
     "name": "Anne Hathaway",
-    "image": "img/anne_hathaway.jpg"
+    "image": "img/anne_hathaway.jepg"
   },
   {
     "name": "Rene Russo",
-    "image": "img/rene_russo.jpg"
+    "image": "img/rene_russo.jepg"
   },
   {
     "name": "Andrew Rannells",
-    "image": "img/andrew_rannells.jpg"
+    "image": "img/andrew_rannells.jepg"
   }
 ],
       "first-name": "Sophia Mitchell",
@@ -5826,19 +5826,19 @@
       "cast": [
   {
     "name": "Dwayne Johnson",
-    "image": "img/dwayne_johnson.jpg"
+    "image": "img/dwayne_johnson.jepg"
   },
   {
     "name": "Kevin Hart",
-    "image": "img/kevin_hart.jpg"
+    "image": "img/kevin_hart.jepg"
   },
   {
     "name": "Jack Black",
-    "image": "img/jack_black.jpg"
+    "image": "img/jack_black.jepg"
   },
   {
     "name": "Karen Gillan",
-    "image": "img/karen_gillan.jpg"
+    "image": "img/karen_gillan.jepg"
   }
 ],
       "first-name": "James Clark",
@@ -5860,19 +5860,19 @@
       "cast": [
   {
     "name": "Ryan Reynolds",
-    "image": "img/ryan_reynolds.jpg"
+    "image": "img/ryan_reynolds.jepg"
   },
   {
     "name": "Josh Brolin",
-    "image": "img/josh_brolin.jpg"
+    "image": "img/josh_brolin.jepg"
   },
   {
     "name": "Morena Baccarin",
-    "image": "img/morena_baccarin.jpg"
+    "image": "img/morena_baccarin.jepg"
   },
   {
     "name": "Zazie Beetz",
-    "image": "img/zazie_beetz.jpg"
+    "image": "img/zazie_beetz.jepg"
   }
 ],
       "first-name": "Olivia Adams",
@@ -5894,19 +5894,19 @@
       "cast": [
   {
     "name": "Matthew McConaughey",
-    "image": "img/matthew_mcconaughey.jpg"
+    "image": "img/matthew_mcconaughey.jepg"
   },
   {
     "name": "Reese Witherspoon",
-    "image": "img/reese_witherspoon.jpg"
+    "image": "img/reese_witherspoon.jepg"
   },
   {
     "name": "Scarlett Johansson",
-    "image": "img/scarlett_johansson.jpg"
+    "image": "img/scarlett_johansson.jepg"
   },
   {
     "name": "Taron Egerton",
-    "image": "img/taron_egerton.jpg"
+    "image": "img/taron_egerton.jepg"
   }
 ],
       "first-name": "Sophia Grey",
@@ -5928,19 +5928,19 @@
       "cast": [
   {
     "name": "James Cromwell",
-    "image": "img/james_cromwell.jpg"
+    "image": "img/james_cromwell.jepg"
   },
   {
     "name": "Christine Cavanaugh",
-    "image": "img/christine_cavanaugh.jpg"
+    "image": "img/christine_cavanaugh.jepg"
   },
   {
     "name": "Mickey Rooney",
-    "image": "img/mickey_rooney.jpg"
+    "image": "img/mickey_rooney.jepg"
   },
   {
     "name": "Danny Mann",
-    "image": "img/danny_mann.jpg"
+    "image": "img/danny_mann.jepg"
   }
 ],
       "first-name": "Emma Lee",
@@ -5962,19 +5962,19 @@
       "cast": [
   {
     "name": "Anna Kendrick",
-    "image": "img/anna_kendrick.jpg"
+    "image": "img/anna_kendrick.jepg"
   },
   {
     "name": "Rebel Wilson",
-    "image": "img/rebel_wilson.jpg"
+    "image": "img/rebel_wilson.jepg"
   },
   {
     "name": "Brittany Snow",
-    "image": "img/brittany_snow.jpg"
+    "image": "img/brittany_snow.jepg"
   },
   {
     "name": "Hailee Steinfeld",
-    "image": "img/hailee_steinfeld.jpg"
+    "image": "img/hailee_steinfeld.jepg"
   }
 ],
       "first-name": "Sophie Harris",
@@ -5996,19 +5996,19 @@
       "cast": [
   {
     "name": "Sandra Bullock",
-    "image": "img/sandra_bullock.jpg"
+    "image": "img/sandra_bullock.jepg"
   },
   {
     "name": "Melissa McCarthy",
-    "image": "img/melissa_mccarthy.jpg"
+    "image": "img/melissa_mccarthy.jepg"
   },
   {
     "name": "Demian Bichir",
-    "image": "img/demian_bichir.jpg"
+    "image": "img/demian_bichir.jepg"
   },
   {
     "name": "Marlon Wayans",
-    "image": "img/marlon_wayans.jpg"
+    "image": "img/marlon_wayans.jepg"
   }
 ],
       "first-name": "Jordan Smith",
@@ -6030,19 +6030,19 @@
       "cast": [
   {
     "name": "Amy Schumer",
-    "image": "img/amy_schumer.jpg"
+    "image": "img/amy_schumer.jepg"
   },
   {
     "name": "Bill Hader",
-    "image": "img/bill_hader.jpg"
+    "image": "img/bill_hader.jepg"
   },
   {
     "name": "Brie Larson",
-    "image": "img/brie_larson.jpg"
+    "image": "img/brie_larson.jepg"
   },
   {
     "name": "Colin Quinn",
-    "image": "img/colin_quinn.jpg"
+    "image": "img/colin_quinn.jepg"
   }
 ],
       "first-name": "Maya Johnson",
@@ -6064,23 +6064,23 @@
       "cast": [
   {
     "name": "Owen Wilson",
-    "image": "img/owen_wilson.jpg"
+    "image": "img/owen_wilson.jepg"
   },
   {
     "name": "Vince Vaughn",
-    "image": "img/vince_vaughn.jpg"
+    "image": "img/vince_vaughn.jepg"
   },
   {
     "name": "Rachel McAdams",
-    "image": "img/rachel_mcadams.jpg"
+    "image": "img/rachel_mcadams.jepg"
   },
   {
     "name": "Christopher Walken",
-    "image": "img/christopher_walken.jpg"
+    "image": "img/christopher_walken.jepg"
   },
   {
     "name": "Isla Fisher",
-    "image": "img/isla_fisher.jpg"
+    "image": "img/isla_fisher.jepg"
   }
 ],
       "first-name": "Daniel Brooks",
@@ -6102,19 +6102,19 @@
       "cast": [
   {
     "name": "Ben Stiller",
-    "image": "img/ben_stiller.jpg"
+    "image": "img/ben_stiller.jepg"
   },
   {
     "name": "Robert Downey Jr.",
-    "image": "img/robert_downey_jr.jpg"
+    "image": "img/robert_downey_jr.jepg"
   },
   {
     "name": "Jack Black",
-    "image": "img/jack_black.jpg"
+    "image": "img/jack_black.jepg"
   },
   {
     "name": "Steve Coogan",
-    "image": "img/steve_coogan.jpg"
+    "image": "img/steve_coogan.jepg"
   }
 ],
       "first-name": "Mark Johnson",
@@ -6137,19 +6137,19 @@
 "cast": [
   {
     "name": "Will Ferrell",
-    "image": "img/will_ferrell.jpg"
+    "image": "img/will_ferrell.jepg"
   },
   {
     "name": "Mark Wahlberg",
-    "image": "img/mark_wahlberg.jpg"
+    "image": "img/mark_wahlberg.jepg"
   },
   {
     "name": "Eva Mendes",
-    "image": "img/eva_mendes.jpg"
+    "image": "img/eva_mendes.jepg"
   },
   {
     "name": "Michael Keaton",
-    "image": "img/michael_keaton.jpg"
+    "image": "img/michael_keaton.jepg"
   }
 ],
       "first-name": "Tommy Harris",
@@ -6172,23 +6172,23 @@
       "cast": [
   {
     "name": "Will Ferrell",
-    "image": "img/will_ferrell.jpg"
+    "image": "img/will_ferrell.jepg"
   },
   {
     "name": "Steve Carell",
-    "image": "img/steve_carell.jpg"
+    "image": "img/steve_carell.jepg"
   },
   {
     "name": "Paul Rudd",
-    "image": "img/paul_rudd.jpg"
+    "image": "img/paul_rudd.jepg"
   },
   {
     "name": "David Koechner",
-    "image": "img/david_koechner.jpg"
+    "image": "img/david_koechner.jepg"
   },
   {
     "name": "Christina Applegate",
-    "image": "img/christina_applegate.jpg"
+    "image": "img/christina_applegate.jepg"
   }
 ],
       "first-name": "Daniel Walker",
@@ -6211,19 +6211,19 @@
       "cast": [
   {
     "name": "Sacha Baron Cohen",
-    "image": "img/sacha_baron_cohen.jpg"
+    "image": "img/sacha_baron_cohen.jepg"
   },
   {
     "name": "Ken Davitian",
-    "image": "img/ken_davitian.jpg"
+    "image": "img/ken_davitian.jepg"
   },
   {
     "name": "Luenell",
-    "image": "img/luenell.jpg"
+    "image": "img/luenell.jepg"
   },
   {
     "name": "Pamela Anderson",
-    "image": "img/pamela_anderson.jpg"
+    "image": "img/pamela_anderson.jepg"
   }
 ],
       "first-name": "Jason Miller",
@@ -6246,19 +6246,19 @@
       "cast": [
   {
     "name": "Simon Pegg",
-    "image": "img/simon_pegg.jpg"
+    "image": "img/simon_pegg.jepg"
   },
   {
     "name": "Nick Frost",
-    "image": "img/nick_frost.jpg"
+    "image": "img/nick_frost.jepg"
   },
   {
     "name": "Jim Broadbent",
-    "image": "img/jim_broadbent.jpg"
+    "image": "img/jim_broadbent.jepg"
   },
   {
     "name": "Timothy Dalton",
-    "image": "img/timothy_dalton.jpg"
+    "image": "img/timothy_dalton.jepg"
   }
 ],
       "first-name": "Rachel Adams",
@@ -6281,19 +6281,19 @@
       "cast": [
   {
     "name": "Ryan Reynolds",
-    "image": "img/ryan_reynolds.jpg"
+    "image": "img/ryan_reynolds.jepg"
   },
   {
     "name": "Morena Baccarin",
-    "image": "img/morena_baccarin.jpg"
+    "image": "img/morena_baccarin.jepg"
   },
   {
     "name": "T.J. Miller",
-    "image": "img/tj_miller.jpg"
+    "image": "img/tj_miller.jepg"
   },
   {
     "name": "Ed Skrein",
-    "image": "img/ed_skrein.jpg"
+    "image": "img/ed_skrein.jepg"
   }
 ],
       "first-name": "Sophie Turner",
@@ -6315,19 +6315,19 @@
       "cast": [
   {
     "name": "Jim Carrey",
-    "image": "img/jim_carrey.jpg"
+    "image": "img/jim_carrey.jepg"
   },
   {
     "name": "Zooey Deschanel",
-    "image": "img/zooey_deschanel.jpg"
+    "image": "img/zooey_deschanel.jepg"
   },
   {
     "name": "Bradley Cooper",
-    "image": "img/bradley_cooper.jpg"
+    "image": "img/bradley_cooper.jepg"
   },
   {
     "name": "Rhys Darby",
-    "image": "img/rhys_darby.jpg"
+    "image": "img/rhys_darby.jepg"
   }
 ],
       "first-name": "Hannah Williams",
@@ -6350,19 +6350,19 @@
       "cast": [
   {
     "name": "Daniel Craig",
-    "image": "img/daniel_craig.jpg"
+    "image": "img/daniel_craig.jepg"
   },
   {
     "name": "Chris Evans",
-    "image": "img/chris_evans.jpg"
+    "image": "img/chris_evans.jepg"
   },
   {
     "name": "Ana de Armas",
-    "image": "img/ana_de_armas.jpg"
+    "image": "img/ana_de_armas.jepg"
   },
   {
     "name": "Jamie Lee Curtis",
-    "image": "img/jamie_lee_curtis.jpg"
+    "image": "img/jamie_lee_curtis.jepg"
   }
 ],
       "first-name": "Linda Fisher",
@@ -6385,19 +6385,19 @@
       "cast": [
   {
     "name": "Ryan Gosling",
-    "image": "img/ryan_gosling.jpg"
+    "image": "img/ryan_gosling.jepg"
   },
   {
     "name": "Russell Crowe",
-    "image": "img/russell_crowe.jpg"
+    "image": "img/russell_crowe.jepg"
   },
   {
     "name": "Angourie Rice",
-    "image": "img/angourie_rice.jpg"
+    "image": "img/angourie_rice.jepg"
   },
   {
     "name": "Kim Basinger",
-    "image": "img/kim_basinger.jpg"
+    "image": "img/kim_basinger.jepg"
   }
 ],
       "first-name": "Jacob Murphy",
@@ -6420,19 +6420,19 @@
       "cast": [
   {
     "name": "Steve Carell",
-    "image": "img/steve_carell.jpg"
+    "image": "img/steve_carell.jepg"
   },
   {
     "name": "Ryan Gosling",
-    "image": "img/ryan_gosling.jpg"
+    "image": "img/ryan_gosling.jepg"
   },
   {
     "name": "Julianne Moore",
-    "image": "img/julianne_moore.jpg"
+    "image": "img/julianne_moore.jepg"
   },
   {
     "name": "Emma Stone",
-    "image": "img/emma_stone.jpg"
+    "image": "img/emma_stone.jepg"
   }
 ],
       "first-name": "Katie Harrison",
@@ -6454,19 +6454,19 @@
       "cast": [
   {
     "name": "Jonah Hill",
-    "image": "img/jonah_hill.jpg"
+    "image": "img/jonah_hill.jepg"
   },
   {
     "name": "Michael Cera",
-    "image": "img/michael_cera.jpg"
+    "image": "img/michael_cera.jepg"
   },
   {
     "name": "Christopher Mintz-Plasse",
-    "image": "img/christopher_mintz_plasse.jpg"
+    "image": "img/christopher_mintz_plasse.jepg"
   },
   {
     "name": "Seth Rogen",
-    "image": "img/seth_rogan.jpg"
+    "image": "img/seth_rogan.jepg"
   }
 ],
       "first-name": "Tom Green",
@@ -6489,19 +6489,19 @@
       "cast": [
   {
     "name": "Bradley Cooper",
-    "image": "img/bradley_cooper.jpg"
+    "image": "img/bradley_cooper.jepg"
   },
   {
     "name": "Ed Helms",
-    "image": "img/ed_helms.jpg"
+    "image": "img/ed_helms.jepg"
   },
   {
     "name": "Zach Galifianakis",
-    "image": "img/zach_galifianakis.jpg"
+    "image": "img/zach_galifianakis.jepg"
   },
   {
     "name": "Justin Bartha",
-    "image": "img/justin_bartha.jpg"
+    "image": "img/justin_bartha.jepg"
   }
 ],
       "first-name": "Samantha Brooks",
@@ -6524,19 +6524,19 @@
       "cast": [
   {
     "name": "Kristen Wiig",
-    "image": "img/kristen_wiig.jpg"
+    "image": "img/kristen_wiig.jepg"
   },
   {
     "name": "Maya Rudolph",
-    "image": "img/maya_rudolph.jpg"
+    "image": "img/maya_rudolph.jepg"
   },
   {
     "name": "Melissa McCarthy",
-    "image": "img/melissa_mccarthy.jpg"
+    "image": "img/melissa_mccarthy.jepg"
   },
   {
     "name": "Rose Byrne",
-    "image": "img/rose_byrne.jpg"
+    "image": "img/rose_byrne.jepg"
   }
 ],
       "first-name": "Olivia Shaw",
@@ -6559,19 +6559,19 @@
       "cast": [
   {
     "name": "Will Ferrell",
-    "image": "img/will_ferrell.jpg"
+    "image": "img/will_ferrell.jepg"
   },
   {
     "name": "John C. Reilly",
-    "image": "img/john_c_reilly.jpg"
+    "image": "img/john_c_reilly.jepg"
   },
   {
     "name": "Mary Steenburgen",
-    "image": "img/mary_steenburgen.jpg"
+    "image": "img/mary_steenburgen.jepg"
   },
   {
     "name": "Richard Jenkins",
-    "image": "img/richard_jenkins.jpg"
+    "image": "img/richard_jenkins.jepg"
   }
 ],
       "first-name": "Tommy Sullivan",
@@ -6594,19 +6594,19 @@
      "cast": [
   {
     "name": "Lindsay Lohan",
-    "image": "img/lindsay_lohan.jpg"
+    "image": "img/lindsay_lohan.jepg"
   },
   {
     "name": "Rachel McAdams",
-    "image": "img/rachel_mcadams.jpg"
+    "image": "img/rachel_mcadams.jepg"
   },
   {
     "name": "Tina Fey",
-    "image": "img/tina_fey.jpg"
+    "image": "img/tina_fey.jepg"
   },
   {
     "name": "Amanda Seyfried",
-    "image": "img/amanda_seyfried.jpg"
+    "image": "img/amanda_seyfried.jepg"
   }
 ],
       "first-name": "Grace Miller",
@@ -6628,19 +6628,19 @@
       "cast": [
   {
     "name": "Jonah Hill",
-    "image": "img/jonah_hill.jpg"
+    "image": "img/jonah_hill.jepg"
   },
   {
     "name": "Channing Tatum",
-    "image": "img/channing_tatum.jpg"
+    "image": "img/channing_tatum.jepg"
   },
   {
     "name": "Ice Cube",
-    "image": "img/ice_cube.jpg"
+    "image": "img/ice_cube.jepg"
   },
   {
     "name": "Brie Larson",
-    "image": "img/brie_larson.jpg"
+    "image": "img/brie_larson.jepg"
   }
 ],
       "first-name": "Alex Reed",
@@ -6663,19 +6663,19 @@
       "cast": [
   {
     "name": "Anna Kendrick",
-    "image": "img/anna_kendrick.jpg"
+    "image": "img/anna_kendrick.jepg"
   },
   {
     "name": "Rebel Wilson",
-    "image": "img/rebel_wilson.jpg"
+    "image": "img/rebel_wilson.jepg"
   },
   {
     "name": "Brittany Snow",
-    "image": "img/brittany_snow.jpg"
+    "image": "img/brittany_snow.jepg"
   },
   {
     "name": "Skylar Astin",
-    "image": "img/skylar_astin.jpg"
+    "image": "img/skylar_astin.jepg"
   }
 ],
       "first-name": "Rachel King",
@@ -6698,19 +6698,19 @@
       "cast": [
   {
     "name": "Jason Sudeikis",
-    "image": "img/jason_sudeikis.jpg"
+    "image": "img/jason_sudeikis.jepg"
   },
   {
     "name": "Jennifer Aniston",
-    "image": "img/jennifer_aniston.jpg"
+    "image": "img/jennifer_aniston.jepg"
   },
   {
     "name": "Emma Roberts",
-    "image": "img/emma_roberts.jpg"
+    "image": "img/emma_roberts.jepg"
   },
   {
     "name": "Will Poulter",
-    "image": "img/will_poulter.jpg"
+    "image": "img/will_poulter.jepg"
   }
 ],
       "first-name": "Ben Walters",
@@ -6733,19 +6733,19 @@
       "cast": [
   {
     "name": "Jason Bateman",
-    "image": "img/jason_bateman.jpg"
+    "image": "img/jason_bateman.jepg"
   },
   {
     "name": "Rachel McAdams",
-    "image": "img/rachel_mcadams.jpg"
+    "image": "img/rachel_mcadams.jepg"
   },
   {
     "name": "Kyle Chandler",
-    "image": "img/kyle_chandler.jpg"
+    "image": "img/kyle_chandler.jepg"
   },
   {
     "name": "Billy Magnussen",
-    "image": "img/billy_magnussen.jpg"
+    "image": "img/billy_magnussen.jepg"
   }
 ],
       "first-name": "Amanda Peters",
@@ -6768,19 +6768,19 @@
       "cast": [
   {
     "name": "Jesse Eisenberg",
-    "image": "img/jesse_eisenberg.jpg"
+    "image": "img/jesse_eisenberg.jepg"
   },
   {
     "name": "Woody Harrelson",
-    "image": "img/woody_harrelson.jpg"
+    "image": "img/woody_harrelson.jepg"
   },
   {
     "name": "Emma Stone",
-    "image": "img/emma_stone.jpg"
+    "image": "img/emma_stone.jepg"
   },
   {
     "name": "Abigail Breslin",
-    "image": "img/abigail_breslin.jpg"
+    "image": "img/abigail_breslin.jepg"
   }
 ],
       "first-name": "Chris Carter",
@@ -6802,19 +6802,19 @@
       "cast": [
   {
     "name": "Patrick Wilson",
-    "image": "img/patrick_wilson.jpg"
+    "image": "img/patrick_wilson.jepg"
   },
   {
     "name": "Vera Farmiga",
-    "image": "img/vera_farmiga.jpg"
+    "image": "img/vera_farmiga.jepg"
   },
   {
     "name": "Lili Taylor",
-    "image": "img/lili_taylor.jpg"
+    "image": "img/lili_taylor.jepg"
   },
   {
     "name": "Ron Livingston",
-    "image": "img/ron_livingston.jpg"
+    "image": "img/ron_livingston.jepg"
   }
 ],
       "first-name": "Daniel Cho",
@@ -6836,19 +6836,19 @@
 "cast": [
   {
     "name": "Toni Collette",
-    "image": "img/toni_collette.jpg"
+    "image": "img/toni_collette.jepg"
   },
   {
     "name": "Alex Wolff",
-    "image": "img/alex_wolff.jpg"
+    "image": "img/alex_wolff.jepg"
   },
   {
     "name": "Milly Shapiro",
-    "image": "img/milly_shapiro.jpg"
+    "image": "img/milly_shapiro.jepg"
   },
   {
     "name": "Gabriel Byrne",
-    "image": "img/gabriel_byrne.jpg"
+    "image": "img/gabriel_byrne.jepg"
   }
 ],
       "first-name": "Nina Alvarez",
@@ -6870,19 +6870,19 @@
       "cast": [
   {
     "name": "Maika Monroe",
-    "image": "img/maika_monroe.jpg"
+    "image": "img/maika_monroe.jepg"
   },
   {
     "name": "Keir Gilchrist",
-    "image": "img/keir_gilchrist.jpg"
+    "image": "img/keir_gilchrist.jepg"
   },
   {
     "name": "Daniel Zovatto",
-    "image": "img/daniel_zovatto.jpg"
+    "image": "img/daniel_zovatto.jepg"
   },
   {
     "name": "Lili Sepe",
-    "image": "img/lili_sepe.jpg"
+    "image": "img/lili_sepe.jepg"
   }
 ],
       "first-name": "Lucas Kim",
@@ -6904,19 +6904,19 @@
       "cast": [
   {
     "name": "Daniel Kaluuya",
-    "image": "img/daniel_kaluuya.jpg"
+    "image": "img/daniel_kaluuya.jepg"
   },
   {
     "name": "Allison Williams",
-    "image": "img/allison_williams.jpg"
+    "image": "img/allison_williams.jepg"
   },
   {
     "name": "Bradley Whitford",
-    "image": "img/bradley_whitford.jpg"
+    "image": "img/bradley_whitford.jepg"
   },
   {
     "name": "Catherine Keener",
-    "image": "img/catherine_keener.jpg"
+    "image": "img/catherine_keener.jepg"
   }
 ],
       "first-name": "Marcus Lee",
@@ -6938,19 +6938,19 @@
       "cast": [
   {
     "name": "Lupita Nyong’o",
-    "image": "img/lupita_nyongo.jpg"
+    "image": "img/lupita_nyongo.jepg"
   },
   {
     "name": "Winston Duke",
-    "image": "img/winston_duke.jpg"
+    "image": "img/winston_duke.jepg"
   },
   {
     "name": "Shahadi Wright Joseph",
-    "image": "img/shahadi_wright_joseph.jpg"
+    "image": "img/shahadi_wright_joseph.jepg"
   },
   {
     "name": "Evan Alex",
-    "image": "img/evan_alex.jpg"
+    "image": "img/evan_alex.jepg"
   }
 ],
       "first-name": "Taylor Singh",
@@ -6972,19 +6972,19 @@
       "cast": [
   {
     "name": "Florence Pugh",
-    "image": "img/florence_pugh.jpg"
+    "image": "img/florence_pugh.jepg"
   },
   {
     "name": "Jack Reynor",
-    "image": "img/jack_reynor.jpg"
+    "image": "img/jack_reynor.jepg"
   },
   {
     "name": "William Jackson Harper",
-    "image": "img/william_jackson_harper.jpg"
+    "image": "img/william_jackson_harper.jepg"
   },
   {
     "name": "Will Poulter",
-    "image": "img/will_poulter.jpg"
+    "image": "img/will_poulter.jepg"
   }
 ],
       "first-name": "Isabelle Grant",
@@ -7006,19 +7006,19 @@
       "cast": [
   {
     "name": "Essie Davis",
-    "image": "img/essie_davis.jpg"
+    "image": "img/essie_davis.jepg"
   },
   {
     "name": "Noah Wiseman",
-    "image": "img/noah_wiseman.jpg"
+    "image": "img/noah_wiseman.jepg"
   },
   {
     "name": "Daniel Henshall",
-    "image": "img/daniel_henshall.jpg"
+    "image": "img/daniel_henshall.jepg"
   },
   {
     "name": "Barbara West",
-    "image": "img/barbara_west.jpg"
+    "image": "img/barbara_west.jepg"
   }
 ],
       "first-name": "Derek Liu",
@@ -7040,19 +7040,19 @@
       "cast": [
   {
     "name": "Emily Blunt",
-    "image": "img/emily_blunt.jpg"
+    "image": "img/emily_blunt.jepg"
   },
   {
     "name": "John Krasinski",
-    "image": "img/john_krasinski.jpg"
+    "image": "img/john_krasinski.jepg"
   },
   {
     "name": "Millicent Simmonds",
-    "image": "img/millicent_simmonds.jpg"
+    "image": "img/millicent_simmonds.jepg"
   },
   {
     "name": "Noah Jupe",
-    "image": "img/noah_jupe.jpg"
+    "image": "img/noah_jupe.jepg"
   }
 ],
       "first-name": "Samira Patel",
@@ -7074,19 +7074,19 @@
 "cast": [
   {
     "name": "Patrick Wilson",
-    "image": "img/patrick_wilson.jpg"
+    "image": "img/patrick_wilson.jepg"
   },
   {
     "name": "Rose Byrne",
-    "image": "img/rose_byrne.jpg"
+    "image": "img/rose_byrne.jepg"
   },
   {
     "name": "Lin Shaye",
-    "image": "img/lin_shaye.jpg"
+    "image": "img/lin_shaye.jepg"
   },
   {
     "name": "Ty Simpkins",
-    "image": "img/ty_simpkins.jpg"
+    "image": "img/ty_simpkins.jepg"
   }
 ],
       "first-name": "Elena Brooks",
@@ -7108,19 +7108,19 @@
       "cast": [
   {
     "name": "Naomi Watts",
-    "image": "img/naomi_watts.jpg"
+    "image": "img/naomi_watts.jepg"
   },
   {
     "name": "Martin Henderson",
-    "image": "img/martin_henderson.jpg"
+    "image": "img/martin_henderson.jepg"
   },
   {
     "name": "David Dorfman",
-    "image": "img/david_dorfman.jpg"
+    "image": "img/david_dorfman.jepg"
   },
   {
     "name": "Brian Cox",
-    "image": "img/brian_cox.jpg"
+    "image": "img/brian_cox.jepg"
   }
 ],
       "first-name": "Liam Chen",
@@ -7142,15 +7142,15 @@
       "cast": [
   {
     "name": "Ethan Hawke",
-    "image": "img/ethan_hawke.jpg"
+    "image": "img/ethan_hawke.jepg"
   },
   {
     "name": "Juliet Rylance",
-    "image": "img/juliet_rylance.jpg"
+    "image": "img/juliet_rylance.jepg"
   },
   {
     "name": "James Ransone",
-    "image": "img/james_ransone.jpg"
+    "image": "img/james_ransone.jepg"
   }
 ],
       "first-name": "Marcus Hall",
@@ -7172,15 +7172,15 @@
       "cast": [
   {
     "name": "Nicole Kidman",
-    "image": "img/nicole_kidman.jpg"
+    "image": "img/nicole_kidman.jepg"
   },
   {
     "name": "Alakina Mann",
-    "image": "img/alakina_mann.jpg"
+    "image": "img/alakina_mann.jepg"
   },
   {
     "name": "James Bentley",
-    "image": "img/james_bentley.jpg"
+    "image": "img/james_bentley.jepg"
   }
 ],
       "first-name": "Claire Dalton",
@@ -7202,15 +7202,15 @@
       "cast": [
   {
     "name": "Heather Donahue",
-    "image": "img/heather_donahue.jpg"
+    "image": "img/heather_donahue.jepg"
   },
   {
     "name": "Joshua Leonard",
-    "image": "img/joshua_leonard.jpg"
+    "image": "img/joshua_leonard.jepg"
   },
   {
     "name": "Michael C. Williams",
-    "image": "img/michael_c_williams.jpg"
+    "image": "img/michael_c_williams.jepg"
   }
 ],
       "first-name": "Rachel Yoon",
@@ -7232,15 +7232,15 @@
       "cast": [
   {
     "name": "Katie Featherston",
-    "image": "img/katie_featherston.jpg"
+    "image": "img/katie_featherston.jepg"
   },
   {
     "name": "Micah Sloat",
-    "image": "img/micah_sloat.jpg"
+    "image": "img/micah_sloat.jepg"
   },
   {
     "name": "Mark Fredrichs",
-    "image": "img/mark_fredrichs.jpg"
+    "image": "img/mark_fredrichs.jepg"
   }
 ],
       "first-name": "Luis Romero",
@@ -7262,19 +7262,19 @@
       "cast": [
   {
     "name": "Neve Campbell",
-    "image": "img/neve_campbell.jpg"
+    "image": "img/neve_campbell.jepg"
   },
   {
     "name": "Courteney Cox",
-    "image": "img/courteney_cox.jpg"
+    "image": "img/courteney_cox.jepg"
   },
   {
     "name": "David Arquette",
-    "image": "img/david_arquette.jpg"
+    "image": "img/david_arquette.jepg"
   },
   {
     "name": "Skeet Ulrich",
-    "image": "img/skeet_ulrich.jpg"
+    "image": "img/skeet_ulrich.jepg"
   }
 ],
       "first-name": "Toby Graham",
@@ -7296,15 +7296,15 @@
       "cast": [
   {
     "name": "Marilyn Burns",
-    "image": "img/marilyn_burns.jpg"
+    "image": "img/marilyn_burns.jepg"
   },
   {
     "name": "Gunnar Hansen",
-    "image": "img/gunnar_hansen.jpg"
+    "image": "img/gunnar_hansen.jepg"
   },
   {
     "name": "Edwin Neal",
-    "image": "img/edwin_neal.jpg"
+    "image": "img/edwin_neal.jepg"
   }
 ],
       "first-name": "Zoe Alvarez",
@@ -7326,15 +7326,15 @@
       "cast": [
   {
     "name": "Annabelle Wallis",
-    "image": "img/annabelle_wallis.jpg"
+    "image": "img/annabelle_wallis.jepg"
   },
   {
     "name": "Ward Horton",
-    "image": "img/ward_horton.jpg"
+    "image": "img/ward_horton.jepg"
   },
   {
     "name": "Alfre Woodard",
-    "image": "img/alfre_woodard.jpg"
+    "image": "img/alfre_woodard.jepg"
   }
 ],
       "first-name": "Kai Richards",
@@ -7356,19 +7356,19 @@
       "cast": [
   {
     "name": "Linda Blair",
-    "image": "img/linda_blair.jpg"
+    "image": "img/linda_blair.jepg"
   },
   {
     "name": "Ellen Burstyn",
-    "image": "img/ellen_burstyn.jpg"
+    "image": "img/ellen_burstyn.jepg"
   },
   {
     "name": "Max von Sydow",
-    "image": "img/max_von_sydow.jpg"
+    "image": "img/max_von_sydow.jepg"
   },
   {
     "name": "Jason Miller",
-    "image": "img/jason_miller.jpg"
+    "image": "img/jason_miller.jepg"
   }
 ],
       "first-name": "Jordan Silva",
@@ -7390,19 +7390,19 @@
       "cast": [
   {
     "name": "Jack Nicholson",
-    "image": "img/jack_nicholson.jpg"
+    "image": "img/jack_nicholson.jepg"
   },
   {
     "name": "Shelley Duvall",
-    "image": "img/shelley_duvall.jpg"
+    "image": "img/shelley_duvall.jepg"
   },
   {
     "name": "Danny Lloyd",
-    "image": "img/danny_lloyd.jpg"
+    "image": "img/danny_lloyd.jepg"
   },
   {
     "name": "Scatman Crothers",
-    "image": "img/scatman_crothers.jpg"
+    "image": "img/scatman_crothers.jepg"
   }
 ],
       "first-name": "Lucas Moore",
@@ -7424,15 +7424,15 @@
       "cast": [
   {
     "name": "Georgina Campbell",
-    "image": "img/georgina_campbell.jpg"
+    "image": "img/georgina_campbell.jepg"
   },
   {
     "name": "Bill Skarsgård",
-    "image": "img/bill_skarsgard.jpg"
+    "image": "img/bill_skarsgard.jepg"
   },
   {
     "name": "Justin Long",
-    "image": "img/justin_long.jpg"
+    "image": "img/justin_long.jepg"
   }
 ],
       "first-name": "Maya Reynolds",
@@ -7454,15 +7454,15 @@
       "cast": [
   {
     "name": "Naomi Watts",
-    "image": "img/naomi_watts.jpg"
+    "image": "img/naomi_watts.jepg"
   },
   {
     "name": "David Dorfman",
-    "image": "img/david_dorfman.jpg"
+    "image": "img/david_dorfman.jepg"
   },
   {
     "name": "Martin Henderson",
-    "image": "img/martin_henderson.jpg"
+    "image": "img/martin_henderson.jepg"
   }
 ],
       "first-name": "Erika Sloan",
@@ -7484,15 +7484,15 @@
       "cast": [
   {
     "name": "Essie Davis",
-    "image": "img/essie_davis.jpg"
+    "image": "img/essie_davis.jepg"
   },
   {
     "name": "Noah Wiseman",
-    "image": "img/noah_wiseman.jpg"
+    "image": "img/noah_wiseman.jepg"
   },
   {
     "name": "Daniel Henshall",
-    "image": "img/daniel_henshall.jpg"
+    "image": "img/daniel_henshall.jepg"
   }
 ],
       "first-name": "Leo Zhang",
@@ -7514,15 +7514,15 @@
       "cast": [
   {
     "name": "Lupita Nyong’o",
-    "image": "img/lupita_nyongo.jpg"
+    "image": "img/lupita_nyongo.jepg"
   },
   {
     "name": "Winston Duke",
-    "image": "img/winston_duke.jpg"
+    "image": "img/winston_duke.jepg"
   },
   {
     "name": "Shahadi Wright Joseph",
-    "image": "img/shahadi_wright_joseph.jpg"
+    "image": "img/shahadi_wright_joseph.jepg"
   }
 ],
       "first-name": "Aiden Brooks",
@@ -7544,15 +7544,15 @@
       "cast": [
   {
     "name": "Florence Pugh",
-    "image": "img/florence_pugh.jpg"
+    "image": "img/florence_pugh.jepg"
   },
   {
     "name": "Jack Reynor",
-    "image": "img/jack_reynor.jpg"
+    "image": "img/jack_reynor.jepg"
   },
   {
     "name": "Vilhelm Blomgren",
-    "image": "img/vilhelm_blomgren.jpg"
+    "image": "img/vilhelm_blomgren.jepg"
   }
 ],
       "first-name": "Amira Patel",
@@ -7574,15 +7574,15 @@
       "cast": [
   {
     "name": "Cillian Murphy",
-    "image": "img/cillian_murphy.jpg"
+    "image": "img/cillian_murphy.jepg"
   },
   {
     "name": "Naomie Harris",
-    "image": "img/naomie_harris.jpg"
+    "image": "img/naomie_harris.jepg"
   },
   {
     "name": "Brendan Gleeson",
-    "image": "img/brendan_gleeson.jpg"
+    "image": "img/brendan_gleeson.jepg"
   }
 ],
       "first-name": "Sasha Lin",
@@ -7604,15 +7604,15 @@
       "cast": [
   {
     "name": "Virginia Madsen",
-    "image": "img/virginia_madsen.jpg"
+    "image": "img/virginia_madsen.jepg"
   },
   {
     "name": "Tony Todd",
-    "image": "img/tony_todd.jpg"
+    "image": "img/tony_todd.jepg"
   },
   {
     "name": "Xander Berkeley",
-    "image": "img/xander_berkeley.jpg"
+    "image": "img/xander_berkeley.jepg"
   }
 ],
       "first-name": "Jordan Li",
@@ -7634,15 +7634,15 @@
       "cast": [
   {
     "name": "Toni Collette",
-    "image": "img/toni_collette.jpg"
+    "image": "img/toni_collette.jepg"
   },
   {
     "name": "Alex Wolff",
-    "image": "img/alex_wolff.jpg"
+    "image": "img/alex_wolff.jepg"
   },
   {
     "name": "Milly Shapiro",
-    "image": "img/milly_shapiro.jpg"
+    "image": "img/milly_shapiro.jepg"
   }
 ],
       "first-name": "Brandon Ellis",
@@ -7664,15 +7664,15 @@
       "cast": [
   {
     "name": "Vera Farmiga",
-    "image": "img/vera_farmiga.jpg"
+    "image": "img/vera_farmiga.jepg"
   },
   {
     "name": "Patrick Wilson",
-    "image": "img/patrick_wilson.jpg"
+    "image": "img/patrick_wilson.jepg"
   },
   {
     "name": "Madison Wolfe",
-    "image": "img/madison_wolfe.jpg"
+    "image": "img/madison_wolfe.jepg"
   }
 ],
       "first-name": "Daniela Cruz",
@@ -7694,15 +7694,15 @@
       "cast": [
   {
     "name": "Kwak Do-won",
-    "image": "img/kwak_do_won.jpg"
+    "image": "img/kwak_do_won.jepg"
   },
   {
     "name": "Hwang Jung-min",
-    "image": "img/hwang_jung_min.jpg"
+    "image": "img/hwang_jung_min.jepg"
   },
   {
     "name": "Jun Kunimura",
-    "image": "img/jun_kunimura.jpg"
+    "image": "img/jun_kunimura.jepg"
   }
 ],
       "first-name": "Min-Jae Lee",
@@ -7724,15 +7724,15 @@
       "cast": [
   {
     "name": "Maika Monroe",
-    "image": "img/maika_monroe.jpg"
+    "image": "img/maika_monroe.jepg"
   },
   {
     "name": "Keir Gilchrist",
-    "image": "img/keir_gilchrist.jpg"
+    "image": "img/keir_gilchrist.jepg"
   },
   {
     "name": "Olivia Luccardi",
-    "image": "img/olivia_luccardi.jpg"
+    "image": "img/olivia_luccardi.jepg"
   }
 ],
       "first-name": "Theo Garner",
@@ -7754,15 +7754,15 @@
       "cast": [
   {
     "name": "Tristan Harris",
-    "image": "img/tristan_harris.jpg"
+    "image": "img/tristan_harris.jepg"
   },
   {
     "name": "Jaron Lanier",
-    "image": "img/jaron_lanier.jpg"
+    "image": "img/jaron_lanier.jepg"
   },
   {
     "name": "Shoshana Zuboff",
-    "image": "img/shoshana_zuboff.jpg"
+    "image": "img/shoshana_zuboff.jepg"
   }
 ],
       "first-name": "Eliot Reid",
@@ -7784,15 +7784,15 @@
       "cast": [
   {
     "name": "Angela Davis",
-    "image": "img/angela_davis.jpg"
+    "image": "img/angela_davis.jepg"
   },
   {
     "name": "Bryan Stevenson",
-    "image": "img/bryan_stevenson.jpg"
+    "image": "img/bryan_stevenson.jepg"
   },
   {
     "name": "Van Jones",
-    "image": "img/van_jones.jpg"
+    "image": "img/van_jones.jepg"
   }
 ],
       "first-name": "Derrick Frazier",
@@ -7814,15 +7814,15 @@
       "cast": [
   {
     "name": "Tilikum",
-    "image": "img/tilikum.jpg"
+    "image": "img/tilikum.jepg"
   },
   {
     "name": "Samantha Berg",
-    "image": "img/samantha_berg.jpg"
+    "image": "img/samantha_berg.jepg"
   },
   {
     "name": "John Hargrove",
-    "image": "img/john_hargrove.jpg"
+    "image": "img/john_hargrove.jepg"
   }
 ],
       "first-name": "Evan James",
@@ -7844,11 +7844,11 @@
       "cast": [
   {
     "name": "Craig Foster",
-    "image": "img/craig_foster.jpg"
+    "image": "img/craig_foster.jepg"
   },
   {
     "name": "An Octopus",
-    "image": "img/octopus.jpg"
+    "image": "img/octopus.jepg"
   }
 ],
       "first-name": "Megan Styles",
@@ -7870,11 +7870,11 @@
       "cast": [
   {
     "name": "Timothy Treadwell",
-    "image": "img/timothy_treadwell.jpg"
+    "image": "img/timothy_treadwell.jepg"
   },
   {
     "name": "Amie Huguenard",
-    "image": "img/amie_huguenard.jpg"
+    "image": "img/amie_huguenard.jepg"
   }
 ],
       "first-name": "Benjamin Hart",
@@ -7896,11 +7896,11 @@
      "cast": [
   {
     "name": "Fred Rogers",
-    "image": "img/fred_rogers.jpg"
+    "image": "img/fred_rogers.jepg"
   },
   {
     "name": "Joanne Rogers",
-    "image": "img/joanne_rogers.jpg"
+    "image": "img/joanne_rogers.jepg"
   }
 ],
       "first-name": "Liam Simmons",
@@ -7922,15 +7922,15 @@
       "cast": [
   {
     "name": "Alex Honnold",
-    "image": "img/alex_honnold.jpg"
+    "image": "img/alex_honnold.jepg"
   },
   {
     "name": "Jimmy Chin",
-    "image": "img/jimmy_chin.jpg"
+    "image": "img/jimmy_chin.jepg"
   },
   {
     "name": "Elizabeth Chai Vasarhelyi",
-    "image": "img/elizabeth_chai_vasarhelyi.jpg"
+    "image": "img/elizabeth_chai_vasarhelyi.jepg"
   }
 ],
       "first-name": "Rachel Green",
@@ -7952,11 +7952,11 @@
       "cast": [
   {
     "name": "Anwar Congo",
-    "image": "img/anwar_congo.jpg"
+    "image": "img/anwar_congo.jepg"
   },
   {
     "name": "Herman Koto",
-    "image": "img/herman_koto.jpg"
+    "image": "img/herman_koto.jepg"
   }
 ],
       "first-name": "David McAllister",
@@ -7978,15 +7978,15 @@
       "cast": [
   {
     "name": "Steve Gleason",
-    "image": "img/steve_gleason.jpg"
+    "image": "img/steve_gleason.jepg"
   },
   {
     "name": "Michel Gleason",
-    "image": "img/michel_gleason.jpg"
+    "image": "img/michel_gleason.jepg"
   },
   {
     "name": "Ryan Miller",
-    "image": "img/ryan_miller.jpg"
+    "image": "img/ryan_miller.jepg"
   }
 ],
       "first-name": "Maria Johnson",
@@ -8008,15 +8008,15 @@
       "cast": [
   {
     "name": "Survivors",
-    "image": "img/survivors.jpg"
+    "image": "img/survivors.jepg"
   },
   {
     "name": "Firefighters",
-    "image": "img/firefighters.jpg"
+    "image": "img/firefighters.jepg"
   },
   {
     "name": "Rescue Teams",
-    "image": "img/rescue_teams.jpg"
+    "image": "img/rescue_teams.jepg"
   }
 ],
       "first-name": "Tom Hunter",
@@ -8038,7 +8038,7 @@
       "cast": [
   {
     "name": "Workers from Fuyao Glass America",
-    "image": "img/fuyao_workers.jpg"
+    "image": "img/fuyao_workers.jepg"
   }
 ],
       "first-name": "Emily Walker",
@@ -8060,15 +8060,15 @@
       "cast": [
   {
     "name": "Steven Avery",
-    "image": "img/steven_avery.jpg"
+    "image": "img/steven_avery.jepg"
   },
   {
     "name": "Brendan Dassey",
-    "image": "img/brendan_dassey.jpg"
+    "image": "img/brendan_dassey.jepg"
   },
   {
     "name": "Laura Nirider",
-    "image": "img/laura_nirider.jpg"
+    "image": "img/laura_nirider.jepg"
   }
 ],
       "first-name": "Chris Newton",
@@ -8090,7 +8090,7 @@
       "cast": [
   {
     "name": "Greta Thunberg",
-    "image": "img/greta_thunberg.jpg"
+    "image": "img/greta_thunberg.jepg"
   }
 ],
       "first-name": "Lily Thompson",
@@ -8112,15 +8112,15 @@
       "cast": [
   {
     "name": "Rick Stanton",
-    "image": "img/rick_stanton.jpg"
+    "image": "img/rick_stanton.jepg"
   },
   {
     "name": "John Volanthen",
-    "image": "img/john_volanthen.jpg"
+    "image": "img/john_volanthen.jepg"
   },
   {
     "name": "Saman Kunan",
-    "image": "img/saman_kunan.jpg"
+    "image": "img/saman_kunan.jepg"
   }
 ],
       "first-name": "Andrew Hall",
@@ -8142,11 +8142,11 @@
       "cast": [
   {
     "name": "Ric O'Barry",
-    "image": "img/ric_obarry.jpg"
+    "image": "img/ric_obarry.jepg"
   },
   {
     "name": "Louie Psihoyos",
-    "image": "img/louie_psihoyos.jpg"
+    "image": "img/louie_psihoyos.jepg"
   }
 ],
       "first-name": "Danielle Hall",
@@ -8168,11 +8168,11 @@
       "cast": [
   {
     "name": "Kip Andersen",
-    "image": "img/kip_andersen.jpg"
+    "image": "img/kip_andersen.jepg"
   },
   {
     "name": "Keegan Kuhn",
-    "image": "img/keegan_kuhn.jpg"
+    "image": "img/keegan_kuhn.jepg"
   }
 ],
       "first-name": "Sophie Blake",
@@ -8194,15 +8194,15 @@
       "cast": [
   {
     "name": "David Kellman",
-    "image": "img/david_kellman.jpg"
+    "image": "img/david_kellman.jepg"
   },
   {
     "name": "Bobby Shafran",
-    "image": "img/bobby_shafran.jpg"
+    "image": "img/bobby_shafran.jepg"
   },
   {
     "name": "Eddy Galland",
-    "image": "img/eddy_galland.jpg"
+    "image": "img/eddy_galland.jepg"
   }
 ],
       "first-name": "Nina Wright",
@@ -8224,7 +8224,7 @@
       "cast": [
   {
     "name": "Amin Nawabi",
-    "image": "img/amin_nawabi.jpg"
+    "image": "img/amin_nawabi.jepg"
   }
 ],
       "first-name": "Olivia Martinez",
@@ -8246,11 +8246,11 @@
       "cast": [
   {
     "name": "Barbora Kysilkova",
-    "image": "img/barbora_kysilkova.jpg"
+    "image": "img/barbora_kysilkova.jepg"
   },
   {
     "name": "Karl-Bertil Nordland",
-    "image": "img/karl_bertil_nordland.jpg"
+    "image": "img/karl_bertil_nordland.jepg"
   }
 ],
       "first-name": "Jonah Ross",
@@ -8272,11 +8272,11 @@
       "cast": [
   {
     "name": "Fred Rogers",
-    "image": "img/fred_rogers.jpg"
+    "image": "img/fred_rogers.jepg"
   },
   {
     "name": "Joanne Rogers",
-    "image": "img/joanne_rogers.jpg"
+    "image": "img/joanne_rogers.jepg"
   }
 ],
       "first-name": "Linda Carroll",
@@ -8298,15 +8298,15 @@
       "cast": [
   {
     "name": "Tilikum",
-    "image": "img/tilikum.jpg"
+    "image": "img/tilikum.jepg"
   },
   {
     "name": "Dawn Brancheau",
-    "image": "img/dawn_brancheau.jpg"
+    "image": "img/dawn_brancheau.jepg"
   },
   {
     "name": "Samantha Berg",
-    "image": "img/samantha_berg.jpg"
+    "image": "img/samantha_berg.jepg"
   }
 ],
       "first-name": "Hannah Lee",
@@ -8328,7 +8328,7 @@
       "cast": [
   {
     "name": "Craig Foster",
-    "image": "img/craig_foster.jpg"
+    "image": "img/craig_foster.jepg"
   }
 ],
       "first-name": "Leah Thompson",
@@ -8350,15 +8350,15 @@
       "cast": [
   {
     "name": "Ava DuVernay",
-    "image": "img/ava_duvernay.jpg"
+    "image": "img/ava_duvernay.jepg"
   },
   {
     "name": "Angela Davis",
-    "image": "img/angela_davis.jpg"
+    "image": "img/angela_davis.jepg"
   },
   {
     "name": "Van Jones",
-    "image": "img/van_jones.jpg"
+    "image": "img/van_jones.jepg"
   }
 ],
       "first-name": "Ella Johnson",
@@ -8380,15 +8380,15 @@
       "cast": [
   {
     "name": "Tristan Harris",
-    "image": "img/tristan_harris.jpg"
+    "image": "img/tristan_harris.jepg"
   },
   {
     "name": "Jaron Lanier",
-    "image": "img/jaron_lanier.jpg"
+    "image": "img/jaron_lanier.jepg"
   },
   {
     "name": "Shoshana Zuboff",
-    "image": "img/shoshana_zuboff.jpg"
+    "image": "img/shoshana_zuboff.jepg"
   }
 ],
       "first-name": "Alice Brooks",
@@ -8410,15 +8410,15 @@
       "cast": [
   {
     "name": "Rachel Denhollander",
-    "image": "img/rachel_denhollander.jpg"
+    "image": "img/rachel_denhollander.jepg"
   },
   {
     "name": "Maggie Nichols",
-    "image": "img/maggie_nichols.jpg"
+    "image": "img/maggie_nichols.jepg"
   },
   {
     "name": "Simone Biles",
-    "image": "img/simone_biles.jpg"
+    "image": "img/simone_biles.jepg"
   }
 ],
       "first-name": "Sarah Mitchell",
@@ -8440,11 +8440,11 @@
       "cast": [
   {
     "name": "Timothy Treadwell",
-    "image": "img/timothy_treadwell.jpg"
+    "image": "img/timothy_treadwell.jepg"
   },
   {
     "name": "Werner Herzog",
-    "image": "img/werner_herzog.jpg"
+    "image": "img/werner_herzog.jepg"
   }
 ],
       "first-name": "Gina Fox",
@@ -8466,15 +8466,15 @@
       "cast": [
   {
     "name": "Alex Honnold",
-    "image": "img/alex_honnold.jpg"
+    "image": "img/alex_honnold.jepg"
   },
   {
     "name": "Jimmy Chin",
-    "image": "img/jimmy_chin.jpg"
+    "image": "img/jimmy_chin.jepg"
   },
   {
     "name": "Elizabeth Chai Vasarhelyi",
-    "image": "img/elizabeth_chai_vasarhelyi.jpg"
+    "image": "img/elizabeth_chai_vasarhelyi.jepg"
   }
 ],
       "first-name": "David Green",
@@ -8496,15 +8496,15 @@
       "cast": [
   {
     "name": "Jiro Ono",
-    "image": "img/jiro_ono.jpg"
+    "image": "img/jiro_ono.jepg"
   },
   {
     "name": "Yoshikazu Ono",
-    "image": "img/yoshikazu_ono.jpg"
+    "image": "img/yoshikazu_ono.jepg"
   },
   {
     "name": "Takashi Ono",
-    "image": "img/takashi_ono.jpg"
+    "image": "img/takashi_ono.jepg"
   }
 ],
       "first-name": "Megan Scott",
@@ -8526,15 +8526,15 @@
       "cast": [
   {
     "name": "Anwar Congo",
-    "image": "img/anwar_congo.jpg"
+    "image": "img/anwar_congo.jepg"
   },
   {
     "name": "Herman Koto",
-    "image": "img/herman_koto.jpg"
+    "image": "img/herman_koto.jepg"
   },
   {
     "name": "Other Indonesian death squad members",
-    "image": "img/indonesian_death_squad_members.jpg"
+    "image": "img/indonesian_death_squad_members.jepg"
   }
 ],
       "first-name": "Jessica Moore",
@@ -8556,7 +8556,7 @@
       "cast": [
   {
     "name": "Taylor Swift",
-    "image": "img/taylor_swift.jpg"
+    "image": "img/taylor_swift.jepg"
   }
 ],
       "first-name": "Hannah Peterson",
@@ -8578,15 +8578,15 @@
       "cast": [
   {
     "name": "Ryan Gosling",
-    "image": "img/ryan_gosling.jpg"
+    "image": "img/ryan_gosling.jepg"
   },
   {
     "name": "Harrison Ford",
-    "image": "img/harrison_ford.jpg"
+    "image": "img/harrison_ford.jepg"
   },
   {
     "name": "Ana de Armas",
-    "image": "img/ana_de_armas.jpg"
+    "image": "img/ana_de_armas.jepg"
   }
 ],
       "first-name": "Alex Martin",
@@ -8608,15 +8608,15 @@
       "cast": [
   {
     "name": "Leonardo DiCaprio",
-    "image": "img/leonardo_dicaprio.jpg"
+    "image": "img/leonardo_dicaprio.jepg"
   },
   {
     "name": "Joseph Gordon-Levitt",
-    "image": "img/joseph_gordon_levitt.jpg"
+    "image": "img/joseph_gordon_levitt.jepg"
   },
   {
     "name": "Marion Cotillard",
-    "image": "img/marion_cotillard.jpg"
+    "image": "img/marion_cotillard.jepg"
   }
 ],
       "first-name": "James P. Wright",
@@ -8638,15 +8638,15 @@
 "cast": [
   {
     "name": "Keanu Reeves",
-    "image": "img/keanu_reeves.jpg"
+    "image": "img/keanu_reeves.jepg"
   },
   {
     "name": "Laurence Fishburne",
-    "image": "img/laurence_fishburne.jpg"
+    "image": "img/laurence_fishburne.jepg"
   },
   {
     "name": "Carrie-Anne Moss",
-    "image": "img/carrie_anne_moss.jpg"
+    "image": "img/carrie_anne_moss.jepg"
   }
 ],
       "first-name": "Michael T. Reed",
@@ -8668,15 +8668,15 @@
       "cast": [
   {
     "name": "Matthew McConaughey",
-    "image": "img/matthew_mcconaughey.jpg"
+    "image": "img/matthew_mcconaughey.jepg"
   },
   {
     "name": "Anne Hathaway",
-    "image": "img/anne_hathaway.jpg"
+    "image": "img/anne_hathaway.jepg"
   },
   {
     "name": "Jessica Chastain",
-    "image": "img/jessica_chastain.jpg"
+    "image": "img/jessica_chastain.jepg"
   }
 ],
       "first-name": "Ethan Davis",
@@ -8698,15 +8698,15 @@
       "cast": [
   {
     "name": "Amy Adams",
-    "image": "img/amy_adams.jpg"
+    "image": "img/amy_adams.jepg"
   },
   {
     "name": "Jeremy Renner",
-    "image": "img/jeremy_renner.jpg"
+    "image": "img/jeremy_renner.jepg"
   },
   {
     "name": "Forest Whitaker",
-    "image": "img/forest_whitaker.jpg"
+    "image": "img/forest_whitaker.jepg"
   }
 ],
       "first-name": "Chloe Sanchez",
@@ -8728,15 +8728,15 @@
       "cast": [
   {
     "name": "Tom Cruise",
-    "image": "img/tom_cruise.jpg"
+    "image": "img/tom_cruise.jepg"
   },
   {
     "name": "Colin Farrell",
-    "image": "img/colin_farrell.jpg"
+    "image": "img/colin_farrell.jepg"
   },
   {
     "name": "Samantha Morton",
-    "image": "img/samantha_morton.jpg"
+    "image": "img/samantha_morton.jepg"
   }
 ],
       "first-name": "Robert Clark",
@@ -8758,15 +8758,15 @@
       "cast": [
   {
     "name": "Bruce Willis",
-    "image": "img/bruce_willis.jpg"
+    "image": "img/bruce_willis.jepg"
   },
   {
     "name": "Milla Jovovich",
-    "image": "img/milla_jovovich.jpg"
+    "image": "img/milla_jovovich.jepg"
   },
   {
     "name": "Gary Oldman",
-    "image": "img/gary_oldman.jpg"
+    "image": "img/gary_oldman.jepg"
   }
 ],
       "first-name": "Jacob Hunter",
@@ -8788,15 +8788,15 @@
 "cast": [
   {
     "name": "Domhnall Gleeson",
-    "image": "img/domhnall_gleeson.jpg"
+    "image": "img/domhnall_gleeson.jepg"
   },
   {
     "name": "Alicia Vikander",
-    "image": "img/alicia_vikander.jpg"
+    "image": "img/alicia_vikander.jepg"
   },
   {
     "name": "Oscar Isaac",
-    "image": "img/oscar_isaac.jpg"
+    "image": "img/oscar_isaac.jepg"
   }
 ],
       "first-name": "Rachel Adams",
@@ -8818,15 +8818,15 @@
 "cast": [
   {
     "name": "Casper Van Dien",
-    "image": "img/casper_van_dien.jpg"
+    "image": "img/casper_van_dien.jepg"
   },
   {
     "name": "Denise Richards",
-    "image": "img/denise_richards.jpg"
+    "image": "img/denise_richards.jepg"
   },
   {
     "name": "Neil Patrick Harris",
-    "image": "img/neil_patrick_harris.jpg"
+    "image": "img/neil_patrick_harris.jepg"
   }
 ],
       "first-name": "Ethan Stone",
@@ -8848,15 +8848,15 @@
       "cast": [
   {
     "name": "Ethan Hawke",
-    "image": "img/ethan_hawke.jpg"
+    "image": "img/ethan_hawke.jepg"
   },
   {
     "name": "Uma Thurman",
-    "image": "img/uma_thurman.jpg"
+    "image": "img/uma_thurman.jepg"
   },
   {
     "name": "Jude Law",
-    "image": "img/jude_law.jpg"
+    "image": "img/jude_law.jepg"
   }
 ],
       "first-name": "Sophia Liu",
@@ -8878,15 +8878,15 @@
       "cast": [
   {
     "name": "Clive Owen",
-    "image": "img/clive_owen.jpg"
+    "image": "img/clive_owen.jepg"
   },
   {
     "name": "Julianne Moore",
-    "image": "img/julianne_moore.jpg"
+    "image": "img/julianne_moore.jepg"
   },
   {
     "name": "Michael Caine",
-    "image": "img/michael_caine.jpg"
+    "image": "img/michael_caine.jepg"
   }
 ],
       "first-name": "Liam Ford",
@@ -8908,15 +8908,15 @@
 "cast": [
   {
     "name": "Ryan Gosling",
-    "image": "img/ryan_gosling.jpg"
+    "image": "img/ryan_gosling.jepg"
   },
   {
     "name": "Harrison Ford",
-    "image": "img/harrison_ford.jpg"
+    "image": "img/harrison_ford.jepg"
   },
   {
     "name": "Ana de Armas",
-    "image": "img/ana_de_armas.jpg"
+    "image": "img/ana_de_armas.jepg"
   }
 ],
       "first-name": "Ethan Davis",
@@ -8938,15 +8938,15 @@
       "cast": [
   {
     "name": "Matthew McConaughey",
-    "image": "img/matthew_mcconaughey.jpg"
+    "image": "img/matthew_mcconaughey.jepg"
   },
   {
     "name": "Anne Hathaway",
-    "image": "img/anne_hathaway.jpg"
+    "image": "img/anne_hathaway.jepg"
   },
   {
     "name": "Jessica Chastain",
-    "image": "img/jessica_chastain.jpg"
+    "image": "img/jessica_chastain.jepg"
   }
 ],
       "first-name": "Oliver Gray",
@@ -8968,15 +8968,15 @@
       "cast": [
   {
     "name": "Keanu Reeves",
-    "image": "img/keanu_reeves.jpg"
+    "image": "img/keanu_reeves.jepg"
   },
   {
     "name": "Laurence Fishburne",
-    "image": "img/laurence_fishburne.jpg"
+    "image": "img/laurence_fishburne.jepg"
   },
   {
     "name": "Carrie-Anne Moss",
-    "image": "img/carrie_anne_moss.jpg"
+    "image": "img/carrie_anne_moss.jepg"
   }
 ],
       "first-name": "Nathan Collins",
@@ -8998,15 +8998,15 @@
 "cast": [
   {
     "name": "Amy Adams",
-    "image": "img/amy_adams.jpg"
+    "image": "img/amy_adams.jepg"
   },
   {
     "name": "Jeremy Renner",
-    "image": "img/jeremy_renner.jpg"
+    "image": "img/jeremy_renner.jepg"
   },
   {
     "name": "Forest Whitaker",
-    "image": "img/forest_whitaker.jpg"
+    "image": "img/forest_whitaker.jepg"
   }
 ],
       "first-name": "Jack Dawson",
@@ -9028,15 +9028,15 @@
       "cast": [
   {
     "name": "Donatas Banionis",
-    "image": "img/donatas_banionis.jpg"
+    "image": "img/donatas_banionis.jepg"
   },
   {
     "name": "Natalya Bondarchuk",
-    "image": "img/natalya_bondarchuk.jpg"
+    "image": "img/natalya_bondarchuk.jepg"
   },
   {
     "name": "Jüri Järvet",
-    "image": "img/juri_jarvet.jpg"
+    "image": "img/juri_jarvet.jepg"
   }
 ],
       "first-name": "Henry Reed",
@@ -9058,15 +9058,15 @@
       "cast": [
   {
     "name": "Tom Cruise",
-    "image": "img/tom_cruise.jpg"
+    "image": "img/tom_cruise.jepg"
   },
   {
     "name": "Colin Farrell",
-    "image": "img/colin_farrell.jpg"
+    "image": "img/colin_farrell.jepg"
   },
   {
     "name": "Samantha Morton",
-    "image": "img/samantha_morton.jpg"
+    "image": "img/samantha_morton.jepg"
   }
 ],
       "first-name": "Lucas Brown",
@@ -9088,15 +9088,15 @@
       "cast": [
   {
     "name": "Jim Carrey",
-    "image": "img/jim_carrey.jpg"
+    "image": "img/jim_carrey.jepg"
   },
   {
     "name": "Laura Linney",
-    "image": "img/laura_linney.jpg"
+    "image": "img/laura_linney.jepg"
   },
   {
     "name": "Ed Harris",
-    "image": "img/ed_harris.jpg"
+    "image": "img/ed_harris.jepg"
   }
 ],
       "first-name": "Ella Wood",
@@ -9118,15 +9118,15 @@
       "cast": [
   {
     "name": "Joaquin Phoenix",
-    "image": "img/joaquin_phoenix.jpg"
+    "image": "img/joaquin_phoenix.jepg"
   },
   {
     "name": "Scarlett Johansson",
-    "image": "img/scarlett_johansson.jpg"
+    "image": "img/scarlett_johansson.jepg"
   },
   {
     "name": "Amy Adams",
-    "image": "img/amy_adams.jpg"
+    "image": "img/amy_adams.jepg"
   }
 ],
       "first-name": "Grace Miller",
@@ -9148,15 +9148,15 @@
       "cast": [
   {
     "name": "Christian Bale",
-    "image": "img/christian_bale.jpg"
+    "image": "img/christian_bale.jepg"
   },
   {
     "name": "Hugh Jackman",
-    "image": "img/hugh_jackman.jpg"
+    "image": "img/hugh_jackman.jepg"
   },
   {
     "name": "Scarlett Johansson",
-    "image": "img/scarlett_johansson.jpg"
+    "image": "img/scarlett_johansson.jepg"
   }
 ],
       "first-name": "Sam Turner",
@@ -9178,15 +9178,15 @@
       "cast": [
   {
     "name": "Leonardo DiCaprio",
-    "image": "img/leonardo_dicaprio.jpg"
+    "image": "img/leonardo_dicaprio.jepg"
   },
   {
     "name": "Joseph Gordon-Levitt",
-    "image": "img/joseph_gordon_levitt.jpg"
+    "image": "img/joseph_gordon_levitt.jepg"
   },
   {
     "name": "Ellen Page",
-    "image": "img/ellen_page.jpg"
+    "image": "img/ellen_page.webp"
   }
 ],
       "first-name": "Lucas Bryant",
@@ -9208,15 +9208,15 @@
       "cast": [
   {
     "name": "Alicia Vikander",
-    "image": "img/alicia_vikander.jpg"
+    "image": "img/alicia_vikander.jepg"
   },
   {
     "name": "Domhnall Gleeson",
-    "image": "img/domhnall_gleeson.jpg"
+    "image": "img/domhnall_gleeson.jepg"
   },
   {
     "name": "Oscar Isaac",
-    "image": "img/oscar_isaac.jpg"
+    "image": "img/oscar_isaac.jepg"
   }
 ],
       "first-name": "Maya Stevens",
@@ -9238,15 +9238,15 @@
       "cast": [
   {
     "name": "Bruce Willis",
-    "image": "img/bruce_willis.jpg"
+    "image": "img/bruce_willis.jepg"
   },
   {
     "name": "Milla Jovovich",
-    "image": "img/milla_jovovich.jpg"
+    "image": "img/milla_jovovich.jepg"
   },
   {
     "name": "Gary Oldman",
-    "image": "img/gary_oldman.jpg"
+    "image": "img/gary_oldman.jepg"
   }
 ],
       "first-name": "Toby King",
@@ -9268,15 +9268,15 @@
 "cast": [
   {
     "name": "Chris Evans",
-    "image": "img/chris_evans.jpg"
+    "image": "img/chris_evans.jepg"
   },
   {
     "name": "Tilda Swinton",
-    "image": "img/tilda_swinton.jpg"
+    "image": "img/tilda_swinton.jepg"
   },
   {
     "name": "Song Kang-ho",
-    "image": "img/song_kangho.jpg"
+    "image": "img/song_kangho.jepg"
   }
 ],
       "first-name": "Alex Carter",
@@ -9298,15 +9298,15 @@
 "cast": [
   {
     "name": "Ethan Hawke",
-    "image": "img/ethan_hawke.jpg"
+    "image": "img/ethan_hawke.jepg"
   },
   {
     "name": "Uma Thurman",
-    "image": "img/uma_thurman.jpg"
+    "image": "img/uma_thurman.jepg"
   },
   {
     "name": "Jude Law",
-    "image": "img/jude_law.jpg"
+    "image": "img/jude_law.jepg"
   }
 ],
       "first-name": "Grace Bellamy",
@@ -9328,15 +9328,15 @@
       "cast": [
   {
     "name": "Clive Owen",
-    "image": "img/clive_owen.jpg"
+    "image": "img/clive_owen.jepg"
   },
   {
     "name": "Julianne Moore",
-    "image": "img/julianne_moore.jpg"
+    "image": "img/julianne_moore.jepg"
   },
   {
     "name": "Michael Caine",
-    "image": "img/michael_caine.jpg"
+    "image": "img/michael_caine.jepg"
   }
 ],
       "first-name": "Daniel Hayes",
@@ -9358,15 +9358,15 @@
 "cast": [
   {
     "name": "Keanu Reeves",
-    "image": "img/keanu_reeves.jpg"
+    "image": "img/keanu_reeves.jepg"
   },
   {
     "name": "Laurence Fishburne",
-    "image": "img/laurence_fishburne.jpg"
+    "image": "img/laurence_fishburne.jepg"
   },
   {
     "name": "Carrie-Anne Moss",
-    "image": "img/carrie_anne_moss.jpg"
+    "image": "img/carrie_anne_moss.jepg"
   }
 ],
       "first-name": "Kieran Wright",
@@ -9388,15 +9388,15 @@
       "cast": [
   {
     "name": "Charlie Hunnam",
-    "image": "img/charlie_hunnam.jpg"
+    "image": "img/charlie_hunnam.jepg"
   },
   {
     "name": "Idris Elba",
-    "image": "img/idris_elba.jpg"
+    "image": "img/idris_elba.jepg"
   },
   {
     "name": "Rinko Kikuchi",
-    "image": "img/rinko_kikuchi.jpg"
+    "image": "img/rinko_kikuchi.jepg"
   }
 ],
       "first-name": "Aidan Cooper",
@@ -9418,15 +9418,15 @@
       "cast": [
   {
     "name": "Arnold Schwarzenegger",
-    "image": "img/arnold_schwarzenegger.jpg"
+    "image": "img/arnold_schwarzenegger.webp"
   },
   {
     "name": "Linda Hamilton",
-    "image": "img/linda_hamilton.jpg"
+    "image": "img/linda_hamilton.jpeg"
   },
   {
     "name": "Michael Biehn",
-    "image": "img/michael_biehn.jpg"
+    "image": "img/michael_biehn.webp"
   }
 ],
       "first-name": "Ryan Turner",
@@ -9448,15 +9448,15 @@
       "cast": [
   {
     "name": "Ryan Gosling",
-    "image": "img/ryan_gosling.jpg"
+    "image": "img/ryan_gosling.jepg"
   },
   {
     "name": "Harrison Ford",
-    "image": "img/harrison_ford.jpg"
+    "image": "img/harrison_ford.jepg"
   },
   {
     "name": "Ana de Armas",
-    "image": "img/ana_de_armas.jpg"
+    "image": "img/ana_de_armas.jepg"
   }
 ],
       "first-name": "Lucas Bryant",
