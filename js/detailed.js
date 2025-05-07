@@ -97,7 +97,7 @@ function buildDetailedPage(movie) {
             toggleFavourite(movieId, movieTitle, moviePoster);
           });
       
-          updateFavouriteIcons(); // Show correct heart icon immediately
+          updateFavouriteIcons(); 
         }
       }, 0);
 }
