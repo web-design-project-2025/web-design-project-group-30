@@ -52,12 +52,13 @@ function buildDetailedPage(movie) {
 
             <h2>CAST</h2>
             <section class="cast">
-                ${movie.cast.split(',').slice(0, 4).map(actor => `
-                    <figure>
-                        <img class="cast-image" src="#" alt="#">
-                        <figcaption class="cast-name">${actor.trim()}</figcaption>
-                    </figure>
-                `).join('')}
+            ${movie.cast.slice(0, 4).map(actor => `
+                <figure>
+                  <img class="cast-image" src="${actor.image}" alt="${actor.name}">
+                  <figcaption class="cast-name">${actor.name}</figcaption>
+                </figure>
+              `).join('')}
+              
             </section>
 
             <h2>TRAILER</h2>

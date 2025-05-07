@@ -83,3 +83,10 @@
         flex: 2;
     }
 }
+
+.cast-image{
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
