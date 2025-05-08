@@ -208,16 +208,6 @@ function updateStarDisplay(container, rating) {
   });
 }
 
-function deleteReview(index) {
-  const movieId = getMovieIdFromURL();
-  const storageKey = `review-${movieId}`;
-  const reviews = JSON.parse(localStorage.getItem(storageKey)) || [];
-
-  reviews.splice(index, 1);
-  localStorage.setItem(storageKey, JSON.stringify(reviews));
-  loadreview();
-}
-
 //gives a confirmation if user really wants to delete their review
 function deleteReview(index) {
   const confirmed = confirm("Are you sure you want to delete your review?");
@@ -232,5 +222,4 @@ function deleteReview(index) {
   loadreview();
 }
 
-//displays saved reviews when the page loads
 window.onload = loadreview;
