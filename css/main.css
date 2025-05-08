@@ -9,7 +9,8 @@
 
 #movie-list {
   display: grid;
-  grid-template-columns: repeat(11,1fr);
+  grid-template-columns: repeat(9,1fr);
+  justify-items: center;
   justify-content: center;
   gap: 10px;
   justify-items: center;
@@ -89,21 +90,21 @@ h3{
 
 
 .rating-home {
-  height: 200px;
-  width: 100px;
+  height: 160px;
+  width: 90px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
-  transition: 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .rating-home:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 .rating-home img {
-  width: 150px;
-  height: 200px;
+  width: 140px;
+  height: 250px;
   object-fit: cover;
   border-radius: 10%;
 }
@@ -158,6 +159,7 @@ h3{
   gap: 30px;
   padding: 10%;
   flex-wrap: nowrap;
+  overflow: visible;
 }
 .most-reviewed h2{
   font-size: larger;
@@ -260,9 +262,9 @@ body {
   background-color: #111111;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /*search bar*/
@@ -274,10 +276,12 @@ body {
   position: absolute;
   max-width: 300px;
   width: auto;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
 }
+
 .search-result {
   display: none;
   position: absolute;
@@ -498,6 +502,18 @@ body {
     transform: scale(1.05);
     transition: all 0.3s ease;
   }
+}
+@media (max-width: 1100px) {
+  #movie-list {
+    grid-template-columns:repeat(3, 2fr);
+    column-gap: 10px;
+  }
+
+  .movie-card img {
+    width: 120px;
+    height: 240px;
+  }
+  
 }
 .movie-header {
   display: flex;
