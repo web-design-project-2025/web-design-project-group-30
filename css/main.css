@@ -172,23 +172,6 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-/*banner*/
-.banner-image {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  z-index: 10;
-}
-
-.banner-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  z-index: 10;
-}
-
-
 /*DETALED MOVIE REVIEW PAGE*/
 .movie-poster-detailed-review-page {
   height: auto;
@@ -270,14 +253,30 @@ body {
   padding: 10px 20px;
   display: block;
 }
-/*search bar*/
-.search-container {
+/*banner*/
+.banner{
+  width: 100%;
+  height: 200px;
+  background-color: #111111;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 50px auto;
+  overflow: hidden;
+}
+
+/*search bar*/
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
   max-width: 300px;
+  width: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
 }
 .search-result {
   display: none;
@@ -300,7 +299,7 @@ body {
 .search-result li a {
   border: 1px solid #f0f0f0;
   border-radius: 10px;
-  margin-top: 1px;
+ 
   background-color: #d9d9d9;
   padding: 1px;
   text-decoration: none;
@@ -531,7 +530,66 @@ body {
  https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
 
 
+footer {
+  text-align: center;
+  padding: 20px 30px;
+  color: #d9d9d9;
+  position: relative;
+  border-top: 3px solid #793E98;
+}
+ .footer-links {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: large;
+  color: #d9d9d9;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.footer-links a:hover{
+  color: #793E98;
+
+}
+
+.social-media {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  position: relative;
+}
+
+.social-media p {
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
 
 
+.social-media p span {
+  position: absolute;
+  bottom: -25px;
+  transform: translateX(-50%);
+  background: #444;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
 
+.social-media p:hover span {
+  opacity: 1;
+}
+.social-media p:hover{
+  color: #793E98;
+  transform: scale(1.1);
+}
 

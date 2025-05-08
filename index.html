@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Review Website Velour</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/main.js" defer></script>
     <script src="js/secluded.js" defer></script>
 </head>
@@ -54,31 +55,30 @@
                 </ul>
             </div>
         </nav>
-                <!--search bar-->
-                <div class="search-container">
-                    <div class="bar">
-                        <input
-                            type="text"
-                            id="search-bar"
-                            onkeyup="filterSearchResults()"
-                            placeholder="Search"
-                        />
-                        <button onclick="filterSearchResults()">Search</button>
-                    </div>
-                    <div class="search-result">
-                        <ul>
-                            <li><a href="#">My Favorites</a></li>
-                            <li><a href="horror.html">Horror</a></li>
-                            <li><a href="romance.html">Romance</a></li>
-                            <li><a href="profile.html">Profile</a></li>
-                        </ul>
-                    </div>
-                </div>
         </nav>
     </header>
     <main>
-        <div class="banner-image">
-            <img src="img/minecraftposter.jpg" class="banner-img">
+        <div class="banner">
+            <!--search bar-->
+            <div class="search-container">
+                <div class="bar">
+                    <input
+                        type="text"
+                        id="search-bar"
+                        onkeyup="filterSearchResults()"
+                        placeholder="Search"
+                    />
+                    <button onclick="filterSearchResults()">Search</button>
+                </div>
+                <div class="search-result">
+                    <ul>
+                        <li><a href="#">My Favorites</a></li>
+                        <li><a href="horror.html">Horror</a></li>
+                        <li><a href="romance.html">Romance</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="categories"> 
             <div class="categories-row">
@@ -155,7 +155,19 @@
         </section>
     </section>
     <footer>
-        <p>© 2025 Velour</p>
+        <div class="footer-links">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="profile.html"> PROFILE </a>
+            </nav>
+        </div>
+        <div class="social-media">
+            <p class="fa fa-facebook"><span>VELOUR</span></p>
+            <p class="fa fa-twitter"><span>VELOUR</span></p>
+            <p class="fa fa-instagram"><span>VELOUR</span></p>
+            <p class="fa fa-google"><span>VELOUR@GMAIL.COM</span></p>
+        </div>
+        <p class="copyright">© 2025 Velour</p>
     </footer>
 </body>
 </html>
