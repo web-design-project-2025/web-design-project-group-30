@@ -23,6 +23,7 @@ function myFunction() {
 // Build the detailed page
 function buildDetailedPage(movie) {
   document.body.innerHTML = `
+
         <header>
            <div class="logo-container">
     <a href="index.html">
@@ -119,7 +120,15 @@ function buildDetailedPage(movie) {
               
             </section>
 
-            <h2>TRAILER</h2>
+               <h2>TRAILER</h2>
+      <div class="trailer-container">
+        <iframe width="560" height="315" 
+          src="${movie.trailer}" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
 
             <h2>COMMUNITY OPINION</h2>
             <div class="review-one">
@@ -148,9 +157,12 @@ function buildDetailedPage(movie) {
         <footer>
             <p>© 2025 Velour</p>
         </footer>
-    `;
+    `;  
+
   setupStarRating();
   loadreview();
+
+
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
     if (favButton) {
@@ -160,7 +172,8 @@ function buildDetailedPage(movie) {
         event.preventDefault();
         const movieId = favButton.dataset.id;
         const movieTitle = favButton.dataset.title;
-        const moviePoster = favButton.dataset.image;
+
+        const moviePoster = favButton.dataset.poster;
 
         toggleFavourite(movieId, movieTitle, moviePoster);
       });
@@ -180,23 +193,22 @@ window.addEventListener("DOMContentLoaded", () => {
       if (movie) {
         buildDetailedPage(movie);
       } else {
-        document.getElementById("detailed-movie").innerHTML =
-          "<p>Movie not found</p>";
+        console.error("Movie not found");
       }
     })
     .catch((err) => {
       console.error("Error fetching movie data:", err);
-      document.getElementById("detailed-movie").innerHTML =
-        "<p>Error loading movie data</p>";
     });
 });
 
-//loads saved reviews from the localStorage and shows them
+// Loads saved reviews from localStorage
 function loadreview() {
   const movieId = getMovieIdFromURL();
   const storageKey = `review-${movieId}`;
   const reviews = JSON.parse(localStorage.getItem(storageKey)) || [];
   const feed = document.getElementById("reviewFeed");
+  if (!feed) return;
+
   feed.innerHTML = "";
 
   reviews.forEach((entry, index) => {
@@ -219,7 +231,7 @@ function loadreview() {
   });
 }
 
-//saved the review to the localStorage
+// Save the review to localStorage
 function saveMessage() {
   const name = document.getElementById("nameInput").value.trim();
   const text = document.getElementById("reviewInput").value.trim();
@@ -243,7 +255,7 @@ function saveMessage() {
   loadreview();
 }
 
-//enable the own star raiting
+// Enable custom star rating
 let selectedRating = 0;
 
 function setupStarRating() {
