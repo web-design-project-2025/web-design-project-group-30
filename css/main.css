@@ -496,3 +496,26 @@ body {
 #star-filter span.active {
   color: gold;
 }
+
+ 
+/*HEART ICON*/
+.favourite-button{
+  background-color: transparent;
+  border: none;
+}
+.favourite-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.favourite-button.filled img {
+  width: 24px;
+  height: 24px;
+}
+
+.favourite-items{
+  margin-top: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

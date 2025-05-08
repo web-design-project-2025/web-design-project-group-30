@@ -1,4 +1,4 @@
-fetch("movie.json")
+fetch("data/movie.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data); 
@@ -11,7 +11,7 @@ fetch("movie.json")
 
         movieCard.innerHTML = `
     <a href="detailed-movie-review-page.html?id=${movie.id}" class="movie-link">
-            <img src="/img/${movie.poster}" alt="${movie.alt}">
+            <img src="img/${movie.poster}" alt="${movie.alt}">
           </a>
     `;
 

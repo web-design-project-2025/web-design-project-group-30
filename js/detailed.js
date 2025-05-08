@@ -4,7 +4,6 @@ function getMovieIdFromURL() {
   return parseInt(params.get("id"), 10);
 }
 
-//enables the read more button for the review
 function myFunction() {
   const dots = document.getElementById("dots");
   const moreText = document.getElementById("more");
@@ -35,7 +34,7 @@ function buildDetailedPage(movie) {
                 <div class="movie-information">
                     <div class="movie-titel-heart">
                         <h1>${movie.title}</h1>
-                        <span class="heart-icon">💜</span>
+                        <button class="favourite-button" data-id="${movie.id}" data-title="${movie.title}" data-poster="${movie.poster}"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
                     </div>
                     <div class="star-rating">${movie.rating}</div>
                 </div>
@@ -93,25 +92,44 @@ function buildDetailedPage(movie) {
     `;
   setupStarRating();
   loadreview();
+    setTimeout(() => {
+        const favButton = document.querySelector(".favourite-button");
+        if (favButton) {
+          favButton.addEventListener("click", (event) => {
+            console.log("Favourite button clicked");
+
+            event.preventDefault();
+            const movieId = favButton.dataset.id;
+            const movieTitle = favButton.dataset.title;
+            const moviePoster = favButton.dataset.image;
+      
+            toggleFavourite(movieId, movieTitle, moviePoster);
+          });
+      
+          updateFavouriteIcons(); 
+        }
+      }, 0);
 }
 
 // Fetch JSON and build page
 window.addEventListener("DOMContentLoaded", () => {
-    fetch('detailed.json')
-        .then(response => response.json())
-        .then(data => {
-            const movieId = getMovieIdFromURL();
-            const movie = data.details.find(m => m.id === movieId);
-            if (movie) {
-                buildDetailedPage(movie);
-            } else {
-                document.getElementById("detailed-movie").innerHTML = "<p>Movie not found</p>";
-            }
-        })
-        .catch(err => {
-            console.error("Error fetching movie data:", err);
-            document.getElementById("detailed-movie").innerHTML = "<p>Error loading movie data</p>";
-        });
+  fetch("data/detailed.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const movieId = getMovieIdFromURL();
+      const movie = data.details.find((m) => m.id === movieId);
+      if (movie) {
+        buildDetailedPage(movie);
+      } else {
+        document.getElementById("detailed-movie").innerHTML =
+          "<p>Movie not found</p>";
+      }
+    })
+    .catch((err) => {
+      console.error("Error fetching movie data:", err);
+      document.getElementById("detailed-movie").innerHTML =
+        "<p>Error loading movie data</p>";
+    });
 });
 
 //loads saved reviews from the localStorage and shows them
