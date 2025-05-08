@@ -61,8 +61,8 @@ function updateFavouritesDisplay() {
     favContainer.innerHTML += `
       <div class="favourite-item">
         <img src="${movie.poster}" alt="${movie.title}" />
-        <h3>${movie.title}</h3> <!-- Added title -->
-        <button class="delete-button" data-id="${movie.id}">Delete</button> <!-- Added delete button -->
+        <h3>${movie.title}</h3>
+        <button class="delete-button" data-id="${movie.id}">Delete</button>
       </div>
     `;
   });
