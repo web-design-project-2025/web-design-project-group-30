@@ -34,7 +34,11 @@ function buildDetailedPage(movie) {
                 <div class="movie-information">
                     <div class="movie-titel-heart">
                         <h1>${movie.title}</h1>
-                        <button class="favourite-button" data-id="${movie.id}" data-title="${movie.title}" data-poster="${movie.poster}"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
+                        <button class="favourite-button" data-id="${
+                          movie.id
+                        }" data-title="${movie.title}" data-poster="${
+    movie.poster
+  }"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
                     </div>
                     <div class="star-rating">${movie.rating}</div>
                 </div>
@@ -54,17 +58,29 @@ function buildDetailedPage(movie) {
 
             <h2>CAST</h2>
             <section class="cast">
-            ${movie.cast.slice(0, 4).map(actor => `
+            ${movie.cast
+              .slice(0, 4)
+              .map(
+                (actor) => `
                 <figure>
                   <img class="cast-image" src="${actor.image}" alt="${actor.name}">
                   <figcaption class="cast-name">${actor.name}</figcaption>
                 </figure>
-              `).join('')}
+              `
+              )
+              .join("")}
               
             </section>
 
-            <h2>TRAILER</h2>
-            <p>VIDEO TRAILER HERE</p>
+              <h2>TRAILER</h2>
+<div class="trailer-container">
+    <iframe width="560" height="315" 
+        src="${movie.trailer}" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
 
             <h2>COMMUNITY OPINION</h2>
             <h3>${movie["first-name"]}</h3>
@@ -92,23 +108,23 @@ function buildDetailedPage(movie) {
     `;
   setupStarRating();
   loadreview();
-    setTimeout(() => {
-        const favButton = document.querySelector(".favourite-button");
-        if (favButton) {
-          favButton.addEventListener("click", (event) => {
-            console.log("Favourite button clicked");
+  setTimeout(() => {
+    const favButton = document.querySelector(".favourite-button");
+    if (favButton) {
+      favButton.addEventListener("click", (event) => {
+        console.log("Favourite button clicked");
 
-            event.preventDefault();
-            const movieId = favButton.dataset.id;
-            const movieTitle = favButton.dataset.title;
-            const moviePoster = favButton.dataset.image;
-      
-            toggleFavourite(movieId, movieTitle, moviePoster);
-          });
-      
-          updateFavouriteIcons(); 
-        }
-      }, 0);
+        event.preventDefault();
+        const movieId = favButton.dataset.id;
+        const movieTitle = favButton.dataset.title;
+        const moviePoster = favButton.dataset.image;
+
+        toggleFavourite(movieId, movieTitle, moviePoster);
+      });
+
+      updateFavouriteIcons();
+    }
+  }, 0);
 }
 
 // Fetch JSON and build page
