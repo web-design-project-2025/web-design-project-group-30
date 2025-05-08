@@ -1,7 +1,7 @@
 fetch("data/movie.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
+    console.log(data); 
 
     const movieList = document.getElementById("movie-list");
     if (movieList) {
@@ -36,7 +36,8 @@ function signin() {
     localStorage.setItem("username", name);
 
     const modal = document.getElementById("modal");
-    if (modal) modal.remove();
+    if (modal) modal.remove(); 
+
     alert("Successfully signed in");
   } else {
     alert("Please fill in both fields");
@@ -48,7 +49,7 @@ function checkSignin() {
   const modal = document.getElementById("modal");
 
   if (isSignedIn === "true" && modal) {
-    modal.remove();
+    modal.remove(); 
   }
 }
 
@@ -60,4 +61,7 @@ window.addEventListener("DOMContentLoaded", function () {
 /*Source/Refrences
 Read More Button:
 https://www.w3schools.com/howto/howto_js_read_more.asp*/
+
+  
+
 

@@ -28,7 +28,9 @@ function buildDetailedPage(movie) {
         </header>
         <main>
             <div class="movie-header">
-                <img class="movie-poster-detailed-review-page" src="${movie.poster}" alt="${movie.title}">
+                <img class="movie-poster-detailed-review-page" src="${
+                  movie.poster
+                }" alt="${movie.title}">
                 <div class="movie-information">
                     <div class="movie-titel-heart">
                         <h1>${movie.title}</h1>
@@ -52,18 +54,13 @@ function buildDetailedPage(movie) {
 
             <h2>CAST</h2>
             <section class="cast">
-                ${movie.cast
-                  .split(",")
-                  .slice(0, 4)
-                  .map(
-                    (actor) => `
-                    <figure>
-                        <img class="cast-image" src="#" alt="#">
-                        <figcaption class="cast-name">${actor.trim()}</figcaption>
-                    </figure>
-                `
-                  )
-                  .join("")}
+            ${movie.cast.slice(0, 4).map(actor => `
+                <figure>
+                  <img class="cast-image" src="${actor.image}" alt="${actor.name}">
+                  <figcaption class="cast-name">${actor.name}</figcaption>
+                </figure>
+              `).join('')}
+              
             </section>
 
             <h2>TRAILER</h2>
@@ -77,12 +74,24 @@ function buildDetailedPage(movie) {
             <p>${movie["second-rating"]}</p>
             <p>${movie["second-review"]}</p>
 
+            <div class="review-feed" id="reviewFeed"></div>
+
             <h2>ADD YOUR OPINION</h2>
+            <div class="review-form">
+             <label for="rating">MOVIE RANKING:</label>
+             <div id="starRating" class="star-rating-input"></div> 
+             <label for="nameInput">USERNAME:</label>
+             <input type="text" id="nameInput" placeholder="Your name" />
+             <label for="reviewInput">PERSONAL REVIEW:</label>
+             <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
+             <button onclick="saveMessage()">PUBLISH  MY REVIEW</button> </div>
         </main>
         <footer>
             <p>© 2025 Velour</p>
         </footer>
     `;
+  setupStarRating();
+  loadreview();
     setTimeout(() => {
         const favButton = document.querySelector(".favourite-button");
         if (favButton) {
@@ -122,3 +131,106 @@ window.addEventListener("DOMContentLoaded", () => {
         "<p>Error loading movie data</p>";
     });
 });
+
+//loads saved reviews from the localStorage and shows them
+function loadreview() {
+  const movieId = getMovieIdFromURL();
+  const storageKey = `review-${movieId}`;
+  const reviews = JSON.parse(localStorage.getItem(storageKey)) || [];
+  const feed = document.getElementById("reviewFeed");
+  feed.innerHTML = "";
+
+  reviews.forEach((entry, index) => {
+    const div = document.createElement("div");
+    div.className = "review";
+    const stars = "★".repeat(entry.rating) + "☆".repeat(5 - entry.rating);
+
+    div.innerHTML = `
+        <strong>${entry.name}</strong> (${stars})<br>
+        ${entry.text}
+        <button class="delete-btn" onclick="deleteReview(${index})">X</button>
+      `;
+
+    feed.appendChild(div);
+  });
+}
+
+//saved the review to the localStorage
+function saveMessage() {
+  const name = document.getElementById("nameInput").value.trim();
+  const text = document.getElementById("reviewInput").value.trim();
+
+  if (!name || !text || selectedRating === 0) {
+    alert("Not done yet! Please complete all fields including a star rating.");
+    return;
+  }
+
+  const movieId = getMovieIdFromURL();
+  const storageKey = `review-${movieId}`;
+  const review = JSON.parse(localStorage.getItem(storageKey)) || [];
+  review.push({ name, text, rating: selectedRating });
+  localStorage.setItem(storageKey, JSON.stringify(review));
+
+  document.getElementById("nameInput").value = "";
+  document.getElementById("reviewInput").value = "";
+  selectedRating = 0;
+  setupStarRating();
+
+  loadreview();
+}
+
+//enable the own star raiting
+let selectedRating = 0;
+
+function setupStarRating() {
+  const container = document.getElementById("starRating");
+  container.innerHTML = "";
+
+  for (let i = 1; i <= 5; i++) {
+    const star = document.createElement("span");
+    star.textContent = "★";
+    star.classList.add("star");
+    star.dataset.value = i;
+
+    star.addEventListener("click", () => {
+      selectedRating = i;
+      updateStarDisplay(container, i);
+    });
+
+    container.appendChild(star);
+  }
+}
+
+function updateStarDisplay(container, rating) {
+  const stars = container.querySelectorAll(".star");
+  stars.forEach((star, index) => {
+    star.classList.toggle("selected", index < rating);
+  });
+}
+
+function deleteReview(index) {
+  const movieId = getMovieIdFromURL();
+  const storageKey = `review-${movieId}`;
+  const reviews = JSON.parse(localStorage.getItem(storageKey)) || [];
+
+  reviews.splice(index, 1);
+  localStorage.setItem(storageKey, JSON.stringify(reviews));
+  loadreview();
+}
+
+//gives a confirmation if user really wants to delete their review
+function deleteReview(index) {
+  const confirmed = confirm("Are you sure you want to delete your review?");
+  if (!confirmed) return;
+
+  const movieId = getMovieIdFromURL();
+  const storageKey = `review-${movieId}`;
+  const reviews = JSON.parse(localStorage.getItem(storageKey)) || [];
+
+  reviews.splice(index, 1);
+  localStorage.setItem(storageKey, JSON.stringify(reviews));
+  loadreview();
+}
+
+//displays saved reviews when the page loads
+window.onload = loadreview;
