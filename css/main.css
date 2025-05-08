@@ -1,4 +1,7 @@
 /*Movie JSON*/
+p{
+  font-weight: lighter;
+}
 .movie-card img {
   width: 200px;
   height: auto;
@@ -373,16 +376,6 @@ body {
   }
 }
 
-#more {
-  display: none;
-}
-
-#readMoreButton {
-  width: 100%;
-  color: #8220b3;
-  background-color: #d9d9d9;
-  border: none;
-}
 /*Sources/Refrences
  https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
 
@@ -497,22 +490,7 @@ body {
   color: gold;
 }
 
- 
-/*HEART ICON*/
-.favourite-button{
-  background-color: transparent;
-  border: none;
-}
-.favourite-button img {
-  width: 24px;
-  height: 24px;
-}
-
-.favourite-button.filled img {
-  width: 24px;
-  height: 24px;
-}
-
+/*favourite page*/ 
 .favourite-items{
   margin-top: 10px;
   width: 100%;
