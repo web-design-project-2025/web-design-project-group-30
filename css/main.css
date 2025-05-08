@@ -17,6 +17,22 @@
   max-width: 200px;
 }
 
+/*favorites section*/
+.favourite-item img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.favourite-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+}
 body {
   background-color: #201f1f;
   color: white;
