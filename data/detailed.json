@@ -370,7 +370,7 @@
     {
       "id": 10,
       "title": "Materialists",
-      "poster": "materialists.jpeg",
+      "poster": "img/materialists.jpeg",
       "year": "2024",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -405,7 +405,7 @@
     {
       "id": 11,
       "title": "Another Simple Favor",
-      "poster": "another-simple-favor.jpeg",
+      "poster": "img/another-simple-favor.jpeg",
       "year": "2023",
       "genre": "romance, mystery, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -440,7 +440,7 @@
     {
       "id": 12,
       "title": "On Swift Horses",
-      "poster": "on-swift-horses.jpeg",
+      "poster": "img/on-swift-horses.jpeg",
       "year": "2025",
       "genre": "romance, western",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -475,7 +475,7 @@
     {
       "id": 13,
       "title": "Heartstopper",
-      "poster": "heartstopper-movie.jpeg",
+      "poster": "img/heartstopper-movie.jpeg",
       "year": "2024",
       "genre": "romance, drama, coming-of-age",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -510,7 +510,7 @@
     {
       "id": 14,
       "title": "Ex Ex Lovers",
-      "poster": "ex-ex-lovers.jpeg",
+      "poster": "img/ex-ex-lovers.jpeg",
       "year": "2024",
       "genre": "romance, comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -545,7 +545,7 @@
     {
       "id": 15,
       "title": "Sosyal Climbers",
-      "poster": "sosyal-climbers.webp",
+      "poster": "img/sosyal-climbers.webp",
       "year": "2023",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -580,7 +580,7 @@
     {
       "id": 16,
       "title": "Wish You Were Here",
-      "poster": "wish-you-were-here.jpeg",
+      "poster": "img/wish-you-were-here.jpeg",
       "year": "2023",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -615,7 +615,7 @@
     {
       "id": 17,
       "title": "Bridget Jones: Mad About The Boy",
-      "poster": "bridget-jones-mad-about-the-boy.jpeg",
+      "poster": "img/bridget-jones-mad-about-the-boy.jpeg",
       "year": "2024",
       "genre": "romance, comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -650,7 +650,7 @@
     {
       "id": 18,
       "title": "Winter Spring Summer or Fall",
-      "poster": "winter-spring-summer-or-fall.jpeg",
+      "poster": "img/winter-spring-summer-or-fall.jpeg",
       "year": "2024",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -685,7 +685,7 @@
     {
       "id": 19,
       "title": "Off the Record",
-      "poster": "off-the-record.jpeg",
+      "poster": "img/off-the-record.jpeg",
       "year": "2024",
       "genre": "romance, drama, mystery",
       "rating": "⭐️⭐️⭐️½",
@@ -720,7 +720,7 @@
     {
       "id": 20,
       "title": "Mission: Impossible – The Final Reckoning",
-      "poster": "mission-impossible-the-final-reckoning.jpeg",
+      "poster": "img/mission-impossible-the-final-reckoning.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -755,7 +755,7 @@
     {
       "id": 21,
       "title": "The Gorge",
-      "poster": "the-gorge.jpeg",
+      "poster": "img/the-gorge.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -786,7 +786,7 @@
     {
       "id": 22,
       "title": "Havoc",
-      "poster": "havoc.jpeg",
+      "poster": "img/havoc.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -817,7 +817,7 @@
     {
       "id": 23,
       "title": "The Amateur",
-      "poster": "the-amateur.jpeg",
+      "poster": "img/the-amateur.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️",
@@ -848,7 +848,7 @@
     {
       "id": 24,
       "title": "Extraction 2",
-      "poster": "extraction-2.jpeg",
+      "poster": "img/extraction-2.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -879,7 +879,7 @@
     {
       "id": 25,
       "title": "Fast X",
-      "poster": "fast-x.jpeg",
+      "poster": "img/fast-x.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️",
@@ -910,7 +910,7 @@
     {
       "id": 26,
       "title": "John Wick: Chapter 4",
-      "poster": "john-wick-chapter-4.jpeg",
+      "poster": "img/john-wick-chapter-4.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -941,7 +941,7 @@
     {
       "id": 27,
       "title": "Ant-Man and The Wasp: Quantumania",
-      "poster": "ant-man-and-the-wasp-quantumania.jpeg",
+      "poster": "img/ant-man-and-the-wasp-quantumania.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -972,7 +972,7 @@
     {
       "id": 28,
       "title": "Guardians of the Galaxy Vol. 3",
-      "poster": "guardians-of-the-galaxy-vol-3.jpeg",
+      "poster": "img/guardians-of-the-galaxy-vol-3.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -1003,7 +1003,7 @@
     {
       "id": 29,
       "title": "Scream 6",
-      "poster": "scream-6.jpeg",
+      "poster": "img/scream-6.jpeg",
       "year": "2025",
       "genre": "Action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1034,7 +1034,7 @@
     {
       "id": 30,
       "title": "No Hard Feelings",
-      "poster": "no-hard-feeling.jpeg",
+      "poster": "img/no-hard-feeling.jpeg",
       "year": "2023",
       "genre": "comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1065,7 +1065,7 @@
     {
       "id": 31,
       "title": "Barbie",
-      "poster": "barbie.jpeg",
+      "poster": "img/barbie.jpeg",
       "year": "2023",
       "genre": "comedy, fantasy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1096,7 +1096,7 @@
     {
       "id": 32,
       "title": "Joy Ride",
-      "poster": "joy-ride.jpeg",
+      "poster": "img/joy-ride.jpeg",
       "year": "2023",
       "genre": "comedy, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1127,7 +1127,7 @@
     {
       "id": 33,
       "title": "Strays",
-      "poster": "strays.jpeg",
+      "poster": "img/strays.jpeg",
       "year": "2023",
       "genre": "comedy, animation",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1158,7 +1158,7 @@
     {
       "id": 34,
       "title": "Bottoms",
-      "poster": "bottoms.jpeg",
+      "poster": "img/bottoms.jpeg",
       "year": "2023",
       "genre": "comedy, teen",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1189,7 +1189,7 @@
     {
       "id": 35,
       "title": "You People",
-      "poster": "you-people.jpeg",
+      "poster": "img/you-people.jpeg",
       "year": "2023",
       "genre": "comedy, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1220,7 +1220,7 @@
     {
       "id": 36,
       "title": "Quiz Lady",
-      "poster": "quiz-lady.jpeg",
+      "poster": "img/quiz-lady.jpeg",
       "year": "2023",
       "genre": "comedy, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1251,7 +1251,7 @@
     {
       "id": 37,
       "title": "Dumb Money",
-      "poster": "dumb-money.jpeg",
+      "poster": "img/dumb-money.jpeg",
       "year": "2023",
       "genre": "comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1282,7 +1282,7 @@
     {
       "id": 38,
       "title": "Leo",
-      "poster": "leo.jpeg",
+      "poster": "img/leo.jpeg",
       "year": "2023",
       "genre": "comedy, animation",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1313,7 +1313,7 @@
     {
       "id": 39,
       "title": "Murder Mystery 2",
-      "poster": "murder-mystery-2.jpeg",
+      "poster": "img/murder-mystery-2.jpeg",
       "year": "2023",
       "genre": "comedy, mystery",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1344,7 +1344,7 @@
     {
       "id": 40,
       "title": "The Nun 2",
-      "poster": "the-nun-2.jpeg",
+      "poster": "img/the-nun-2.jpeg",
       "year": "2023",
       "genre": "horror, mystery",
       "rating": "⭐️⭐️⭐️",
@@ -1375,7 +1375,7 @@
     {
       "id": 41,
       "title": "Talk to Me",
-      "poster": "talk-to-me.jpeg",
+      "poster": "img/talk-to-me.jpeg",
       "year": "2023",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1406,7 +1406,7 @@
     {
       "id": 42,
       "title": "Insidious: The Red Door",
-      "poster": "insidious-the-red-door.jpeg",
+      "poster": "img/insidious-the-red-door.jpeg",
       "year": "2023",
       "genre": "horror",
       "rating": "⭐️⭐️⭐️",
@@ -1437,7 +1437,7 @@
     {
       "id": 43,
       "title": "Cobweb",
-      "poster": "cobweb.jpeg",
+      "poster": "img/cobweb.jpeg",
       "year": "2023",
       "genre": "horror, mystery",
       "rating": "⭐️⭐️⭐️",
@@ -1468,7 +1468,7 @@
     {
       "id": 44,
       "title": "The Boogeyman",
-      "poster": "the-boogeyman.jpeg",
+      "poster": "img/the-boogeyman.jpeg",
       "year": "2023",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -1499,7 +1499,7 @@
     {
       "id": 45,
       "title": "Thanksgiving",
-      "poster": "thanksgiving.jpeg",
+      "poster": "img/thanksgiving.jpeg",
       "year": "2023",
       "genre": "horror, slasher",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1530,7 +1530,7 @@
     {
       "id": 46,
       "title": "The Exorcist: Believer",
-      "poster": "the-exorcist-believer.jpeg",
+      "poster": "img/the-exorcist-believer.jpeg",
       "year": "2023",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️",
@@ -1561,7 +1561,7 @@
     {
       "id": 47,
       "title": "Five Nights at Freddy's",
-      "poster": "five-nights-at-freddys.jpeg",
+      "poster": "img/five-nights-at-freddys.jpeg",
       "year": "2023",
       "genre": "horror, video game adaptation",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1592,7 +1592,7 @@
     {
       "id": 48,
       "title": "Evil Dead Rise",
-      "poster": "evil-dead-rise.jpeg",
+      "poster": "img/evil-dead-rise.jpeg",
       "year": "2023",
       "genre": "horror, gore",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1623,7 +1623,7 @@
     {
       "id": 49,
       "title": "Skinamarink",
-      "poster": "skinamarink.jpeg",
+      "poster": "img/skinamarink.jpeg",
       "year": "2022",
       "genre": "experimental horror",
       "rating": "⭐️⭐️⭐️",
@@ -1650,7 +1650,7 @@
     {
       "id": 50,
       "title": "Still: A Michael J. Fox Movie",
-      "poster": "still-a-michael-j-fox-movie.jpeg",
+      "poster": "img/still-a-michael-j-fox-movie.jpeg",
       "year": "2023",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -1673,7 +1673,7 @@
     {
       "id": 51,
       "title": "The Deepest Breath",
-      "poster": "the-deepest-breath.jpeg",
+      "poster": "img/the-deepest-breath.jpeg",
       "year": "2023",
       "genre": "documentary, sports",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1700,7 +1700,7 @@
     {
       "id": 52,
       "title": "Navalny",
-      "poster": "navalny.jpeg",
+      "poster": "img/navalny.jpeg",
       "year": "2022",
       "genre": "documentary, political",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1723,7 +1723,7 @@
     {
       "id": 53,
       "title": "American Symphony",
-      "poster": "american-symphony.jpeg",
+      "poster": "img/american-symphony.jpeg",
       "year": "2023",
       "genre": "documentary, music",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1750,7 +1750,7 @@
     {
       "id": 54,
       "title": "The Pigeon Tunnel",
-      "poster": "the-pigeon-tunnel.jpeg",
+      "poster": "img/the-pigeon-tunnel.jpeg",
       "year": "2023",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1773,7 +1773,7 @@
     {
       "id": 55,
       "title": "Bobi Wine: The People's President",
-      "poster": "bobi-wine-the-peoples-president.jpeg",
+      "poster": "img/bobi-wine-the-peoples-president.jpeg",
       "year": "2023",
       "genre": "documentary, political",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1796,7 +1796,7 @@
     {
       "id": 56,
       "title": "Beyond Utopia",
-      "poster": "beyond-utopia.jpeg",
+      "poster": "img/beyond-utopia.jpeg",
       "year": "2023",
       "genre": "documentary, human rights",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1819,7 +1819,7 @@
     {
       "id": 57,
       "title": "Fire of Love",
-      "poster": "fire-of-love.jpeg",
+      "poster": "img/fire-of-love.jpeg",
       "year": "2022",
       "genre": "documentary, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1846,7 +1846,7 @@
     {
       "id": 58,
       "title": "The Mission",
-      "poster": "the-mission.jpeg",
+      "poster": "img/the-mission.jpeg",
       "year": "2023",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️",
@@ -1869,7 +1869,7 @@
     {
       "id": 59,
       "title": "Desperate Souls, Dark City and the Legend of Midnight Cowboy",
-      "poster": "desperate-souls-dark-city-and-the-legend-of-midnight-cowboy.jpeg",
+      "poster": "img/desperate-souls-dark-city-and-the-legend-of-midnight-cowboy.jpeg",
       "year": "2023",
       "genre": "documentary, film history",
       "rating": "⭐️⭐️⭐️",
@@ -1900,7 +1900,7 @@
     {
       "id": 60,
       "title": "Dune: Part Two",
-      "poster": "dune-part-two.jpeg",
+      "poster": "img/dune-part-two.jpeg",
       "year": "2024",
       "genre": "science fiction, adventure",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -1935,7 +1935,7 @@
     {
       "id": 61,
       "title": "Rebel Moon",
-      "poster": "rebel-moon.webp",
+      "poster": "img/rebel-moon.webp",
       "year": "2023",
       "genre": "science fiction, action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1966,7 +1966,7 @@
     {
       "id": 62,
       "title": "The Marvels",
-      "poster": "the-marvels.jpeg",
+      "poster": "img/the-marvels.jpeg",
       "year": "2023",
       "genre": "science fiction, action, superhero",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2001,7 +2001,7 @@
     {
       "id": 63,
       "title": "The Creator",
-      "poster": "the-creator.jpeg",
+      "poster": "img/the-creator.jpeg",
       "year": "2023",
       "genre": "science fiction, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2032,7 +2032,7 @@
     {
       "id": 64,
       "title": "Relic",
-      "poster": "relic.jpeg",
+      "poster": "img/relic.jpeg",
       "year": "2023",
       "genre": "science fiction, horror",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2063,7 +2063,7 @@
     {
       "id": 65,
       "title": "65",
-      "poster": "65.jpeg",
+      "poster": "img/65.jpeg",
       "year": "2023",
       "genre": "science fiction, adventure",
       "rating": "⭐️⭐️⭐️",
@@ -2090,7 +2090,7 @@
     {
       "id": 66,
       "title": "Infinite",
-      "poster": "infinite.jpeg",
+      "poster": "img/infinite.jpeg",
       "year": "2023",
       "genre": "science fiction, action",
       "rating": "⭐️⭐️⭐️",
@@ -2121,7 +2121,7 @@
     {
       "id": 67,
       "title": "Voyagers",
-      "poster": "voyagers.webp",
+      "poster": "img/voyagers.webp",
       "year": "2023",
       "genre": "science fiction, drama",
       "rating": "⭐️⭐️⭐️",
@@ -2152,7 +2152,7 @@
     {
       "id": 68,
       "title": "After Yang",
-      "poster": "after-yang.jpeg",
+      "poster": "img/after-yang.jpeg",
       "year": "2023",
       "genre": "science fiction, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2183,7 +2183,7 @@
     {
       "id": 69,
       "title": "Archive",
-      "poster": "archive.jpeg",
+      "poster": "img/archive.jpeg",
       "year": "2023",
       "genre": "science fiction, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -2214,7 +2214,7 @@
     {
       "id": 70,
       "title": "Inception",
-      "poster": "inception.jpeg",
+      "poster": "img/inception.jpeg",
       "year": "2010",
       "genre": "action, sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2245,7 +2245,7 @@
     {
       "id": 71,
       "title": "Parasite",
-      "poster": "parasite.jpeg",
+      "poster": "img/parasite.jpeg",
       "year": "2019",
       "genre": "drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2276,7 +2276,7 @@
     {
       "id": 72,
       "title": "The Grand Budapest Hotel",
-      "poster": "the-grand-budapest-hotel.jpeg",
+      "poster": "img/the-grand-budapest-hotel.jpeg",
       "year": "2014",
       "genre": "comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2307,7 +2307,7 @@
     {
       "id": 73,
       "title": "Mad Max: Fury Road",
-      "poster": "mad-max-fury-road.jpeg",
+      "poster": "img/mad-max-fury-road.jpeg",
       "year": "2015",
       "genre": "action, adventure, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2338,7 +2338,7 @@
     {
       "id": 74,
       "title": "La La Land",
-      "poster": "la-la-land.jpeg",
+      "poster": "img/la-la-land.jpeg",
       "year": "2016",
       "genre": "comedy, drama, music",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2369,7 +2369,7 @@
     {
       "id": 75,
       "title": "Get Out",
-      "poster": "get-out.jpeg",
+      "poster": "img/get-out.jpeg",
       "year": "2017",
       "genre": "horror, mystery, thriller",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2400,7 +2400,7 @@
     {
       "id": 76,
       "title": "The Social Network",
-      "poster": "the-social-network.jpeg",
+      "poster": "img/the-social-network.jpeg",
       "year": "2010",
       "genre": "biography, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2431,7 +2431,7 @@
     {
       "id": 77,
       "title": "The Shape of Water",
-      "poster": "the-shape-of-water.jpeg",
+      "poster": "img/the-shape-of-water.jpeg",
       "year": "2017",
       "genre": "drama, fantasy, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2462,7 +2462,7 @@
     {
       "id": 78,
       "title": "Moonlight",
-      "poster": "moonlight.jpeg",
+      "poster": "img/moonlight.jpeg",
       "year": "2016",
       "genre": "drama",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2493,7 +2493,7 @@
     {
       "id": 79,
       "title": "Joker",
-      "poster": "joker.jpeg",
+      "poster": "img/joker.jpeg",
       "year": "2019",
       "genre": "crime, drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2524,7 +2524,7 @@
     {
       "id": 80,
       "title": "Black Panther",
-      "poster": "black-panther.jpeg",
+      "poster": "img/black-panther.webp",
       "year": "2018",
       "genre": "action, superhero",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2555,7 +2555,7 @@
     {
       "id": 81,
       "title": "Interstellar",
-      "poster": "interstellar.jpeg",
+      "poster": "img/interstellar.jpeg",
       "year": "2014",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2586,7 +2586,7 @@
     {
       "id": 82,
       "title": "Whiplash",
-      "poster": "whiplash.jpeg",
+      "poster": "img/whiplash.jpeg",
       "year": "2014",
       "genre": "drama, music",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2617,7 +2617,7 @@
     {
       "id": 83,
       "title": "The Martian",
-      "poster": "the-martian.jpeg",
+      "poster": "img/the-martian.jpeg",
       "year": "2015",
       "genre": "sci-fi, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2648,7 +2648,7 @@
     {
       "id": 84,
       "title": "Arrival",
-      "poster": "arrival.jpeg",
+      "poster": "img/arrival.jpeg",
       "year": "2016",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2679,7 +2679,7 @@
     {
       "id": 85,
       "title": "Her",
-      "poster": "her.jpeg",
+      "poster": "img/her.jpeg",
       "year": "2013",
       "genre": "romance, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2710,7 +2710,7 @@
     {
       "id": 86,
       "title": "The Revenant",
-      "poster": "the-revenant.jpeg",
+      "poster": "img/the-revenant.jpeg",
       "year": "2015",
       "genre": "drama, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2741,7 +2741,7 @@
     {
       "id": 87,
       "title": "Birdman",
-      "poster": "birdman.jpeg",
+      "poster": "img/birdman.jpeg",
       "year": "2014",
       "genre": "drama, comedy",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2772,7 +2772,7 @@
     {
       "id": 88,
       "title": "Spotlight",
-      "poster": "spotlight.jpeg",
+      "poster": "img/spotlight.jpeg",
       "year": "2015",
       "genre": "drama, biography",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -2803,7 +2803,7 @@
     {
       "id": 89,
       "title": "The Big Short",
-      "poster": "the-big-short.jpeg",
+      "poster": "img/the-big-short.jpeg",
       "year": "2015",
       "genre": "comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2834,7 +2834,7 @@
     {
       "id": 90,
       "title": "Room",
-      "poster": "room.jpeg",
+      "poster": "img/room.jpeg",
       "year": "2015",
       "genre": "drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2865,7 +2865,7 @@
     {
       "id": 91,
       "title": "Brooklyn",
-      "poster": "brooklyn.jpeg",
+      "poster": "img/brooklyn.jpeg",
       "year": "2015",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2896,7 +2896,7 @@
     {
       "id": 92,
       "title": "The Imitation Game",
-      "poster": "the-imitation-game.jpeg",
+      "poster": "img/the-imitation-game.jpeg",
       "year": "2014",
       "genre": "biography, drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2927,7 +2927,7 @@
     {
       "id": 93,
       "title": "The Theory of Everything",
-      "poster": "the-theory-of-everything.jpeg",
+      "poster": "img/the-theory-of-everything.jpeg",
       "year": "2014",
       "genre": "biography, drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2958,7 +2958,7 @@
     {
       "id": 94,
       "title": "Selma",
-      "poster": "selma.jpeg",
+      "poster": "img/selma.jpeg",
       "year": "2014",
       "genre": "biography, drama, history",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -2989,7 +2989,7 @@
     {
       "id": 95,
       "title": "American Sniper",
-      "poster": "american-sniper.jpeg",
+      "poster": "img/american-sniper.jpeg",
       "year": "2014",
       "genre": "biography, drama, war",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3020,7 +3020,7 @@
     {
       "id": 96,
       "title": "Boyhood",
-      "poster": "boyhood.jpeg",
+      "poster": "img/boyhood.jpeg",
       "year": "2014",
       "genre": "drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3051,7 +3051,7 @@
     {
       "id": 97,
       "title": "The Hateful Eight",
-      "poster": "the-hateful-eight.jpeg",
+      "poster": "img/the-hateful-eight.jpeg",
       "year": "2015",
       "genre": "drama, mystery, western",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3082,7 +3082,7 @@
     {
       "id": 98,
       "title": "Bridge of Spies",
-      "poster": "bridge-of-spies.jpeg",
+      "poster": "img/bridge-of-spies.jpeg",
       "year": "2015",
       "genre": "drama, history, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3113,7 +3113,7 @@
     {
       "id": 99,
       "title": "Inside Out",
-      "poster": "inside-out.jpeg",
+      "poster": "img/inside-out.jpeg",
       "year": "2015",
       "genre": "animation, adventure, comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3144,7 +3144,7 @@
     {
       "id": 100,
       "title": "Gladiator",
-      "poster": "gladiator.png",
+      "poster": "img/gladiator.png",
       "year": "2000",
       "genre": "Action, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3175,7 +3175,7 @@
     {
       "id": 101,
       "title": "Memento",
-      "poster": "memento.png",
+      "poster": "img/memento.png",
       "year": "2000",
       "genre": "Mystery, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3206,7 +3206,7 @@
     {
       "id": 102,
       "title": "The Dark Knight",
-      "poster": "the-dark-knight.png",
+      "poster": "img/the-dark-knight.png",
       "year": "2008",
       "genre": "Action, Crime, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3237,7 +3237,7 @@
     {
       "id": 103,
       "title": "Eternal Sunshine of the Spotless Mind",
-      "poster": "eternal-sunshine-of-the-spotless-mind.png",
+      "poster": "img/eternal-sunshine-of-the-spotless-mind.png",
       "year": "2004",
       "genre": "Drama, Romance, Sci-Fi",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3268,7 +3268,7 @@
     {
       "id": 104,
       "title": "No Country for Old Men",
-      "poster": "no-country-for-old-men.png",
+      "poster": "img/no-country-for-old-men.png",
       "year": "2007",
       "genre": "Crime, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3299,7 +3299,7 @@
     {
       "id": 105,
       "title": "City of God",
-      "poster": "city-of-god.png",
+      "poster": "img/city-of-god.png",
       "year": "2002",
       "genre": "Crime, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3330,7 +3330,7 @@
     {
       "id": 106,
       "title": "Pan's Labyrinth",
-      "poster": "pans-labyrinth.png",
+      "poster": "img/pans-labyrinth.png",
       "year": "2006",
       "genre": "Drama, Fantasy, War",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3361,7 +3361,7 @@
     {
       "id": 107,
       "title": "The Departed",
-      "poster": "the-departed.png",
+      "poster": "img/the-departed.png",
       "year": "2006",
       "genre": "Crime, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3392,7 +3392,7 @@
     {
       "id": 108,
       "title": "There Will Be Blood",
-      "poster": "there-will-be-blood.png",
+      "poster": "img/there-will-be-blood.png",
       "year": "2007",
       "genre": "Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3423,7 +3423,7 @@
     {
       "id": 109,
       "title": "Slumdog Millionaire",
-      "poster": "slumdog-millionaire.png",
+      "poster": "img/slumdog-millionaire.png",
       "year": "2008",
       "genre": "Drama, Romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3454,7 +3454,7 @@
     {
       "id": 110,
       "title": "The King's Speech",
-      "poster": "the-kings-speech.png",
+      "poster": "img/the-kings-speech.png",
       "year": "2010",
       "genre": "Biography, Drama, History",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3485,7 +3485,7 @@
     {
       "id": 111,
       "title": "Slumdog Millionaire",
-      "poster": "slumdog-millionaire.png",
+      "poster": "img/slumdog-millionaire.png",
       "year": "2008",
       "genre": "Drama, Romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3516,7 +3516,7 @@
     {
       "id": 112,
       "title": "No Country for Old Men",
-      "poster": "no-country-for-old-men.png",
+      "poster": "img/no-country-for-old-men.png",
       "year": "2007",
       "genre": "Crime, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3547,7 +3547,7 @@
     {
       "id": 113,
       "title": "The Artist",
-      "poster": "the-artist.png",
+      "poster": "img/the-artist.png",
       "year": "2011",
       "genre": "Comedy, Drama, Romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3578,7 +3578,7 @@
     {
       "id": 114,
       "title": "12 Years a Slave",
-      "poster": "12-years-a-slave.png",
+      "poster": "img/12-years-a-slave.png",
       "year": "2013",
       "genre": "Biography, Drama, History",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3609,7 +3609,7 @@
     {
       "id": 115,
       "title": "Birdman",
-      "poster": "birdman.png",
+      "poster": "img/birdman.png",
       "year": "2014",
       "genre": "Comedy, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3640,7 +3640,7 @@
     {
       "id": 116,
       "title": "Moonlight",
-      "poster": "moonlight.png",
+      "poster": "img/moonlight.png",
       "year": "2016",
       "genre": "Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3671,7 +3671,7 @@
     {
       "id": 117,
       "title": "Nomadland",
-      "poster": "nomadland.png",
+      "poster": "img/nomadland.png",
       "year": "2020",
       "genre": "Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3702,7 +3702,7 @@
     {
       "id": 118,
       "title": "Everything Everywhere All at Once",
-      "poster": "everything-everywhere-all-at-once.png",
+      "poster": "img/everything-everywhere-all-at-once.png",
       "year": "2022",
       "genre": "Action, Adventure, Comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3733,7 +3733,7 @@
     {
       "id": 119,
       "title": "Parasite",
-      "poster": "parasite.png",
+      "poster": "img/parasite.png",
       "year": "2019",
       "genre": "Comedy, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3764,7 +3764,7 @@
     {
       "id": 120,
       "title": "Snow White and the Seven Dwarfs",
-      "poster": "snow-white-and-the-seven-dwarfs.png",
+      "poster": "img/snow-white-and-the-seven-dwarfs.png",
       "year": "1937",
       "genre": "animation, fantasy, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3795,7 +3795,7 @@
     {
       "id": 121,
       "title": "Cinderella",
-      "poster": "cinderella.png",
+      "poster": "img/cinderella.png",
       "year": "1950",
       "genre": "animation, romance, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3826,7 +3826,7 @@
     {
       "id": 122,
       "title": "Sleeping Beauty",
-      "poster": "sleeping-beauty.png",
+      "poster": "img/sleeping-beauty.png",
       "year": "1959",
       "genre": "animation, fantasy, romance",
       "rating": "⭐️⭐️⭐️",
@@ -3857,7 +3857,7 @@
     {
       "id": 123,
       "title": "Peter Pan",
-      "poster": "peter-pan.png",
+      "poster": "img/peter-pan.png",
       "year": "1953",
       "genre": "animation, adventure, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3888,7 +3888,7 @@
     {
       "id": 124,
       "title": "Bambi",
-      "poster": "bambi.png",
+      "poster": "img/bambi.png",
       "year": "1942",
       "genre": "animation, drama, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3919,7 +3919,7 @@
     {
       "id": 125,
       "title": "Dumbo",
-      "poster": "dumbo.png",
+      "poster": "img/dumbo.png",
       "year": "1941",
       "genre": "animation, drama, family",
       "rating": "⭐️⭐️⭐️",
@@ -3950,7 +3950,7 @@
     {
       "id": 126,
       "title": "Lady and the Tramp",
-      "poster": "lady-and-the-tramp.png",
+      "poster": "img/lady-and-the-tramp.png",
       "year": "1955",
       "genre": "animation, romance, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3981,7 +3981,7 @@
     {
       "id": 127,
       "title": "101 Dalmatians",
-      "poster": "101-dalmatians.png",
+      "poster": "img/101-dalmatians.png",
       "year": "1961",
       "genre": "animation, comedy, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4012,7 +4012,7 @@
     {
       "id": 128,
       "title": "The Jungle Book",
-      "poster": "the-jungle-book.png",
+      "poster": "img/the-jungle-book.png",
       "year": "1967",
       "genre": "animation, adventure, musical",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4043,7 +4043,7 @@
     {
       "id": 129,
       "title": "Robin Hood",
-      "poster": "robin-hood.png",
+      "poster": "img/robin-hood.png",
       "year": "1973",
       "genre": "animation, adventure, comedy",
       "rating": "⭐️⭐️⭐️",
@@ -4074,7 +4074,7 @@
     {
       "id": 130,
       "title": "The Notebook",
-      "poster": "the-notebook.jpeg",
+      "poster": "img/the-notebook.jpeg",
       "year": "2004",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4104,7 +4104,7 @@
     {
       "id": 131,
       "title": "La La Land",
-      "poster": "la-la-land.jpeg",
+      "poster": "img/la-la-land.jpeg",
       "year": "2016",
       "genre": "comedy, drama, music",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4134,7 +4134,7 @@
     {
       "id": 132,
       "title": "Pride & Prejudice",
-      "poster": "pride-and-prejudice.jpeg",
+      "poster": "img/pride-and-prejudice.jpeg",
       "year": "2005",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4164,7 +4164,7 @@
     {
       "id": 133,
       "title": "The Fault in Our Stars",
-      "poster": "the-fault-in-our-stars.jpeg",
+      "poster": "img/the-fault-in-our-stars.jpeg",
       "year": "2014",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4194,7 +4194,7 @@
     {
       "id": 134,
       "title": "Titanic",
-      "poster": "titanic.jpeg",
+      "poster": "img/titanic.jpeg",
       "year": "1997",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4224,7 +4224,7 @@
     {
       "id": 135,
       "title": "A Walk to Remember",
-      "poster": "a-walk-to-remember.jpeg",
+      "poster": "img/a-walk-to-remember.jpeg",
       "year": "2002",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4254,7 +4254,7 @@
     {
       "id": 136,
       "title": "Me Before You",
-      "poster": "me-before-you.jpeg",
+      "poster": "img/me-before-you.jpeg",
       "year": "2016",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4284,7 +4284,7 @@
     {
       "id": 137,
       "title": "The Vow",
-      "poster": "the-vow.jpeg",
+      "poster": "img/the-vow.jpeg",
       "year": "2012",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4314,7 +4314,7 @@
     {
       "id": 138,
       "title": "Dear John",
-      "poster": "dear-john.jpeg",
+      "poster": "img/dear-john.jpeg",
       "year": "2010",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4344,7 +4344,7 @@
     {
       "id": 139,
       "title": "Crazy Rich Asians",
-      "poster": "crazy-rich-asians.jpeg",
+      "poster": "img/crazy-rich-asians.jpeg",
       "year": "2018",
       "genre": "comedy, drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4374,7 +4374,7 @@
     {
       "id": 140,
       "title": "Notting Hill",
-      "poster": "notting-hill.jpeg",
+      "poster": "img/notting-hill.jpeg",
       "year": "1999",
       "genre": "romance, comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4404,7 +4404,7 @@
     {
       "id": 141,
       "title": "(500) Days of Summer",
-      "poster": "500-days-of-summer.jpeg",
+      "poster": "img/500-days-of-summer.jpeg",
       "year": "2009",
       "genre": "romance, drama, comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4434,7 +4434,7 @@
     {
       "id": 142,
       "title": "Me Before You",
-      "poster": "me-before-you.jpeg",
+      "poster": "img/me-before-you.jpeg",
       "year": "2016",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️",
@@ -4464,7 +4464,7 @@
     {
       "id": 143,
       "title": "The Fault in Our Stars",
-      "poster": "the-fault-in-our-stars.jpeg",
+      "poster": "img/the-fault-in-our-stars.jpeg",
       "year": "2014",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4494,7 +4494,7 @@
     {
       "id": 144,
       "title": "About Time",
-      "poster": "about-time.jpeg",
+      "poster": "img/about-time.jpeg",
       "year": "2013",
       "genre": "romance, drama, fantasy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4524,7 +4524,7 @@
     {
       "id": 145,
       "title": "The Vow",
-      "poster": "the-vow.jpeg",
+      "poster": "img/the-vow.jpeg",
       "year": "2012",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️",
@@ -4554,7 +4554,7 @@
     {
       "id": 146,
       "title": "Dear John",
-      "poster": "dear-john.jpeg",
+      "poster": "img/dear-john.jpeg",
       "year": "2010",
       "genre": "romance, drama",
       "rating": "⭐️⭐️⭐️",
@@ -4584,7 +4584,7 @@
     {
       "id": 147,
       "title": "Safe Haven",
-      "poster": "safe-haven.jpeg",
+      "poster": "img/safe-haven.jpeg",
       "year": "2013",
       "genre": "romance, drama, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -4614,7 +4614,7 @@
     {
       "id": 148,
       "title": "To All the Boys I've Loved Before",
-      "poster": "to-all-the-boys-ive-loved-before.jpeg",
+      "poster": "img/to-all-the-boys-ive-loved-before.jpeg",
       "year": "2018",
       "genre": "romance, comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4644,7 +4644,7 @@
     {
       "id": 149,
       "title": "Love, Rosie",
-      "poster": "love-rosie.jpeg",
+      "poster": "img/love-rosie.jpeg",
       "year": "2014",
       "genre": "romance, comedy, drama",
       "rating": "⭐️⭐️⭐️",
@@ -4674,7 +4674,7 @@
     {
       "id": 150,
       "title": "Crazy Rich Asians",
-      "poster": "crazy-rich-asians.jpeg",
+      "poster": "img/crazy-rich-asians.jpeg",
       "year": "2018",
       "genre": "romance, comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4704,7 +4704,7 @@
     {
       "id": 151,
       "title": "Pride & Prejudice",
-      "poster": "pride-and-prejudice.jpeg",
+      "poster": "img/pride-and-prejudice.jpeg",
       "year": "2005",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4734,7 +4734,7 @@
     {
       "id": 152,
       "title": "The Lucky One",
-      "poster": "the-lucky-one.jpeg",
+      "poster": "img/the-lucky-one.jpeg",
       "year": "2012",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4764,7 +4764,7 @@
     {
       "id": 153,
       "title": "A Walk to Remember",
-      "poster": "a-walk-to-remember.jpeg",
+      "poster": "img/a-walk-to-remember.jpeg",
       "year": "2002",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4794,7 +4794,7 @@
     {
       "id": 154,
       "title": "Twilight",
-      "poster": "twilight.jpeg",
+      "poster": "img/twilight.jpeg",
       "year": "2008",
       "genre": "drama, fantasy, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4824,7 +4824,7 @@
     {
       "id": 155,
       "title": "Life as We Know It",
-      "poster": "life-as-we-know-it.jpeg",
+      "poster": "img/life-as-we-know-it.jpeg",
       "year": "2010",
       "genre": "comedy, drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4854,7 +4854,7 @@
     {
       "id": 156,
       "title": "The Longest Ride",
-      "poster": "the-longest-ride.jpeg",
+      "poster": "img/the-longest-ride.jpeg",
       "year": "2015",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4884,7 +4884,7 @@
     {
       "id": 157,
       "title": "Letters to Juliet",
-      "poster": "letters-to-juliet.jpeg",
+      "poster": "img/letters-to-juliet.jpeg",
       "year": "2010",
       "genre": "adventure, drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4914,7 +4914,7 @@
     {
       "id": 158,
       "title": "Midnight Sun",
-      "poster": "midnight-sun.jpeg",
+      "poster": "img/midnight-sun.jpeg",
       "year": "2018",
       "genre": "drama, romance",
       "rating": "⭐️⭐️⭐️",
@@ -4944,7 +4944,7 @@
     {
       "id": 159,
       "title": "Endless Love",
-      "poster": "endless-love.jpeg",
+      "poster": "img/endless-love.jpeg",
       "year": "2014",
       "genre": "drama, romance",
       "rating": "⭐️⭐️",
@@ -4974,7 +4974,7 @@
     {
       "id": 160,
       "title": "Mad Max: Fury Road",
-      "poster": "mad-max-fury-road.jpeg",
+      "poster": "img/mad-max-fury-road.jpeg",
       "year": "2015",
       "genre": "action, adventure, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5005,7 +5005,7 @@
     {
       "id": 161,
       "title": "John Wick",
-      "poster": "john-wick.jpeg",
+      "poster": "img/john-wick.jpeg",
       "year": "2014",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5036,7 +5036,7 @@
     {
       "id": 162,
       "title": "Inception",
-      "poster": "inception.jpeg",
+      "poster": "img/inception.jpeg",
       "year": "2010",
       "genre": "action, sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5067,7 +5067,7 @@
     {
       "id": 163,
       "title": "The Dark Knight",
-      "poster": "the-dark-knight.jpeg",
+      "poster": "img/the-dark-knight.jpeg",
       "year": "2008",
       "genre": "action, crime, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5098,7 +5098,7 @@
     {
       "id": 164,
       "title": "Gladiator",
-      "poster": "gladiator.jpeg",
+      "poster": "img/gladiator.jpeg",
       "year": "2000",
       "genre": "action, adventure, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5129,7 +5129,7 @@
     {
       "id": 165,
       "title": "Taken",
-      "poster": "taken.jpeg",
+      "poster": "img/taken.avif",
       "year": "2008",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -5160,7 +5160,7 @@
     {
       "id": 166,
       "title": "The Bourne Identity",
-      "poster": "the-bourne-identity.jpeg",
+      "poster": "img/the-bourne-identity.jpeg",
       "year": "2002",
       "genre": "action, mystery, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5191,7 +5191,7 @@
     {
       "id": 167,
       "title": "Edge of Tomorrow",
-      "poster": "edge-of-tomorrow.jpeg",
+      "poster": "img/edge-of-tomorrow.jpeg",
       "year": "2014",
       "genre": "action, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5222,7 +5222,7 @@
     {
       "id": 168,
       "title": "Die Hard",
-      "poster": "die-hard.jpeg",
+      "poster": "img/die-hard.png",
       "year": "1988",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5253,7 +5253,7 @@
     {
       "id": 169,
       "title": "Mission: Impossible – Fallout",
-      "poster": "mission-impossible-fallout.jpeg",
+      "poster": "img/mission-impossible-fallout.jpeg",
       "year": "2018",
       "genre": "action, adventure, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5284,7 +5284,7 @@
     {
       "id": 170,
       "title": "The Equalizer",
-      "poster": "the-equalizer.jpeg",
+      "poster": "img/the-equalizer.jpeg",
       "year": "2014",
       "genre": "action, crime, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -5315,7 +5315,7 @@
     {
       "id": 171,
       "title": "Extraction",
-      "poster": "extraction.jpeg",
+      "poster": "img/extraction.jpeg",
       "year": "2020",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -5346,7 +5346,7 @@
     {
       "id": 172,
       "title": "The Old Guard",
-      "poster": "the-old-guard.jpeg",
+      "poster": "img/the-old-guard.jpeg",
       "year": "2020",
       "genre": "action, fantasy",
       "rating": "⭐️⭐️⭐️",
@@ -5377,7 +5377,7 @@
     {
       "id": 173,
       "title": "Atomic Blonde",
-      "poster": "atomic-blonde.jpeg",
+      "poster": "img/atomic-blonde.jpeg",
       "year": "2017",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -5408,7 +5408,7 @@
     {
       "id": 174,
       "title": "Tenet",
-      "poster": "tenet.jpeg",
+      "poster": "img/tenet.jpeg",
       "year": "2020",
       "genre": "action, sci-fi, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -5439,7 +5439,7 @@
     {
       "id": 175,
       "title": "Baby Driver",
-      "poster": "baby-driver.jpeg",
+      "poster": "img/baby-driver.jpeg",
       "year": "2017",
       "genre": "action, crime, music",
       "rating": "⭐️⭐️⭐️",
@@ -5470,7 +5470,7 @@
     {
       "id": 176,
       "title": "Logan",
-      "poster": "logan.jpeg",
+      "poster": "img/logan.jpeg",
       "year": "2017",
       "genre": "action, drama, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5501,7 +5501,7 @@
     {
       "id": 177,
       "title": "Black Widow",
-      "poster": "black-widow.jpeg",
+      "poster": "img/black-widow.jpeg",
       "year": "2021",
       "genre": "action, adventure, sci-fi",
       "rating": "⭐️⭐️⭐️",
@@ -5532,7 +5532,7 @@
     {
       "id": 178,
       "title": "No Time to Die",
-      "poster": "no-time-to-die.jpeg",
+      "poster": "img/no-time-to-die.jpeg",
       "year": "2021",
       "genre": "action, adventure, thriller",
       "rating": "⭐️⭐️⭐️",
@@ -5563,7 +5563,7 @@
     {
       "id": 179,
       "title": "The Gray Man",
-      "poster": "the-gray-man.jpeg",
+      "poster": "img/the-gray-man.jpeg",
       "year": "2022",
       "genre": "action, thriller",
       "rating": "⭐️⭐️",
@@ -5594,7 +5594,7 @@
     {
       "id": 180,
       "title": "Red Notice",
-      "poster": "red-notice.jpeg",
+      "poster": "img/red-notice.jpeg",
       "year": "2021",
       "genre": "action, comedy, crime",
       "rating": "⭐️⭐️⭐️",
@@ -5625,7 +5625,7 @@
     {
       "id": 181,
       "title": "Furious 7",
-      "poster": "fast-furious-7.jpeg",
+      "poster": "img/fast-furious-7.jpeg",
       "year": "2015",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5660,7 +5660,7 @@
     {
       "id": 182,
       "title": "Extraction",
-      "poster": "extraction.jpeg",
+      "poster": "img/extraction.jpeg",
       "year": "2020",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5690,7 +5690,7 @@
     {
       "id": 183,
       "title": "Mad Max: Fury Road",
-      "poster": "mad-max-fury-road.jpeg",
+      "poster": "img/mad-max-fury-road.jpeg",
       "year": "2015",
       "genre": "action, adventure, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -5720,7 +5720,7 @@
     {
       "id": 184,
       "title": "The Old Guard",
-      "poster": "the-old-guard.jpeg",
+      "poster": "img/the-old-guard.jpeg",
       "year": "2020",
       "genre": "action, fantasy",
       "rating": "⭐️⭐️⭐️",
@@ -5750,7 +5750,7 @@
     {
       "id": 185,
       "title": "John Wick",
-      "poster": "john-wick.jpeg",
+      "poster": "img/john-wick.jpeg",
       "year": "2014",
       "genre": "action, thriller",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -5780,7 +5780,7 @@
     {
       "id": 186,
       "title": "Tenet",
-      "poster": "tenet.jpeg",
+      "poster": "img/tenet.jpeg",
       "year": "2020",
       "genre": "action, sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5810,7 +5810,7 @@
     {
       "id": 187,
       "title": "Skyfall",
-      "poster": "skyfall.jpeg",
+      "poster": "img/skyfall.jpeg",
       "year": "2012",
       "genre": "action, adventure, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5840,7 +5840,7 @@
     {
       "id": 188,
       "title": "Black Panther",
-      "poster": "black-panther.jpeg",
+      "poster": "img/black-panther.jpeg",
       "year": "2018",
       "genre": "action, adventure, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -5870,7 +5870,7 @@
     {
       "id": 189,
       "title": "Mission: Impossible – Fallout",
-      "poster": "mission-impossible-fallout.jpeg",
+      "poster": "img/mission-impossible-fallout.jpeg",
       "year": "2018",
       "genre": "action, adventure, thriller",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -5900,7 +5900,7 @@
     {
       "id": 190,
       "title": "The Big Sick",
-      "poster": "the-big-sick.jpeg",
+      "poster": "img/the-big-sick.jpeg",
       "year": "2017",
       "genre": "comedy, drama, romance",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -5935,7 +5935,7 @@
     {
       "id": 191,
       "title": "The Intern",
-      "poster": "the-intern.jpeg",
+      "poster": "img/the-intern.jpeg",
       "year": "2015",
       "genre": "comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -5970,7 +5970,7 @@
     {
       "id": 192,
       "title": "Jumanji: Welcome to the Jungle",
-      "poster": "jumanji-welcome-to-the-jungle.jpeg",
+      "poster": "img/jumanji-welcome-to-the-jungle.jpeg",
       "year": "2017",
       "genre": "adventure, comedy, fantasy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6005,7 +6005,7 @@
     {
       "id": 193,
       "title": "Deadpool 2",
-      "poster": "deadpool-2.jpeg",
+      "poster": "img/deadpool-2.jpeg",
       "year": "2018",
       "genre": "action, comedy, superhero",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6040,7 +6040,7 @@
     {
       "id": 194,
       "title": "Sing 2",
-      "poster": "sing-2.jpeg",
+      "poster": "img/sing-2.jpeg",
       "year": "2021",
       "genre": "animation, comedy, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6075,7 +6075,7 @@
     {
       "id": 195,
       "title": "Babe",
-      "poster": "babe.jpeg",
+      "poster": "img/babe.jpeg",
       "year": "1995",
       "genre": "comedy, family",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6110,7 +6110,7 @@
     {
       "id": 196,
       "title": "Pitch Perfect 2",
-      "poster": "pitch-perfect-2.jpeg",
+      "poster": "img/pitch-perfect-2.jpeg",
       "year": "2015",
       "genre": "comedy, music, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6145,7 +6145,7 @@
     {
       "id": 197,
       "title": "The Heat",
-      "poster": "the-heat.jpeg",
+      "poster": "img/the-heat.jpeg",
       "year": "2013",
       "genre": "comedy, crime",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6180,7 +6180,7 @@
     {
       "id": 198,
       "title": "Trainwreck",
-      "poster": "trainwreck.jpeg",
+      "poster": "img/trainwreck.jpeg",
       "year": "2015",
       "genre": "comedy, romance",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6215,7 +6215,7 @@
     {
       "id": 199,
       "title": "Wedding Crashers",
-      "poster": "wedding-crashers.jpeg",
+      "poster": "img/wedding-crashers.jpeg",
       "year": "2005",
       "genre": "comedy, romance",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6254,7 +6254,7 @@
     {
       "id": 200,
       "title": "Tropic Thunder",
-      "poster": "tropic-thunder.jpeg",
+      "poster": "img/tropic-thunder.jpeg",
       "year": "2008",
       "genre": "comedy, action",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6289,7 +6289,7 @@
     {
       "id": 201,
       "title": "The Other Guys",
-      "poster": "the-other-guys.jpeg",
+      "poster": "img/the-other-guys.jpeg",
       "year": "2010",
       "genre": "comedy, action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6324,7 +6324,7 @@
     {
       "id": 202,
       "title": "Anchorman: The Legend of Ron Burgundy",
-      "poster": "anchorman.jpeg",
+      "poster": "img/anchorman.jpeg",
       "year": "2004",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6363,7 +6363,7 @@
     {
       "id": 203,
       "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
-      "poster": "borat.jpeg",
+      "poster": "img/borat.jpeg",
       "year": "2006",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6398,7 +6398,7 @@
     {
       "id": 204,
       "title": "Hot Fuzz",
-      "poster": "hot-fuzz.jpeg",
+      "poster": "img/hot-fuzz.jpeg",
       "year": "2007",
       "genre": "comedy, action, mystery",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6433,7 +6433,7 @@
     {
       "id": 205,
       "title": "Deadpool",
-      "poster": "deadpool.jpeg",
+      "poster": "img/deadpool.jpeg",
       "year": "2016",
       "genre": "action, comedy, superhero",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -6467,7 +6467,7 @@
     {
       "id": 206,
       "title": "Yes Man",
-      "poster": "yes-man.jpeg",
+      "poster": "img/yes-man.jpeg",
       "year": "2008",
       "genre": "comedy, romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6502,7 +6502,7 @@
     {
       "id": 207,
       "title": "Knives Out",
-      "poster": "knives-out.jpeg",
+      "poster": "img/knives-out.jpeg",
       "year": "2019",
       "genre": "mystery, thriller, comedy",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -6537,7 +6537,7 @@
     {
       "id": 208,
       "title": "The Nice Guys",
-      "poster": "the-nice-guys.jpeg",
+      "poster": "img/the-nice-guys.jpeg",
       "year": "2016",
       "genre": "comedy, crime, mystery",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6572,7 +6572,7 @@
     {
       "id": 209,
       "title": "Crazy, Stupid, Love",
-      "poster": "crazy-stupid-love.jpeg",
+      "poster": "img/crazy-stupid-love.jpeg",
       "year": "2011",
       "genre": "comedy, romance",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6606,7 +6606,7 @@
     {
       "id": 210,
       "title": "Superbad",
-      "poster": "superbad.jpeg",
+      "poster": "img/superbad.jpeg",
       "year": "2007",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6641,7 +6641,7 @@
     {
       "id": 211,
       "title": "The Hangover",
-      "poster": "the-hangover.jpeg",
+      "poster": "img/the-hangover.jpeg",
       "year": "2009",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6676,7 +6676,7 @@
     {
       "id": 212,
       "title": "Bridesmaids",
-      "poster": "bridesmaids.jpeg",
+      "poster": "img/bridesmaids.jpeg",
       "year": "2011",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6711,7 +6711,7 @@
     {
       "id": 213,
       "title": "Step Brothers",
-      "poster": "step-brothers.jpeg",
+      "poster": "img/step-brothers.jpeg",
       "year": "2008",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6746,7 +6746,7 @@
     {
       "id": 214,
       "title": "Mean Girls",
-      "poster": "mean-girls.jpeg",
+      "poster": "img/mean-girls.jpeg",
       "year": "2004",
       "genre": "comedy, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6780,7 +6780,7 @@
     {
       "id": 215,
       "title": "21 Jump Street",
-      "poster": "21-jump-street.jpeg",
+      "poster": "img/21-jump-street.jpeg",
       "year": "2012",
       "genre": "action, comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6815,7 +6815,7 @@
     {
       "id": 216,
       "title": "Pitch Perfect",
-      "poster": "pitch-perfect.jpeg",
+      "poster": "img/pitch-perfect.jpeg",
       "year": "2012",
       "genre": "comedy, music",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6850,7 +6850,7 @@
     {
       "id": 217,
       "title": "We're the Millers",
-      "poster": "we-re-the-millers.jpeg",
+      "poster": "img/we-re-the-millers.jpeg",
       "year": "2013",
       "genre": "comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6885,7 +6885,7 @@
     {
       "id": 218,
       "title": "Game Night",
-      "poster": "game-night.jpeg",
+      "poster": "img/game-night.jpeg",
       "year": "2018",
       "genre": "comedy, mystery",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6920,7 +6920,7 @@
     {
       "id": 219,
       "title": "Zombieland",
-      "poster": "zombieland.jpeg",
+      "poster": "img/zombieland.jpeg",
       "year": "2009",
       "genre": "comedy, horror",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -6954,7 +6954,7 @@
     {
       "id": 220,
       "title": "The Conjuring",
-      "poster": "the-conjuring.jpeg",
+      "poster": "img/the-conjuring.jpeg",
       "year": "2013",
       "genre": "horror",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6989,7 +6989,7 @@
     {
       "id": 221,
       "title": "Hereditary",
-      "poster": "hereditary.jpeg",
+      "poster": "img/hereditary.jpeg",
       "year": "2018",
       "genre": "horror, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7024,7 +7024,7 @@
     {
       "id": 222,
       "title": "It Follows",
-      "poster": "it-follows.jpeg",
+      "poster": "img/it-follows.jpeg",
       "year": "2014",
       "genre": "horror, mystery",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7059,7 +7059,7 @@
     {
       "id": 223,
       "title": "Get Out",
-      "poster": "get-out.jpeg",
+      "poster": "img/get-out.jpeg",
       "year": "2017",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7094,7 +7094,7 @@
     {
       "id": 224,
       "title": "Us",
-      "poster": "us.jpeg",
+      "poster": "img/us.jpeg",
       "year": "2019",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7129,7 +7129,7 @@
     {
       "id": 225,
       "title": "Midsommar",
-      "poster": "midsommar.jpeg",
+      "poster": "img/midsommar.jpeg",
       "year": "2019",
       "genre": "horror, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7164,7 +7164,7 @@
     {
       "id": 226,
       "title": "The Babadook",
-      "poster": "the-babadook.jpeg",
+      "poster": "img/the-babadook.jpeg",
       "year": "2014",
       "genre": "horror, psychological thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7199,7 +7199,7 @@
     {
       "id": 227,
       "title": "A Quiet Place",
-      "poster": "a-quiet-place.jpeg",
+      "poster": "img/a-quiet-place.jpeg",
       "year": "2018",
       "genre": "horror, sci-fi",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7234,7 +7234,7 @@
     {
       "id": 228,
       "title": "Insidious",
-      "poster": "insidious.jpeg",
+      "poster": "img/insidious.jpeg",
       "year": "2010",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7269,7 +7269,7 @@
     {
       "id": 229,
       "title": "The Ring",
-      "poster": "the-ring.jpeg",
+      "poster": "img/the-ring.jpeg",
       "year": "2002",
       "genre": "horror, mystery",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7304,7 +7304,7 @@
     {
       "id": 230,
       "title": "Sinister",
-      "poster": "sinister.jpeg",
+      "poster": "img/sinister.jpeg",
       "year": "2012",
       "genre": "horror, mystery",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7335,7 +7335,7 @@
     {
       "id": 231,
       "title": "The Others",
-      "poster": "the-others.jpeg",
+      "poster": "img/the-others.jpeg",
       "year": "2001",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7366,7 +7366,7 @@
     {
       "id": 232,
       "title": "The Blair Witch Project",
-      "poster": "the-blair-witch-project.jpeg",
+      "poster": "img/the-blair-witch-project.jpeg",
       "year": "1999",
       "genre": "horror, found footage",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7397,7 +7397,7 @@
     {
       "id": 233,
       "title": "Paranormal Activity",
-      "poster": "paranormal-activity.jpeg",
+      "poster": "img/paranormal-activity.jpeg",
       "year": "2007",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7428,7 +7428,7 @@
     {
       "id": 234,
       "title": "Scream",
-      "poster": "scream.webp",
+      "poster": "img/scream.webp",
       "year": "1996",
       "genre": "horror, slasher",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7463,7 +7463,7 @@
     {
       "id": 235,
       "title": "The Texas Chainsaw Massacre",
-      "poster": "the-texas-chainsaw-massacre.jpeg",
+      "poster": "img/the-texas-chainsaw-massacre.jpeg",
       "year": "1974",
       "genre": "horror, slasher",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7494,7 +7494,7 @@
     {
       "id": 236,
       "title": "Annabelle",
-      "poster": "annabelle.jpeg",
+      "poster": "img/annabelle.jpeg",
       "year": "2014",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️",
@@ -7525,7 +7525,7 @@
     {
       "id": 237,
       "title": "The Exorcist",
-      "poster": "the-exorcist.jpeg",
+      "poster": "img/the-exorcist.jpeg",
       "year": "1973",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7560,7 +7560,7 @@
     {
       "id": 238,
       "title": "The Shining",
-      "poster": "the-shining.jpeg",
+      "poster": "img/the-shining.jpeg",
       "year": "1980",
       "genre": "horror, psychological",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
@@ -7595,7 +7595,7 @@
     {
       "id": 239,
       "title": "Barbarian",
-      "poster": "barbarian.webp",
+      "poster": "img/barbarian.webp",
       "year": "2022",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7626,7 +7626,7 @@
     {
       "id": 240,
       "title": "The Ring",
-      "poster": "the-ring.jpeg",
+      "poster": "img/the-ring.jpeg",
       "year": "2002",
       "genre": "horror, mystery",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7657,7 +7657,7 @@
     {
       "id": 241,
       "title": "The Babadook",
-      "poster": "the-babadook.jpeg",
+      "poster": "img/the-babadook.jpeg",
       "year": "2014",
       "genre": "horror, psychological",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7688,7 +7688,7 @@
     {
       "id": 242,
       "title": "Us",
-      "poster": "us.jpeg",
+      "poster": "img/us.jpeg",
       "year": "2019",
       "genre": "horror, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7719,7 +7719,7 @@
     {
       "id": 243,
       "title": "Midsommar",
-      "poster": "midsommar.jpeg",
+      "poster": "img/midsommar.jpeg",
       "year": "2019",
       "genre": "horror, folk horror",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7750,7 +7750,7 @@
     {
       "id": 244,
       "title": "28 Days Later",
-      "poster": "28-days-later.jpeg",
+      "poster": "img/28-days-later.jpeg",
       "year": "2002",
       "genre": "horror, apocalypse",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7781,7 +7781,7 @@
     {
       "id": 245,
       "title": "Candyman",
-      "poster": "candyman.jpeg",
+      "poster": "img/candyman.jpeg",
       "year": "1992",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7812,7 +7812,7 @@
     {
       "id": 246,
       "title": "Hereditary",
-      "poster": "hereditary.jpeg",
+      "poster": "img/hereditary.jpeg",
       "year": "2018",
       "genre": "horror, psychological",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7843,7 +7843,7 @@
     {
       "id": 247,
       "title": "The Conjuring 2",
-      "poster": "the-conjuring-2.jpeg",
+      "poster": "img/the-conjuring-2.jpeg",
       "year": "2016",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7874,7 +7874,7 @@
     {
       "id": 248,
       "title": "The Wailing",
-      "poster": "the-wailing.jpeg",
+      "poster": "img/the-wailing.jpeg",
       "year": "2016",
       "genre": "horror, mystery, Korean",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7905,7 +7905,7 @@
     {
       "id": 249,
       "title": "It Follows",
-      "poster": "it-follows.jpeg",
+      "poster": "img/it-follows.jpeg",
       "year": "2014",
       "genre": "horror, supernatural",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -7936,7 +7936,7 @@
     {
       "id": 250,
       "title": "The Social Dilemma",
-      "poster": "the-social-dilemma.jpeg",
+      "poster": "img/the-social-dilemma.jpeg",
       "year": "2020",
       "genre": "documentary, social issues",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7967,7 +7967,7 @@
     {
       "id": 251,
       "title": "13th",
-      "poster": "13th.jpeg",
+      "poster": "img/13th.jpeg",
       "year": "2016",
       "genre": "documentary, social justice",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -7998,7 +7998,7 @@
     {
       "id": 252,
       "title": "Blackfish",
-      "poster": "blackfish.jpeg",
+      "poster": "img/blackfish.jpeg",
       "year": "2013",
       "genre": "documentary, environmental",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8029,7 +8029,7 @@
     {
       "id": 253,
       "title": "My Octopus Teacher",
-      "poster": "my-octopus-teacher.jpeg",
+      "poster": "img/my-octopus-teacher.jpeg",
       "year": "2020",
       "genre": "documentary, nature",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8056,7 +8056,7 @@
     {
       "id": 254,
       "title": "Grizzly Man",
-      "poster": "grizzly-man.jpeg",
+      "poster": "img/grizzly-man.jpeg",
       "year": "2005",
       "genre": "documentary, nature",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8083,7 +8083,7 @@
     {
       "id": 255,
       "title": "Won’t You Be My Neighbor?",
-      "poster": "won’t-you-be-my-neighbor.jpeg",
+      "poster": "img/won’t-you-be-my-neighbor.jpeg",
       "year": "2018",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8110,7 +8110,7 @@
     {
       "id": 256,
       "title": "Free Solo",
-      "poster": "free-solo.jpeg",
+      "poster": "img/free-solo.jpeg",
       "year": "2018",
       "genre": "documentary, adventure",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8141,7 +8141,7 @@
     {
       "id": 257,
       "title": "The Act of Killing",
-      "poster": "the-act-of-killing.jpeg",
+      "poster": "img/the-act-of-killing.jpeg",
       "year": "2012",
       "genre": "documentary, crime",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8168,7 +8168,7 @@
     {
       "id": 258,
       "title": "Gleason",
-      "poster": "gleason.jpeg",
+      "poster": "img/gleason.jpeg",
       "year": "2016",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8199,7 +8199,7 @@
     {
       "id": 259,
       "title": "Fire in Paradise",
-      "poster": "fire-in-paradise.jpeg",
+      "poster": "img/fire-in-paradise.jpeg",
       "year": "2019",
       "genre": "documentary, disaster",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8230,7 +8230,7 @@
     {
       "id": 260,
       "title": "American Factory",
-      "poster": "american-factory.jpeg",
+      "poster": "img/american-factory.jpeg",
       "year": "2019",
       "genre": "documentary, social issues",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8253,7 +8253,7 @@
     {
       "id": 261,
       "title": "Making a Murderer",
-      "poster": "making-a-murderer.jpeg",
+      "poster": "img/making-a-murderer.jpeg",
       "year": "2015",
       "genre": "documentary, crime",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8284,7 +8284,7 @@
     {
       "id": 262,
       "title": "I Am Greta",
-      "poster": "i-am-greta.jpeg",
+      "poster": "img/i-am-greta.jpeg",
       "year": "2020",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8307,7 +8307,7 @@
     {
       "id": 263,
       "title": "The Rescue",
-      "poster": "the-rescue.jpeg",
+      "poster": "img/the-rescue.jpeg",
       "year": "2021",
       "genre": "documentary, adventure",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8338,7 +8338,7 @@
     {
       "id": 264,
       "title": "The Cove",
-      "poster": "the-cove.jpeg",
+      "poster": "img/the-cove.jpeg",
       "year": "2009",
       "genre": "documentary, environmental",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8365,7 +8365,7 @@
     {
       "id": 265,
       "title": "Cowspiracy",
-      "poster": "cowspiracy.jpeg",
+      "poster": "img/cowspiracy.jpeg",
       "year": "2014",
       "genre": "documentary, environmental",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8392,7 +8392,7 @@
     {
       "id": 266,
       "title": "Three Identical Strangers",
-      "poster": "three-identical-strangers.jpeg",
+      "poster": "img/three-identical-strangers.jpeg",
       "year": "2018",
       "genre": "documentary, mystery",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8423,7 +8423,7 @@
     {
       "id": 267,
       "title": "Flee",
-      "poster": "flee.jpeg",
+      "poster": "img/flee.jpeg",
       "year": "2021",
       "genre": "documentary, animation",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8446,7 +8446,7 @@
     {
       "id": 268,
       "title": "The Painter and the Thief",
-      "poster": "the-painter-and-the-thief.jpeg",
+      "poster": "img/the-painter-and-the-thief.jpeg",
       "year": "2020",
       "genre": "documentary, art",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8473,7 +8473,7 @@
     {
       "id": 269,
       "title": "Won’t You Be My Neighbor?",
-      "poster": "won’t-you-be-my-neighbor.jpeg",
+      "poster": "img/won’t-you-be-my-neighbor.jpeg",
       "year": "2018",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8500,7 +8500,7 @@
     {
       "id": 270,
       "title": "Blackfish",
-      "poster": "blackfish.jpeg",
+      "poster": "img/blackfish.jpeg",
       "year": "2013",
       "genre": "documentary, environmental",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8531,7 +8531,7 @@
     {
       "id": 271,
       "title": "My Octopus Teacher",
-      "poster": "my-octopus-teacher.jpeg",
+      "poster": "img/my-octopus-teacher.jpeg",
       "year": "2020",
       "genre": "documentary, nature",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8554,7 +8554,7 @@
     {
       "id": 272,
       "title": "13th",
-      "poster": "13th.jpeg",
+      "poster": "img/13th.jpeg",
       "year": "2016",
       "genre": "documentary, social issues",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8585,7 +8585,7 @@
     {
       "id": 273,
       "title": "The Social Dilemma",
-      "poster": "the-social-dilemma.jpeg",
+      "poster": "img/the-social-dilemma.jpeg",
       "year": "2020",
       "genre": "documentary, technology, social issues",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8616,7 +8616,7 @@
     {
       "id": 274,
       "title": "Athlete A",
-      "poster": "athlete-a.jpeg",
+      "poster": "img/athlete-a.jpeg",
       "year": "2020",
       "genre": "documentary, sports, social issues",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8647,7 +8647,7 @@
     {
       "id": 275,
       "title": "Grizzly Man",
-      "poster": "grizzly-man.jpeg",
+      "poster": "img/grizzly-man.jpeg",
       "year": "2005",
       "genre": "documentary, nature",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8674,7 +8674,7 @@
     {
       "id": 276,
       "title": "Free Solo",
-      "poster": "free-solo.jpeg",
+      "poster": "img/free-solo.jpeg",
       "year": "2018",
       "genre": "documentary, adventure",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8705,7 +8705,7 @@
     {
       "id": 277,
       "title": "Jiro Dreams of Sushi",
-      "poster": "jiro-dreams-of-sushi.jpeg",
+      "poster": "img/jiro-dreams-of-sushi.jpeg",
       "year": "2011",
       "genre": "documentary, food",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8736,7 +8736,7 @@
     {
       "id": 278,
       "title": "The Act of Killing",
-      "poster": "the-act-of-killing.jpeg",
+      "poster": "img/the-act-of-killing.jpeg",
       "year": "2012",
       "genre": "documentary, crime, history",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8767,7 +8767,7 @@
     {
       "id": 279,
       "title": "Miss Americana",
-      "poster": "miss-america.jpeg",
+      "poster": "img/miss-america.jpeg",
       "year": "2020",
       "genre": "documentary, biography, music",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8790,7 +8790,7 @@
     {
       "id": 280,
       "title": "Blade Runner 2049",
-      "poster": "blade-runner-2049.jpeg",
+      "poster": "img/blade-runner-2049.jpeg",
       "year": "2017",
       "genre": "sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8821,7 +8821,7 @@
     {
       "id": 281,
       "title": "Inception",
-      "poster": "inception.jpeg",
+      "poster": "img/inception.jpeg",
       "year": "2010",
       "genre": "sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8852,7 +8852,7 @@
     {
       "id": 282,
       "title": "The Matrix",
-      "poster": "the-matrix.jpeg",
+      "poster": "img/the-matrix.jpeg",
       "year": "1999",
       "genre": "sci-fi, action",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8883,7 +8883,7 @@
     {
       "id": 283,
       "title": "Interstellar",
-      "poster": "interstellar.jpeg",
+      "poster": "iimg/nterstellar.jpeg",
       "year": "2014",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8914,7 +8914,7 @@
     {
       "id": 284,
       "title": "Arrival",
-      "poster": "arrival.jpeg",
+      "poster": "img/arrival.jpeg",
       "year": "2016",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8945,7 +8945,7 @@
     {
       "id": 285,
       "title": "Minority Report",
-      "poster": "minority-report.jpeg",
+      "poster": "img/minority-report.jpeg",
       "year": "2002",
       "genre": "sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -8976,7 +8976,7 @@
     {
       "id": 286,
       "title": "The Fifth Element",
-      "poster": "the-fifth-element.jpeg",
+      "poster": "img/the-fifth-element.jpeg",
       "year": "1997",
       "genre": "sci-fi, action",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9007,7 +9007,7 @@
     {
       "id": 287,
       "title": "Ex Machina",
-      "poster": "ex-machina.jpeg",
+      "poster": "img/ex-machina.jpeg",
       "year": "2014",
       "genre": "sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9038,7 +9038,7 @@
     {
       "id": 288,
       "title": "Starship Troopers",
-      "poster": "starship-troopers.jpeg",
+      "poster": "img/starship-troopers.jpeg",
       "year": "1997",
       "genre": "sci-fi, action, war",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9068,7 +9068,7 @@
     {
       "id": 289,
       "title": "Gattaca",
-      "poster": "gattaca.jpeg",
+      "poster": "img/gattaca.jpeg",
       "year": "1997",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9098,7 +9098,7 @@
     {
       "id": 290,
       "title": "Children of Men",
-      "poster": "children-of-men.jpeg",
+      "poster": "img/children-of-men.jpeg",
       "year": "2006",
       "genre": "sci-fi, thriller, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9129,7 +9129,7 @@
     {
       "id": 291,
       "title": "Blade Runner 2049",
-      "poster": "blade-runner-2049.jpeg",
+      "poster": "img/blade-runner-2049.jpeg",
       "year": "2017",
       "genre": "sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9160,7 +9160,7 @@
     {
       "id": 292,
       "title": "Interstellar",
-      "poster": "interstellar.jpeg",
+      "poster": "img/interstellar.jpeg",
       "year": "2014",
       "genre": "sci-fi, adventure",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9191,7 +9191,7 @@
     {
       "id": 293,
       "title": "The Matrix",
-      "poster": "the-matrix.jpeg",
+      "poster": "img/the-matrix.jpeg",
       "year": "1999",
       "genre": "sci-fi, action",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9222,7 +9222,7 @@
     {
       "id": 294,
       "title": "Arrival",
-      "poster": "arrival.jpeg",
+      "poster": "img/arrival.jpeg",
       "year": "2016",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9253,7 +9253,7 @@
     {
       "id": 295,
       "title": "Solaris",
-      "poster": "solaris.jpeg",
+      "poster": "img/solaris.jpeg",
       "year": "1972",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9284,7 +9284,7 @@
     {
       "id": 296,
       "title": "Minority Report",
-      "poster": "minority-report.jpeg",
+      "poster": "img/minority-report.jpeg",
       "year": "2002",
       "genre": "sci-fi, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9315,7 +9315,7 @@
     {
       "id": 297,
       "title": "The Truman Show",
-      "poster": "the-truman-show.jpeg",
+      "poster": "img/the-truman-show.jpeg",
       "year": "1998",
       "genre": "sci-fi, drama, comedy",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9346,7 +9346,7 @@
     {
       "id": 298,
       "title": "Her",
-      "poster": "her.jpeg",
+      "poster": "img/her.jpeg",
       "year": "2013",
       "genre": "sci-fi, romance, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9377,7 +9377,7 @@
     {
       "id": 299,
       "title": "The Prestige",
-      "poster": "the-prestige.jpeg",
+      "poster": "img/the-prestige.jpeg",
       "year": "2006",
       "genre": "sci-fi, mystery, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9408,7 +9408,7 @@
     {
       "id": 300,
       "title": "Inception",
-      "poster": "inception.jpeg",
+      "poster": "img/inception.jpeg",
       "year": "2010",
       "genre": "sci-fi, action, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9439,7 +9439,7 @@
     {
       "id": 301,
       "title": "Ex Machina",
-      "poster": "ex-machina.jpeg",
+      "poster": "img/ex-machina.jpeg",
       "year": "2014",
       "genre": "sci-fi, drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9469,7 +9469,7 @@
     {
       "id": 302,
       "title": "The Fifth Element",
-      "poster": "the-fifth-element.jpeg",
+      "poster": "img/the-fifth-element.jpeg",
       "year": "1997",
       "genre": "sci-fi, action, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9499,7 +9499,7 @@
     {
       "id": 303,
       "title": "Snowpiercer",
-      "poster": "snowpiercer.jpeg",
+      "poster": "img/snowpiercer.jpeg",
       "year": "2013",
       "genre": "sci-fi, action, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9529,7 +9529,7 @@
     {
       "id": 304,
       "title": "Gattaca",
-      "poster": "gattaca.jpeg",
+      "poster": "img/gattaca.jpeg",
       "year": "1997",
       "genre": "sci-fi, drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9559,7 +9559,7 @@
     {
       "id": 305,
       "title": "Children of Men",
-      "poster": "children-of-men.jpeg",
+      "poster": "img/children-of-men.jpeg",
       "year": "2006",
       "genre": "sci-fi, drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9589,7 +9589,7 @@
     {
       "id": 306,
       "title": "The Matrix Reloaded",
-      "poster": "the-matrix-reloaded.jpeg",
+      "poster": "img/the-matrix-reloaded.jpeg",
       "year": "2003",
       "genre": "sci-fi, action, thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9619,7 +9619,7 @@
     {
       "id": 307,
       "title": "Pacific Rim",
-      "poster": "pacific-rim.jpeg",
+      "poster": "img/pacific-rim.jpeg",
       "year": "2013",
       "genre": "sci-fi, action, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -9649,7 +9649,7 @@
     {
       "id": 308,
       "title": "The Terminator",
-      "poster": "the-terminator.jpeg",
+      "poster": "img/the-terminator.jpeg",
       "year": "1984",
       "genre": "sci-fi, action, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -9679,7 +9679,7 @@
     {
       "id": 309,
       "title": "Blade Runner 2049",
-      "poster": "blade-runner-2049.jpeg",
+      "poster": "img/blade-runner-2049.jpeg",
       "year": "2017",
       "genre": "sci-fi, drama, thriller",
       "rating": "⭐️⭐️⭐️⭐️½",
