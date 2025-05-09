@@ -273,12 +273,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  max-width: 300px;
-  width: auto;
-  top: 20px;
+  top: 100px;
   left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
   z-index: 10;
 }
 
@@ -303,7 +300,6 @@ body {
 .search-result li a {
   border: 1px solid #f0f0f0;
   border-radius: 10px;
- 
   background-color: #d9d9d9;
   padding: 1px;
   text-decoration: none;
@@ -437,15 +433,7 @@ body {
   .categories {
     position: relative;
   }
-  /*Movie JSON*/
-  #movie-list {
-    gap: 100px;
-    padding: 12px;
-  }
 
-  .movie-card {
-    max-width: 120px;
-  }
 }
 /*bigger screens*/
 @media (min-width: 650px) {
