@@ -55,6 +55,8 @@ function updateFavouritesDisplay() {
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
   favContainer.innerHTML = "";
 
+  favContainer.classList.remove("grid-layout", "empty");
+
   if (favourites.length === 0) {
     favContainer.innerHTML = `
       <div class="empty-state">
@@ -65,7 +67,8 @@ function updateFavouritesDisplay() {
     `;
     return;
   }
-
+  favContainer.classList.add("grid-layout"); 
+  
   favourites.forEach((movie) => {
     console.log("Loading poster:", movie.poster);
 
