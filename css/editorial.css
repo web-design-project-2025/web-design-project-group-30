@@ -1,0 +1,24 @@
+.editorial-container .social-media {
+    margin-top: 10px; /* Reduce from 5% or whatever it was */
+    margin-bottom: 5%; /* Keep if you want spacing below */
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    position: relative;
+  }
+  .editorial-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  .editorial-container h1,
+.editorial-container h2,
+.editorial-container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
