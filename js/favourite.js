@@ -1,24 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
   updateFavouritesDisplay();
 
-  // Handle Add to Favourites
+  //add to favourites
   const favButtons = document.querySelectorAll(".favourite-button");
-  favButtons.forEach((favButton) => {
-    favButton.addEventListener("click", (event) => {
+  for (let i = 0; i < favButtons.length; i++) {
+    favButtons[i].addEventListener("click", function (event) {
       event.preventDefault();
 
-      const movieId = favButton.dataset.id;
-      const movieTitle = favButton.dataset.title;
-      const moviePoster = favButton.dataset.poster;
+      const movieId = this.dataset.id;
+      const movieTitle = this.dataset.title;
+      const moviePoster = this.dataset.poster;
 
       toggleFavourite(movieId, movieTitle, moviePoster);
     });
-  });
+  }
 
-  // Handle Quantity Change & Deletion in Favourite Page
+  //delete from favourites
   const favContainer = document.querySelector(".favourite-items");
   if (favContainer) {
-    favContainer.addEventListener("click", (event) => {
+    favContainer.addEventListener("click", function (event) {
       if (event.target.classList.contains("delete-button")) {
         const movieId = event.target.dataset.id;
         removeFromFavourites(movieId);
@@ -28,18 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Toggle function that adds and deletes with the heart being pressed
 function toggleFavourite(id, title, poster) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const exists = favourites.find((movie) => movie.id === id);
+  const index = favourites.map(function (m) { return m.id; }).indexOf(id);
 
-  if (exists) {
-    // Remove if already in favourites
-    favourites = favourites.filter((movie) => movie.id !== id);
+  if (index > -1) {
+    favourites.splice(index, 1);
   } else {
-    // Add if not in favourites
-    favourites.push({ id, title, poster });
+    favourites.push({ id: id, title: title, poster: poster });
   }
 
   localStorage.setItem("favourites", JSON.stringify(favourites));
@@ -47,7 +44,6 @@ function toggleFavourite(id, title, poster) {
   updateFavouriteIcons();
 }
 
-// Function to Display Favourite Items
 function updateFavouritesDisplay() {
   const favContainer = document.querySelector(".favourite-items");
   if (!favContainer) return;
@@ -55,38 +51,44 @@ function updateFavouritesDisplay() {
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
   favContainer.innerHTML = "";
 
-  favourites.forEach((movie) => {
-    console.log("Loading poster:", movie.poster);
+  for (let i = 0; i < favourites.length; i++) {
+    const movie = favourites[i];
 
-    favContainer.innerHTML += `
-      <div class="favourite-item">
-        <img src="${movie.poster}" alt="${movie.title}" />
-        <h3>${movie.title}</h3>
-        <button class="delete-button" data-id="${movie.id}">Delete</button>
-      </div>
-    `;
-  });
+    favContainer.innerHTML +=
+      '<div class="favourite-item">' +
+        '<img src="' + movie.poster + '" alt="' + movie.title + '" />' +
+        '<h3>' + movie.title + '</h3>' +
+        '<button class="delete-button" data-id="' + movie.id + '">Delete</button>' +
+      '</div>';
+  }
 }
 
-//Remove a movie from favorites
 function removeFromFavourites(movieId) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
-  favourites = favourites.filter((movie) => movie.id !== movieId);
-  localStorage.setItem("favourites", JSON.stringify(favourites));
-  updateFavouritesDisplay();
+
+  const updated = favourites.filter(function (movie) {
+    return movie.id.indexOf(movieId) === -1 && movieId.indexOf(movie.id) === -1;
+  });
+
+  localStorage.setItem("favourites", JSON.stringify(updated));
 }
 
+//heart icon button
 function updateFavouriteIcons() {
   const buttons = document.querySelectorAll(".favourite-button");
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  buttons.forEach((button) => {
+  const favIds = favourites.map(function (movie) { return movie.id; });
+
+  for (let i = 0; i < buttons.length; i++) {
+    const button = buttons[i];
     const id = button.dataset.id;
-    const isFav = favourites.find((movie) => movie.id === id);
     const img = button.querySelector("img");
 
+    const index = favIds.indexOf(id);
+
     if (img) {
-      if (isFav) {
+      if (index > -1) {
         img.src = "img/favourite-filled.png";
         button.classList.add("filled");
       } else {
@@ -94,5 +96,5 @@ function updateFavouriteIcons() {
         button.classList.remove("filled");
       }
     }
-  });
+  }
 }
