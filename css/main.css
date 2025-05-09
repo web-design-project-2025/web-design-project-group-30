@@ -725,4 +725,18 @@ p{
 
 .close:hover {
   color: #cfcfcf;
+
 }
+/*stars*/
+#star-filter span {
+  font-size: 2rem;
+  cursor: pointer;
+  color: lightgray;
+}
+
+#star-filter span.hover,
+#star-filter span.active {
+  color: gold;
+}
+
+

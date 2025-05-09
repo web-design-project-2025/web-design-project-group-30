@@ -55,6 +55,20 @@ function updateFavouritesDisplay() {
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
   favContainer.innerHTML = "";
 
+  favContainer.classList.remove("grid-layout", "empty");
+
+  if (favourites.length === 0) {
+    favContainer.innerHTML = `
+      <div class="empty-state">
+        <img src="img/popcorn-for-empty-favourite.png" alt="No favorite movies found / popcorn bucket icon" />
+        <p>You haven't added any movies to your favourites yet.</p>
+        <a href="allmovie.html" class="browse-button">TAKE A LOOK AT ALL THE MOVIES</a>
+      </div>
+    `;
+    return;
+  }
+  favContainer.classList.add("grid-layout"); 
+  
   favourites.forEach((movie) => {
     console.log("Loading poster:", movie.poster);
 
