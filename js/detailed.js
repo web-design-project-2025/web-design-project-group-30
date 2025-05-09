@@ -23,44 +23,104 @@ function myFunction() {
 // Build the detailed page
 function buildDetailedPage(movie) {
   document.body.innerHTML = `
-    <header>
-      <a href="index.html"><p>LOGO</p></a>
-    </header>
-    <main>
-      <div class="movie-header">
-        <img class="movie-poster-detailed-review-page" src="${movie.poster}" alt="${movie.title}">
-        <div class="movie-information">
-          <div class="movie-titel-heart">
-            <h1>${movie.title}</h1>
-            <button class="favourite-button" data-id="${movie.id}" data-title="${movie.title}" data-poster="${movie.poster}">
-              <img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" />
-            </button>
-          </div>
-          <div class="star-rating">${movie.rating}</div>
-        </div>
-      </div>
 
-      <h2>MOVIE SUMMARY</h2>
-      <p>${movie.summary}</p>
+        <header>
+           <div class="logo-container">
+    <a href="index.html">
+      <img src="img/LOGVO.png" alt="Logo">
+    </a>
+  </div>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul class="nav-links">
+        <li class="search-link">
+          <a href="index.html">
+            <img src="img/searchbar.png" alt="Search">
+            <span>Search</span>
+          </a>
+        </li>
+        <li class="explore-link">
+          <a href="allmovie.html">
+            <img src="img/clip.png" alt="Explore">
+            <span>Explore</span>
+          </a>
+        </li>
+        <li class="classics-link">
+          <a href="classics.html">
+            <img src="img/movie.png" alt="Classics">
+            <span>Classics</span>
+          </a>
+        </li>
+        <li class="trending-link">
+          <a href="trending.html">
+            <img src="img/point.png" alt="Trending">
+            <span>Trending</span>
+          </a>
+        </li>
+        <li class="favorites-link">
+          <a href="favourite.html">
+            <img src="img/heart.png" alt="Favorites">
+            <span>Favorites</span>
+          </a>
+        </li>
+        <li class="profile-link">
+          <a href="profile.html">
+            <img src="img/profile.png" alt="Profile">
+            <span>Profile</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+        </header>
+        <main>
+            <div class="movie-header">
+                <img class="movie-poster-detailed-review-page" src="${
+                  movie.poster
+                }" alt="${movie.title}">
+                <div class="movie-information">
+                    <div class="movie-titel-heart">
+                        <h1>${movie.title}</h1>
+                        <button class="favourite-button" data-id="${
+                          movie.id
+                        }" data-title="${movie.title}" data-poster="${
+    movie.poster
+  }"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
+                    </div>
+                    <div class="star-rating">${movie.rating}</div>
+                </div>
+            </div>
 
-      <h2>VELOUR'S REVIEW</h2>
-      <p>
-        ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
-        <span id="more" style="display:none;">${movie["our-review"].slice(200)}</span>
-      </p>
-      <button onclick="myFunction()" id="readMoreButton">READ MORE</button>
+            <h2>MOVIE SUMMARY</h2>
+            <p>${movie.summary}</p>
 
-      <h2>CAST</h2>
-      <section class="cast">
-        ${movie.cast.slice(0, 4).map(actor => `
-          <figure>
-            <img class="cast-image" src="${actor.image}" alt="${actor.name}">
-            <figcaption class="cast-name">${actor.name}</figcaption>
-          </figure>
-        `).join("")}
-      </section>
+            <h2>VELOUR'S REVIEW</h2>
+            <p>
+                ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
+                <span id="more" style="display:none;">${movie[
+                  "our-review"
+                ].slice(200)}</span>
+            </p>
+            <button onclick="myFunction()" id="readMoreButton">READ MORE</button>
 
-      <h2>TRAILER</h2>
+            <h2>CAST</h2>
+            <section class="cast">
+            ${movie.cast
+              .slice(0, 4)
+              .map(
+                (actor) => `
+                <figure>
+                  <img class="cast-image" src="${actor.image}" alt="${actor.name}">
+                  <figcaption class="cast-name">${actor.name}</figcaption>
+                </figure>
+              `
+              )
+              .join("")}
+              
+            </section>
+
+               <h2>TRAILER</h2>
       <div class="trailer-container">
         <iframe width="560" height="315" 
           src="${movie.trailer}" 
@@ -70,34 +130,38 @@ function buildDetailedPage(movie) {
         </iframe>
       </div>
 
-      <h2>COMMUNITY OPINION</h2>
-      <h3>${movie["first-name"]}</h3>
-      <p>${movie["first-rating"]}</p>
-      <p>${movie["first-review"]}</p>
-      <h3>${movie["second-name"]}</h3>
-      <p>${movie["second-rating"]}</p>
-      <p>${movie["second-review"]}</p>
+            <h2>COMMUNITY OPINION</h2>
+            <div class="review-one">
+            <h3>${movie["first-name"]}</h3>
+            <p>${movie["first-rating"]}</p>
+            <p>${movie["first-review"]}</p>
+             </div>
+             <div class="review-two">
+            <h3>${movie["second-name"]}</h3>
+            <p>${movie["second-rating"]}</p>
+            <p>${movie["second-review"]}</p>
+             </div>
 
-      <div class="review-feed" id="reviewFeed"></div>
+            <div class="review-feed" id="reviewFeed"></div>
 
-      <h2>ADD YOUR OPINION</h2>
-      <div class="review-form">
-        <label for="rating">MOVIE RANKING:</label>
-        <div id="starRating" class="star-rating-input"></div> 
-        <label for="nameInput">USERNAME:</label>
-        <input type="text" id="nameInput" placeholder="Your name" />
-        <label for="reviewInput">PERSONAL REVIEW:</label>
-        <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
-        <button onclick="saveMessage()">PUBLISH MY REVIEW</button>
-      </div>
-    </main>
-    <footer>
-      <p>© 2025 Velour</p>
-    </footer>
-  `;
+            <h2>ADD YOUR OPINION</h2>
+            <div class="review-form">
+             <label for="rating">MOVIE RANKING:</label>
+             <div id="starRating" class="star-rating-input"></div> 
+             <label for="nameInput">USERNAME:</label>
+             <input type="text" id="nameInput" placeholder="Your name" />
+             <label for="reviewInput">PERSONAL REVIEW:</label>
+             <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
+             <button onclick="saveMessage()">PUBLISH  MY REVIEW</button> </div>
+        </main>
+        <footer>
+            <p>© 2025 Velour</p>
+        </footer>
+    `;  
 
   setupStarRating();
   loadreview();
+
 
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
@@ -108,6 +172,7 @@ function buildDetailedPage(movie) {
         event.preventDefault();
         const movieId = favButton.dataset.id;
         const movieTitle = favButton.dataset.title;
+
         const moviePoster = favButton.dataset.poster;
 
         toggleFavourite(movieId, movieTitle, moviePoster);
@@ -149,13 +214,18 @@ function loadreview() {
   reviews.forEach((entry, index) => {
     const div = document.createElement("div");
     div.className = "review";
-    const stars = "★".repeat(entry.rating) + "☆".repeat(5 - entry.rating);
+    const stars = `<span class="review-stars">${"⭐️".repeat(entry.rating)}${"".repeat(5 - entry.rating)}</span>`;
+
 
     div.innerHTML = `
-      <strong>${entry.name}</strong> (${stars})<br>
-      ${entry.text}
-      <button class="delete-btn" onclick="deleteReview(${index})">X</button>
-    `;
+    <div class="review-header">
+    <h3>${entry.name}</h3>
+    <button class="delete-btn" onclick="deleteReview(${index})">X</button>
+  </div>
+  <p>${stars}</p>
+  <p>${entry.text}</p>
+        
+      `;
 
     feed.appendChild(div);
   });

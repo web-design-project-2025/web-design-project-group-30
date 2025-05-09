@@ -52,6 +52,7 @@ function renderMovieSection(movies, container, numberToShow = 10, heading = "") 
   
         const heading = movies[0]["trending-heading"]?.toUpperCase() || category.replace("classics-", "").replace("-movies", "").toUpperCase();
         renderMovieSection(movies, classicsMovieSectionsContainer, 10, heading);
+        
       });
   
       //carousel for the movies 

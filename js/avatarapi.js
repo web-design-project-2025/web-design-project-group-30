@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function generateAvatar() {
+  async function generateAvatar() {
     const seedInputElement = document.getElementById("seedInput");
     const savedNameElement = document.getElementById("savedName");
     const avatarElement = document.getElementById("avatar");
@@ -33,8 +33,27 @@ document.addEventListener("DOMContentLoaded", () => {
       seed
     )}`;
 
-    //Update avatar
-    avatarElement.src = avatarUrl;
+    /*Replace the above const URL with this to test out the error handling: 
+    const avatarUrl = "https://httpbin.org/status/500";*/
+
+    try {
+      const response = await fetch(avatarUrl, {
+        method: "GET",
+        cache: "no-store",
+      });
+      if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+      }
+
+      //Update avatar
+      avatarElement.src = avatarUrl;
+    } catch (error) {
+      alert("Couldn't load the avatar. Reason: " + error.message);
+
+      //Placeholder avatar
+      avatarElement.src = "https://via.placeholder.com/100?text=Error";
+      return;
+    }
 
     if (seedInput) {
       savedNameElement.textContent = seedInput;
@@ -61,6 +80,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /*Sources/Refrences
 API taken from: https://www.dicebear.com/
-https://www.dicebear.com/styles/pixel-art/
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals*/
+HTTP API:https://www.dicebear.com/how-to-use/http-api/
+
+
+encodeURIComponent: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
+Template literals: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+Async:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
+Math.random + Number to string: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString
+
+Error handling: https://dev.to/thecharacterv/error-handling-in-the-javascript-fetch-api-1f7a
+Fetch: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API*/
