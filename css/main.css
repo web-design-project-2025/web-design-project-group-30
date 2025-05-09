@@ -1,5 +1,7 @@
 /*Movie JSON*/
-
+p{
+  font-weight: lighter;
+}
 .movie-card img {
   width: 100px;
   height: 200px;
@@ -569,26 +571,6 @@
   padding: 3%;
 }
 
-.movie-information {
-  flex: 1;
-}
-
-.movie-titel-heart {
-  display: flex;
-  align-items: center;
-  gap: 3%;
-}
-
-#more {
-  display: none;
-}
-
-#readMoreButton {
-  width: 100%;
-  color: #8220b3;
-  background-color: #d9d9d9;
-  border: none;
-}
 /*Sources/Refrences
  https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
  footer {
@@ -631,7 +613,31 @@
   position: relative;
   transition: transform 0.3s ease, color 0.3s ease;
 }
+/* sign in*/
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #201f1f;
+  padding: 5%;
+  border-radius: 5%;
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+}
 
 .social-media p span {
   position: absolute;
