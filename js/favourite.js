@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function toggleFavourite(id, title, poster) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const index = favourites.map(function (m) { return m.id; }).indexOf(id);
+  const index = favourites.map(m => m.id).indexOf(id);
 
   if (index > -1) {
     favourites.splice(index, 1);
@@ -50,25 +50,39 @@ function updateFavouritesDisplay() {
 
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
   favContainer.innerHTML = "";
+  favContainer.classList.remove("grid-layout", "empty");
 
-  for (let i = 0; i < favourites.length; i++) {
-    const movie = favourites[i];
-
-    favContainer.innerHTML +=
-      '<div class="favourite-item">' +
-        '<img src="' + movie.poster + '" alt="' + movie.title + '" />' +
-        '<h3>' + movie.title + '</h3>' +
-        '<button class="delete-button" data-id="' + movie.id + '">Delete</button>' +
-      '</div>';
+  if (favourites.length === 0) {
+    favContainer.innerHTML = `
+      <div class="empty-state">
+        <img src="img/popcorn-for-empty-favourite.png" alt="No favorite movies found / popcorn bucket icon" />
+        <p>You haven't added any movies to your favourites yet.</p>
+        <a href="allmovie.html" class="browse-button">TAKE A LOOK AT ALL THE MOVIES</a>
+      </div>
+    `;
+    return;
   }
+
+  favContainer.classList.add("grid-layout");
+
+  favourites.forEach((movie) => {
+    console.log("Loading poster:", movie.poster);
+
+    favContainer.innerHTML += `
+      <div class="favourite-item">
+        <img src="${movie.poster}" alt="${movie.title}" />
+        <h3>${movie.title}</h3>
+        <button class="delete-button" data-id="${movie.id}">Delete</button>
+      </div>
+    `;
+  });
 }
 
+//remove from favourites
 function removeFromFavourites(movieId) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const updated = favourites.filter(function (movie) {
-    return movie.id.indexOf(movieId) === -1 && movieId.indexOf(movie.id) === -1;
-  });
+  const updated = favourites.filter(movie => movie.id !== movieId);
 
   localStorage.setItem("favourites", JSON.stringify(updated));
 }
@@ -78,7 +92,7 @@ function updateFavouriteIcons() {
   const buttons = document.querySelectorAll(".favourite-button");
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const favIds = favourites.map(function (movie) { return movie.id; });
+  const favIds = favourites.map(movie => movie.id);
 
   for (let i = 0; i < buttons.length; i++) {
     const button = buttons[i];
