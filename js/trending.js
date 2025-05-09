@@ -35,7 +35,7 @@ function renderMovieSection(movies, container, numberToShow = 10, heading = "") 
 
 
 // fetch movies data and make different categories needed
-fetch("trending.json")
+fetch("data/trending.json")
   .then((response) => response.json())
   .then((data) => {
     const movieSectionsContainer = document.getElementById("movie-sections-container");

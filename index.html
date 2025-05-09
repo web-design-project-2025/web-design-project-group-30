@@ -43,7 +43,7 @@
                               <span>Trending</span>
                             </a>
                             <li class="favorites-link">
-                                <a href="#">
+                                <a href="favourite.html">
                                   <img src="img/heart.png" alt="Favorites">
                                   <span>Favorites</span>
                                 </a>
@@ -55,30 +55,31 @@
                 </ul>
             </div>
         </nav>
+                <!--search bar-->
+                <div class="search-container">
+                    <div class="bar">
+                        <input
+                            type="text"
+                            id="search-bar"
+                            onkeyup="filterSearchResults()"
+                            placeholder="Search"
+                        />
+                        <button onclick="filterSearchResults()">Search</button>
+                    </div>
+                    <div class="search-result">
+                        <ul>
+                            <li><a href="#">My Favorites</a></li>
+                            <li><a href="horror.html">Horror</a></li>
+                            <li><a href="romance.html">Romance</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
         </nav>
     </header>
     <main>
         <div class="banner">
         </div>
-         <!--search bar-->
-         <div class="search-container">
-            <div class="bar">
-                <input
-                    type="text"
-                    id="search-bar"
-                    onkeyup="filterSearchResults()"
-                    placeholder="Search"
-                />
-                <button onclick="filterSearchResults()">Search</button>
-            </div>
-            <div class="search-result">
-                <ul>
-                    <li><a href="#">My Favorites</a></li>
-                    <li><a href="horror.html">Horror</a></li>
-                    <li><a href="romance.html">Romance</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                </ul>
-            </div>
         </div>
         <div class="categories"> 
             <div class="categories-row">
@@ -93,6 +94,20 @@
                     <li><a href="romance.html">ROMANCE</a></li>
                     <li><a href="science-fiction.html">SCIENCE FICTION</a></li>
                 </ul>
+            </div>
+        </div>
+sign-in-button
+
+        <!--sign in-->
+        <div class="sig-in" id="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()"> &times;</span>
+                <h2> SIGN IN</h2>
+                <p> NAME </p>
+                <input type="text" id="name" placeholder="Name">
+                <p> PASSWORD </p>
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="signin()"> SIGN IN</button>
             </div>
         </div>
     </main>
