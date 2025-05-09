@@ -11,24 +11,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!allMoviesContainer) return;
 
-   fetch("data/all-movie.json")
+  fetch("data/all-movie.json")
     .then((response) => response.json())
     .then((data) => {
       const categories = [
-        { key: "all-movies-section-1", title: "Critically Acclaimed" },
-        { key: "all-movies-section-2", title: "Modern Epics" },
-        { key: "all-movies-section-3", title: "Emotional Journeys" }
+        "all-movies-section-1",
+        "all-movies-section-2",
+        "all-movies-section-3",
       ];
 
+      allMovies = categories.flatMap((category) => data[category] || []);
 
-      allMovies = categories.flatMap((category) => data[category.key] || []);
-
-      categories.forEach(({ key, title }) => {
-        const movies = data[key];
+      categories.forEach((category, index) => {
+        const movies = data[category];
         if (!movies || movies.length === 0) return;
 
-        renderMovieSection(movies, allMoviesContainer, 10, title);
+        renderMovieSection(
+          movies,
+          allMoviesContainer,
+          10,
+          `Section ${index + 1}`
+        );
       });
+
       setTimeout(setupScrollButtons, 100);
 
       //star rating + hover
