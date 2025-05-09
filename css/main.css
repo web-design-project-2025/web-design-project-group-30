@@ -272,6 +272,7 @@ p{
   justify-content: flex-start;
   position: relative;
   overflow: visible;
+  z-index: 1;
 }
 
 /*search bar*/
@@ -739,4 +740,66 @@ p{
   color: gold;
 }
 
+/*ANIMATION*/
+.v-white{
+  width: 100px;
+  height: 100px;
+}
+/*Animation Velour*/
+/*https://www.youtube.com/watch?v=lur8SDdUzPI*/
+svg path{
+width: 100%;
+fill: transparent;
+stroke: #ffffff;
+stroke-width: 0.5;
+stroke-dasharray: 350;
+stroke-dashoffset: 350;
+animation: textAnimation 4s ease-in-out 1 forwards;
+}
+@keyframes textAnimation{
+0% {
+stroke-dashoffset: 350;
+}
+80%{
+fill: transparent;
+}
+100%{
+fill: #ffffff;
+stroke-dashoffset: 0;
+
+}
+}
+.velour{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  text-align: center;
+ }
+
+  /*smaller screens*/
+  @media (max-width: 800px) {
+    .v-white {
+      width: 55px;
+      height: 80px;
+    }
+    .velour {
+      top: 45%; 
+      transform: translate(-50%, -50%);
+    }
+  
+  }
+  
+  /* iPad screen */
+@media (min-width: 800px) and (max-width: 1100px) {
+  .v-white {
+    width: 90px;
+    height: 90px;
+  }
+  .velour {
+    top: 42%;
+    transform: translate(-50%, -50%);
+  }
+  }
 
