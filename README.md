@@ -129,10 +129,12 @@ In the Profile section, users can customize their profile picture using a random
 ## Local Storage 
 
 In this project we use the local storage for:
+
 - the sign in pop-up
 - the favourite feature
 - API
-- the review of the user 
+- the review of the user
+
 The sign in pop-up saves the users login information and if they agree their password.
 The favourite feature saves the id, titel and the poster of the movie the user wants to at to their favourite libary.
 The API we use in this project enables the user to generate their profil picture on their profile page. Therfore the local storage gets used to save this information as well as the users name, location and language.
