@@ -4072,7 +4072,7 @@
       "second-review": "Fun and nostalgic, though not the strongest animation."
     },
     {
-      "id": 130,
+      "id": 131,
       "title": "The Notebook",
       "poster": "img/the-notebook.jpeg",
       "year": "2004",
@@ -4102,7 +4102,7 @@
       "second-review": "While a bit melodramatic at times, the performances make it worth watching."
     },
     {
-      "id": 131,
+      "id": 132,
       "title": "La La Land",
       "poster": "img/la-la-land.jpeg",
       "year": "2016",
@@ -4132,7 +4132,7 @@
       "second-review": "Great performances, though the ending left me wanting more closure."
     },
     {
-      "id": 132,
+      "id": 130,
       "title": "Pride & Prejudice",
       "poster": "img/pride-and-prejudice.jpeg",
       "year": "2005",
@@ -4163,36 +4163,6 @@
     },
     {
       "id": 133,
-      "title": "The Fault in Our Stars",
-      "poster": "img/the-fault-in-our-stars.jpeg",
-      "year": "2014",
-      "genre": "drama, romance",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "Two teenagers with cancer fall in love and embark on a journey to meet a reclusive author.",
-      "our-review": "A heart-wrenching tale that balances humor and tragedy with grace.",
-      "cast": [
-        {
-          "name": "Shailene Woodley",
-          "image": "img/shailene_woodley.jpeg"
-        },
-        {
-          "name": "Ansel Elgort",
-          "image": "img/ansel_elgort.jpeg"
-        },
-        {
-          "name": "Nat Wolff",
-          "image": "img/nat_wolff.jpeg"
-        }
-      ],
-      "first-name": "Ava Nguyen",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "Emotional and poignant, it stayed with me long after the credits rolled.",
-      "second-name": "Ethan Brown",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Touching story, though it leaned heavily on sentimentality."
-    },
-    {
-      "id": 134,
       "title": "Titanic",
       "poster": "img/titanic.jpeg",
       "year": "1997",
@@ -4222,127 +4192,96 @@
       "second-review": "Visually stunning, though the love story felt a bit clichéd."
     },
     {
-      "id": 135,
-      "title": "A Walk to Remember",
-      "poster": "img/a-walk-to-remember.jpeg",
-      "year": "2002",
-      "genre": "drama, romance",
-      "rating": "⭐️⭐️⭐️",
-      "summary": "A high school bad boy falls for a quiet, religious girl, leading to a transformative relationship.",
-      "our-review": "A touching story about love, faith, and redemption.",
+      "id": 134,
+      "title": "Call Me by Your Name",
+      "poster": "img/call-me-by-your-name.jpeg",
+      "year": "2017",
+      "genre": "Drama, Romance",
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "summary": "In 1980s Italy, a summer romance blossoms between a 17-year-old and his father's research assistant, exploring love, identity, and longing.",
+      "our-review": "A visually lush and emotionally resonant coming-of-age story that captures the raw beauty of first love and self-discovery.",
       "cast": [
         {
-          "name": "Mandy Moore",
-          "image": "img/mandy_moore.jepg"
+          "name": "Timothée Chalamet",
+          "image": "img/timothee_chalamet.jpeg"
         },
         {
-          "name": "Shane West",
-          "image": "img/shane_west.jepg"
+          "name": "Armie Hammer",
+          "image": "img/armie_hammer.jpeg"
         },
         {
-          "name": "Peter Coyote",
-          "image": "img/peter_coyote.jepg"
+          "name": "Michael Stuhlbarg",
+          "image": "img/michael_stuhlbarg.jpeg"
         }
       ],
-      "first-name": "Grace Kim",
-      "first-rating": "⭐️⭐️⭐️",
-      "first-review": "Heartfelt and sincere, though somewhat predictable.",
-      "second-name": "Benjamin Lee",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Emotional performances, but the plot felt formulaic."
+      "trailer": "https://www.youtube.com/embed/Z9AYPxH5NTM",
+      "first-name": "Isabella Rossi",
+      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+      "first-review": "A heart-achingly tender film that lingers long after the credits roll.",
+      "second-name": "Marcus Nguyen",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A slow-burning, deeply affecting romance with unforgettable performances and stunning cinematography."
+    },    
+    {
+      "id": 135,
+      "title": "Before Sunrise",
+      "poster": "img/before-sunrise.jpeg",
+      "year": "1995",
+      "genre": "Drama, Romance",
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "summary": "Two strangers meet on a train and spend one night walking around Vienna, sharing thoughts, dreams, and a deepening connection.",
+      "our-review": "An intimate, dialogue-driven romance that captures the magic of spontaneous connection and fleeting time.",
+      "cast": [
+        {
+          "name": "Ethan Hawke",
+          "image": "img/ethan_hawke.jpeg"
+        },
+        {
+          "name": "Julie Delpy",
+          "image": "img/julie_delpy.jpeg"
+        }
+      ],
+      "trailer": "https://www.youtube.com/embed/25v7N34d5HE",
+      "first-name": "Lena Fischer",
+      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+      "first-review": "A poetic and reflective film that feels as natural as falling in love under moonlight.",
+      "second-name": "Daniel Cho",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A quiet masterpiece about human connection, beautifully written and acted with authenticity."
     },
     {
       "id": 136,
-      "title": "Me Before You",
-      "poster": "img/me-before-you.jpeg",
-      "year": "2016",
-      "genre": "drama, romance",
-      "rating": "⭐️⭐️⭐️",
-      "summary": "A young woman becomes a caregiver for a wealthy man who is paralyzed, leading to an unexpected bond.",
-      "our-review": "A bittersweet romance that explores the complexities of life and love.",
+      "title": "A Star Is Born",
+      "poster": "img/a-star-is-born.jpeg",
+      "year": "2018",
+      "genre": "Drama, Music, Romance",
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "summary": "A seasoned musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
+      "our-review": "A raw and moving exploration of fame, love, and loss, carried by powerful performances and a haunting soundtrack.",
       "cast": [
         {
-          "name": "Emilia Clarke",
-          "image": "img/emilia_clarke.jepg"
+          "name": "Bradley Cooper",
+          "image": "img/bradley_cooper.jpeg"
         },
         {
-          "name": "Sam Claflin",
-          "image": "img/sam_claflin.jepg"
+          "name": "Lady Gaga",
+          "image": "img/lady_gaga.jpeg"
         },
         {
-          "name": "Janet McTeer",
-          "image": "img/janet_mcteer.jepg"
+          "name": "Sam Elliott",
+          "image": "img/sam_elliott.jpeg"
         }
       ],
-      "first-name": "Chloe Anderson",
-      "first-rating": "⭐️⭐️⭐️",
-      "first-review": "Emotionally charged, though some plot points were controversial.",
-      "second-name": "Lucas Perez",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Strong chemistry between leads, but the ending was divisive."
+      "trailer": "https://www.youtube.com/embed/nSbzyEJ8X9E",
+      "first-name": "Olivia Bennett",
+      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+      "first-review": "A heartbreaking and beautiful film that showcases Lady Gaga’s incredible talent and emotional range.",
+      "second-name": "Marcus Hill",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Bradley Cooper directs and stars in a sincere, soul-stirring retelling that lingers long after the credits roll."
     },
     {
       "id": 137,
-      "title": "The Vow",
-      "poster": "img/the-vow.jpeg",
-      "year": "2012",
-      "genre": "drama, romance",
-      "rating": "⭐️⭐️⭐️",
-      "summary": "After a car accident, a woman loses her memory, and her husband strives to win her heart again.",
-      "our-review": "A touching story about commitment and rediscovering love.",
-      "cast": [
-        {
-          "name": "Rachel McAdams",
-          "image": "img/rachel_mcadams.jepg"
-        },
-        {
-          "name": "Channing Tatum",
-          "image": "img/channing_tatum.jepg"
-        },
-        {
-          "name": "Sam Neill",
-          "image": "img/sam_neill.jepg"
-        }
-      ],
-      "first-name": "Natalie Brooks",
-      "first-rating": "⭐️⭐️⭐️",
-      "first-review": "Heartfelt performances, though the narrative felt rushed.",
-      "second-name": "Ryan Chen",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Emotional depth, but lacked originality."
-    },
-    {
-      "id": 138,
-      "title": "Dear John",
-      "poster": "img/dear-john.jpeg",
-      "year": "2010",
-      "genre": "drama, romance",
-      "rating": "⭐️⭐️⭐️",
-      "summary": "A soldier falls in love with a college student, but their relationship is tested by distance and duty.",
-      "our-review": "A poignant tale of love and sacrifice, though it adheres to genre conventions.",
-      "cast": [
-        {
-          "name": "Channing Tatum",
-          "image": "img/channing_tatum.jepg"
-        },
-        {
-          "name": "Amanda Seyfried",
-          "image": "img/amanda_seyfried.jepg"
-        },
-        {
-          "name": "Richard Jenkins",
-          "image": "img/richard_jenkins.jepg"
-        }
-      ],
-      "first-name": "Ella Martinez",
-      "first-rating": "⭐️⭐️⭐️",
-      "first-review": "Emotional, but the pacing was uneven.",
-      "second-name": "James Wilson",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Touching story, though somewhat predictable."
-    },
-    {
-      "id": 139,
       "title": "Crazy Rich Asians",
       "poster": "img/crazy-rich-asians.jpeg",
       "year": "2018",
@@ -4370,6 +4309,68 @@
       "second-name": "David Park",
       "second-rating": "⭐️⭐️⭐️",
       "second-review": "Entertaining, though it followed familiar tropes."
+    },
+    {
+      "id": 138,
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "poster": "img/eternal-sunshine-of-the-spotless-mind.jpeg",
+      "year": "2004",
+      "genre": "Drama, Romance, Sci-Fi",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "A couple undergoes a procedure to erase memories of each other from their minds.",
+      "our-review": "A poignant exploration of love and memory, blending science fiction with emotional depth.",
+      "cast": [
+        {
+          "name": "Jim Carrey",
+          "image": "img/jim_carrey.jpeg"
+        },
+        {
+          "name": "Kate Winslet",
+          "image": "img/kate_winslet.jpeg"
+        },
+        {
+          "name": "Tom Wilkinson",
+          "image": "img/tom_wilkinson.jpeg"
+        }
+      ],
+      "trailer": "https://www.youtube.com/embed/07-QBnEkgXU",
+      "first-name": "Sophia Martinez",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "A beautifully crafted film that delves into the complexities of relationships.",
+      "second-name": "James Lee",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "An imaginative and touching narrative that stays with you long after viewing."
+    },
+    {
+      "id": 139,
+      "title": "Silver Linings Playbook",
+      "poster": "img/silver-linings-playbook.jpeg",
+      "year": "2012",
+      "genre": "Drama, Romance, Comedy",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "After a stint in a mental institution, Pat tries to rebuild his life and reconnect with his ex-wife, but an unexpected bond forms with Tiffany, a mysterious woman with her own issues.",
+      "our-review": "An emotionally rich, heartfelt, and often humorous story of healing, connection, and second chances.",
+      "cast": [
+        {
+          "name": "Bradley Cooper",
+          "image": "img/bradley_cooper.jpeg"
+        },
+        {
+          "name": "Jennifer Lawrence",
+          "image": "img/jennifer_lawrence.jpeg"
+        },
+        {
+          "name": "Robert De Niro",
+          "image": "img/robert_de_niro.jpeg"
+        }
+      ],
+      "trailer": "https://www.youtube.com/embed/Lj5_FhLaaQQ",
+      "first-name": "Emily Parker",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "A raw, funny, and tender portrayal of love and mental health that hits all the right notes.",
+      "second-name": "Daniel Cho",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Brilliant performances and genuine emotion make this a standout modern romance."
     },
     {
       "id": 140,
