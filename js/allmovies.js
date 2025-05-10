@@ -11,27 +11,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!allMoviesContainer) return;
 
+  const categoryMap = {
+    "all-movies-section-1": "Critics' Favorites",
+    "all-movies-section-2": "Modern Epics",
+    "all-movies-section-3": "Emotional Journeys",
+  };
+
   fetch("data/all-movie.json")
     .then((response) => response.json())
     .then((data) => {
-      const categories = [
-        "all-movies-section-1",
-        "all-movies-section-2",
-        "all-movies-section-3",
-      ];
+      allMovies = Object.keys(categoryMap).flatMap((categoryKey) => {
+        const movies = data[categoryKey] || [];
+        return movies.map((movie) => ({ ...movie, section: categoryKey })); // Add section key to each movie
+      });
 
-      allMovies = categories.flatMap((category) => data[category] || []);
-
-      categories.forEach((category, index) => {
-        const movies = data[category];
+      Object.entries(categoryMap).forEach(([categoryKey, displayName]) => {
+        const movies = data[categoryKey];
         if (!movies || movies.length === 0) return;
 
-        renderMovieSection(
-          movies,
-          allMoviesContainer,
-          10,
-          `Section ${index + 1}`
-        );
+        renderMovieSection(movies, allMoviesContainer, 10, displayName);
       });
 
       setTimeout(setupScrollButtons, 100);
@@ -50,50 +48,47 @@ document.addEventListener("DOMContentLoaded", () => {
   function applyFilters(selectedRating = activeRating) {
     activeRating = selectedRating;
 
-    //filter the movies by selected star rating
-    let filtered = allMovies.filter((movie) => {
-      const hasValidDate =
-        movie.releaseDate && !isNaN(Date.parse(movie.releaseDate));
-
-      //show all movies if no rating is picked otherwise match the rating
-      const matchesRating =
-        activeRating === null || movie.rating === activeRating;
-
-      return hasValidDate && matchesRating;
-    });
-
-    //sort movies by date if a date if filter selected
-    if (activeDateSort === "newest") {
-      filtered.sort(
-        (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
-      );
-    } else if (activeDateSort === "oldest") {
-      filtered.sort(
-        (a, b) => new Date(a.releaseDate) - new Date(b.releaseDate)
-      );
-    }
-
-    //clear current movie display
     allMoviesContainer.innerHTML = "";
 
-    //filtered movies in sections of 10
-    const sectionSize = 10;
-    for (let i = 0; i < filtered.length; i += sectionSize) {
-      const chunk = filtered.slice(i, i + sectionSize);
-      renderMovieSection(
-        chunk,
-        allMoviesContainer,
-        sectionSize,
-        `Section ${i / sectionSize + 1}`
+    Object.entries(categoryMap).forEach(([categoryKey, displayName]) => {
+      const categoryMovies = allMovies.filter(
+        (movie) => movie.section === categoryKey
       );
-    }
+
+      //filter the movies by selected star rating
+      let filtered = categoryMovies.filter((movie) => {
+        const hasValidDate =
+          movie.releaseDate && !isNaN(Date.parse(movie.releaseDate));
+
+        //show all movies if no rating is picked otherwise match the rating
+        const matchesRating =
+          activeRating === null || movie.rating === activeRating;
+
+        return hasValidDate && matchesRating;
+      });
+
+      //sort movies by date if a date filter is selected
+      if (activeDateSort === "newest") {
+        filtered.sort(
+          (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
+        );
+      } else if (activeDateSort === "oldest") {
+        filtered.sort(
+          (a, b) => new Date(a.releaseDate) - new Date(b.releaseDate)
+        );
+      }
+
+      if (filtered.length > 0) {
+        renderMovieSection(filtered, allMoviesContainer, 10, displayName);
+      }
+    });
 
     setTimeout(setupScrollButtons, 100);
   }
 
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
-      //get rating value from star eleemt
+      //get rating value from star element
       const rating = parseInt(star.getAttribute("data-value"));
 
       star.addEventListener("click", () => {
@@ -108,7 +103,7 @@ document.addEventListener("DOMContentLoaded", () => {
           s.classList.toggle("active", !isActive && i < rating);
         });
 
-        //apply filter w updated rating
+        //apply filter with updated rating
         applyFilterFn(activeRating);
       });
 
