@@ -59,6 +59,7 @@ fetch("data/trending.json")
     });
 
     //carousel for the movies 
+    //this following code/logic is adapted from the source:https://www.youtube.com/watch?v=OQZNAMjC6Vg used for the logic of the carousel effect
     setTimeout(() => {
       const sections = document.querySelectorAll(".product");
       sections.forEach((section) => {
