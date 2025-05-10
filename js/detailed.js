@@ -123,7 +123,6 @@ function buildDetailedPage(movie) {
               .join("")}
               
             </section>
-<div class="trailer-feed-container">
                <h2>TRAILER</h2>
       <div class="trailer-container">
         <iframe width="560" height="315" 
@@ -147,7 +146,6 @@ function buildDetailedPage(movie) {
              </div>
 
             <div class="review-feed" id="reviewFeed"></div>
-            </div>
 
             <h2>ADD YOUR OPINION</h2>
             <div class="review-form">
