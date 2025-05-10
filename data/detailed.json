@@ -8862,7 +8862,7 @@
     {
       "id": 282,
       "title": "The Matrix",
-      "poster": "img/the-matrix.jpeg",
+      "poster": "img/the-matrix.webp",
       "year": "1999",
       "genre": "sci-fi, action",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8893,7 +8893,7 @@
     {
       "id": 283,
       "title": "Interstellar",
-      "poster": "iimg/nterstellar.jpeg",
+      "poster": "img/interstellar.jpeg",
       "year": "2014",
       "genre": "sci-fi, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
@@ -8983,347 +8983,222 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "A gripping and action-packed ride. Minority Report delivers a sharp critique of a surveillance society while being entertaining."
     },
-    {
-      "id": 286,
-      "title": "The Fifth Element",
-      "poster": "img/the-fifth-element.jpeg",
-      "year": "1997",
-      "genre": "sci-fi, action",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "In the future, a cab driver unwittingly becomes the protector of a mysterious woman who holds the key to saving the world from an impending cosmic threat. Together, they must stop a great evil from destroying the universe.",
-      "our-review": "The Fifth Element is a vibrant and fun-filled adventure, blending humor, action, and a unique visual style. Bruce Willis and Milla Jovovich lead an unforgettable cast in this cult classic.",
-      "cast": [
-        {
-          "name": "Bruce Willis",
-          "image": "img/bruce_willis.jepg"
-        },
-        {
-          "name": "Milla Jovovich",
-          "image": "img/milla_jovovich.jepg"
-        },
-        {
-          "name": "Gary Oldman",
-          "image": "img/gary_oldman.jepg"
-        }
-      ],
-       "trailer": "https://www.youtube.com/embed/fQ9RqgcR24g",
-      "first-name": "Jacob Hunter",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "A visually stunning and fun film that’s equal parts campy and thrilling. A truly unique piece of sci-fi cinema.",
-      "second-name": "Olivia Clarke",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A wild, colorful ride that delivers laughs, action, and some amazing performances. One of the most unique sci-fi films of the 90s."
-    },
-    {
-      "id": 287,
-      "title": "Ex Machina",
-      "poster": "img/ex-machina.jpeg",
-      "year": "2014",
-      "genre": "sci-fi, thriller",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "A young programmer is selected to participate in a groundbreaking experiment in artificial intelligence by evaluating the human qualities of a highly advanced humanoid A.I. robot. As the experiment progresses, the line between man and machine blurs.",
-      "our-review": "Ex Machina is a cerebral and chilling exploration of artificial intelligence and human nature. The tight, psychological tension and stunning performances make it one of the best sci-fi films of the decade.",
-      "cast": [
-        {
-          "name": "Domhnall Gleeson",
-          "image": "img/domhnall_gleeson.jepg"
-        },
-        {
-          "name": "Alicia Vikander",
-          "image": "img/alicia_vikander.jepg"
-        },
-        {
-          "name": "Oscar Isaac",
-          "image": "img/oscar_isaac.jepg"
-        }
-      ],
-       "trailer": "https://www.youtube.com/embed/sNExF5WYMaA",
-      "first-name": "Rachel Adams",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A brilliant film that explores the ethics of AI, the boundaries of consciousness, and the dangers of unchecked power. Alicia Vikander’s performance is outstanding.",
-      "second-name": "Jackie Rivera",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "An incredibly tense, intelligent film about the intersection of technology and humanity. The suspense builds with each scene, making the ending all the more powerful."
-    },
-    {
-      "id": 288,
-      "title": "Starship Troopers",
-      "poster": "img/starship-troopers.jpeg",
-      "year": "1997",
-      "genre": "sci-fi, action, war",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "In the future, soldiers battle giant alien insects in a fight for the survival of humanity. As young recruits join the Mobile Infantry, they are thrust into a brutal war where victory is uncertain and the true cost of the conflict becomes clear.",
-      "our-review": "Starship Troopers is a satirical, action-packed, and politically charged sci-fi film that doesn’t shy away from its ridiculousness. It blends humor and commentary with intense action, creating a fun yet thought-provoking experience.",
-      "cast": [
-        {
-          "name": "Casper Van Dien",
-          "image": "img/casper_van_dien.jepg"
-        },
-        {
-          "name": "Denise Richards",
-          "image": "img/denise_richards.jepg"
-        },
-        {
-          "name": "Neil Patrick Harris",
-          "image": "img/neil_patrick_harris.jepg"
-        }
-      ],
-      "first-name": "Ethan Stone",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "A fun, over-the-top action film with a satirical edge. It’s an entertaining watch with an underlying critique of military propaganda.",
-      "second-name": "Hannah Jones",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A cult classic with incredible special effects and a ridiculous storyline that somehow works. It's the perfect blend of humor and action."
-    },
-    {
-      "id": 289,
-      "title": "Gattaca",
-      "poster": "img/gattaca.jpeg",
-      "year": "1997",
-      "genre": "sci-fi, drama",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "In a future society where genetics determine one's fate, Vincent Freeman, a naturally born man, dreams of traveling to space. With the help of an illegal genetic identity, he defies the system in order to achieve his dream, but must constantly dodge the authorities.",
-      "our-review": "Gattaca is a hauntingly beautiful and thought-provoking film that delves deep into issues of genetic engineering and human aspiration. With a stark visual style and exceptional performances, it’s a classic in the sci-fi genre.",
-      "cast": [
-        {
-          "name": "Ethan Hawke",
-          "image": "img/ethan_hawke.jepg"
-        },
-        {
-          "name": "Uma Thurman",
-          "image": "img/uma_thurman.jepg"
-        },
-        {
-          "name": "Jude Law",
-          "image": "img/jude_law.jepg"
-        }
-      ],
-      "first-name": "Sophia Liu",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "A visually stunning film with a powerful message about the limits of genetics and human potential. It’s a quietly emotional and deeply affecting experience.",
-      "second-name": "George Marshall",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A visually distinctive and compelling film that makes you think about the future of humanity. A great meditation on genetic destiny and personal ambition."
-    },
-    {
-      "id": 290,
-      "title": "Children of Men",
-      "poster": "img/children-of-men.jpeg",
-      "year": "2006",
-      "genre": "sci-fi, thriller, drama",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "In a dystopian future where humans have become infertile, society is on the brink of collapse. When a young woman is found pregnant, a disillusioned bureaucrat is tasked with protecting her and helping her escape to safety, becoming humanity’s last hope.",
-      "our-review": "Children of Men is a visceral and emotionally charged film about hope in a broken world. With its tense, immersive direction and unforgettable performances, it stands as a haunting exploration of the human spirit.",
-      "cast": [
-        {
-          "name": "Clive Owen",
-          "image": "img/clive_owen.jepg"
-        },
-        {
-          "name": "Julianne Moore",
-          "image": "img/julianne_moore.jepg"
-        },
-        {
-          "name": "Michael Caine",
-          "image": "img/michael_caine.jepg"
-        }
-      ],
-       "trailer": "https://www.youtube.com/embed/2VT2apoX90o",
-      "first-name": "Liam Ford",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A bleak but beautifully shot film that explores themes of hope, survival, and human resilience. Clive Owen’s performance is heartbreaking.",
-      "second-name": "Maya Fischer",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "An intense and moving film. It’s a stark portrayal of a collapsing world and the fragility of human life, with a hauntingly realistic depiction of a possible future."
-    },
-    {
-      "id": 291,
-      "title": "Blade Runner 2049",
-      "poster": "img/blade-runner-2049.jpeg",
-      "year": "2017",
-      "genre": "sci-fi, thriller",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "A young blade runner, K, uncovers a long-buried secret that could alter the course of humanity. His quest to solve the mystery leads him to Rick Deckard, a former blade runner who has been missing for 30 years.",
-      "our-review": "Blade Runner 2049 is a visually stunning and thought-provoking sequel that perfectly expands the themes of its predecessor. The film is a meditative exploration of identity and existence, with breathtaking visuals.",
-      "cast": [
-        {
-          "name": "Ryan Gosling",
-          "image": "img/ryan_gosling.jepg"
-        },
-        {
-          "name": "Harrison Ford",
-          "image": "img/harrison_ford.jepg"
-        },
-        {
-          "name": "Ana de Armas",
-          "image": "img/ana_de_armas.jepg"
-        }
-      ],
-             "trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
-      "first-name": "Ethan Davis",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A cinematic masterpiece that expands on the original’s world with gorgeous visuals and an emotionally layered narrative.",
-      "second-name": "Mia Simmons",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A visually mesmerizing, slow-burn film that delves deep into what it means to be human. The performances and the world-building are extraordinary."
-    },
-    {
-      "id": 292,
-      "title": "Interstellar",
-      "poster": "img/interstellar.jpeg",
-      "year": "2014",
-      "genre": "sci-fi, adventure",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "When Earth faces ecological collapse, a team of astronauts travels through a wormhole to find a new home for humanity. As they explore distant worlds, they encounter the power of love, time, and the unknown.",
-      "our-review": "Interstellar is an ambitious, visually stunning exploration of space, time, and human survival. Christopher Nolan’s direction and the film’s emotional depth elevate it to a must-watch.",
-      "cast": [
-        {
-          "name": "Matthew McConaughey",
-          "image": "img/matthew_mcconaughey.jepg"
-        },
-        {
-          "name": "Anne Hathaway",
-          "image": "img/anne_hathaway.jepg"
-        },
-        {
-          "name": "Jessica Chastain",
-          "image": "img/jessica_chastain.jepg"
-        }
-      ],
-             "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E",
-      "first-name": "Oliver Gray",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A visually breathtaking and emotionally stirring space epic. The way it handles complex themes about time and love is masterful.",
-      "second-name": "Sophie Lee",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "An emotional and intellectual journey. Some of the best space visuals ever seen in a film, and an unforgettable score by Hans Zimmer."
-    },
+      {
+        "id": 286,
+        "title": "Star Trek",
+        "poster": "img/star-trek.jpeg",
+        "year": "2009",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rating": "⭐️⭐️⭐️⭐️",
+        "summary": "A young James T. Kirk joins Starfleet and must rally a new crew to stop a vengeful alien threatening the Federation.",
+        "our-review": "A bold and energetic reboot that reintroduces the franchise with heart, humor, and high-octane action.",
+        "cast": [
+          {
+            "name": "Chris Pine",
+            "image": "img/chris_pine.jpeg"
+          },
+          {
+            "name": "Zachary Quinto",
+            "image": "img/zachary_quinto.jpeg"
+          },
+          {
+            "name": "Zoe Saldana",
+            "image": "img/zoe_saldana.jpeg"
+          }
+        ],
+        "trailer": "https://www.youtube.com/embed/pKFUZ10Wmbw",
+        "first-name": "Liam Carter",
+        "first-rating": "⭐️⭐️⭐️⭐️",
+        "first-review": "A thrilling space adventure with modern style and classic charm.",
+        "second-name": "Emily Novak",
+        "second-rating": "⭐️⭐️⭐️⭐️⭐️",
+        "second-review": "Incredibly fun and emotionally engaging—a near-perfect sci-fi revival."
+      },
+      {
+        "id": 287,
+        "title": "The Terminator",
+        "poster": "img/the-terminator.jpeg",
+        "year": "1984",
+        "genre": "Action, Sci-Fi, Thriller",
+        "rating": "⭐️⭐️⭐️⭐️⭐️",
+        "summary": "A cyborg assassin is sent from the future to kill Sarah Connor, the mother of humanity's future savior.",
+        "our-review": "An iconic blend of suspense, science fiction, and relentless action that helped redefine a genre.",
+        "cast": [
+          {
+            "name": "Arnold Schwarzenegger",
+            "image": "img/arnold_schwarzenegger.jpeg"
+          },
+          {
+            "name": "Linda Hamilton",
+            "image": "img/linda_hamilton.jpeg"
+          },
+          {
+            "name": "Michael Biehn",
+            "image": "img/michael_biehn.jpeg"
+          }
+        ],
+        "trailer": "https://www.youtube.com/embed/k64P4l2Wmeg",
+        "first-name": "Tyler Jensen",
+        "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+        "first-review": "A groundbreaking classic—tense, action-packed, and unforgettable.",
+        "second-name": "Vanessa Chow",
+        "second-rating": "⭐️⭐️⭐️⭐️",
+        "second-review": "Still gripping after all these years—pure sci-fi brilliance."
+      },
+      {
+        "id": 288,
+        "title": "Ex Machina",
+        "poster": "img/ex-machina.jpeg",
+        "year": "2014",
+        "genre": "Drama, Sci-Fi, Thriller",
+        "rating": "⭐️⭐️⭐️⭐️⭐️",
+        "summary": "A young programmer is invited to administer a Turing test to an advanced humanoid AI in a remote facility.",
+        "our-review": "A cerebral and chilling exploration of consciousness, ethics, and control—both beautiful and unsettling.",
+        "cast": [
+          {
+            "name": "Alicia Vikander",
+            "image": "img/alicia_vikander.jpeg"
+          },
+          {
+            "name": "Domhnall Gleeson",
+            "image": "img/domhnall_gleeson.jpeg"
+          },
+          {
+            "name": "Oscar Isaac",
+            "image": "img/oscar_isaac.jpeg"
+          }
+        ],
+        "trailer": "https://www.youtube.com/embed/bggUmgeMCdc",
+        "first-name": "Nina Patel",
+        "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+        "first-review": "Stylish, thought-provoking, and masterfully acted—an instant sci-fi classic.",
+        "second-name": "Jacob Lin",
+        "second-rating": "⭐️⭐️⭐️⭐️",
+        "second-review": "Haunting and fascinating—raises profound questions about AI and humanity."
+      },
+      {
+        "id": 289,
+        "title": "Moon",
+        "poster": "img/moon.jpeg",
+        "year": "2009",
+        "genre": "Drama, Mystery, Sci-Fi",
+        "rating": "⭐️⭐️⭐️⭐️",
+        "summary": "A solitary worker on a lunar base begins to question his reality as his three-year mission nears its end.",
+        "our-review": "A minimalist yet emotionally powerful sci-fi story with a standout performance from Sam Rockwell.",
+        "cast": [
+          {
+            "name": "Sam Rockwell",
+            "image": "img/sam_rockwell.jpeg"
+          },
+          {
+            "name": "Kevin Spacey (voice)",
+            "image": "img/kevin_spacey.jpeg"
+          }
+        ],
+        "trailer": "https://www.youtube.com/embed/twuScTcDP_Q",
+        "first-name": "Rachel Kim",
+        "first-rating": "⭐️⭐️⭐️⭐️",
+        "first-review": "Quiet, eerie, and deeply human—a remarkable indie sci-fi gem.",
+        "second-name": "Dylan Morgan",
+        "second-rating": "⭐️⭐️⭐️⭐️⭐️",
+        "second-review": "A haunting meditation on isolation and identity—brilliantly executed."
+      },
+      {
+        "id": 290,
+        "title": "Solaris",
+        "poster": "img/solaris.jpeg",
+        "year": "1972",
+        "genre": "sci-fi, drama",
+        "rating": "⭐️⭐️⭐️⭐️",
+        "summary": "A psychologist is sent to a space station orbiting the planet Solaris to evaluate the crew, who have been experiencing strange occurrences. As he uncovers the truth, he grapples with the nature of reality and human consciousness.",
+        "our-review": "Solaris is a slow-burning, philosophical exploration of grief, memory, and identity. The film’s atmosphere and its thought-provoking narrative leave a lasting impression.",
+        "cast": [
+          {
+            "name": "Donatas Banionis",
+            "image": "img/donatas_banionis.jepg"
+          },
+          {
+            "name": "Natalya Bondarchuk",
+            "image": "img/natalya_bondarchuk.jepg"
+          },
+          {
+            "name": "Jüri Järvet",
+            "image": "img/juri_jarvet.jepg"
+          }
+        ],
+         "trailer": "https://www.youtube.com/embed/rvm7WMbXfeY",
+        "first-name": "Henry Reed",
+        "first-rating": "⭐️⭐️⭐️⭐️",
+        "first-review": "A visually stunning and intellectually rich film that questions the nature of reality. It's not for everyone, but it’s a deep and rewarding experience.",
+        "second-name": "Maria Bennett",
+        "second-rating": "⭐️⭐️⭐️⭐️",
+        "second-review": "A meditative and cerebral film that explores love, loss, and consciousness. It’s a slow burn, but the themes are worth the wait."
+      },
+      {
+        "id": 291,
+        "title": "Her",
+        "poster": "img/her.jpeg",
+        "year": "2013",
+        "genre": "sci-fi, romance, drama",
+        "rating": "⭐️⭐️⭐️⭐️½",
+        "summary": "In a future where AI has advanced to a point of being able to form relationships, a lonely writer falls in love with an intelligent operating system. As he navigates this unconventional relationship, he grapples with love, loneliness, and the future of human connection.",
+        "our-review": "Her is a beautifully melancholic and poetic exploration of love, technology, and human relationships. Joaquin Phoenix and Scarlett Johansson deliver exceptional performances in this emotionally resonant film.",
+        "cast": [
+          {
+            "name": "Joaquin Phoenix",
+            "image": "img/joaquin_phoenix.jepg"
+          },
+          {
+            "name": "Scarlett Johansson",
+            "image": "img/scarlett_johansson.jepg"
+          },
+          {
+            "name": "Amy Adams",
+            "image": "img/amy_adams.jepg"
+          }
+        ],
+         "trailer": "https://www.youtube.com/embed/dJTU48_yghs",
+        "first-name": "Grace Miller",
+        "first-rating": "⭐️⭐️⭐️⭐️½",
+        "first-review": "A deeply emotional and thoughtful film about love in the age of technology. The performances are fantastic, and the exploration of human relationships is poignant.",
+        "second-name": "Ian Richards",
+        "second-rating": "⭐️⭐️⭐️⭐️",
+        "second-review": "A beautifully unique take on the future of love and companionship. It’s a deeply human and reflective film about connection in an increasingly digital world."
+      },
+      {
+        "id": 292,
+        "title": "Minority Report",
+        "poster": "img/minority-report.jpeg",
+        "year": "2002",
+        "genre": "sci-fi, thriller",
+        "rating": "⭐️⭐️⭐️⭐️",
+        "summary": "In a future where crimes are prevented before they occur, a police officer is accused of a murder he has yet to commit. As he goes on the run, he must prove his innocence while uncovering a conspiracy that threatens the future of the system.",
+        "our-review": "Minority Report is a fast-paced, action-packed film with a smart, intriguing story about free will, justice, and technology. Tom Cruise is excellent in his role, and the film’s themes remain relevant today.",
+        "cast": [
+          {
+            "name": "Tom Cruise",
+            "image": "img/tom_cruise.jepg"
+          },
+          {
+            "name": "Colin Farrell",
+            "image": "img/colin_farrell.jepg"
+          },
+          {
+            "name": "Samantha Morton",
+            "image": "img/samantha_morton.jepg"
+          }
+        ],
+          "trailer": "https://www.youtube.com/embed/lG7DGMgfOb8",
+        "first-name": "Lucas Brown",
+        "first-rating": "⭐️⭐️⭐️⭐️",
+        "first-review": "A thrilling and thought-provoking film that delves into issues of pre-crime and free will. The technology and action sequences are ahead of their time.",
+        "second-name": "Nina Carter",
+        "second-rating": "⭐️⭐️⭐️⭐️",
+        "second-review": "A gripping and action-packed film with a strong social commentary. The world-building and ideas about predictive justice are fascinating."
+      },
+   
     {
       "id": 293,
-      "title": "The Matrix",
-      "poster": "img/the-matrix.jpeg",
-      "year": "1999",
-      "genre": "sci-fi, action",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. The Matrix redefined the sci-fi genre and is hailed as one of the greatest films of all time.",
-      "our-review": "The Matrix is an iconic, mind-bending action film that blends philosophy, technology, and thrilling visuals. Its groundbreaking special effects and timeless story have made it a cultural touchstone.",
-      "cast": [
-        {
-          "name": "Keanu Reeves",
-          "image": "img/keanu_reeves.jepg"
-        },
-        {
-          "name": "Laurence Fishburne",
-          "image": "img/laurence_fishburne.jepg"
-        },
-        {
-          "name": "Carrie-Anne Moss",
-          "image": "img/carrie_anne_moss.jepg"
-        }
-      ],
-             "trailer": "https://www.youtube.com/embed/vKQi3bBA1y8",
-      "first-name": "Nathan Collins",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A revolutionary film in terms of both concept and visual style. It’s a philosophical action thriller that stands the test of time.",
-      "second-name": "Olivia Matthews",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "One of the most influential films of the 90s. The action, special effects, and themes about reality and control still resonate today."
-    },
-    {
-      "id": 294,
-      "title": "Arrival",
-      "poster": "img/arrival.jpeg",
-      "year": "2016",
-      "genre": "sci-fi, drama",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "When mysterious alien ships land on Earth, a linguist is recruited to help communicate with the extraterrestrials. As she learns their language, she uncovers a new way of thinking that could change humanity’s future.",
-      "our-review": "Arrival is an intelligent, deeply philosophical sci-fi film that explores communication, time, and humanity. It’s emotionally powerful and intellectually stimulating, with standout performances and stunning visuals.",
-      "cast": [
-        {
-          "name": "Amy Adams",
-          "image": "img/amy_adams.jepg"
-        },
-        {
-          "name": "Jeremy Renner",
-          "image": "img/jeremy_renner.jepg"
-        },
-        {
-          "name": "Forest Whitaker",
-          "image": "img/forest_whitaker.jepg"
-        }
-      ],
-       "trailer": "https://www.youtube.com/embed/tFMo3UJ4B4g",
-      "first-name": "Jack Dawson",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A contemplative and haunting sci-fi film that explores communication and time in profound ways. Amy Adams gives an incredible performance.",
-      "second-name": "Lily Evans",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A beautiful and thoughtful take on first contact, with a strong focus on language and understanding. A perfect balance of intelligence and emotion."
-    },
-    {
-      "id": 295,
-      "title": "Solaris",
-      "poster": "img/solaris.jpeg",
-      "year": "1972",
-      "genre": "sci-fi, drama",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "A psychologist is sent to a space station orbiting the planet Solaris to evaluate the crew, who have been experiencing strange occurrences. As he uncovers the truth, he grapples with the nature of reality and human consciousness.",
-      "our-review": "Solaris is a slow-burning, philosophical exploration of grief, memory, and identity. The film’s atmosphere and its thought-provoking narrative leave a lasting impression.",
-      "cast": [
-        {
-          "name": "Donatas Banionis",
-          "image": "img/donatas_banionis.jepg"
-        },
-        {
-          "name": "Natalya Bondarchuk",
-          "image": "img/natalya_bondarchuk.jepg"
-        },
-        {
-          "name": "Jüri Järvet",
-          "image": "img/juri_jarvet.jepg"
-        }
-      ],
-       "trailer": "https://www.youtube.com/embed/rvm7WMbXfeY",
-      "first-name": "Henry Reed",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "A visually stunning and intellectually rich film that questions the nature of reality. It's not for everyone, but it’s a deep and rewarding experience.",
-      "second-name": "Maria Bennett",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A meditative and cerebral film that explores love, loss, and consciousness. It’s a slow burn, but the themes are worth the wait."
-    },
-    {
-      "id": 296,
-      "title": "Minority Report",
-      "poster": "img/minority-report.jpeg",
-      "year": "2002",
-      "genre": "sci-fi, thriller",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "In a future where crimes are prevented before they occur, a police officer is accused of a murder he has yet to commit. As he goes on the run, he must prove his innocence while uncovering a conspiracy that threatens the future of the system.",
-      "our-review": "Minority Report is a fast-paced, action-packed film with a smart, intriguing story about free will, justice, and technology. Tom Cruise is excellent in his role, and the film’s themes remain relevant today.",
-      "cast": [
-        {
-          "name": "Tom Cruise",
-          "image": "img/tom_cruise.jepg"
-        },
-        {
-          "name": "Colin Farrell",
-          "image": "img/colin_farrell.jepg"
-        },
-        {
-          "name": "Samantha Morton",
-          "image": "img/samantha_morton.jepg"
-        }
-      ],
-        "trailer": "https://www.youtube.com/embed/lG7DGMgfOb8",
-      "first-name": "Lucas Brown",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "A thrilling and thought-provoking film that delves into issues of pre-crime and free will. The technology and action sequences are ahead of their time.",
-      "second-name": "Nina Carter",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A gripping and action-packed film with a strong social commentary. The world-building and ideas about predictive justice are fascinating."
-    },
-    {
-      "id": 297,
       "title": "The Truman Show",
       "poster": "img/the-truman-show.jpeg",
       "year": "1998",
@@ -9354,38 +9229,7 @@
       "second-review": "A deeply impactful film about reality and human nature. Jim Carrey’s performance is superb, and the premise remains strikingly relevant."
     },
     {
-      "id": 298,
-      "title": "Her",
-      "poster": "img/her.jpeg",
-      "year": "2013",
-      "genre": "sci-fi, romance, drama",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "In a future where AI has advanced to a point of being able to form relationships, a lonely writer falls in love with an intelligent operating system. As he navigates this unconventional relationship, he grapples with love, loneliness, and the future of human connection.",
-      "our-review": "Her is a beautifully melancholic and poetic exploration of love, technology, and human relationships. Joaquin Phoenix and Scarlett Johansson deliver exceptional performances in this emotionally resonant film.",
-      "cast": [
-        {
-          "name": "Joaquin Phoenix",
-          "image": "img/joaquin_phoenix.jepg"
-        },
-        {
-          "name": "Scarlett Johansson",
-          "image": "img/scarlett_johansson.jepg"
-        },
-        {
-          "name": "Amy Adams",
-          "image": "img/amy_adams.jepg"
-        }
-      ],
-       "trailer": "https://www.youtube.com/embed/dJTU48_yghs",
-      "first-name": "Grace Miller",
-      "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A deeply emotional and thoughtful film about love in the age of technology. The performances are fantastic, and the exploration of human relationships is poignant.",
-      "second-name": "Ian Richards",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A beautifully unique take on the future of love and companionship. It’s a deeply human and reflective film about connection in an increasingly digital world."
-    },
-    {
-      "id": 299,
+      "id": 294,
       "title": "The Prestige",
       "poster": "img/the-prestige.jpeg",
       "year": "2006",
@@ -9416,35 +9260,191 @@
       "second-review": "An engaging, cerebral film with remarkable performances and a great narrative. It’s an intricate exploration of rivalry and the pursuit of perfection."
     },
     {
-      "id": 300,
-      "title": "Inception",
-      "poster": "img/inception.jpeg",
-      "year": "2010",
-      "genre": "sci-fi, action, thriller",
+      "id": 295,
+      "title": "Children of Men",
+      "poster": "img/children-of-men.jpeg",
+      "year": "2006",
+      "genre": "sci-fi, thriller, drama",
       "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "A skilled thief who can steal secrets from deep within the subconscious is given a chance to have his criminal record erased in exchange for implanting an idea into someone’s mind — a process known as inception.",
-      "our-review": "Inception is a visually spectacular and mind-bending thriller that challenges the concept of reality. Christopher Nolan’s direction and the stellar cast make it one of the most innovative films of the decade.",
+      "summary": "In a dystopian future where humans have become infertile, society is on the brink of collapse. When a young woman is found pregnant, a disillusioned bureaucrat is tasked with protecting her and helping her escape to safety, becoming humanity’s last hope.",
+      "our-review": "Children of Men is a visceral and emotionally charged film about hope in a broken world. With its tense, immersive direction and unforgettable performances, it stands as a haunting exploration of the human spirit.",
       "cast": [
         {
-          "name": "Leonardo DiCaprio",
-          "image": "img/leonardo_dicaprio.jepg"
+          "name": "Clive Owen",
+          "image": "img/clive_owen.jepg"
         },
         {
-          "name": "Joseph Gordon-Levitt",
-          "image": "img/joseph_gordon_levitt.jepg"
+          "name": "Julianne Moore",
+          "image": "img/julianne_moore.jepg"
         },
         {
-          "name": "Ellen Page",
-          "image": "img/ellen_page.webp"
+          "name": "Michael Caine",
+          "image": "img/michael_caine.jepg"
         }
       ],
-            "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
-      "first-name": "Lucas Bryant",
+       "trailer": "https://www.youtube.com/embed/2VT2apoX90o",
+      "first-name": "Liam Ford",
       "first-rating": "⭐️⭐️⭐️⭐️½",
-      "first-review": "A cinematic masterpiece that expertly combines action, emotion, and intellect. The idea of dreams within dreams is executed perfectly.",
-      "second-name": "Jessica Clark",
+      "first-review": "A bleak but beautifully shot film that explores themes of hope, survival, and human resilience. Clive Owen’s performance is heartbreaking.",
+      "second-name": "Maya Fischer",
       "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A thrilling, complex narrative with stunning visuals and performances. It’s a gripping film that requires your full attention but rewards you with a deeply satisfying experience."
+      "second-review": "An intense and moving film. It’s a stark portrayal of a collapsing world and the fragility of human life, with a hauntingly realistic depiction of a possible future."
+    },
+    {
+      "id": 296,
+      "title": "Interstellar",
+      "poster": "img/interstellar.jpeg",
+      "year": "2014",
+      "genre": "sci-fi, adventure",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "When Earth faces ecological collapse, a team of astronauts travels through a wormhole to find a new home for humanity. As they explore distant worlds, they encounter the power of love, time, and the unknown.",
+      "our-review": "Interstellar is an ambitious, visually stunning exploration of space, time, and human survival. Christopher Nolan’s direction and the film’s emotional depth elevate it to a must-watch.",
+      "cast": [
+        {
+          "name": "Matthew McConaughey",
+          "image": "img/matthew_mcconaughey.jepg"
+        },
+        {
+          "name": "Anne Hathaway",
+          "image": "img/anne_hathaway.jepg"
+        },
+        {
+          "name": "Jessica Chastain",
+          "image": "img/jessica_chastain.jepg"
+        }
+      ],
+             "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E",
+      "first-name": "Oliver Gray",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "A visually breathtaking and emotionally stirring space epic. The way it handles complex themes about time and love is masterful.",
+      "second-name": "Sophie Lee",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "An emotional and intellectual journey. Some of the best space visuals ever seen in a film, and an unforgettable score by Hans Zimmer."
+    },
+    {
+      "id": 297,
+      "title": "The Matrix",
+      "poster": "img/the-matrix.webp",
+      "year": "1999",
+      "genre": "sci-fi, action",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers. The Matrix redefined the sci-fi genre and is hailed as one of the greatest films of all time.",
+      "our-review": "The Matrix is an iconic, mind-bending action film that blends philosophy, technology, and thrilling visuals. Its groundbreaking special effects and timeless story have made it a cultural touchstone.",
+      "cast": [
+        {
+          "name": "Keanu Reeves",
+          "image": "img/keanu_reeves.jepg"
+        },
+        {
+          "name": "Laurence Fishburne",
+          "image": "img/laurence_fishburne.jepg"
+        },
+        {
+          "name": "Carrie-Anne Moss",
+          "image": "img/carrie_anne_moss.jepg"
+        }
+      ],
+             "trailer": "https://www.youtube.com/embed/vKQi3bBA1y8",
+      "first-name": "Nathan Collins",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "A revolutionary film in terms of both concept and visual style. It’s a philosophical action thriller that stands the test of time.",
+      "second-name": "Olivia Matthews",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "One of the most influential films of the 90s. The action, special effects, and themes about reality and control still resonate today."
+    },
+    
+    {
+      "id": 298,
+      "title": "Blade Runner 2049",
+      "poster": "img/blade-runner-2049.jpeg",
+      "year": "2017",
+      "genre": "sci-fi, thriller",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "A young blade runner, K, uncovers a long-buried secret that could alter the course of humanity. His quest to solve the mystery leads him to Rick Deckard, a former blade runner who has been missing for 30 years.",
+      "our-review": "Blade Runner 2049 is a visually stunning and thought-provoking sequel that perfectly expands the themes of its predecessor. The film is a meditative exploration of identity and existence, with breathtaking visuals.",
+      "cast": [
+        {
+          "name": "Ryan Gosling",
+          "image": "img/ryan_gosling.jepg"
+        },
+        {
+          "name": "Harrison Ford",
+          "image": "img/harrison_ford.jepg"
+        },
+        {
+          "name": "Ana de Armas",
+          "image": "img/ana_de_armas.jepg"
+        }
+      ],
+             "trailer": "https://www.youtube.com/embed/gCcx85zbxz4",
+      "first-name": "Ethan Davis",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "A cinematic masterpiece that expands on the original’s world with gorgeous visuals and an emotionally layered narrative.",
+      "second-name": "Mia Simmons",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A visually mesmerizing, slow-burn film that delves deep into what it means to be human. The performances and the world-building are extraordinary."
+    },
+    {
+      "id": 299,
+      "title": "Arrival",
+      "poster": "img/arrival.jpeg",
+      "year": "2016",
+      "genre": "sci-fi, drama",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "When mysterious alien ships land on Earth, a linguist is recruited to help communicate with the extraterrestrials. As she learns their language, she uncovers a new way of thinking that could change humanity’s future.",
+      "our-review": "Arrival is an intelligent, deeply philosophical sci-fi film that explores communication, time, and humanity. It’s emotionally powerful and intellectually stimulating, with standout performances and stunning visuals.",
+      "cast": [
+        {
+          "name": "Amy Adams",
+          "image": "img/amy_adams.jepg"
+        },
+        {
+          "name": "Jeremy Renner",
+          "image": "img/jeremy_renner.jepg"
+        },
+        {
+          "name": "Forest Whitaker",
+          "image": "img/forest_whitaker.jepg"
+        }
+      ],
+       "trailer": "https://www.youtube.com/embed/tFMo3UJ4B4g",
+      "first-name": "Jack Dawson",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "A contemplative and haunting sci-fi film that explores communication and time in profound ways. Amy Adams gives an incredible performance.",
+      "second-name": "Lily Evans",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "A beautiful and thoughtful take on first contact, with a strong focus on language and understanding. A perfect balance of intelligence and emotion."
+    },
+    
+    {
+      "id": 300,
+      "title": "The Matrix Reloaded",
+      "poster": "img/the-matrix-reloaded.jpeg",
+      "year": "2003",
+      "genre": "sci-fi, action, thriller",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "Neo continues his fight against the machines, learning more about his role in the fight for humanity’s freedom. He discovers a deeper connection with the Matrix and must confront new enemies to save the world.",
+      "our-review": "The Matrix Reloaded is a high-octane, action-packed sequel that delves deeper into the concepts of the Matrix. While it doesn’t quite reach the brilliance of the first film, it’s still a thrilling ride.",
+      "cast": [
+        {
+          "name": "Keanu Reeves",
+          "image": "img/keanu_reeves.jepg"
+        },
+        {
+          "name": "Laurence Fishburne",
+          "image": "img/laurence_fishburne.jepg"
+        },
+        {
+          "name": "Carrie-Anne Moss",
+          "image": "img/carrie_anne_moss.jepg"
+        }
+      ],
+      "first-name": "Kieran Wright",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "A visually stunning sequel that expands on the first film's universe. While it has its flaws, the action sequences are breathtaking.",
+      "second-name": "Nina Brooks",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "An action-packed continuation of the Matrix saga. The philosophical elements are still present, and the choreography is top-notch."
     },
     {
       "id": 301,
@@ -9598,34 +9598,36 @@
     },
     {
       "id": 306,
-      "title": "The Matrix Reloaded",
-      "poster": "img/the-matrix-reloaded.jpeg",
-      "year": "2003",
+      "title": "Inception",
+      "poster": "img/inception.jpeg",
+      "year": "2010",
       "genre": "sci-fi, action, thriller",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "Neo continues his fight against the machines, learning more about his role in the fight for humanity’s freedom. He discovers a deeper connection with the Matrix and must confront new enemies to save the world.",
-      "our-review": "The Matrix Reloaded is a high-octane, action-packed sequel that delves deeper into the concepts of the Matrix. While it doesn’t quite reach the brilliance of the first film, it’s still a thrilling ride.",
+      "rating": "⭐️⭐️⭐️⭐️½",
+      "summary": "A skilled thief who can steal secrets from deep within the subconscious is given a chance to have his criminal record erased in exchange for implanting an idea into someone’s mind — a process known as inception.",
+      "our-review": "Inception is a visually spectacular and mind-bending thriller that challenges the concept of reality. Christopher Nolan’s direction and the stellar cast make it one of the most innovative films of the decade.",
       "cast": [
         {
-          "name": "Keanu Reeves",
-          "image": "img/keanu_reeves.jepg"
+          "name": "Leonardo DiCaprio",
+          "image": "img/leonardo_dicaprio.jepg"
         },
         {
-          "name": "Laurence Fishburne",
-          "image": "img/laurence_fishburne.jepg"
+          "name": "Joseph Gordon-Levitt",
+          "image": "img/joseph_gordon_levitt.jepg"
         },
         {
-          "name": "Carrie-Anne Moss",
-          "image": "img/carrie_anne_moss.jepg"
+          "name": "Ellen Page",
+          "image": "img/ellen_page.webp"
         }
       ],
-      "first-name": "Kieran Wright",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "A visually stunning sequel that expands on the first film's universe. While it has its flaws, the action sequences are breathtaking.",
-      "second-name": "Nina Brooks",
+            "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "first-name": "Lucas Bryant",
+      "first-rating": "⭐️⭐️⭐️⭐️½",
+      "first-review": "A cinematic masterpiece that expertly combines action, emotion, and intellect. The idea of dreams within dreams is executed perfectly.",
+      "second-name": "Jessica Clark",
       "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "An action-packed continuation of the Matrix saga. The philosophical elements are still present, and the choreography is top-notch."
+      "second-review": "A thrilling, complex narrative with stunning visuals and performances. It’s a gripping film that requires your full attention but rewards you with a deeply satisfying experience."
     },
+    
     {
       "id": 307,
       "title": "Pacific Rim",
