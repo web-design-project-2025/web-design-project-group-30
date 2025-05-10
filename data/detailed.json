@@ -1659,7 +1659,7 @@
       "cast": [
         {
           "name": "Michael J. Fox",
-          "image": "img/michael_j_fox.jpeg"
+          "image": "img/micheal-j-fox.png"
         }
       ],
        "trailer": "https://www.youtube.com/embed/yHgMSR4F1Ak",
@@ -1682,11 +1682,11 @@
       "cast": [
         {
           "name": "Alessia Zecchini",
-          "image": "img/alessia_zecchini.jpeg"
+          "image": "img/alessia-zecchini.png"
         },
         {
           "name": "Stephen Keenan",
-          "image": "img/stephen_keenan.jpeg"
+          "image": "img/stephen-keenan.png"
         }
       ],
        "trailer": "https://www.youtube.com/embed/MzH6BI6P4Uo",
@@ -1700,7 +1700,7 @@
     {
       "id": 52,
       "title": "Navalny",
-      "poster": "img/navalny.jpeg",
+      "poster": "img/navalny.webp",
       "year": "2022",
       "genre": "documentary, political",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1709,7 +1709,7 @@
       "cast": [
         {
           "name": "Alexei Navalny",
-          "image": "img/alexei_navalny.jpeg"
+          "image": "img/alexei-navalny.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/hS5EIQ3zubE",
@@ -1732,11 +1732,11 @@
       "cast": [
         {
           "name": "Jon Batiste",
-          "image": "img/jon_batiste.jpeg"
+          "image": "img/jon-baptise.png"
         },
         {
           "name": "Suleika Jaouad",
-          "image": "img/suleika_jaouad.jpeg"
+          "image": "img/suleika-jaouad.png"
         }
       ],
        "trailer": "https://www.youtube.com/embed/wKSMsdq8ONs",
@@ -1750,7 +1750,7 @@
     {
       "id": 54,
       "title": "The Pigeon Tunnel",
-      "poster": "img/the-pigeon-tunnel.jpeg",
+      "poster": "img/the-pigeon-tunnel.webp",
       "year": "2023",
       "genre": "documentary, biography",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -1759,7 +1759,7 @@
       "cast": [
         {
           "name": "John le Carré",
-          "image": "img/john_le_carre.jpeg"
+          "image": "img/john-le-carre.png"
         }
       ],
        "trailer": "https://www.youtube.com/embed/9gWnuhjwNrw",
@@ -1782,7 +1782,7 @@
       "cast": [
         {
           "name": "Bobi Wine",
-          "image": "img/bobi_wine.jpeg"
+          "image": "img/bobi-wine.png"
         }
       ],
        "trailer": "https://www.youtube.com/embed/Leqt5JhRa5A",
@@ -4984,15 +4984,15 @@
       "cast": [
         {
           "name": "Tom Hardy",
-          "image": "img/tom_hardy.jepg"
+          "image": "img/tom-hardy.png"
         },
         {
           "name": "Charlize Theron",
-          "image": "img/charlize_theron.jepg"
+          "image": "img/charlize-theron.png"
         },
         {
           "name": "Nicholas Hoult",
-          "image": "img/nicholas_hoult.jepg"
+          "image": "img/nicholas_hoult.jpeg"
         }
       ],
       "trailer": "https://www.youtube.com/embed/hEJnMQG9ev8",
@@ -5015,15 +5015,15 @@
       "cast": [
         {
           "name": "Keanu Reeves",
-          "image": "img/keanu_reeves.jepg"
+          "image": "img/keanu_reeves.jpeg"
         },
         {
           "name": "Michael Nyqvist",
-          "image": "img/michael_nyqvist.jepg"
+          "image": "img/michael-nyqvist.png"
         },
         {
           "name": "Alfie Allen",
-          "image": "img/alfie_allen.jepg"
+          "image": "img/alfie-allen.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/C0BMx-qxsP4",
@@ -5046,15 +5046,15 @@
       "cast": [
         {
           "name": "Leonardo DiCaprio",
-          "image": "img/leonardo_dicaprio.jepg"
+          "image": "img/leonardo_dicaprio.jpeg"
         },
         {
           "name": "Joseph Gordon-Levitt",
-          "image": "img/joseph_gordon_levitt.jepg"
+          "image": "img/joseph_gordon_levitt.jpeg"
         },
         {
           "name": "Ellen Page",
-          "image": "img/ellen_page.jepg"
+          "image": "img/ellen-page.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
@@ -5077,15 +5077,15 @@
       "cast": [
         {
           "name": "Christian Bale",
-          "image": "img/christian_bale.jepg"
+          "image": "img/christian-bale.png"
         },
         {
           "name": "Heath Ledger",
-          "image": "img/heath_ledger.jepg"
+          "image": "img/heath-ledger.png"
         },
         {
           "name": "Aaron Eckhart",
-          "image": "img/aaron_eckhart.jepg"
+          "image": "img/aaron-eckhart.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/kmJLuwP3MbY",
@@ -5108,15 +5108,15 @@
       "cast": [
         {
           "name": "Russell Crowe",
-          "image": "img/russell_crowe.jepg"
+          "image": "img/russell-crowe.png"
         },
         {
           "name": "Joaquin Phoenix",
-          "image": "img/joaquin_phoenix.jepg"
+          "image": "img/joaquin-phoenix.png"
         },
         {
           "name": "Connie Nielsen",
-          "image": "img/connie_nielsen.jepg"
+          "image": "img/connie-nielsen.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/P5ieIbInFpg",
@@ -5139,15 +5139,15 @@
       "cast": [
         {
           "name": "Liam Neeson",
-          "image": "img/liam_neeson.jepg"
+          "image": "img/liam-neeson.png"
         },
         {
           "name": "Maggie Grace",
-          "image": "img/maggie_grace.jepg"
+          "image": "img/maggie-grace.png"
         },
         {
           "name": "Famke Janssen",
-          "image": "img/famke_janssen.jepg"
+          "image": "img/famke-janssen.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/XK9zL0ze9O4",
@@ -5170,15 +5170,15 @@
       "cast": [
         {
           "name": "Matt Damon",
-          "image": "img/matt_damon.jepg"
+          "image": "img/matt_damon.jpeg"
         },
         {
           "name": "Franka Potente",
-          "image": "img/franka_potente.jepg"
+          "image": "img/franka-potente.png"
         },
         {
           "name": "Chris Cooper",
-          "image": "img/chris_cooper.jepg"
+          "image": "img/chris-cooper.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/FpKaB5dvQ4g",
@@ -5201,15 +5201,15 @@
       "cast": [
         {
           "name": "Tom Cruise",
-          "image": "img/tom_cruise.jepg"
+          "image": "img/tom-cruise.png"
         },
         {
           "name": "Emily Blunt",
-          "image": "img/emily_blunt.jepg"
+          "image": "img/emily_blunt.jpeg"
         },
         {
           "name": "Bill Paxton",
-          "image": "img/bill_paxton.jepg"
+          "image": "img/bill-paxton.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/vw61gCe2oqI",
@@ -5232,15 +5232,15 @@
       "cast": [
         {
           "name": "Bruce Willis",
-          "image": "img/bruce_willis.jepg"
+          "image": "img/bruce-willis.png"
         },
         {
           "name": "Alan Rickman",
-          "image": "img/alan_rickman.jepg"
+          "image": "img/alan-rickman.png"
         },
         {
           "name": "Bonnie Bedelia",
-          "image": "img/bonnie_bedelia.jepg"
+          "image": "img/bonnie-bedelia.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/jaJuwKCmJbY",
@@ -5263,15 +5263,15 @@
       "cast": [
         {
           "name": "Tom Cruise",
-          "image": "img/tom_cruise.jepg"
+          "image": "img/tom-cruise.png"
         },
         {
           "name": "Henry Cavill",
-          "image": "img/henry_cavill.jepg"
+          "image": "img/henry_cavill.jpeg"
         },
         {
           "name": "Ving Rhames",
-          "image": "img/ving_rhames.jepg"
+          "image": "img/ving-rhames.png"
         }
       ],
       "trailer": "https://www.youtube.com/embed/wb49-oV0F78",
@@ -5294,15 +5294,15 @@
       "cast": [
         {
           "name": "Denzel Washington",
-          "image": "img/denzel_washington.jepg"
+          "image": "img/denzel-washington.png"
         },
         {
           "name": "Marton Csokas",
-          "image": "img/marton_csokas.jepg"
+          "image": "img/marton-csokas.png"
         },
         {
           "name": "Chloë Grace Moretz",
-          "image": "img/chloe_grace_moretz.jepg"
+          "image": "img/chloe-grace-mortez.png"
         }
       ],
        "trailer": "https://www.youtube.com/embed/VjctHUEmutw",
