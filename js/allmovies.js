@@ -1,4 +1,5 @@
 let allMovies = [];
+let categorizedMovies = {};
 let activeRating = null;
 let activeDateSort = "all";
 
@@ -15,28 +16,29 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       const categories = [
-        "all-movies-section-1",
-        "all-movies-section-2",
-        "all-movies-section-3",
+        { key: "all-movies-section-1", title: "Critics Favorites" },
+        { key: "all-movies-section-2", title: "Modern Epics" },
+        { key: "all-movies-section-3", title: "Emotional Journeys" },
       ];
 
-      allMovies = categories.flatMap((category) => data[category] || []);
+      categories.forEach(({ key, title }) => {
+        const movies = data[key] || [];
+        categorizedMovies[title] = movies.map((movie) => ({
+          ...movie,
+          sectionTitle: title,
+        }));
+      });
 
-      categories.forEach((category, index) => {
-        const movies = data[category];
-        if (!movies || movies.length === 0) return;
+      allMovies = Object.values(categorizedMovies).flat();
 
-        renderMovieSection(
-          movies,
-          allMoviesContainer,
-          10,
-          `Section ${index + 1}`
-        );
+      Object.entries(categorizedMovies).forEach(([title, movies]) => {
+        if (movies.length > 0) {
+          renderMovieSection(movies, allMoviesContainer, 10, title);
+        }
       });
 
       setTimeout(setupScrollButtons, 100);
 
-      //star rating + hover
       handleStars(applyFilters);
 
       if (dateFilter) {
@@ -50,19 +52,16 @@ document.addEventListener("DOMContentLoaded", () => {
   function applyFilters(selectedRating = activeRating) {
     activeRating = selectedRating;
 
-    //filter the movies by selected star rating
+    //Filter
     let filtered = allMovies.filter((movie) => {
       const hasValidDate =
         movie.releaseDate && !isNaN(Date.parse(movie.releaseDate));
-
-      //show all movies if no rating is picked otherwise match the rating
       const matchesRating =
         activeRating === null || movie.rating === activeRating;
-
       return hasValidDate && matchesRating;
     });
 
-    //sort movies by date if a date if filter selected
+    //Sort by date
     if (activeDateSort === "newest") {
       filtered.sort(
         (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
@@ -73,51 +72,41 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     }
 
-    //clear current movie display
-    allMoviesContainer.innerHTML = "";
+    //Group filtered movies by titles
+    const groupedBySection = {};
+    filtered.forEach((movie) => {
+      const title = movie.sectionTitle;
+      if (!groupedBySection[title]) groupedBySection[title] = [];
+      groupedBySection[title].push(movie);
+    });
 
-    //filtered movies in sections of 10
-    const sectionSize = 10;
-    for (let i = 0; i < filtered.length; i += sectionSize) {
-      const chunk = filtered.slice(i, i + sectionSize);
-      renderMovieSection(
-        chunk,
-        allMoviesContainer,
-        sectionSize,
-        `Section ${i / sectionSize + 1}`
-      );
-    }
+    allMoviesContainer.innerHTML = "";
+    Object.entries(groupedBySection).forEach(([title, movies]) => {
+      renderMovieSection(movies, allMoviesContainer, 10, title);
+    });
 
     setTimeout(setupScrollButtons, 100);
   }
 
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
-      //get rating value from star eleemt
       const rating = parseInt(star.getAttribute("data-value"));
 
       star.addEventListener("click", () => {
-        //check if the clicked star is already selected
         const isActive = activeRating === rating;
-
-        //if same rating, unselect
         activeRating = isActive ? null : rating;
 
-        //highlight stars when selected
         starSpans.forEach((s, i) => {
           s.classList.toggle("active", !isActive && i < rating);
         });
 
-        //apply filter w updated rating
         applyFilterFn(activeRating);
       });
 
-      //hover effect
       star.addEventListener("mouseover", () => {
         starSpans.forEach((s, i) => s.classList.toggle("hover", i < rating));
       });
 
-      //remove hover effect
       star.addEventListener("mouseout", () => {
         starSpans.forEach((s) => s.classList.remove("hover"));
       });
