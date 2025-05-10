@@ -23,11 +23,11 @@ function myFunction() {
 // Build the detailed page
 function buildDetailedPage(movie) {
   document.body.innerHTML = `
-
-        <header>
-           <div class="logo-container">
+  <body>
+   <body>
+  <div class="logo-container">
     <a href="index.html">
-      <img src="img/LOGVO.png" alt="Logo">
+     <img class="main-logo" src="img/Logo-white.png" alt="white Velour V Logo looking like a film tape">
     </a>
   </div>
   <nav class="navbar">
@@ -73,6 +73,10 @@ function buildDetailedPage(movie) {
       </ul>
     </div>
   </nav>
+  <header>
+  
+  </header>
+ 
         </header>
         <main>
             <div class="movie-header">
@@ -157,6 +161,7 @@ function buildDetailedPage(movie) {
         <footer>
             <p>© 2025 Velour</p>
         </footer>
+        </body>
     `;  
 
   setupStarRating();
