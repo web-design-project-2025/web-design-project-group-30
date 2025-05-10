@@ -36,37 +36,37 @@ function buildDetailedPage(movie) {
       <ul class="nav-links">
         <li class="search-link">
           <a href="index.html">
-            <img src="img/searchbar.png" alt="Search">
+            <img src="img/search1.png" alt="Search-icon a magnifying glass">
             <span>Search</span>
           </a>
         </li>
         <li class="explore-link">
           <a href="allmovie.html">
-            <img src="img/clip.png" alt="Explore">
+            <img src="img/explore1.png" alt="Explore-icon a movie flap">
             <span>Explore</span>
           </a>
         </li>
         <li class="classics-link">
           <a href="classics.html">
-            <img src="img/movie.png" alt="Classics">
+             <img src="img/classics-icon.png" alt="Classics-icon an old movie tape ">
             <span>Classics</span>
           </a>
         </li>
         <li class="trending-link">
           <a href="trending.html">
-            <img src="img/point.png" alt="Trending">
+           <img src="img/trending1.png" alt="Trending-icon a graph increasing">
             <span>Trending</span>
           </a>
         </li>
         <li class="favorites-link">
           <a href="favourite.html">
-            <img src="img/heart.png" alt="Favorites">
+            <img src="img/heart.png" alt="Favorites-icon a heart">
             <span>Favorites</span>
           </a>
         </li>
         <li class="profile-link">
           <a href="profile.html">
-            <img src="img/profile.png" alt="Profile">
+             <img src="img/profil1.png" alt="Profile-icon">
             <span>Profile</span>
           </a>
         </li>
