@@ -18,9 +18,10 @@
 }
 
 .trending-heading {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #cfcfcf;
     padding-bottom: 1vw;
   }
+  
   .product {
     position: relative;
     overflow: hidden;
@@ -219,4 +220,6 @@
     }
   
   }
+
+
   
