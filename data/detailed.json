@@ -5660,244 +5660,253 @@
     },
     {
       "id": 182,
-      "title": "Extraction",
-      "poster": "img/extraction.jpeg",
-      "year": "2020",
-      "genre": "action, thriller",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "A black-market mercenary embarks on a mission to rescue the kidnapped son of an imprisoned international crime lord.",
-      "our-review": "A gritty, adrenaline-packed ride with standout choreography and intense performances.",
+      "title": "Suicide Squad",
+      "poster": "img/the-suicide-squad.jpeg",
+      "year": "2016",
+      "genre": "Action, Adventure, Fantasy",
+      "rating": "⭐️⭐️⭐️",
+      "summary": "A secret government agency recruits imprisoned supervillains to execute high-risk black ops missions in exchange for reduced sentences.",
+      "our-review": "While visually striking and packed with energy, Suicide Squad struggles with pacing and character development, but finds moments of chaotic fun.",
       "cast": [
         {
-          "name": "Chris Hemsworth",
-          "image": "img/chris_hemsworth.jepg"
+          "name": "Will Smith",
+          "image": "img/will_smith.jpeg"
         },
         {
-          "name": "Rudhraksh Jaiswal",
-          "image": "img/rudhraksh_jaiswal.jepg"
+          "name": "Margot Robbie",
+          "image": "img/margot_robbie.jpeg"
         },
         {
-          "name": "Randeep Hooda",
-          "image": "img/randeep_hooda.jepg"
+          "name": "Jared Leto",
+          "image": "img/jared_leto.jpeg"
         }
       ],
-      "first-name": "Liam Hart",
+      "trailer": "https://www.youtube.com/embed/CmRih_VtVAs",
+      "first-name": "Lena Howard",
       "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "Incredible action sequences and a strong central performance make this a must-watch.",
-      "second-name": "Maya Liu",
+      "first-review": "Margot Robbie shines as Harley Quinn. It's messy, but entertaining in its own wild way.",
+      "second-name": "Dante Cruz",
       "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Visually impressive but narratively thin."
+      "second-review": "Not without flaws, but the action and style kept me watching."
     },
     {
       "id": 183,
-      "title": "Mad Max: Fury Road",
-      "poster": "img/mad-max-fury-road.jpeg",
-      "year": "2015",
-      "genre": "action, adventure, sci-fi",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "summary": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman to flee a tyrannical warlord and his army.",
-      "our-review": "A visually stunning, high-octane masterpiece that redefines the action genre.",
+      "title": "The Hunger Games",
+      "poster": "img/the-hunger-games.jpeg",
+      "year": "2012",
+      "genre": "Action, Adventure, Sci-Fi",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In a dystopian future, Katniss Everdeen volunteers to take her sister’s place in a televised death match where children must fight to the death.",
+      "our-review": "A gripping and thought-provoking dystopian thriller that combines survival, politics, and personal sacrifice with emotional intensity.",
       "cast": [
         {
-          "name": "Tom Hardy",
-          "image": "img/tom_hardy.jepg"
+          "name": "Jennifer Lawrence",
+          "image": "img/jennifer_lawrence.jpeg"
         },
         {
-          "name": "Charlize Theron",
-          "image": "img/charlize_theron.jepg"
+          "name": "Josh Hutcherson",
+          "image": "img/josh_hutcherson.jpeg"
         },
         {
-          "name": "Nicholas Hoult",
-          "image": "img/nicholas_hoult.jepg"
+          "name": "Liam Hemsworth",
+          "image": "img/liam_hemsworth.jpeg"
         }
       ],
-      "first-name": "Sarah Kim",
-      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
-      "first-review": "Visually breathtaking and packed with relentless action.",
-      "second-name": "Derek Cole",
+      "trailer": "https://www.youtube.com/embed/mfmrPu43DF8",
+      "first-name": "Emily Zhang",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Jennifer Lawrence delivers a powerful performance in this tense and thrilling adaptation.",
+      "second-name": "Daniel Kim",
       "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "Non-stop excitement with standout performances and direction."
+      "second-review": "A faithful adaptation that captures the raw urgency of the book and keeps you on edge throughout."
     },
     {
       "id": 184,
-      "title": "The Old Guard",
-      "poster": "img/the-old-guard.jpeg",
-      "year": "2020",
-      "genre": "action, fantasy",
-      "rating": "⭐️⭐️⭐️",
-      "summary": "A covert team of immortal mercenaries are suddenly exposed and must fight to keep their identity a secret.",
-      "our-review": "An intriguing take on immortality and warfare, anchored by Charlize Theron’s compelling performance.",
+      "title": "Alita: Battle Angel",
+      "poster": "img/alita-battle-angel.jpeg",
+      "year": "2019",
+      "genre": "Action, Adventure, Sci-Fi",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In a post-apocalyptic world, a cyborg with no memory of her past embarks on a journey to discover her identity and fight for justice.",
+      "our-review": "A visually stunning sci-fi spectacle with heart, powered by groundbreaking effects and a compelling lead performance.",
       "cast": [
         {
-          "name": "Charlize Theron",
-          "image": "img/charlize_theron.jepg"
+          "name": "Rosa Salazar",
+          "image": "img/rosa_salazar.jpeg"
         },
         {
-          "name": "KiKi Layne",
-          "image": "img/kiki_layne.jepg"
+          "name": "Christoph Waltz",
+          "image": "img/christoph_waltz.jpeg"
         },
         {
-          "name": "Matthias Schoenaerts",
-          "image": "img/matthias_schoenaerts.jepg"
+          "name": "Mahershala Ali",
+          "image": "img/mahershala_ali.jpeg"
         }
       ],
-      "first-name": "Noah Evans",
-      "first-rating": "⭐️⭐️⭐️",
-      "first-review": "Solid action with an interesting premise, though pacing issues exist.",
-      "second-name": "Emma Ray",
-      "second-rating": "⭐️⭐️",
-      "second-review": "Ambitious, but it doesn’t always hit the mark."
+      "trailer": "https://www.youtube.com/embed/w7pYhpJaJW8",
+      "first-name": "Lena Park",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "A bold and immersive sci-fi epic with breathtaking visuals and a strong emotional core.",
+      "second-name": "Aiden Brooks",
+      "second-rating": "⭐️⭐️⭐️⭐️",
+      "second-review": "Alita is a memorable heroine in a film that blends action and humanity with impressive style."
     },
     {
       "id": 185,
-      "title": "John Wick",
-      "poster": "img/john-wick.jpeg",
-      "year": "2014",
-      "genre": "action, thriller",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "summary": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
-      "our-review": "A sleek, stylish, and violent revenge thriller that redefined Keanu Reeves’ career.",
+      "title": "Dredd",
+      "poster": "img/dredd.jpeg",
+      "year": "2012",
+      "genre": "Action, Sci-Fi",
+      "rating": "⭐️⭐️⭐️⭐️",
+      "summary": "In a dystopian future, Judge Dredd is the law, judge, jury, and executioner as he takes on a drug gang in a brutal high-rise lockdown.",
+      "our-review": "A gritty, violent, and visually striking action film that delivers a tight, adrenaline-fueled ride.",
       "cast": [
         {
-          "name": "Keanu Reeves",
-          "image": "img/keanu_reeves.jepg"
+          "name": "Karl Urban",
+          "image": "img/karl_urban.jpeg"
         },
         {
-          "name": "Michael Nyqvist",
-          "image": "img/michael_nyqvist.jepg"
+          "name": "Olivia Thirlby",
+          "image": "img/olivia_thirlby.jpeg"
         },
         {
-          "name": "Alfie Allen",
-          "image": "img/alfie_allen.jepg"
+          "name": "Lena Headey",
+          "image": "img/lena_headey.jpeg"
         }
       ],
-      "first-name": "Logan Smith",
-      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
-      "first-review": "Perfect choreography, atmosphere, and world-building.",
-      "second-name": "Isla Morgan",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "Intense and visually striking — a genre benchmark."
+      "trailer": "https://www.youtube.com/embed/PifvRiHVSCY",
+      "first-name": "Ethan Cruz",
+      "first-rating": "⭐️⭐️⭐️⭐️",
+      "first-review": "Tightly paced and unapologetically brutal—Dredd delivers raw sci-fi action.",
+      "second-name": "Janelle Ortiz",
+      "second-rating": "⭐️⭐️⭐️",
+      "second-review": "Not for the faint of heart, but a satisfying action thriller with edge."
     },
     {
       "id": 186,
-      "title": "Tenet",
-      "poster": "img/tenet.jpeg",
-      "year": "2020",
-      "genre": "action, sci-fi, thriller",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "poster": "img/shang-chi.jpeg",
+      "year": "2021",
+      "genre": "Action, Adventure, Fantasy",
       "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "Armed with only one word — Tenet — a protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-      "our-review": "Christopher Nolan’s ambitious film blends cerebral storytelling with jaw-dropping action.",
+      "summary": "Martial-arts master Shang-Chi confronts the legacy of his father and the mysterious Ten Rings organization.",
+      "our-review": "A dazzling blend of martial arts action and heartfelt storytelling that refreshes the Marvel formula.",
       "cast": [
         {
-          "name": "John David Washington",
-          "image": "img/john_david_washington.jepg"
+          "name": "Simu Liu",
+          "image": "img/simu_liu.jpeg"
         },
         {
-          "name": "Robert Pattinson",
-          "image": "img/robert_pattinson.jepg"
+          "name": "Awkwafina",
+          "image": "img/awkwafina.jpeg"
         },
         {
-          "name": "Elizabeth Debicki",
-          "image": "img/elizabeth_debicki.jepg"
+          "name": "Tony Leung",
+          "image": "img/tony_leung.jpeg"
         }
       ],
-      "first-name": "Zoe Banks",
+      "trailer": "https://www.youtube.com/embed/8YjFbMbfXaQ",
+      "first-name": "Natalie Chen",
       "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "Visually and conceptually impressive, though it can be hard to follow.",
-      "second-name": "Ethan Grey",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Complex narrative but incredible set pieces."
+      "first-review": "Visually spectacular with incredible fight choreography and real emotional stakes.",
+      "second-name": "Jordan Wallace",
+      "second-rating": "⭐️⭐️⭐️⭐️⭐️",
+      "second-review": "A Marvel standout—fun, fresh, and full of heart."
     },
     {
       "id": 187,
-      "title": "Skyfall",
-      "poster": "img/skyfall.jpeg",
-      "year": "2012",
-      "genre": "action, adventure, thriller",
+      "title": "Wonder Woman",
+      "poster": "img/wonder-woman.jpeg",
+      "year": "2017",
+      "genre": "Action, Adventure, Fantasy",
       "rating": "⭐️⭐️⭐️⭐️",
-      "summary": "James Bond's loyalty to M is tested as her past comes back to haunt her, bringing MI6 under attack.",
-      "our-review": "A stylish, emotional, and gripping Bond film that stands as one of the best in the series.",
+      "summary": "Diana, princess of the Amazons, leaves her homeland to stop a great war and discovers her full powers and destiny.",
+      "our-review": "An empowering and emotionally grounded superhero film led by a magnetic performance from Gal Gadot.",
       "cast": [
         {
-          "name": "Daniel Craig",
-          "image": "img/daniel_craig.jepg"
+          "name": "Gal Gadot",
+          "image": "img/gal_gadot.jpeg"
         },
         {
-          "name": "Javier Bardem",
-          "image": "img/javier_bardem.jepg"
+          "name": "Chris Pine",
+          "image": "img/chris_pine.jpeg"
         },
         {
-          "name": "Judi Dench",
-          "image": "img/judi_dench.jepg"
+          "name": "Robin Wright",
+          "image": "img/robin_wright.jpeg"
         }
       ],
-      "first-name": "Grace Nolan",
+      "trailer": "https://www.youtube.com/embed/VSB4wGIdDwo",
+      "first-name": "Alex Kim",
       "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "Great mix of action, emotion, and elegant storytelling.",
-      "second-name": "Caleb Stone",
-      "second-rating": "⭐️⭐️⭐️",
-      "second-review": "Strong performances and direction — a solid entry in the franchise."
-    },
-    {
-      "id": 188,
-      "title": "Black Panther",
-      "poster": "img/black-panther.jpeg",
-      "year": "2018",
-      "genre": "action, adventure, sci-fi",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "summary": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future.",
-      "our-review": "A groundbreaking superhero film that combines thrilling action with rich cultural storytelling.",
-      "cast": [
-        {
-          "name": "Chadwick Boseman",
-          "image": "img/chadwick_boseman.jepg"
-        },
-        {
-          "name": "Michael B. Jordan",
-          "image": "img/michael_b_jordan.jepg"
-        },
-        {
-          "name": "Lupita Nyong’o",
-          "image": "img/lupita_nyongo.jepg"
-        }
-      ],
-      "first-name": "Jasmine Lee",
-      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
-      "first-review": "Empowering, entertaining, and beautifully made.",
-      "second-name": "Tariq Johnson",
+      "first-review": "A heroic origin story with heart, action, and charisma to spare.",
+      "second-name": "Grace Turner",
       "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "A cultural milestone with real emotional weight."
-    },
-    {
-      "id": 189,
-      "title": "Mission: Impossible – Fallout",
-      "poster": "img/mission-impossible-fallout.jpeg",
-      "year": "2018",
-      "genre": "action, adventure, thriller",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "summary": "Ethan Hunt and his team must track down stolen plutonium while being monitored by a CIA agent after a mission goes wrong.",
-      "our-review": "The pinnacle of action filmmaking — intense, polished, and relentlessly entertaining.",
-      "cast": [
-        {
-          "name": "Tom Cruise",
-          "image": "img/tom_cruise.jepg"
-        },
-        {
-          "name": "Henry Cavill",
-          "image": "img/henry_cavill.jepg"
-        },
-        {
-          "name": "Ving Rhames",
-          "image": "img/ving_rhames.jepg"
-        }
-      ],
-      "first-name": "Carter Reed",
-      "first-rating": "⭐️⭐️⭐️⭐️⭐️",
-      "first-review": "Non-stop thrills with jaw-dropping stunts and top-notch pacing.",
-      "second-name": "Riley Stone",
-      "second-rating": "⭐️⭐️⭐️⭐️",
-      "second-review": "Exceptional action and Cruise at his best."
-    },
+      "second-review": "Stylish, fierce, and inspiring—Wonder Woman sets a new standard."
+    },    
+      {
+        "id": 188,
+        "title": "The Batman",
+        "poster": "img/the-batman.jpeg",
+        "year": "2022",
+        "genre": "Action, Crime, Drama",
+        "rating": "⭐️⭐️⭐️⭐️",
+        "summary": "A young Batman investigates a series of cryptic murders in Gotham, uncovering corruption and confronting his own demons.",
+        "our-review": "A gritty, noir-inspired take on the Dark Knight, filled with atmosphere, tension, and depth.",
+        "cast": [
+          {
+            "name": "Robert Pattinson",
+            "image": "img/robert_pattinson.jpeg"
+          },
+          {
+            "name": "Zoë Kravitz",
+            "image": "img/zoe_kravitz.jpeg"
+          },
+          {
+            "name": "Paul Dano",
+            "image": "img/paul_dano.jpeg"
+          }
+        ],
+        "trailer": "https://www.youtube.com/embed/mqqft2x_Aa4",
+        "first-name": "Noah Reyes",
+        "first-rating": "⭐️⭐️⭐️⭐️",
+        "first-review": "Dark, deliberate, and absorbing—this is the Batman detective story we’ve been waiting for.",
+        "second-name": "Harper Lane",
+        "second-rating": "⭐️⭐️⭐️⭐️⭐️",
+        "second-review": "A masterfully brooding atmosphere with standout performances and sharp storytelling."
+      },
+      {
+        "id": 189,
+        "title": "Spider-Man: No Way Home",
+        "poster": "img/spider-man-no-way-home.jpeg",
+        "year": "2021",
+        "genre": "Action, Adventure, Fantasy",
+        "rating": "⭐️⭐️⭐️⭐️⭐️",
+        "summary": "Spider-Man seeks help from Doctor Strange to undo the public reveal of his identity—unleashing chaos across the multiverse.",
+        "our-review": "A thrilling multiversal rollercoaster packed with nostalgia, emotion, and blockbuster spectacle.",
+        "cast": [
+          {
+            "name": "Tom Holland",
+            "image": "img/tom_holland.jpeg"
+          },
+          {
+            "name": "Zendaya",
+            "image": "img/zendaya.jpeg"
+          },
+          {
+            "name": "Benedict Cumberbatch",
+            "image": "img/benedict_cumberbatch.jpeg"
+          }
+        ],
+        "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA",
+        "first-name": "Samantha Lee",
+        "first-rating": "⭐️⭐️⭐️⭐️⭐️",
+        "first-review": "Heartfelt, action-packed, and exhilarating—it’s everything a Spider-Man fan could want.",
+        "second-name": "Daniel Rivera",
+        "second-rating": "⭐️⭐️⭐️⭐️",
+        "second-review": "An emotional payoff years in the making—fun, frantic, and full of fan service."
+      }
+      ,
     {
       "id": 190,
       "title": "The Big Sick",
