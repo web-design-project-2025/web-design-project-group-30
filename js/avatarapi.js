@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     )}`;
 
     /*Replace the above const URL with this to test out the error handling: 
-    const avatarUrl = "https://httpbin.org/status/500";*/
+    const avatarUrl = using this source "https://httpbin.org/status/500";*/
 
     try {
       const response = await fetch(avatarUrl, {

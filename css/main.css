@@ -614,17 +614,12 @@ p{
   }
 }
 
-
-
 .movie-header {
   display: flex;
   gap: 5%;
   align-items: flex-start;
   padding: 3%;
 }
-
-/*Sources/Refrences
- https://www.youtube.com/watch?v=OQZNAMjC6Vg*/
  footer {
   text-align: center;
   padding: 20px 30px;
@@ -797,7 +792,7 @@ p{
   height: 100px;
 }
 /*Animation Velour*/
-/*https://www.youtube.com/watch?v=lur8SDdUzPI*/
+/*The following code was adapted from this source:https://www.youtube.com/watch?v=lur8SDdUzPI for our logo animation on the index html*/
 svg path{
 width: 100%;
 fill: transparent;
