@@ -23,57 +23,59 @@ function myFunction() {
 // Build the detailed page
 function buildDetailedPage(movie) {
   document.body.innerHTML = `
-
-        <header>
-           <div class="logo-container">
+  <body>
+   <body>
+  <div class="logo-container">
     <a href="index.html">
-      <img src="img/LOGVO.png" alt="Logo">
+     <img class="main-logo" src="img/Logo-white.png" alt="white Velour V Logo looking like a film tape">
     </a>
-  </div>
-  <nav class="navbar">
-    <div class="navbar-container">
-      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-      <ul class="nav-links">
-        <li class="search-link">
-          <a href="index.html">
-            <img src="img/searchbar.png" alt="Search">
-            <span>Search</span>
-          </a>
-        </li>
-        <li class="explore-link">
-          <a href="allmovie.html">
-            <img src="img/clip.png" alt="Explore">
-            <span>Explore</span>
-          </a>
-        </li>
-        <li class="classics-link">
-          <a href="classics.html">
-            <img src="img/movie.png" alt="Classics">
-            <span>Classics</span>
-          </a>
-        </li>
-        <li class="trending-link">
-          <a href="trending.html">
-            <img src="img/point.png" alt="Trending">
-            <span>Trending</span>
-          </a>
-        </li>
-        <li class="favorites-link">
-          <a href="favourite.html">
-            <img src="img/heart.png" alt="Favorites">
-            <span>Favorites</span>
-          </a>
-        </li>
-        <li class="profile-link">
-          <a href="profile.html">
-            <img src="img/profile.png" alt="Profile">
-            <span>Profile</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-        </header>
+    <nav class="navbar">
+       <div class="navbar-container">
+           <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+           <ul class="nav-links">
+               <li class="search-link">
+                   <a href="index.html">
+                       <img src="img/searchbar.png" alt="Search">
+                       <span>Search</span>
+                   </a>
+               </li>
+               <li class="explore-link">
+                   <a href="allmovie.html">
+                       <img src="img/clip.png" alt="Explore">
+                       <span>Explore</span>
+                   </a>
+               </li>
+               <li class="classics-link">
+                   <a href="classics.html">
+                       <img src="img/movie.png" alt="Classics">
+                       <span>Classics</span>
+                   </a>
+               </li>
+                   <li class="trending-link">
+                       <a href="trending.html">
+                         <img src="img/point.png" alt="Trending">
+                         <span>Trending</span>
+                       </a>
+                   </li>
+                       <li class="favorites-link">
+                           <a href="favourite.html">
+                             <img src="img/heart.png" alt="Favorites">
+                             <span>Favorites</span>
+                           </a>
+                       </li>
+                           <li class="profile-link">
+                               <a href="profile.html">
+                                 <img src="img/profile.png" alt="Profile">
+                                 <span>Profile</span>
+                               </a>
+                           </li>
+           </ul>
+       </div>
+    </nav>
+</div>
+  <header>
+  
+  </header>
         <main>
             <div class="movie-header">
                 <img class="movie-poster-detailed-review-page" src="${
@@ -157,6 +159,7 @@ function buildDetailedPage(movie) {
         <footer>
             <p>© 2025 Velour</p>
         </footer>
+        </body>
     `;  
 
   setupStarRating();
