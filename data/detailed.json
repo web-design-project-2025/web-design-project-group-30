@@ -3144,7 +3144,7 @@
     {
       "id": 100,
       "title": "Gladiator",
-      "poster": "img/gladiator.png",
+      "poster": "img/gladiator.jpeg",
       "year": "2000",
       "genre": "Action, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3175,7 +3175,7 @@
     {
       "id": 101,
       "title": "Memento",
-      "poster": "img/memento.png",
+      "poster": "img/memento.jpeg",
       "year": "2000",
       "genre": "Mystery, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3206,7 +3206,7 @@
     {
       "id": 102,
       "title": "The Dark Knight",
-      "poster": "img/the-dark-knight.png",
+      "poster": "img/the-dark-knight.jpeg",
       "year": "2008",
       "genre": "Action, Crime, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3237,7 +3237,7 @@
     {
       "id": 103,
       "title": "Eternal Sunshine of the Spotless Mind",
-      "poster": "img/eternal-sunshine-of-the-spotless-mind.png",
+      "poster": "img/eternal-sunshine-of-the-spotless-mind.jpeg",
       "year": "2004",
       "genre": "Drama, Romance, Sci-Fi",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3268,7 +3268,7 @@
     {
       "id": 104,
       "title": "No Country for Old Men",
-      "poster": "img/no-country-for-old-men.png",
+      "poster": "img/no-country-for-old-men.jpeg",
       "year": "2007",
       "genre": "Crime, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3299,7 +3299,7 @@
     {
       "id": 105,
       "title": "City of God",
-      "poster": "img/city-of-god.png",
+      "poster": "img/city-of-god.jpeg",
       "year": "2002",
       "genre": "Crime, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3330,7 +3330,7 @@
     {
       "id": 106,
       "title": "Pan's Labyrinth",
-      "poster": "img/pans-labyrinth.png",
+      "poster": "img/pans-labyrinth.jpeg",
       "year": "2006",
       "genre": "Drama, Fantasy, War",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3361,7 +3361,7 @@
     {
       "id": 107,
       "title": "The Departed",
-      "poster": "img/the-departed.png",
+      "poster": "img/the-departed.jpeg",
       "year": "2006",
       "genre": "Crime, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3392,7 +3392,7 @@
     {
       "id": 108,
       "title": "There Will Be Blood",
-      "poster": "img/there-will-be-blood.png",
+      "poster": "img/there-will-be-blood.jpeg",
       "year": "2007",
       "genre": "Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3423,7 +3423,7 @@
     {
       "id": 109,
       "title": "Slumdog Millionaire",
-      "poster": "img/slumdog-millionaire.png",
+      "poster": "img/slumdog-millionaire.jpeg",
       "year": "2008",
       "genre": "Drama, Romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3454,7 +3454,7 @@
     {
       "id": 110,
       "title": "The King's Speech",
-      "poster": "img/the-kings-speech.png",
+      "poster": "img/the-kings-speech.jpeg",
       "year": "2010",
       "genre": "Biography, Drama, History",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3485,7 +3485,7 @@
     {
       "id": 111,
       "title": "Slumdog Millionaire",
-      "poster": "img/slumdog-millionaire.png",
+      "poster": "img/slumdog-millionaire.jpeg",
       "year": "2008",
       "genre": "Drama, Romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3516,7 +3516,7 @@
     {
       "id": 112,
       "title": "No Country for Old Men",
-      "poster": "img/no-country-for-old-men.png",
+      "poster": "img/no-country-for-old-men.jpeg",
       "year": "2007",
       "genre": "Crime, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3547,7 +3547,7 @@
     {
       "id": 113,
       "title": "The Artist",
-      "poster": "img/the-artist.png",
+      "poster": "img/the-artist.jpeg",
       "year": "2011",
       "genre": "Comedy, Drama, Romance",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3578,7 +3578,7 @@
     {
       "id": 114,
       "title": "12 Years a Slave",
-      "poster": "img/12-years-a-slave.png",
+      "poster": "img/12-years-a-slave.jpeg",
       "year": "2013",
       "genre": "Biography, Drama, History",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3609,7 +3609,7 @@
     {
       "id": 115,
       "title": "Birdman",
-      "poster": "img/birdman.png",
+      "poster": "img/birdman.jpeg",
       "year": "2014",
       "genre": "Comedy, Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3640,7 +3640,7 @@
     {
       "id": 116,
       "title": "Moonlight",
-      "poster": "img/moonlight.png",
+      "poster": "img/moonlight.jpeg",
       "year": "2016",
       "genre": "Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3671,7 +3671,7 @@
     {
       "id": 117,
       "title": "Nomadland",
-      "poster": "img/nomadland.png",
+      "poster": "img/nomadland.jpeg",
       "year": "2020",
       "genre": "Drama",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3702,7 +3702,7 @@
     {
       "id": 118,
       "title": "Everything Everywhere All at Once",
-      "poster": "img/everything-everywhere-all-at-once.png",
+      "poster": "img/everything-everywhere-all-at-once.jpeg",
       "year": "2022",
       "genre": "Action, Adventure, Comedy",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3733,7 +3733,7 @@
     {
       "id": 119,
       "title": "Parasite",
-      "poster": "img/parasite.png",
+      "poster": "img/parasite.jpeg",
       "year": "2019",
       "genre": "Comedy, Drama, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3764,7 +3764,7 @@
     {
       "id": 120,
       "title": "Snow White and the Seven Dwarfs",
-      "poster": "img/snow-white-and-the-seven-dwarfs.png",
+      "poster": "img/snow-white-and-the-seven-dwarfs.jpeg",
       "year": "1937",
       "genre": "animation, fantasy, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3795,7 +3795,7 @@
     {
       "id": 121,
       "title": "Cinderella",
-      "poster": "img/cinderella.png",
+      "poster": "img/cinderella.jpeg",
       "year": "1950",
       "genre": "animation, romance, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3826,7 +3826,7 @@
     {
       "id": 122,
       "title": "Sleeping Beauty",
-      "poster": "img/sleeping-beauty.png",
+      "poster": "img/sleeping-beauty.jpeg",
       "year": "1959",
       "genre": "animation, fantasy, romance",
       "rating": "⭐️⭐️⭐️",
@@ -3857,7 +3857,7 @@
     {
       "id": 123,
       "title": "Peter Pan",
-      "poster": "img/peter-pan.png",
+      "poster": "img/peter-pan.jpeg",
       "year": "1953",
       "genre": "animation, adventure, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3888,7 +3888,7 @@
     {
       "id": 124,
       "title": "Bambi",
-      "poster": "img/bambi.png",
+      "poster": "img/bambi.jpeg",
       "year": "1942",
       "genre": "animation, drama, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3919,7 +3919,7 @@
     {
       "id": 125,
       "title": "Dumbo",
-      "poster": "img/dumbo.png",
+      "poster": "img/dumbo.jpeg",
       "year": "1941",
       "genre": "animation, drama, family",
       "rating": "⭐️⭐️⭐️",
@@ -3950,7 +3950,7 @@
     {
       "id": 126,
       "title": "Lady and the Tramp",
-      "poster": "img/lady-and-the-tramp.png",
+      "poster": "img/lady-and-the-tramp.jpeg",
       "year": "1955",
       "genre": "animation, romance, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3981,7 +3981,7 @@
     {
       "id": 127,
       "title": "101 Dalmatians",
-      "poster": "img/101-dalmatians.png",
+      "poster": "img/101-dalmatians.jpeg",
       "year": "1961",
       "genre": "animation, comedy, adventure",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4012,7 +4012,7 @@
     {
       "id": 128,
       "title": "The Jungle Book",
-      "poster": "img/the-jungle-book.png",
+      "poster": "img/the-jungle-book.jpeg",
       "year": "1967",
       "genre": "animation, adventure, musical",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -4043,7 +4043,7 @@
     {
       "id": 129,
       "title": "Robin Hood",
-      "poster": "img/robin-hood.png",
+      "poster": "img/robin-hood.jpeg",
       "year": "1973",
       "genre": "animation, adventure, comedy",
       "rating": "⭐️⭐️⭐️",
