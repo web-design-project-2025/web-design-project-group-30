@@ -51,30 +51,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function applyFilters(selectedRating = activeRating) {
   activeRating = selectedRating;
-  let filteredMovies = [...allMovies];
+  let prioritized = [...allMovies];
 
-  //Filter
+  //Movies with selected rating come first
   if (activeRating !== null) {
-    filteredMovies = filteredMovies.filter(movie => movie.rating === activeRating);
+    prioritized.sort((a, b) => {
+      if (a.rating === activeRating && b.rating !== activeRating) return -1;
+      if (b.rating === activeRating && a.rating !== activeRating) return 1;
+      return 0;
+    });
   }
 
-  //Sort by date
+  //Newest or oldest dates
   if (activeDateSort === "newest") {
-    filteredMovies.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
+    prioritized.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
   } else if (activeDateSort === "oldest") {
-    filteredMovies.sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate));
+    prioritized.sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate));
   }
 
- //Group filtered movies by titles
+  //Group filtered movies by titles
   const groupedMovies = {};
-  filteredMovies.forEach(movie => {
+  prioritized.forEach(movie => {
     if (!groupedMovies[movie.sectionTitle]) {
       groupedMovies[movie.sectionTitle] = [];
     }
     groupedMovies[movie.sectionTitle].push(movie);
   });
-
- 
   allMoviesContainer.innerHTML = "";
   for (let title in groupedMovies) {
     renderMovieSection(groupedMovies[title], allMoviesContainer, 10, title);
@@ -82,6 +84,7 @@ function applyFilters(selectedRating = activeRating) {
 
   setTimeout(setupScrollButtons, 100);
 }
+
 
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
