@@ -290,20 +290,16 @@ p{
 /*search bar*/
 .search-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: 100px;
-  left: 50%;
   width: 100%;
   z-index: 10;
+  bottom:25%;
 }
 
 .search-result {
   display: none;
   position: absolute;
-  top: 100%;
-  bottom: 35px;
+  bottom: 55%;
+  z-index:99;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
