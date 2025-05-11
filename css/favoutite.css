@@ -84,6 +84,9 @@
   .empty-state p {
     font-size: 2rem;
     margin-bottom: 2.5rem;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
   
   .browse-button {
@@ -112,6 +115,7 @@
     font-size: small;
     transition: background-color 0.3s;
     border: none;
+    
   }
   .delete-button:hover{
     background-color:#B652E3;
