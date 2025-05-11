@@ -798,6 +798,16 @@ p{
   color: gold;
 }
 
+#date-filter {
+  padding: 5px 7px;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #8220b3;
+  color: #ffffff;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
 /*ANIMATION*/
 .v-white{
   width: 100px;
