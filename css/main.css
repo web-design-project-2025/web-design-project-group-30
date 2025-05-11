@@ -246,6 +246,7 @@ body {
   z-index: 3;
   position: absolute;
   color: white;
+  position: sticky;
 }
 
 .filter-toggle {
