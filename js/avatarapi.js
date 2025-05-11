@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     )}`;
 
     /*Replace the above const URL with this to test out the error handling: 
-    const avatarUrl = using this source "https://httpbin.org/status/500";*/
+    const avatarUrl = "https://httpbin.org/status/500";*/
 
     try {
       const response = await fetch(avatarUrl, {
@@ -86,8 +86,7 @@ HTTP API:https://www.dicebear.com/how-to-use/http-api/
 encodeURIComponent: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
 Template literals: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
-Async:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+Async: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 
 Math.random + Number to string: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
