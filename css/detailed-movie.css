@@ -51,6 +51,7 @@ h3{
   font-family: "helvetica-lt-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
+  border-radius: 15px;
 }
 #readMoreButton:hover {
   background-color: #b652e3;
@@ -106,6 +107,8 @@ h3{
   font-family: "helvetica-lt-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
+  border-radius: 15px;
+  
 }
 
 .review-form button:hover {
