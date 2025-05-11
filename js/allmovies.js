@@ -49,44 +49,39 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-  function applyFilters(selectedRating = activeRating) {
-    activeRating = selectedRating;
+function applyFilters(selectedRating = activeRating) {
+  activeRating = selectedRating;
+  let filteredMovies = [...allMovies];
 
-    //Filter
-    let filtered = allMovies.filter((movie) => {
-      const hasValidDate =
-        movie.releaseDate && !isNaN(Date.parse(movie.releaseDate));
-      const matchesRating =
-        activeRating === null || movie.rating === activeRating;
-      return hasValidDate && matchesRating;
-    });
-
-    //Sort by date
-    if (activeDateSort === "newest") {
-      filtered.sort(
-        (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
-      );
-    } else if (activeDateSort === "oldest") {
-      filtered.sort(
-        (a, b) => new Date(a.releaseDate) - new Date(b.releaseDate)
-      );
-    }
-
-    //Group filtered movies by titles
-    const groupedBySection = {};
-    filtered.forEach((movie) => {
-      const title = movie.sectionTitle;
-      if (!groupedBySection[title]) groupedBySection[title] = [];
-      groupedBySection[title].push(movie);
-    });
-
-    allMoviesContainer.innerHTML = "";
-    Object.entries(groupedBySection).forEach(([title, movies]) => {
-      renderMovieSection(movies, allMoviesContainer, 10, title);
-    });
-
-    setTimeout(setupScrollButtons, 100);
+  //Filter
+  if (activeRating !== null) {
+    filteredMovies = filteredMovies.filter(movie => movie.rating === activeRating);
   }
+
+  //Sort by date
+  if (activeDateSort === "newest") {
+    filteredMovies.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
+  } else if (activeDateSort === "oldest") {
+    filteredMovies.sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate));
+  }
+
+ //Group filtered movies by titles
+  const groupedMovies = {};
+  filteredMovies.forEach(movie => {
+    if (!groupedMovies[movie.sectionTitle]) {
+      groupedMovies[movie.sectionTitle] = [];
+    }
+    groupedMovies[movie.sectionTitle].push(movie);
+  });
+
+ 
+  allMoviesContainer.innerHTML = "";
+  for (let title in groupedMovies) {
+    renderMovieSection(groupedMovies[title], allMoviesContainer, 10, title);
+  }
+
+  setTimeout(setupScrollButtons, 100);
+}
 
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
