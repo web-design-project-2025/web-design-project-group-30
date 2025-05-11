@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/zms0gvm.css">
   <link rel="stylesheet" href="https://use.typekit.net/zms0gvm.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/trending.css" />
   <script src="js/allmovies.js" defer></script>
   <script src="js/secluded.js" defer></script>
@@ -18,47 +19,45 @@
      <img class="main-logo" src="img/Logo-white.png" alt="white Velour V Logo looking like a film tape">
     </a>
     <nav class="navbar">
-       <div class="navbar-container">
-           <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-           <ul class="nav-links">
-               <li class="search-link">
-                   <a href="index.html">
-                       <img src="img/searchbar.png" alt="Search">
-                       <span>Search</span>
-                   </a>
-               </li>
-               <li class="explore-link">
-                   <a href="allmovie.html">
-                       <img src="img/clip.png" alt="Explore">
-                       <span>Explore</span>
-                   </a>
-               </li>
-               <li class="classics-link">
-                   <a href="classics.html">
-                       <img src="img/movie.png" alt="Classics">
-                       <span>Classics</span>
-                   </a>
-               </li>
-                   <li class="trending-link">
-                       <a href="trending.html">
-                         <img src="img/point.png" alt="Trending">
-                         <span>Trending</span>
-                       </a>
-                   </li>
-                       <li class="favorites-link">
-                           <a href="favourite.html">
-                             <img src="img/heart.png" alt="Favorites">
-                             <span>Favorites</span>
-                           </a>
-                       </li>
-                           <li class="profile-link">
-                               <a href="profile.html">
-                                 <img src="img/profile.png" alt="Profile">
-                                 <span>Profile</span>
-                               </a>
-                           </li>
-           </ul>
-       </div>
+      <div class="navbar-container">
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links">
+            <li class="search-link">
+                <a href="index.html">
+                 <img src="img/search1.png" alt="Search-icon a magnifying glass">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li class="explore-link">
+                <a href="allmovie.html">
+                 <img src="img/explore1.png" alt="Explore-icon a movie flap">
+                    <span>Explore</span>
+                </a>
+            </li>
+            <li class="classics-link">
+                <a href="classics.html">
+                 <img src="img/classics-icon.png" alt="Classics-icon an old movie tape ">
+                    <span>Classics</span>
+                </a>
+            </li>
+                <li class="trending-link">
+                    <a href="trending.html">
+                     <img src="img/trending1.png" alt="Trending-icon a graph increasing">
+                      <span>Trending</span>
+                    </a>
+                </li>
+                    <li class="favorites-link">
+                        <a href="favourite.html">
+                         <img src="img/heart.png" alt="Favorites-icon a heart">
+                          <span>Favorites</span>
+                        </a>
+                    </li>
+                        <li class="profile-link">
+                            <a href="profile.html">
+                             <img src="img/profil1.png" alt="Profile-icon">
+                              <span>Profile</span>
+                            </a>
+                        </li>
     </nav>
 </div>
   <header>
@@ -73,7 +72,9 @@
     </div>
   </div> 
 </div> 
-<div class="filter-toggle" onclick="toggleFilters()">&#127871;</div>
+<div class="filter-toggle" onclick="toggleFilters()">
+  <i class="fas fa-sliders-h"></i>
+</div>
 <div id="filter-container">
   <div id="star-filter">
     <span data-value="1">★</span>
@@ -83,12 +84,13 @@
     <span data-value="5">★</span>
   </div>
 
-  <label for="date-filter">Sort by Date:</label>
-  <select id="date-filter">
-    <option value="all">Default</option>
-    <option value="newest">Newest First</option>
-    <option value="oldest">Oldest First</option>
-  </select>
+  <div id="date-filter-wrapper">
+    <select id="date-filter">
+      <option value="all">All Movies</option>
+      <option value="newest">Newest First</option>
+      <option value="oldest">Oldest First</option>
+    </select>
+  </div>
 </div>
 
 <section id="all-movie-sections-container"></section>
@@ -103,14 +105,13 @@
         </nav>
     </div>
     <div class="social-media">
-        <p class="fa fa-facebook"><span>VELOUR</span></p>
-        <p class="fa fa-twitter"><span>VELOUR</span></p>
-        <p class="fa fa-instagram"><span>VELOUR</span></p>
-        <p class="fa fa-google"><span>VELOUR@GMAIL.COM</span></p>
+        <p class="fab fa-facebook"><span>VELOUR</span></p>
+        <p class="fab fa-twitter"><span>VELOUR</span></p>
+        <p class="fab fa-instagram"><span>VELOUR</span></p>
+        <p class="fab fa-google"><span>VELOUR@GMAIL.COM</span></p>
     </div>
     <p class="copyright">© 2025 Velour</p>
 </footer>
 
 </body>
 </html>
-

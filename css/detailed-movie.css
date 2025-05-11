@@ -159,7 +159,7 @@ h3{
 .review {
     overflow-wrap: break-word;  
     word-break: break-word;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
     background-color: #2c2c2c;
     border-radius: 8px;
@@ -169,29 +169,34 @@ h3{
   }
 .review-one{
     background-color: #2c2c2c;
-    padding: 10px;
-    padding: 90px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 10px;
     border-radius: 10px;
 }
 .review-two{
     background-color: #2c2c2c;
-    padding: 10px;
-    padding: 90px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 10px;
     border-radius: 10px;
     margin-top: 15px;
 }
 .review-stars{
     color: #fff761;
+
 }
 
 .review-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .review-header h3 {
     margin: 0;
+    
   }
 
 
@@ -227,16 +232,6 @@ h3{
     .cast {
       display: grid;
       grid-template-columns: repeat(4, 2fr);
-    }
-    .trailer-speechbubble-container {
-      display: flex;
-      flex-direction: row-reverse;
-    }
-    .trailer {
-      flex: 1;
-    }
-    .community-opinion {
-      flex: 2;
     }
     .review-form {
       padding: 2rem;
@@ -281,3 +276,93 @@ h3{
       font-size: 1.5rem;
     }
   }
+
+  @media (max-width: 800px) {
+    .movie-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+    }
+  
+    .movie-poster-detailed-review-page {
+      width: 60%;
+      height: auto;
+      padding-left: 0;
+    }
+  
+    .movie-information {
+      font-size: 0.9rem;
+    }
+  
+    .movie-titel-heart {
+      flex-direction: row; 
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap; 
+    }
+  
+    .star-rating {
+      font-size: 1.4rem; 
+    }
+  
+    .cast {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      justify-items: center;
+    }
+  
+    .cast-image {
+      width: 120px;
+      height: 150px;
+    }
+  
+    .review-one,
+    .review-two {
+      padding-top: 45px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+    }
+  
+    iframe {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1100px) {
+    .movie-poster-detailed-review-page {
+      width: 250px;
+      height: 350px;
+    }
+  
+    .movie-header {
+      font-size: 1.2rem;
+      gap: 3%;
+    }
+  
+    .cast {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+  
+    .cast-image {
+      width: 150px;
+      height: 180px;
+    }
+  
+    iframe {
+      width: 85%;
+      height: 500px;
+      padding-left: 20px;
+    }
+  
+    .review-one,
+    .review-two {
+      padding-top: 70px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+    }
+  }
+  
