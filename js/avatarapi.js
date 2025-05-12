@@ -93,4 +93,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString
 
 Error handling: https://dev.to/thecharacterv/error-handling-in-the-javascript-fetch-api-1f7a
-Fetch: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API*/
+Fetch: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+*/
