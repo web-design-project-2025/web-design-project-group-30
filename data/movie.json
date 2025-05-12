@@ -20,28 +20,24 @@
             "poster": "barbie.png",
             "alt": "poster"
         },
+      
         {
             "id": 5,
-            "poster": "oppenheimer.png",
-            "alt": "poster"
-        },
-        {
-            "id": 6,
             "poster": "avatar-2.png",
             "alt": "poster"
         },
         {
-            "id": 7,
+            "id": 6,
             "poster": "john-wick-4.png",
             "alt": "poster"
         },
         {
-            "id": 8,
+            "id": 7,
             "poster": "the-batman.png",
             "alt": "poster"
         },
         {
-            "id": 9,
+            "id": 8,
             "poster": "eeaao.png",
             "alt": "poster"
         }
