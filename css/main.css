@@ -1,11 +1,15 @@
-
 .categories{
   font-family: "helvetica-lt-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
+    margin-left: 5%;
+  margin-right: 5%;
 }
 
-
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 /*Movie JSON*/
 p {
   font-weight: lighter;
@@ -25,6 +29,8 @@ p {
   justify-content: center;
   gap: 10px;
   justify-items: center;
+    margin-left: 5%;
+  margin-right: 5%;
 }
 
 .movie-card :hover {
