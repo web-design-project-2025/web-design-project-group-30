@@ -16,16 +16,29 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       const categories = [
-        { key: "all-movies-section-1", title: "Critics Favorites" },
-        { key: "all-movies-section-2", title: "Modern Epics" },
-        { key: "all-movies-section-3", title: "Emotional Journeys" },
+        {
+          key: "all-movies-section-1",
+          title: "Critics Favorites",
+          showTitle: false,
+        },
+        {
+          key: "all-movies-section-2",
+          title: "Modern Epics",
+          showTitle: false,
+        },
+        {
+          key: "all-movies-section-3",
+          title: "Emotional Journeys",
+          showTitle: false,
+        },
       ];
 
-      categories.forEach(({ key, title }) => {
+      categories.forEach(({ key, title, showTitle }) => {
         const movies = data[key] || [];
         categorizedMovies[title] = movies.map((movie) => ({
           ...movie,
           sectionTitle: title,
+          showTitle,
         }));
       });
 
@@ -33,7 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
       Object.entries(categorizedMovies).forEach(([title, movies]) => {
         if (movies.length > 0) {
-          renderMovieSection(movies, allMoviesContainer, 10, title);
+          renderMovieSection(
+            movies,
+            allMoviesContainer,
+            10,
+            title,
+            movies[0]?.showTitle !== false
+          );
         }
       });
 
@@ -49,42 +68,52 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-function applyFilters(selectedRating = activeRating) {
-  activeRating = selectedRating;
-  let prioritized = [...allMovies];
+  function applyFilters(selectedRating = activeRating) {
+    activeRating = selectedRating;
+    let prioritized = [...allMovies];
 
-  //Movies with selected rating come first
-  if (activeRating !== null) {
-    prioritized.sort((a, b) => {
-      if (a.rating === activeRating && b.rating !== activeRating) return -1;
-      if (b.rating === activeRating && a.rating !== activeRating) return 1;
-      return 0;
-    });
-  }
-
-  //Newest or oldest dates
-  if (activeDateSort === "newest") {
-    prioritized.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
-  } else if (activeDateSort === "oldest") {
-    prioritized.sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate));
-  }
-
-  //Group filtered movies by titles
-  const groupedMovies = {};
-  prioritized.forEach(movie => {
-    if (!groupedMovies[movie.sectionTitle]) {
-      groupedMovies[movie.sectionTitle] = [];
+    //Movies with selected rating come first
+    if (activeRating !== null) {
+      prioritized.sort((a, b) => {
+        if (a.rating === activeRating && b.rating !== activeRating) return -1;
+        if (b.rating === activeRating && a.rating !== activeRating) return 1;
+        return 0;
+      });
     }
-    groupedMovies[movie.sectionTitle].push(movie);
-  });
-  allMoviesContainer.innerHTML = "";
-  for (let title in groupedMovies) {
-    renderMovieSection(groupedMovies[title], allMoviesContainer, 10, title);
+
+    //Newest or oldest dates
+    if (activeDateSort === "newest") {
+      prioritized.sort(
+        (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
+      );
+    } else if (activeDateSort === "oldest") {
+      prioritized.sort(
+        (a, b) => new Date(a.releaseDate) - new Date(b.releaseDate)
+      );
+    }
+
+    //Group filtered movies by titles
+    const groupedMovies = {};
+    prioritized.forEach((movie) => {
+      if (!groupedMovies[movie.sectionTitle]) {
+        groupedMovies[movie.sectionTitle] = [];
+      }
+      groupedMovies[movie.sectionTitle].push(movie);
+    });
+    allMoviesContainer.innerHTML = "";
+    for (let title in groupedMovies) {
+      const movies = groupedMovies[title];
+      renderMovieSection(
+        movies,
+        allMoviesContainer,
+        10,
+        title,
+        movies[0]?.showTitle !== false
+      );
+    }
+
+    setTimeout(setupScrollButtons, 100);
   }
-
-  setTimeout(setupScrollButtons, 100);
-}
-
 
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
@@ -127,18 +156,23 @@ function applyFilters(selectedRating = activeRating) {
     movies,
     container,
     numberToShow = 10,
-    heading = ""
+    heading = "",
+    showTitle = true
   ) {
-    let sectionHTML = `
-      <section class="product">
-        <h2>${heading}</h2>
-        <button class="pre-btn">
-          <img class="arrow-image" src="img/arrow-velour.png" alt="previous movies button">
-        </button>
-        <button class="nxt-btn">
-          <img class="arrow-image" src="img/arrow-velour.png" alt="next movies button">
-        </button>
-        <div class="product-container">
+    let sectionHTML = `<section class="product">`;
+
+    if (showTitle && heading) {
+      sectionHTML += `<h2>${heading}</h2>`;
+    }
+
+    sectionHTML += `
+      <button class="pre-btn">
+        <img class="arrow-image" src="img/arrow-velour.png" alt="previous movies button">
+      </button>
+      <button class="nxt-btn">
+        <img class="arrow-image" src="img/arrow-velour.png" alt="next movies button">
+      </button>
+      <div class="product-container">
     `;
 
     movies.slice(0, numberToShow).forEach((movie) => {
