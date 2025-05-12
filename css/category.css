@@ -1,9 +1,4 @@
-/* horror */
 
-#horror-sections-container {
-    padding: 0 10px;
-    margin-top: 40px;
-}
 
 /* Specific section titles */
 .product::before {
@@ -14,14 +9,12 @@
     color: #cfcfcf;
     font-family: "helvetica-lt-pro", sans-serif;
     text-shadow: 1px 1px #793E98;
+    position: relative;
 }
-/* Section-specific headings */
-.product:nth-of-type(1)::before { content: "TRENDING"; }
-.product:nth-of-type(2)::before { content: "CLASSIC"; }
-.product:nth-of-type(3)::before { content: "PSYCHOLOGICAL"; }
+
 
 .product {
-    border-bottom: 3px solid #793E98; 
+    border-bottom: 3px solid #cfcfcf; 
     padding-bottom: 40px;
     margin-bottom: 40px;
     position: relative;
@@ -31,5 +24,82 @@
     border-bottom: none;
 }
 
+/*action*/
+#action-sections-container > .product:nth-of-type(1)::before {
+    content: "ORIGINAL";
+  }
+  
+  #action-sections-container > .product:nth-of-type(2)::before {
+    content: "MODERN";
+  }
+  
+  #action-sections-container > .product:nth-of-type(3)::before {
+    content: "FANTASY";
+  }
+
+/*comedy*/
+  #comedy-sections-container > .product:nth-of-type(1)::before {
+    content: "MUST-SEE HITS";
+  }
+  
+  #comedy-sections-container > .product:nth-of-type(2)::before {
+    content: "COMEDY GOLD";
+  }
+  
+  #comedy-sections-container > .product:nth-of-type(3)::before {
+    content: "ALL-TIME FAVES";
+  }
+
+/* documentary */
+  #documentary-sections-container > .product:nth-of-type(1)::before {
+    content: "TRUE IMPACT";
+  }
+  
+  #documentary-sections-container > .product:nth-of-type(2)::before {
+    content: "UNSEEN REALITIES";
+  }
+  
+  #documentary-sections-container > .product:nth-of-type(3)::before {
+    content: "POWERFUL PERSPECTIVES";
+  }
+  /*horror*/
+  #horror-sections-container > .product:nth-of-type(1)::before {
+    content: "CREEPY CLASSICS";
+  }
+  
+  #horror-sections-container > .product:nth-of-type(2)::before {
+    content: "PSYCOLOGICAL TERROR";
+  }
+  
+  #horror-sections-container > .product:nth-of-type(3)::before {
+    content: "CHILLING THRILLS";
+  }
+
+  /*romance*/
+  #romance-sections-container > .product:nth-of-type(1)::before {
+    content: "TIMELESS LOVE";
+  }
+  
+  #romance-sections-container > .product:nth-of-type(2)::before {
+    content: "UNFORGATEABLE";
+  }
+  
+  #romance-sections-container > .product:nth-of-type(3)::before {
+    content: "ROMANTIC CLASSICS";
+  }
+  
+  /*science fiction*/
+  #science-fiction-sections-container > .product:nth-of-type(1)::before {
+    content: "FUTURISTIC";
+  }
+  
+  #science-fiction-sections-container > .product:nth-of-type(2)::before {
+    content: "TECHNO";
+  }
+  
+  #science-fiction-sections-container > .product:nth-of-type(3)::before {
+    content: "SPACE";
+  }
+  
   
 
