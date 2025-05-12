@@ -148,7 +148,6 @@ button:hover {
 @media (max-width: 667px) {
   .banner {
     height: 60vh;
-    overflow: scroll;
   }
 
   .profile {
