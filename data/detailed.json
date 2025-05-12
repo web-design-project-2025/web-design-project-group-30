@@ -168,51 +168,9 @@
       "second-rating": "⭐️⭐️⭐️⭐️",
       "second-review": "Bright and hilarious. Some jokes are a little on the nose, but it’s refreshing to see something so unapologetically different."
     },
+    
     {
       "id": 5,
-      "title": "Oppenheimer",
-      "poster": "img/oppenheimer.png",
-      "year": "2023",
-      "genre": "drama, historical, thriller",
-      "rating": "⭐️⭐️⭐️⭐️½",
-      "summary": "Christopher Nolan’s Oppenheimer is a biographical thriller chronicling the life of J. Robert Oppenheimer and the development of the atomic bomb. Intense, cerebral, and gripping, it’s a film about genius, guilt, and legacy.",
-      "our-review": "Cillian Murphy delivers a haunting performance in a film that’s as intellectually dense as it is emotionally raw. Nolan’s non-linear storytelling works well here, though it may challenge some viewers. A thought-provoking epic.",
-      "cast": [
-        {
-          "name": "Cillian Murphy as J. Robert Oppenheimer",
-          "image": "img/cillian_murphy.jpeg"
-        },
-        {
-          "name": "Emily Blunt",
-          "image": "img/emily_blunt.jpeg"
-        },
-        {
-          "name": "Robert Downey Jr.",
-          "image": "img/robert_downey_jr.jpeg"
-        },
-        {
-          "name": "Matt Damon",
-          "image": "img/matt_damon.jpeg"
-        },
-        {
-          "name": "Florence Pugh",
-          "image": "img/florence_pugh.jpeg"
-        },
-        {
-          "name": "Rami Malek",
-          "image": "img/rami_malek.jpeg"
-        }
-      ],
-      "trailer": "https://www.youtube.com/embed/uYPbbksJxIg",
-      "first-name": "Luis Chang",
-      "first-rating": "⭐️⭐️⭐️⭐️",
-      "first-review": "Heavy and intense. Not your typical Nolan action film, but one of his most mature and important works.",
-      "second-name": "Naomi Sinclair",
-      "second-rating": "⭐️⭐️⭐️⭐️½",
-      "second-review": "Cillian Murphy is phenomenal. The weight of history just crushes you in the best way. Demands your full attention."
-    },
-    {
-      "id": 6,
       "title": "Avatar: The Way of Water",
       "poster": "img/avatar-2.png",
       "year": "2022",
@@ -251,7 +209,7 @@
       "second-review": "It’s long but magical. The underwater visuals are breathtaking. I felt like I was on Pandora."
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "John Wick: Chapter 4",
       "poster": "img/john-wick-4.png",
       "year": "2023",
@@ -290,7 +248,7 @@
       "second-review": "A wild ride from start to finish. Some parts feel repetitive, but the spectacle is unmatched."
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "The Batman",
       "poster": "img/the-batman.png",
       "year": "2022",
@@ -329,7 +287,7 @@
       "second-review": "Loved the noir vibe and mystery. Some pacing issues, but visually and tonally fantastic."
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Everything Everywhere All At Once",
       "poster": "img/eeaao.png",
       "year": "2022",
