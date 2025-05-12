@@ -6,9 +6,12 @@ body {
 .velour-review {
   max-width: 800px;
 }
-.community-opinion,
 .add-your-opinion {
   max-width: 800px;
+}
+
+.community-opinion{
+  max-width: 860px;
 }
 
 /*DETALED MOVIE REVIEW PAGE*/
