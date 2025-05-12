@@ -200,29 +200,7 @@ h3 {
     font-family: Helvetica, sans-serif;
   }
 
-/*DETALED MOVIE REVIEW PAGE*/
-.movie-poster-detailed-review-page {
-  height: auto;
-  width: 20%;
-  padding-left: 3%;
-}
 
-.movie-header {
-  display: flex;
-  gap: 5%;
-  align-items: flex-start;
-  padding: 3%;
-}
-
-.movie-information {
-  flex: 1;
-}
-
-.movie-titel-heart {
-  display: flex;
-  align-items: center;
-  gap: 3%;
-}
 .logo-container {
   position: sticky;
   top: 0;

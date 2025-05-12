@@ -25,12 +25,12 @@ function buildDetailedPage(movie) {
   document.body.innerHTML = `
   <body>
    <body>
-  <div class="logo-container">
+  <nav class="navbar">
+    <div class="logo-container">
     <a href="index.html">
      <img class="main-logo" src="img/Logo-white.png" alt="white Velour V Logo looking like a film tape">
     </a>
   </div>
-  <nav class="navbar">
     <div class="navbar-container">
       <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
       <ul class="nav-links">
