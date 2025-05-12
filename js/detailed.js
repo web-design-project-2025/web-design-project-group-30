@@ -137,29 +137,38 @@ function buildDetailedPage(movie) {
         </iframe>
       </div>
 
-            <h2>COMMUNITY OPINION</h2>
-            <div class="review-one">
-            <h3>${movie["first-name"]}</h3>
-            <p>${movie["first-rating"]}</p>
-            <p>${movie["first-review"]}</p>
-             </div>
-             <div class="review-two">
-            <h3>${movie["second-name"]}</h3>
-            <p>${movie["second-rating"]}</p>
-            <p>${movie["second-review"]}</p>
-             </div>
+       <h2>COMMUNITY OPINION</h2>
+<div class="community-opinion">
+  <div class="review-one">
+    <h3>${movie["first-name"]}</h3>
+    <p>${movie["first-rating"]}</p>
+    <p>${movie["first-review"]}</p>
+  </div>
+  <div class="review-two">
+    <h3>${movie["second-name"]}</h3>
+    <p>${movie["second-rating"]}</p>
+    <p>${movie["second-review"]}</p>
+  </div>
 
-            <div class="review-feed" id="reviewFeed"></div>
+  <div class="review-feed" id="reviewFeed"></div>
+</div>
 
-            <h2>ADD YOUR OPINION</h2>
-            <div class="review-form">
-             <label for="rating">MOVIE RANKING:</label>
-             <div id="starRating" class="star-rating-input"></div> 
-             <label for="nameInput">USERNAME:</label>
-             <input type="text" id="nameInput" placeholder="Your name" />
-             <label for="reviewInput">PERSONAL REVIEW:</label>
-             <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
-             <button onclick="saveMessage()">PUBLISH  MY REVIEW</button> </div>
+<h2>ADD YOUR OPINION</h2>
+<div class="add-your-opinion">
+  <div class="review-form">
+    <label for="rating">MOVIE RANKING:</label>
+    <div id="starRating" class="star-rating-input"></div> 
+
+    <label for="nameInput">USERNAME:</label>
+    <input type="text" id="nameInput" placeholder="Your name" />
+
+    <label for="reviewInput">PERSONAL REVIEW:</label>
+    <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
+
+    <button onclick="saveMessage()">PUBLISH MY REVIEW</button>
+  </div>
+</div>
+
         </main>
         <footer>
             <p>© 2025 Velour</p>
