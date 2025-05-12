@@ -3,7 +3,7 @@ function getMovieIdFromURL() {
   const params = new URLSearchParams(window.location.search);
   return parseInt(params.get("id"), 10);
 }
-//the following code was adapted from this source :https://www.w3schools.com/howto/howto_js_read_more.asp 
+//the following code was adapted from this source :https://www.w3schools.com/howto/howto_js_read_more.asp
 function myFunction() {
   const dots = document.getElementById("dots");
   const moreText = document.getElementById("more");
@@ -96,17 +96,21 @@ function buildDetailedPage(movie) {
                 </div>
             </div>
 
-            <h2>MOVIE SUMMARY</h2>
-            <p>${movie.summary}</p>
+<h2>MOVIE SUMMARY</h2>
+<div class="movie-summary">
+  <p>${movie.summary}</p>
+</div>
 
-            <h2>VELOUR'S REVIEW</h2>
-            <p>
-                ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
-                <span id="more" style="display:none;">${movie[
-                  "our-review"
-                ].slice(200)}</span>
-            </p>
-            <button onclick="myFunction()" id="readMoreButton">READ MORE</button>
+<h2>VELOUR'S REVIEW</h2>
+<div class="velour-review">
+  <p>
+    ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
+    <span id="more" style="display:none;">${movie["our-review"].slice(
+      200
+    )}</span>
+  </p>
+  <button onclick="myFunction()" id="readMoreButton">READ MORE</button>
+</div>
 
             <h2>CAST</h2>
             <section class="cast">
@@ -161,11 +165,10 @@ function buildDetailedPage(movie) {
             <p>© 2025 Velour</p>
         </footer>
         </body>
-    `;  
+    `;
 
   setupStarRating();
   loadreview();
-
 
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
@@ -218,8 +221,9 @@ function loadreview() {
   reviews.forEach((entry, index) => {
     const div = document.createElement("div");
     div.className = "review";
-    const stars = `<span class="review-stars">${"⭐️".repeat(entry.rating)}${"".repeat(5 - entry.rating)}</span>`;
-
+    const stars = `<span class="review-stars">${"⭐️".repeat(
+      entry.rating
+    )}${"".repeat(5 - entry.rating)}</span>`;
 
     div.innerHTML = `
     <div class="review-header">
