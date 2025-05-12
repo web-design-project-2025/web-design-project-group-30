@@ -11,16 +11,24 @@ font-weight: 700;
 font-style: normal;
 }
 p{
-    font-family: helvetica-lt-pro, sans-serif;font-weight: 400;font-style: normal;
+    font-family: helvetica-lt-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-top: 15px;
+
 }
 
 .editorial-container .social-media {
-    margin-top: 10px; 
-    margin-bottom: 5%;
     display: flex;
-    justify-content: center;
-    gap: 10%;
-    position: relative;
+    justify-content: flex-start;
+    gap: 20px; 
+    padding-left: 0;
+    margin: 1.5rem auto;
+  
 }
 .editorial-container img {
     width: 100%;
@@ -30,26 +38,34 @@ p{
     margin: 20px auto;
     border-radius: 12px;
     box-shadow: 0 5px 20px #793E98 ;
+    
 }
+
+
 .editorial-container h1,
 .editorial-container h2,
 .editorial-container h3 {
   margin-top: 20px;
+  margin: 1.5rem auto;
   margin-bottom: 10px;
-  line-height: 1.3;
+  line-height: 1.9;
 }
 /* Container */
 .editorial-container {
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 40px 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.7;
     color: #cfcfcf;
 }
+.editorial-container hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* Content wrapper */
 .editorial-content {
-    text-align: center;
+    text-align: left;
 }
 /* Title */
 .editorial-content h1 {
@@ -64,13 +80,12 @@ p{
 }
 .social-media p {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0;
     color: #B652E3;
     font-size: 25px;
+    padding: 0;
 }
-.social-media span {
-    margin-left: 5px;
-}
+
 
 @media (max-width: 968px) and (min-width: 800px) {
     .editorial-container {
@@ -111,13 +126,14 @@ p{
     }
     .editorial-container p {
         max-width: 75%; 
-        text-align: center; 
+        text-align: left; 
         margin: 20px auto;
         font-size: 18px; 
     }
     .editorial-container {
         line-height: 1.6;
     }
+    
 }
 @media (max-width: 800px) and (min-width: 500px) {
     .editorial-container {
@@ -130,23 +146,31 @@ p{
     .editorial-content h1 {
         font-size: 30px; 
         margin-bottom: 15px;
-        text-align: center; 
+        text-align: left; 
+        max-width: 75%;
+        margin: 0 auto 15px auto;
     }
     .editorial-container h2 {
         font-size: 26px; 
         margin-bottom: 15px;
-        text-align: center;
+        text-align: left; 
+        max-width: 75%;
+        margin: 0 auto 15px auto;
     }
     .editorial-container h3 {
         font-size: 22px; 
         margin-bottom: 10px;
-        text-align: center;
+        text-align: left; 
+        max-width: 75%;
+        margin: 0 auto 15px ;
     }
     .editorial-container .social-media {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 10px;
         margin-bottom: 20px;
+        max-width: 75%;
+        margin-left: 30px;
     }
     .social-media p {
         font-size: 18px; 
@@ -158,7 +182,7 @@ p{
     }
     .editorial-container p {
         max-width: 75%;
-        text-align: center; 
+        text-align: left; 
         margin: 20px auto;
         font-size: 16px; 
     }
