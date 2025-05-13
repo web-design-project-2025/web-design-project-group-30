@@ -535,6 +535,7 @@ h3 {
   }
 
   .categories-row button {
+    margin-top: 0px;
     background-color: #793e98;
     min-width: 160px;
     color: rgb(255, 255, 255);
@@ -899,14 +900,12 @@ svg path {
 @media (max-width: 800px) {
   .velour{
     position:relative;
+     top:20%;
+    transform: translate(-50%, -50%);
   }
   .v-white {
-    width: 55px;
+    width: 85px;
     height: 80px;
-  }
-  .velour {
-    top: 45%;
-    transform: translate(-50%, -50%);
   }
 }
 
