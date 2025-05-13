@@ -383,7 +383,9 @@ h3 {
     text-align: center;
     padding: 10px 0;
   }
-
+.category-list.show {
+    display: block;
+  }
   .nav-links.show {
     display: block;
     bottom: 0;
