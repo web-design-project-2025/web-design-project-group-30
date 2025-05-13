@@ -897,6 +897,9 @@ svg path {
 
 /*smaller screens*/
 @media (max-width: 800px) {
+  .velour{
+    position:relative;
+  }
   .v-white {
     width: 55px;
     height: 80px;
