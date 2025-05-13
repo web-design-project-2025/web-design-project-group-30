@@ -1,15 +1,14 @@
-.categories{
-  font-family: "helvetica-lt-pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-    margin-left: 5%;
-  margin-right: 5%;
-}
-
 main {
   margin-left: 5%;
   margin-right: 5%;
 }
+.categories{
+  font-family: "helvetica-lt-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 /*Movie JSON*/
 p {
   font-weight: lighter;
@@ -27,8 +26,21 @@ p {
   grid-template-columns: repeat(8, 1fr);
   justify-items: center;
   justify-content: center;
-  gap: 10px;
-  justify-items: center;
+  margin-top: 40px;
+  gap: 2px;
+}
+
+.movies-for-you-to-watch{
+  text-align: center;
+  margin: 5px;
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+.movies-for-you-to-watch1{
+  text-align: center;
+  margin: 5px;
+  padding-top: 40px;
+  margin-bottom: 0;
 }
 
 .movie-card :hover {
@@ -202,7 +214,6 @@ h3 {
     color: white;
     font-family: Helvetica, sans-serif;
   }
-
 
 .logo-container {
   position: sticky;
@@ -444,7 +455,7 @@ h3 {
   #star-filter {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
     margin-bottom: 15px;
   }
 
@@ -622,15 +633,7 @@ h3 {
     transform: scale(1.05);
     transition: all 0.3s ease;
   }
-  .search-container {
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    width: 300px;
-    z-index: 10;
-  }
+
 }
 
 @media (max-width: 1100px) {
@@ -832,9 +835,7 @@ footer {
   margin-left: 20px;
   flex-wrap: wrap;
 }
-#star-filter {
-  margin: 20px 10px; /* adjust spacing as needed */
-}
+
 #star-filter span {
   font-size: 2rem;
   cursor: pointer;
@@ -928,4 +929,3 @@ svg path {
   }
 
 }
-
