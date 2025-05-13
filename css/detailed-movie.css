@@ -10,11 +10,11 @@ body {
   max-width: 800px;
 }
 
-.community-opinion{
+.community-opinion {
   max-width: 860px;
 }
-.trailer-container{
-  width:max-content;
+.trailer-container {
+  width: max-content;
 }
 /*DETALED MOVIE REVIEW PAGE*/
 .movie-poster-detailed-review-page {
@@ -327,12 +327,12 @@ h3 {
 
   .cast {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
     justify-items: center;
+    margin-left: -16%;
   }
 
   .cast-image {
-    width: 120px;
+    width: 130px;
     height: 150px;
   }
 
@@ -348,7 +348,7 @@ h3 {
     height: 400px;
   }
   .main-logo {
-    display:none;
+    display: none;
   }
 }
 
