@@ -13,7 +13,9 @@ body {
 .community-opinion{
   max-width: 860px;
 }
-
+.trailer-container{
+  width:max-content;
+}
 /*DETALED MOVIE REVIEW PAGE*/
 .movie-poster-detailed-review-page {
   height: 300px;
