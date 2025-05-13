@@ -3,7 +3,7 @@ function getMovieIdFromURL() {
   const params = new URLSearchParams(window.location.search);
   return parseInt(params.get("id"), 10);
 }
-//the following code was adapted from this source :https://www.w3schools.com/howto/howto_js_read_more.asp 
+//the following code was adapted from this source :https://www.w3schools.com/howto/howto_js_read_more.asp
 function myFunction() {
   const dots = document.getElementById("dots");
   const moreText = document.getElementById("more");
@@ -25,12 +25,12 @@ function buildDetailedPage(movie) {
   document.body.innerHTML = `
   <body>
    <body>
-  <div class="logo-container">
+  <nav class="navbar">
+    <div class="logo-container">
     <a href="index.html">
      <img class="main-logo" src="img/Logo-white.png" alt="white Velour V Logo looking like a film tape">
     </a>
   </div>
-  <nav class="navbar">
     <div class="navbar-container">
       <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
       <ul class="nav-links">
@@ -96,17 +96,21 @@ function buildDetailedPage(movie) {
                 </div>
             </div>
 
-            <h2>MOVIE SUMMARY</h2>
-            <p>${movie.summary}</p>
+<h2>MOVIE SUMMARY</h2>
+<div class="movie-summary">
+  <p>${movie.summary}</p>
+</div>
 
-            <h2>VELOUR'S REVIEW</h2>
-            <p>
-                ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
-                <span id="more" style="display:none;">${movie[
-                  "our-review"
-                ].slice(200)}</span>
-            </p>
-            <button onclick="myFunction()" id="readMoreButton">READ MORE</button>
+<h2>VELOUR'S REVIEW</h2>
+<div class="velour-review">
+  <p>
+    ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
+    <span id="more" style="display:none;">${movie["our-review"].slice(
+      200
+    )}</span>
+  </p>
+  <button onclick="myFunction()" id="readMoreButton">READ MORE</button>
+</div>
 
             <h2>CAST</h2>
             <section class="cast">
@@ -133,39 +137,47 @@ function buildDetailedPage(movie) {
         </iframe>
       </div>
 
-            <h2>COMMUNITY OPINION</h2>
-            <div class="review-one">
-            <h3>${movie["first-name"]}</h3>
-            <p>${movie["first-rating"]}</p>
-            <p>${movie["first-review"]}</p>
-             </div>
-             <div class="review-two">
-            <h3>${movie["second-name"]}</h3>
-            <p>${movie["second-rating"]}</p>
-            <p>${movie["second-review"]}</p>
-             </div>
+       <h2>COMMUNITY OPINION</h2>
+<div class="community-opinion">
+  <div class="review-one">
+    <h3>${movie["first-name"]}</h3>
+    <p>${movie["first-rating"]}</p>
+    <p>${movie["first-review"]}</p>
+  </div>
+  <div class="review-two">
+    <h3>${movie["second-name"]}</h3>
+    <p>${movie["second-rating"]}</p>
+    <p>${movie["second-review"]}</p>
+  </div>
 
-            <div class="review-feed" id="reviewFeed"></div>
+  <div class="review-feed" id="reviewFeed"></div>
+</div>
 
-            <h2>ADD YOUR OPINION</h2>
-            <div class="review-form">
-             <label for="rating">MOVIE RANKING:</label>
-             <div id="starRating" class="star-rating-input"></div> 
-             <label for="nameInput">USERNAME:</label>
-             <input type="text" id="nameInput" placeholder="Your name" />
-             <label for="reviewInput">PERSONAL REVIEW:</label>
-             <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
-             <button onclick="saveMessage()">PUBLISH  MY REVIEW</button> </div>
+<h2>ADD YOUR OPINION</h2>
+<div class="add-your-opinion">
+  <div class="review-form">
+    <label for="rating">MOVIE RANKING:</label>
+    <div id="starRating" class="star-rating-input"></div> 
+
+    <label for="nameInput">USERNAME:</label>
+    <input type="text" id="nameInput" placeholder="Your name" />
+
+    <label for="reviewInput">PERSONAL REVIEW:</label>
+    <textarea id="reviewInput" placeholder="Tell us your opinion..."></textarea>
+
+    <button onclick="saveMessage()">PUBLISH MY REVIEW</button>
+  </div>
+</div>
+
         </main>
         <footer>
             <p>© 2025 Velour</p>
         </footer>
         </body>
-    `;  
+    `;
 
   setupStarRating();
   loadreview();
-
 
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
@@ -218,8 +230,9 @@ function loadreview() {
   reviews.forEach((entry, index) => {
     const div = document.createElement("div");
     div.className = "review";
-    const stars = `<span class="review-stars">${"⭐️".repeat(entry.rating)}${"".repeat(5 - entry.rating)}</span>`;
-
+    const stars = `<span class="review-stars">${"⭐️".repeat(
+      entry.rating
+    )}${"".repeat(5 - entry.rating)}</span>`;
 
     div.innerHTML = `
     <div class="review-header">

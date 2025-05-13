@@ -1,4 +1,7 @@
-
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .categories{
   font-family: "helvetica-lt-pro", sans-serif;
   font-weight: 700;
@@ -212,29 +215,6 @@ h3 {
     font-family: Helvetica, sans-serif;
   }
 
-/*DETALED MOVIE REVIEW PAGE*/
-.movie-poster-detailed-review-page {
-  height: auto;
-  width: 20%;
-  padding-left: 3%;
-}
-
-.movie-header {
-  display: flex;
-  gap: 5%;
-  align-items: flex-start;
-  padding: 3%;
-}
-
-.movie-information {
-  flex: 1;
-}
-
-.movie-titel-heart {
-  display: flex;
-  align-items: center;
-  gap: 3%;
-}
 .logo-container {
   position: sticky;
   top: 0;
@@ -403,7 +383,9 @@ h3 {
     text-align: center;
     padding: 10px 0;
   }
-
+.category-list.show {
+    display: block;
+  }
   .nav-links.show {
     display: block;
     bottom: 0;
@@ -949,4 +931,3 @@ svg path {
   }
 
 }
-
