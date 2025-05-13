@@ -425,8 +425,8 @@ h3 {
     width: 90%;
     z-index: 10;
   }
-  .about-container h3{
-  word-spacing: 3px; 
+  .about-container h3 {
+    word-spacing: 3px;
   }
   .about-container {
     display: flex;
@@ -436,7 +436,7 @@ h3 {
     margin-top: 50px;
     width: 90%;
     z-index: 10;
-    margin-left:-3px;
+    margin-left: -3px;
   }
   .movies-for-you-to-watch {
     display: none;
@@ -447,7 +447,7 @@ h3 {
   }
   .big-rate {
     margin: 10px;
-    margin-left:-25px;
+    margin-left: -25px;
   }
   .movie-card img {
     margin: 5px;
@@ -461,7 +461,53 @@ h3 {
     grid-template-columns: repeat(4, 2fr);
     gap: 20px;
   }
-  
+  .categories-row button {
+    margin-top: 0px;
+    background-color: #793e98;
+    min-width: 140px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: -1px;
+  }
+
+  .category-list {
+    background-color: #793e98;
+    display: none;
+    position: absolute;
+    width: auto;
+
+    border-radius: 5px;
+    padding-left: 15px;
+    padding: 8px;
+    list-style: none;
+    z-index: 11;
+    margin-top: 2px;
+    margin-right: 6px;
+  }
+
+  .category-list li {
+    padding: 2px 4px;
+  }
+
+  .category-list li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: small;
+    text-align: center;
+  }
+
+  .category-list li:hover {
+    background-color: #b652e3;
+  }
+  .categories {
+    position: relative;
+  }
 }
 
 /*categories button*/
@@ -472,50 +518,6 @@ h3 {
   font-weight: 400;
   font-style: normal;
   margin-top: 100px;
-}
-
-.categories-row button {
-  margin-top: 0px;
-  background-color: #793e98;
-  min-width: 160px;
-  color: rgb(255, 255, 255);
-  padding: 5px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.category-list {
-  display: none;
-  position: absolute;
-  width: auto;
-  margin-top: 0px;
-  border-radius: 5px;
-  padding-left: 15px;
-  padding-right: 1px;
-  list-style: none;
-  z-index: 11;
-}
-
-.category-list li {
-  padding: 2px 4px;
-}
-
-.category-list li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: small;
-  text-align: center;
-}
-
-.category-list li:hover {
-  background-color: #b652e3;
-}
-.categories {
-  position: relative;
 }
 
 /*bigger screens*/
