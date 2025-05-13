@@ -254,12 +254,6 @@ h3 {
   font-weight: 400;
   font-style: normal;
 }
-
-
-
-.filter-toggle {
-  display: none;
-}
 .nav-links {
   list-style: none;
   display: flex;
@@ -431,6 +425,9 @@ h3 {
     width: 90%;
     z-index: 10;
   }
+  .about-container h3{
+  word-spacing: 3px; 
+  }
   .about-container {
     display: flex;
     flex-direction: column;
@@ -439,6 +436,7 @@ h3 {
     margin-top: 50px;
     width: 90%;
     z-index: 10;
+    margin-left:-3px;
   }
   .movies-for-you-to-watch {
     display: none;
@@ -449,6 +447,7 @@ h3 {
   }
   .big-rate {
     margin: 10px;
+    margin-left:-25px;
   }
   .movie-card img {
     margin: 5px;

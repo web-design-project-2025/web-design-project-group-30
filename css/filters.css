@@ -1,4 +1,8 @@
 /*filters*/
+
+.filter-toggle {
+  display: none;
+}
 #filter-bar {
   display: flex;
   flex-direction: row;
@@ -28,10 +32,9 @@
   color: #ffffff;
   cursor: pointer;
 }
- 
- 
- /*filters on mobile*/
-@media (max-width: 667px){
+
+/*filters on mobile*/
+@media (max-width: 667px) {
   .filter-toggle {
     display: block;
     position: fixed;
@@ -84,4 +87,4 @@
     font-size: 16px;
     margin-top: 20px;
   }
-  }
+}
