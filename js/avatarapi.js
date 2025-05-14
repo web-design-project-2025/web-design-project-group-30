@@ -26,8 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const avatarElement = document.getElementById("avatar");
 
     const seedInput = seedInputElement.value.trim();
-
-    //Ensures an avatar still generates for users even without writing a name
     const seed = seedInput || Math.random().toString(36).substr(2, 8);
     const avatarUrl = `https://api.dicebear.com/7.x/pixel-art/svg?seed=${encodeURIComponent(
       seed
@@ -78,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-/*Sources/Refrences
+/*Sources/Refrences used when coding
 API taken from: https://www.dicebear.com/
 HTTP API:https://www.dicebear.com/how-to-use/http-api/
 
@@ -94,4 +92,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 Error handling: https://dev.to/thecharacterv/error-handling-in-the-javascript-fetch-api-1f7a
 Fetch: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+https://www.tjvantoll.com/2015/09/13/fetch-and-errors/
 */
