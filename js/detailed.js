@@ -149,12 +149,13 @@ function buildDetailedPage(movie) {
 <div class="community-opinion">
   <div class="review-one">
     <h3>${movie["first-name"]}</h3>
-     <p>${movie["first-rating"].replace(/⭐️/g, '★')}</p> <!-- Replace emoji with custom stars -->
+    <!-- Replace emoji with custom stars -->
+     <p>${movie["first-rating"].replace(/⭐️/g, '★')}</p> 
     <p>${movie["first-review"]}</p>
   </div>
   <div class="review-two">
     <h3>${movie["second-name"]}</h3>
-     <p>${movie["second-rating"].replace(/⭐️/g, '★')}</p> <!-- Replace emoji with custom stars -->
+     <p>${movie["second-rating"].replace(/⭐️/g, '★')}</p> 
     <p>${movie["second-review"]}</p>
   </div>
 
@@ -166,6 +167,7 @@ function buildDetailedPage(movie) {
   <div class="review-form">
     <label for="rating">MOVIE RANKING:</label>
     <div id="starRating" class="star-rating-input"></div> 
+    <p class="review-stars">${"★".repeat(selectedRating)}</p>
 
     <label for="nameInput">USERNAME:</label>
     <input type="text" id="nameInput" placeholder="Your name" />
@@ -242,7 +244,7 @@ function loadreview() {
   reviews.forEach((entry, index) => {
     const div = document.createElement("div");
     div.className = "review";
-    const stars = `<span class="review-stars">${"⭐️".repeat(
+    const stars = `<span class="review-stars">${"★".repeat(
       entry.rating
     )}${"".repeat(5 - entry.rating)}</span>`;
 
