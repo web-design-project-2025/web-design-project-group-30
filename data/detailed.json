@@ -3133,7 +3133,7 @@
     {
       "id": 101,
       "title": "Memento",
-      "poster": "img/memento.jpeg",
+      "poster": "img/memento-thumbnail.jpeg",
       "year": "2000",
       "genre": "Mystery, Thriller",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3753,7 +3753,7 @@
     {
       "id": 121,
       "title": "Cinderella",
-      "poster": "img/cinderella.jpeg",
+      "poster": "img/cinderella1.jpeg",
       "year": "1950",
       "genre": "animation, romance, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -3784,7 +3784,7 @@
     {
       "id": 122,
       "title": "Sleeping Beauty",
-      "poster": "img/sleeping-beauty.jpeg",
+      "poster": "img/sleeoing-beauty-1.jpeg",
       "year": "1959",
       "genre": "animation, fantasy, romance",
       "rating": "⭐️⭐️⭐️",
@@ -3815,7 +3815,7 @@
     {
       "id": 123,
       "title": "Peter Pan",
-      "poster": "img/peter-pan.jpeg",
+      "poster": "img/peter-pan1.jpeg",
       "year": "1953",
       "genre": "animation, adventure, family",
       "rating": "⭐️⭐️⭐️⭐️",
@@ -6501,7 +6501,7 @@
     {
       "id": 207,
       "title": "Knives Out",
-      "poster": "img/knives-out.jpeg",
+      "poster": "img/Knives-Out_Thumbnail.jpg.webp",
       "year": "2019",
       "genre": "mystery, thriller, comedy",
       "rating": "⭐️⭐️⭐️⭐️⭐️",
