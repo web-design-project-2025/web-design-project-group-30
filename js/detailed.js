@@ -79,6 +79,7 @@ function buildDetailedPage(movie) {
  
         </header>
         <main>
+        <button class="return-btn" onclick="history.back()">← Return</button>
             <div class="movie-header">
                 <img class="movie-poster-detailed-review-page" src="${
                   movie.poster
