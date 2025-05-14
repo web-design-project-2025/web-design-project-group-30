@@ -10,7 +10,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 10vw;
+  font-size: 8vw;
   z-index: 1;
   font-weight: bold;
 }
@@ -154,7 +154,7 @@ body {
 /*smaller screens*/
 @media (max-width: 800px) {
   .main-heading-trending {
-    font-size: 12vw;
+    font-size: 10vw;
     top: 18vw;
   }
 
