@@ -89,20 +89,27 @@ function buildDetailedPage(movie) {
                         <h1>${movie.title}</h1>
                         <button class="favourite-button" data-id="${
                           movie.id
-                        }" data-title="${movie.title}" data-poster="${
-    movie.poster
-  }"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
+                        }" data-title="${movie.title}" data-poster="${movie.poster}">
+                        <img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
                     </div>
-                    <div class="star-rating">${movie.rating}</div>
+                      <div class="star-rating">
+                       ${movie.rating.replace(/⭐️/g, '★')}
+                      </div>
+                      <div class="movie-meta">
+                      <p><strong>Year:</strong> ${movie.year}</p>
+                      <p><strong>Genre:</strong> ${movie.genre}</p>
+                      </div>
                 </div>
             </div>
 
 <h2>MOVIE SUMMARY</h2>
+<hr>
 <div class="movie-summary">
   <p>${movie.summary}</p>
 </div>
 
 <h2>VELOUR'S REVIEW</h2>
+<hr>
 <div class="velour-review">
   <p>
     ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
@@ -142,12 +149,12 @@ function buildDetailedPage(movie) {
 <div class="community-opinion">
   <div class="review-one">
     <h3>${movie["first-name"]}</h3>
-    <p>${movie["first-rating"]}</p>
+     <p>${movie["first-rating"].replace(/⭐️/g, '★')}</p> <!-- Replace emoji with custom stars -->
     <p>${movie["first-review"]}</p>
   </div>
   <div class="review-two">
     <h3>${movie["second-name"]}</h3>
-    <p>${movie["second-rating"]}</p>
+     <p>${movie["second-rating"].replace(/⭐️/g, '★')}</p> <!-- Replace emoji with custom stars -->
     <p>${movie["second-review"]}</p>
   </div>
 
@@ -177,8 +184,12 @@ function buildDetailedPage(movie) {
         </body>
     `;
 
-  setupStarRating();
-  loadreview();
+   
+    
+    
+  
+    setupStarRating();
+    loadreview();
 
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
@@ -294,6 +305,7 @@ function setupStarRating() {
     container.appendChild(star);
   }
 }
+
 
 function updateStarDisplay(container, rating) {
   const stars = container.querySelectorAll(".star");

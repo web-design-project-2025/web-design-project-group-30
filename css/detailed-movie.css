@@ -44,6 +44,15 @@ h3 {
   font-weight: 700;
   font-style: normal;
 }
+
+.movie-meta {
+  margin-top: 10%;
+  gap: 16px;
+  color: #cfcfcf;
+  font-family: helvetica-lt-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .movie-header {
   display: flex;
   gap: 5%;
@@ -57,11 +66,15 @@ h3 {
   margin: 0;
   padding: 0;
 }
-
+.movie-titel-heart h1 {
+  margin: 0;
+  font-size: 2rem; 
+  line-height: 1.2;
+}
 .movie-titel-heart {
   display: flex;
   align-items: center;
-  gap: 3%;
+  gap: 1rem;
 }
 
 #more {
@@ -144,7 +157,7 @@ h3 {
 }
 
 .star-rating-input {
-  font-size: 1.8rem;
+  font-size: 1rem;
   cursor: pointer;
   margin-bottom: 1rem;
 }
@@ -157,7 +170,12 @@ h3 {
 .star-rating-input .star.selected {
   color: #fff761;
 }
-
+.star-rating{
+  color: #fff761;
+}
+.community-opinion p:first-of-type{
+  color: #fff761;
+}
 /*Cast*/
 .cast-image {
   width: 130px;
@@ -179,14 +197,18 @@ h3 {
   border: none;
 }
 .favourite-button img {
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
 }
-
+.favourite-button:hover img {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
 .favourite-button.filled img {
   width: 24px;
   height: 24px;
 }
+
 
 /*REVIEW*/
 .review {
