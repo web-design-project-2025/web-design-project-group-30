@@ -1,3 +1,13 @@
+.banner {
+  background-color:  #b652e3;
+  color: white;
+  background-size: cover;
+  position: relative;
+  margin-left: 5%;
+  width: 90%;
+  height: 30vw;
+  overflow: hidden;
+}
 .profile {
   display: flex;
   flex-direction: column;
@@ -39,13 +49,13 @@ input {
 }
 
 button {
-  background-color: #8220b3;
+  background-color: #793e98;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #b652e3;
+  background-color: #8220b3;
 }
 
 .name-container {
@@ -59,15 +69,6 @@ button:hover {
   align-items: center;
   gap: 0.5rem;
   margin-top: 15px;
-}
-
-.banner {
-  background-size: cover;
-  position: relative;
-  margin-left: 5%;
-  width: 90%;
-  height: 30vw;
-  overflow: hidden;
 }
 
 .name-display span:first-child {
@@ -238,5 +239,69 @@ button:hover {
 
   .drop-up .dropdown {
     top: auto;
+  }
+}
+
+/*ipads*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+    height: 40vh;
+  }
+
+  .profile {
+    padding: 15px;
+    width: 70%;
+    max-width: 300px;
+  }
+
+  #avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .name-display {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .name-display span:first-child,
+  #savedName {
+    font-size: 1.8rem;
+  }
+
+  .language-location {
+    margin-top: 15px;
+    gap:30px;
+    padding-top:2.5%;
+  }
+
+  .language-location h3 {
+    font-size: 1.3rem;
+  }
+
+  .language-location p {
+    font-size: 1rem;
+  }
+
+  .dropdown-container {
+    width: 90%;
+  }
+
+  .dropdown {
+    width: 80%;
+  }
+
+  .dropdown li {
+    font-size: 1rem;
   }
 }
