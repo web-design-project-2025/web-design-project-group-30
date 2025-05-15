@@ -64,6 +64,7 @@ button:hover {
   gap: 0.5rem;
   font-size: 1.2em;
 }
+
 .name-display {
   display: flex;
   align-items: center;
@@ -88,6 +89,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  gap:10px;
 }
 
 .dropdown-container {
@@ -145,22 +147,27 @@ button:hover {
   margin-top: 0;
   margin-bottom: 5px;
 }
+
 @media (max-width: 667px) {
   .banner {
     height: 60vh;
   }
+
   .profile h1 {
-    margin-top: 10%;
-    font-size: 1rem;
+    padding-top:30%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
   }
+
   .profile {
     position: static;
     transform: none;
     padding: 10px;
     margin: 0 auto;
-    width: 60%;
-    max-width: 250px;
+    width: 80%;
+    max-width: 300px;
   }
+
   #avatar {
     width: 100px;
     height: 100px;
@@ -179,55 +186,23 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: nowrap;
     text-align: center;
     gap: 0.5rem;
-  }
-
-  .name-display span:first-child {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-right: 0;
   }
 
   #savedName {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-right: 10px;
-    margin-bottom: 20%;
+    margin-bottom: 40%;
   }
+
   .language-location {
     margin-top: 10px;
   }
 
-  .language-location .language,
-  .language-location .location {
-    margin: 5px 0;
-  }
-
-  .language-location h3 {
-    font-size: 1.2rem;
-  }
-
-  .language-location p {
-    font-size: 0.9rem;
-  }
-  .dropdown-toggle {
-    font-size: 0.9rem;
-    display: inline-block;
-    width: auto;
-    padding: 4px 8px;
-    margin: 0 auto;
-    border-radius: 5px;
-  }
-
-  .dropdown-toggle p {
-    font-size: 1rem;
-  }
   .dropdown-container,
   .drop-up {
     width: 100%;
-    margin: 0 auto;
   }
 
   /*Dropdown menu*/
@@ -247,18 +222,15 @@ button:hover {
 }
 
 /*ipads*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 677px) and (max-width: 1024px) {
   .banner {
-    height: 50vh;
+    height: 55vh;
   }
+
   .profile h1 {
+    padding-top:5%;
     margin-top: 5%;
     font-size: 2rem;
-  }
-  .profile {
-    padding: 15px;
-    width: 70%;
-    max-width: 60%;
   }
 
   #avatar {
@@ -266,7 +238,8 @@ button:hover {
     height: 150px;
   }
 
-  input {
+  input,
+  button {
     width: 100%;
   }
 
@@ -279,11 +252,13 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     gap: 0.5rem;
+       padding-bottom:8%;
   }
 
   .name-display span:first-child,
   #savedName {
     font-size: 1.8rem;
+    padding-bottom:10%;
   }
 
   .language-location {
@@ -312,19 +287,22 @@ button:hover {
     font-size: 1rem;
   }
 }
-/*ipads*/
+
+
 @media (min-width: 768px) and (max-width: 1366px) {
   .banner {
-    height: 50vh;
+    height: 60vh;
   }
+
   .profile h1 {
     margin-top: 5%;
     font-size: 2rem;
   }
+
   .profile {
     padding: 15px;
     width: 70%;
-    max-width: 60%;
+    max-width: 80%;
   }
 
   #avatar {
@@ -332,7 +310,8 @@ button:hover {
     height: 200px;
   }
 
-  input {
+  input,
+  button {
     width: 100%;
   }
 
@@ -378,3 +357,74 @@ button:hover {
     font-size: 1rem;
   }
 }
+
+@media (min-width: 820px) and (max-width: 850px) {
+  .banner {
+    height: 45vh;
+  }
+
+  .profile h1 {
+    margin-top: 5%;
+    font-size: 1.6rem;
+  }
+
+  .profile {
+    padding: 10px;
+    width: 70%;
+    max-width: 60%;
+  }
+
+  #avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  button {
+    width: 70%;
+    font-size: 0.9rem;/
+  }
+
+  .name-display {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .name-display span:first-child,
+  #savedName {
+    font-size: 1.4rem;
+  }
+
+  .language-location {
+    margin-top: 10px;
+    gap: 20px;
+    padding-top: 1%;
+  }
+
+  .language-location h3 {
+    font-size: 1.1rem;
+  }
+
+  .language-location p {
+    font-size: 0.9rem;
+  }
+
+  .dropdown-container {
+    width: 80%;
+  }
+
+  .dropdown {
+    width: 70%;
+  }
+
+  .dropdown li {
+    font-size: 0.9rem;
+  }
+}
+
+
