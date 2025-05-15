@@ -1,5 +1,4 @@
 :root {
-  --primary-color: #2c2c2c;
   --button-color: #8220b3;
   --highlight-color: #fff761;
   --secondary-bg-color: #ff5c5c;
@@ -155,17 +154,19 @@ h3 {
 }
 
 .star-rating-input {
-  font-size: 1.8rem;
+  font-size: 1rem;
   cursor: pointer;
   margin-bottom: 1rem;
 }
 
-.star-rating-input .star {
-  color: #d9d9d9;
-  transition: color 0.3s;
-}
-
 .star-rating-input .star.selected {
+  color: var(--highlight-color);
+}
+.star-rating {
+  margin-top: 7%;
+  color: var(--highlight-color);
+}
+.community-opinion p:first-of-type {
   color: var(--highlight-color);
 }
 
@@ -205,21 +206,21 @@ h3 {
   word-break: break-word;
   padding: 10px;
   margin-top: 10px;
-  background-color: var(--primary-color);
+  background-color: #2c2c2c;
   border-radius: 8px;
   color: #d9d9d9;
   max-width: 100%;
   box-sizing: border-box;
 }
 .review-one {
-  background-color: var(--primary-color);
+  background-color: #2c2c2c;
   padding-top: 70px;
   padding-bottom: 20px;
   padding-left: 10px;
   border-radius: 10px;
 }
 .review-two {
-  background-color: var(--primary-color);
+  background-color: #2c2c2c;
   padding-top: 70px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -227,7 +228,7 @@ h3 {
   margin-top: 15px;
 }
 .review-stars {
-  color: var(--highlight-color);
+  color: #fff761;
 }
 
 .review-header {

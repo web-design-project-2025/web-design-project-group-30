@@ -1,5 +1,5 @@
 .banner {
-  background-color:  #b652e3;
+  background-color: #b652e3;
   color: white;
   background-size: cover;
   position: relative;
@@ -49,13 +49,13 @@ input {
 }
 
 button {
-  background-color: #793e98;
+  background-color: #8220b3;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #8220b3;
+  background-color: #793e98;
 }
 
 .name-container {
@@ -149,7 +149,10 @@ button:hover {
   .banner {
     height: 60vh;
   }
-
+  .profile h1 {
+    margin-top: 10%;
+    font-size: 1rem;
+  }
   .profile {
     position: static;
     transform: none;
@@ -168,7 +171,7 @@ button:hover {
   }
 
   button {
-    width: 80%;
+    width: 70%;
   }
 
   .name-display {
@@ -188,9 +191,10 @@ button:hover {
   }
 
   #savedName {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-right: 10px;
+    margin-bottom: 20%;
   }
   .language-location {
     margin-top: 10px;
@@ -245,13 +249,16 @@ button:hover {
 /*ipads*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .banner {
-    height: 40vh;
+    height: 50vh;
   }
-
+  .profile h1 {
+    margin-top: 5%;
+    font-size: 2rem;
+  }
   .profile {
     padding: 15px;
     width: 70%;
-    max-width: 300px;
+    max-width: 60%;
   }
 
   #avatar {
@@ -281,8 +288,74 @@ button:hover {
 
   .language-location {
     margin-top: 15px;
-    gap:30px;
-    padding-top:2.5%;
+    gap: 30px;
+    padding-top: 2.5%;
+  }
+
+  .language-location h3 {
+    font-size: 1.3rem;
+  }
+
+  .language-location p {
+    font-size: 1rem;
+  }
+
+  .dropdown-container {
+    width: 90%;
+  }
+
+  .dropdown {
+    width: 80%;
+  }
+
+  .dropdown li {
+    font-size: 1rem;
+  }
+}
+/*ipads*/
+@media (min-width: 768px) and (max-width: 1366px) {
+  .banner {
+    height: 50vh;
+  }
+  .profile h1 {
+    margin-top: 5%;
+    font-size: 2rem;
+  }
+  .profile {
+    padding: 15px;
+    width: 70%;
+    max-width: 60%;
+  }
+
+  #avatar {
+    width: 200px;
+    height: 200px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .name-display {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .name-display span:first-child,
+  #savedName {
+    font-size: 1.8rem;
+  }
+
+  .language-location {
+    margin-top: 15px;
+    gap: 30px;
+    padding-top: 2.5%;
   }
 
   .language-location h3 {
