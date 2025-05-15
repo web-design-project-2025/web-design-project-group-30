@@ -1,7 +1,7 @@
 fetch("data/movie.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data); 
+    console.log(data);
 
     const movieList = document.getElementById("movie-list");
     if (movieList) {
@@ -18,7 +18,6 @@ fetch("data/movie.json")
         movieList.appendChild(movieCard);
       });
     }
-
   })
   .catch((error) => console.error("Error loading movies:", error));
 
@@ -37,7 +36,7 @@ function signin() {
     localStorage.setItem("username", name);
 
     const modal = document.getElementById("modal");
-    if (modal) modal.remove(); 
+    if (modal) modal.remove();
 
     alert("Successfully signed in");
   } else {
@@ -50,15 +49,10 @@ function checkSignin() {
   const modal = document.getElementById("modal");
 
   if (isSignedIn === "true" && modal) {
-    modal.remove(); 
+    modal.remove();
   }
 }
 
 window.addEventListener("DOMContentLoaded", function () {
   checkSignin();
 });
-
-
-
-
-

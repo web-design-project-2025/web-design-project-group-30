@@ -1,161 +1,158 @@
 {
-    "romance-section-1": [
-            {
-              "id": 130,
-              "poster": "pride-and-prejudice.jpeg",
-              "alt": "Pride and Prejudice movie poster"
-            },
-            {
-              "id": 131,
-              "poster": "the-notebook.jpeg",
-              "alt": "The Notebook movie poster"
-            },
-            {
-              "id": 132,
-              "poster": "la-la-land.jpeg",
-              "alt": "La La Land movie poster"
-            },
-            {
-              "id": 133,
-              "poster": "titanic.jpeg",
-              "alt": "Titanic movie poster"
-            },
-            {
-              "id": 134,
-              "poster": "call-me-by-your-name.jpeg",
-              "alt": "Call Me by Your Name movie poster"
-            },
-            {
-              "id": 135,
-              "poster": "before-sunrise.jpeg",
-              "alt": "Before Sunrise movie poster"
-            },
-            {
-              "id": 136,
-              "poster": "a-star-is-born.jpeg",
-              "alt": "A Star is Born movie poster"
-            },
-            {
-              "id": 137,
-              "poster": "crazy-rich-asians.jpeg",
-              "alt": "Crazy Rich Asians movie poster"
-            },
-            {
-              "id": 138,
-              "poster": "eternal-sunshine-of-the-spotless-mind.jpeg",
-              "alt": "Eternal Sunshine of the Spotless Mind movie poster"
-            },
-            {
-              "id": 139,
-              "poster": "silver-linings-playbook.jpeg",
-              "alt": "Silver Linings Playbook movie poster"
-            }
-          
-    ],
-    "romance-section-2": [
-            {
-              "id": 140,
-              "poster": "notting-hill.jpeg",
-              "alt": "Notting Hill movie poster"
-            },
-            {
-              "id": 141,
-              "poster": "500-days-of-summer.jpeg",
-              "alt": "500 Days of Summer movie poster"
-            },
-            {
-              "id": 142,
-              "poster": "me-before-you.jpeg",
-              "alt": "Me Before You movie poster"
-            },
-            {
-              "id": 143,
-              "poster": "the-fault-in-our-stars.jpeg",
-              "alt": "The Fault in Our Stars movie poster"
-            },
-            {
-              "id": 144,
-              "poster": "about-time.jpeg",
-              "alt": "About Time movie poster"
-            },
-            {
-              "id": 145,
-              "poster": "the-vow.jpeg",
-              "alt": "The Vow movie poster"
-            },
-            {
-              "id": 146,
-              "poster": "dear-john.jpeg",
-              "alt": "Dear John movie poster"
-            },
-            {
-              "id": 147,
-              "poster": "safe-haven.jpeg",
-              "alt": "Safe Haven movie poster"
-            },
-            {
-              "id": 148,
-              "poster": "to-all-the-boys-ive-loved-before.jpeg",
-              "alt": "To All the Boys I've Loved Before movie poster"
-            },
-            {
-              "id": 149,
-              "poster": "love-rosie.jpeg",
-              "alt": "Love, Rosie movie poster"
-            }
-          
-    ],
-    "romance-section-3": [
-            {
-              "id": 150,
-              "poster": "crazy-rich-asians.jpeg",
-              "alt": "Crazy Rich Asians movie poster"
-            },
-            {
-              "id": 151,
-              "poster": "pride-and-prejudice.jpeg",
-              "alt": "Pride and Prejudice movie poster"
-            },
-            {
-              "id": 152,
-              "poster": "the-lucky-one.jpeg",
-              "alt": "The Lucky One movie poster"
-            },
-            {
-              "id": 153,
-              "poster": "a-walk-to-remember.jpeg",
-              "alt": "A Walk to Remember movie poster"
-            },
-            {
-              "id": 154,
-              "poster": "twilight.jpeg",
-              "alt": "Twilight movie poster"
-            },
-            {
-              "id": 155,
-              "poster": "life-as-we-know-it.jpeg",
-              "alt": "Life As We Know It movie poster"
-            },
-            {
-              "id": 156,
-              "poster": "the-longest-ride.jpeg",
-              "alt": "The Longest Ride movie poster"
-            },
-            {
-              "id": 157,
-              "poster": "letters-to-juliet.jpeg",
-              "alt": "Letters to Juliet movie poster"
-            },
-            {
-              "id": 158,
-              "poster": "midnight-sun.jpeg",
-              "alt": "Midnight Sun movie poster"
-            },
-            {
-              "id": 159,
-              "poster": "endless-love.jpeg",
-              "alt": "Endless Love movie poster"
-            }
-        
-    ]
+  "romance-section-1": [
+    {
+      "id": 130,
+      "poster": "pride-and-prejudice.jpeg",
+      "alt": "Pride and Prejudice movie poster"
+    },
+    {
+      "id": 131,
+      "poster": "the-notebook.jpeg",
+      "alt": "The Notebook movie poster"
+    },
+    {
+      "id": 132,
+      "poster": "la-la-land.jpeg",
+      "alt": "La La Land movie poster"
+    },
+    {
+      "id": 133,
+      "poster": "titanic.jpeg",
+      "alt": "Titanic movie poster"
+    },
+    {
+      "id": 134,
+      "poster": "call-me-by-your-name.jpeg",
+      "alt": "Call Me by Your Name movie poster"
+    },
+    {
+      "id": 135,
+      "poster": "before-sunrise.jpeg",
+      "alt": "Before Sunrise movie poster"
+    },
+    {
+      "id": 136,
+      "poster": "a-star-is-born.jpeg",
+      "alt": "A Star is Born movie poster"
+    },
+    {
+      "id": 137,
+      "poster": "crazy-rich-asians.jpeg",
+      "alt": "Crazy Rich Asians movie poster"
+    },
+    {
+      "id": 138,
+      "poster": "eternal-sunshine-of-the-spotless-mind.jpeg",
+      "alt": "Eternal Sunshine of the Spotless Mind movie poster"
+    },
+    {
+      "id": 139,
+      "poster": "silver-linings-playbook.jpeg",
+      "alt": "Silver Linings Playbook movie poster"
     }
+  ],
+  "romance-section-2": [
+    {
+      "id": 140,
+      "poster": "notting-hill.jpeg",
+      "alt": "Notting Hill movie poster"
+    },
+    {
+      "id": 141,
+      "poster": "500-days-of-summer.jpeg",
+      "alt": "500 Days of Summer movie poster"
+    },
+    {
+      "id": 142,
+      "poster": "me-before-you.jpeg",
+      "alt": "Me Before You movie poster"
+    },
+    {
+      "id": 143,
+      "poster": "the-fault-in-our-stars.jpeg",
+      "alt": "The Fault in Our Stars movie poster"
+    },
+    {
+      "id": 144,
+      "poster": "about-time.jpeg",
+      "alt": "About Time movie poster"
+    },
+    {
+      "id": 145,
+      "poster": "the-vow.jpeg",
+      "alt": "The Vow movie poster"
+    },
+    {
+      "id": 146,
+      "poster": "dear-john.jpeg",
+      "alt": "Dear John movie poster"
+    },
+    {
+      "id": 147,
+      "poster": "safe-haven.jpeg",
+      "alt": "Safe Haven movie poster"
+    },
+    {
+      "id": 148,
+      "poster": "to-all-the-boys-ive-loved-before.jpeg",
+      "alt": "To All the Boys I've Loved Before movie poster"
+    },
+    {
+      "id": 149,
+      "poster": "love-rosie.jpeg",
+      "alt": "Love, Rosie movie poster"
+    }
+  ],
+  "romance-section-3": [
+    {
+      "id": 150,
+      "poster": "crazy-rich-asians.jpeg",
+      "alt": "Crazy Rich Asians movie poster"
+    },
+    {
+      "id": 151,
+      "poster": "pride-and-prejudice.jpeg",
+      "alt": "Pride and Prejudice movie poster"
+    },
+    {
+      "id": 152,
+      "poster": "the-lucky-one.jpeg",
+      "alt": "The Lucky One movie poster"
+    },
+    {
+      "id": 153,
+      "poster": "a-walk-to-remember.jpeg",
+      "alt": "A Walk to Remember movie poster"
+    },
+    {
+      "id": 154,
+      "poster": "twilight.jpeg",
+      "alt": "Twilight movie poster"
+    },
+    {
+      "id": 155,
+      "poster": "life-as-we-know-it.jpeg",
+      "alt": "Life As We Know It movie poster"
+    },
+    {
+      "id": 156,
+      "poster": "the-longest-ride.jpeg",
+      "alt": "The Longest Ride movie poster"
+    },
+    {
+      "id": 157,
+      "poster": "letters-to-juliet.jpeg",
+      "alt": "Letters to Juliet movie poster"
+    },
+    {
+      "id": 158,
+      "poster": "midnight-sun.jpeg",
+      "alt": "Midnight Sun movie poster"
+    },
+    {
+      "id": 159,
+      "poster": "endless-love.jpeg",
+      "alt": "Endless Love movie poster"
+    }
+  ]
+}

@@ -1,160 +1,158 @@
 {
-    "horror-section-1": [
-        {
-            "id": 220,
-            "poster": "the-conjuring.jpeg",
-            "alt": "The Conjuring movie poster"
-          },
-          {
-            "id": 221,
-            "poster": "hereditary.jpeg",
-            "alt": "Hereditary movie poster"
-          },
-          {
-            "id": 222,
-            "poster": "it-follows.jpeg",
-            "alt": "It Follows movie poster"
-          },
-          {
-            "id": 223,
-            "poster": "get-out.jpeg",
-            "alt": "Get Out movie poster"
-          },
-          {
-            "id": 224,
-            "poster": "us.jpeg",
-            "alt": "Us movie poster"
-          },
-          {
-            "id": 225,
-            "poster": "midsommar.jpeg",
-            "alt": "Midsommar movie poster"
-          },
-          {
-            "id": 226,
-            "poster": "the-babadook.jpeg",
-            "alt": "The Babadook movie poster"
-          },
-          {
-            "id": 227,
-            "poster": "a-quiet-place.jpeg",
-            "alt": "A Quiet Place movie poster"
-          },
-          {
-            "id": 228,
-            "poster": "insidious.jpeg",
-            "alt": "Insidious movie poster"
-          },
-          {
-            "id": 229,
-            "poster": "the-ring.jpeg",
-            "alt": "The Ring movie poster"
-          }
+  "horror-section-1": [
+    {
+      "id": 220,
+      "poster": "the-conjuring.jpeg",
+      "alt": "The Conjuring movie poster"
+    },
+    {
+      "id": 221,
+      "poster": "hereditary.jpeg",
+      "alt": "Hereditary movie poster"
+    },
+    {
+      "id": 222,
+      "poster": "it-follows.jpeg",
+      "alt": "It Follows movie poster"
+    },
+    {
+      "id": 223,
+      "poster": "get-out.jpeg",
+      "alt": "Get Out movie poster"
+    },
+    {
+      "id": 224,
+      "poster": "us.jpeg",
+      "alt": "Us movie poster"
+    },
+    {
+      "id": 225,
+      "poster": "midsommar.jpeg",
+      "alt": "Midsommar movie poster"
+    },
+    {
+      "id": 226,
+      "poster": "the-babadook.jpeg",
+      "alt": "The Babadook movie poster"
+    },
+    {
+      "id": 227,
+      "poster": "a-quiet-place.jpeg",
+      "alt": "A Quiet Place movie poster"
+    },
+    {
+      "id": 228,
+      "poster": "insidious.jpeg",
+      "alt": "Insidious movie poster"
+    },
+    {
+      "id": 229,
+      "poster": "the-ring.jpeg",
+      "alt": "The Ring movie poster"
+    }
   ],
   "horror-section-2": [
-        {
-          "id": 230,
-          "poster": "sinister.jpeg",
-          "alt": "Sinister movie poster"
-        },
-        {
-          "id": 231,
-          "poster": "the-others.jpeg",
-          "alt": "The Others movie poster"
-        },
-        {
-          "id": 232,
-          "poster": "the-blair-witch-project.jpeg",
-          "alt": "The Blair Witch Project movie poster"
-        },
-        {
-          "id": 233,
-          "poster": "paranormal-activity.jpeg",
-          "alt": "Paranormal Activity movie poster"
-        },
-        {
-          "id": 234,
-          "poster": "scream.webp",
-          "alt": "Scream movie poster"
-        },
-        {
-          "id": 235,
-          "poster": "the-texas-chainsaw-massacre.jpeg",
-          "alt": "The Texas Chainsaw Massacre movie poster"
-        },
-        {
-          "id": 236,
-          "poster": "annabelle.jpeg",
-          "alt": "Annabelle movie poster"
-        },
-        {
-          "id": 237,
-          "poster": "the-exorcist.jpeg",
-          "alt": "The Exorcist movie poster"
-        },
-        {
-          "id": 238,
-          "poster": "the-shining.jpeg",
-          "alt": "The Shining movie poster"
-        },
-        {
-          "id": 239,
-          "poster": "barbarian.webp",
-          "alt": "Barbarian movie poster"
-        }   
-      
+    {
+      "id": 230,
+      "poster": "sinister.jpeg",
+      "alt": "Sinister movie poster"
+    },
+    {
+      "id": 231,
+      "poster": "the-others.jpeg",
+      "alt": "The Others movie poster"
+    },
+    {
+      "id": 232,
+      "poster": "the-blair-witch-project.jpeg",
+      "alt": "The Blair Witch Project movie poster"
+    },
+    {
+      "id": 233,
+      "poster": "paranormal-activity.jpeg",
+      "alt": "Paranormal Activity movie poster"
+    },
+    {
+      "id": 234,
+      "poster": "scream.webp",
+      "alt": "Scream movie poster"
+    },
+    {
+      "id": 235,
+      "poster": "the-texas-chainsaw-massacre.jpeg",
+      "alt": "The Texas Chainsaw Massacre movie poster"
+    },
+    {
+      "id": 236,
+      "poster": "annabelle.jpeg",
+      "alt": "Annabelle movie poster"
+    },
+    {
+      "id": 237,
+      "poster": "the-exorcist.jpeg",
+      "alt": "The Exorcist movie poster"
+    },
+    {
+      "id": 238,
+      "poster": "the-shining.jpeg",
+      "alt": "The Shining movie poster"
+    },
+    {
+      "id": 239,
+      "poster": "barbarian.webp",
+      "alt": "Barbarian movie poster"
+    }
   ],
   "horror-section-3": [
-        {
-          "id": 240,
-          "poster": "the-ring.jpeg",
-          "alt": "The Ring movie poster"
-        },
-        {
-          "id": 241,
-          "poster": "the-babadook.jpeg",
-          "alt": "The Babadook movie poster"
-        },
-        {
-          "id": 242,
-          "poster": "us.jpeg",
-          "alt": "Us movie poster"
-        },
-        {
-          "id": 243,
-          "poster": "midsommar.jpeg",
-          "alt": "Midsommar movie poster"
-        },
-        {
-          "id": 244,
-          "poster": "28-days-later.jpeg",
-          "alt": "28 Days Later movie poster"
-        },
-        {
-          "id": 245,
-          "poster": "candyman.jpeg",
-          "alt": "Candyman movie poster"
-        },
-        {
-          "id": 246,
-          "poster": "hereditary.jpeg",
-          "alt": "Hereditary movie poster"
-        },
-        {
-          "id": 247,
-          "poster": "the-conjuring-2.jpeg",
-          "alt": "The Conjuring 2 movie poster"
-        },
-        {
-          "id": 248,
-          "poster": "the-wailing.jpeg",
-          "alt": "The Wailing movie poster"
-        },
-        {
-          "id": 249,
-          "poster": "it-follows.jpeg",
-          "alt": "It Follows movie poster"
-        }
-      ]      
-      
+    {
+      "id": 240,
+      "poster": "the-ring.jpeg",
+      "alt": "The Ring movie poster"
+    },
+    {
+      "id": 241,
+      "poster": "the-babadook.jpeg",
+      "alt": "The Babadook movie poster"
+    },
+    {
+      "id": 242,
+      "poster": "us.jpeg",
+      "alt": "Us movie poster"
+    },
+    {
+      "id": 243,
+      "poster": "midsommar.jpeg",
+      "alt": "Midsommar movie poster"
+    },
+    {
+      "id": 244,
+      "poster": "28-days-later.jpeg",
+      "alt": "28 Days Later movie poster"
+    },
+    {
+      "id": 245,
+      "poster": "candyman.jpeg",
+      "alt": "Candyman movie poster"
+    },
+    {
+      "id": 246,
+      "poster": "hereditary.jpeg",
+      "alt": "Hereditary movie poster"
+    },
+    {
+      "id": 247,
+      "poster": "the-conjuring-2.jpeg",
+      "alt": "The Conjuring 2 movie poster"
+    },
+    {
+      "id": 248,
+      "poster": "the-wailing.jpeg",
+      "alt": "The Wailing movie poster"
+    },
+    {
+      "id": 249,
+      "poster": "it-follows.jpeg",
+      "alt": "It Follows movie poster"
+    }
+  ]
 }

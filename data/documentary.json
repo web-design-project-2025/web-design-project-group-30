@@ -1,161 +1,158 @@
 {
-    "documentary-section-1": [
-            {
-              "id": 250,
-              "poster": "the-social-dilemma.jpeg",
-              "alt": "The Social Dilemma documentary poster"
-            },
-            {
-              "id": 251,
-              "poster": "13th.jpeg",
-              "alt": "13th documentary poster"
-            },
-            {
-              "id": 252,
-              "poster": "blackfish.jpeg",
-              "alt": "Blackfish documentary poster"
-            },
-            {
-              "id": 253,
-              "poster": "my-octopus-teacher.jpeg",
-              "alt": "My Octopus Teacher documentary poster"
-            },
-            {
-              "id": 254,
-              "poster": "grizzly-man.jpeg",
-              "alt": "Grizzly Man documentary poster"
-            },
-            {
-              "id": 255,
-              "poster": "won’t-you-be-my-neighbor.jpeg",
-              "alt": "Won’t You Be My Neighbor? documentary poster"
-            },
-            {
-              "id": 256,
-              "poster": "free-solo.jpeg",
-              "alt": "Free Solo documentary poster"
-            },
-            {
-              "id": 257,
-              "poster": "the-act-of-killing.jpeg",
-              "alt": "The Act of Killing documentary poster"
-            },
-            {
-              "id": 258,
-              "poster": "gleason.jpeg",
-              "alt": "Gleason documentary poster"
-            },
-            {
-              "id": 259,
-              "poster": "fire-in-paradise.jpeg",
-              "alt": "Fire in Paradise documentary poster"
-            }
-          
+  "documentary-section-1": [
+    {
+      "id": 250,
+      "poster": "the-social-dilemma.jpeg",
+      "alt": "The Social Dilemma documentary poster"
+    },
+    {
+      "id": 251,
+      "poster": "13th.jpeg",
+      "alt": "13th documentary poster"
+    },
+    {
+      "id": 252,
+      "poster": "blackfish.jpeg",
+      "alt": "Blackfish documentary poster"
+    },
+    {
+      "id": 253,
+      "poster": "my-octopus-teacher.jpeg",
+      "alt": "My Octopus Teacher documentary poster"
+    },
+    {
+      "id": 254,
+      "poster": "grizzly-man.jpeg",
+      "alt": "Grizzly Man documentary poster"
+    },
+    {
+      "id": 255,
+      "poster": "won’t-you-be-my-neighbor.jpeg",
+      "alt": "Won’t You Be My Neighbor? documentary poster"
+    },
+    {
+      "id": 256,
+      "poster": "free-solo.jpeg",
+      "alt": "Free Solo documentary poster"
+    },
+    {
+      "id": 257,
+      "poster": "the-act-of-killing.jpeg",
+      "alt": "The Act of Killing documentary poster"
+    },
+    {
+      "id": 258,
+      "poster": "gleason.jpeg",
+      "alt": "Gleason documentary poster"
+    },
+    {
+      "id": 259,
+      "poster": "fire-in-paradise.jpeg",
+      "alt": "Fire in Paradise documentary poster"
+    }
   ],
-  "documentary-section-2": [ 
-        {
-          "id": 260,
-          "poster": "american-factory.jpeg",
-          "alt": "American Factory documentary poster"
-        },
-        {
-          "id": 261,
-          "poster": "making-a-murderer.jpeg",
-          "alt": "Making a Murderer documentary poster"
-        },
-        {
-          "id": 262,
-          "poster": "i-am-greta.jpeg",
-          "alt": "I Am Greta documentary poster"
-        },
-        {
-          "id": 263,
-          "poster": "the-rescue.jpeg",
-          "alt": "The Rescue documentary poster"
-        },
-        {
-          "id": 264,
-          "poster": "the-cove.jpeg",
-          "alt": "The Cove documentary poster"
-        },
-        {
-          "id": 265,
-          "poster": "cowspiracy.jpeg",
-          "alt": "Cowspiracy documentary poster"
-        },
-        {
-          "id": 266,
-          "poster": "three-identical-strangers.jpeg",
-          "alt": "Three Identical Strangers documentary poster"
-        },
-        {
-          "id": 267,
-          "poster": "flee.jpeg",
-          "alt": "Flee documentary poster"
-        },
-        {
-          "id": 268,
-          "poster": "the-painter-and-the-thief.jpeg",
-          "alt": "The Painter and the Thief documentary poster"
-        },
-        {
-          "id": 269,
-          "poster": "won’t-you-be-my-neighbor.jpeg",
-          "alt": "Won’t You Be My Neighbor? documentary poster"
-        }
-      
-   ],
-  "documentary-section-3": [ 
-        {
-          "id": 270,
-          "poster": "blackfish.jpeg",
-          "alt": "Blackfish documentary poster"
-        },
-        {
-          "id": 271,
-          "poster": "my-octopus-teacher.jpeg",
-          "alt": "My Octopus Teacher documentary poster"
-        },
-        {
-          "id": 272,
-          "poster": "13th.jpeg",
-          "alt": "13th documentary poster"
-        },
-        {
-          "id": 273,
-          "poster": "the-social-dilemma.jpeg",
-          "alt": "The Social Dilemma documentary poster"
-        },
-        {
-          "id": 274,
-          "poster": "athlete-a.jpeg",
-          "alt": "Athlete A documentary poster"
-        },
-        {
-          "id": 275,
-          "poster": "grizzly-man.jpeg",
-          "alt": "Grizzly Man documentary poster"
-        },
-        {
-          "id": 276,
-          "poster": "free-solo.jpeg",
-          "alt": "Free Solo documentary poster"
-        },
-        {
-          "id": 277,
-          "poster": "jiro-dreams-of-sushi.jpeg",
-          "alt": "Jiro Dreams of Sushi documentary poster"
-        },
-        {
-          "id": 278,
-          "poster": "the-act-of-killing.jpeg",
-          "alt": "The Act of Killing documentary poster"
-        },
-        {
-          "id": 279,
-          "poster": "miss-america.jpeg",
-          "alt": "Miss Americana documentary poster"
-        }
-      
-   ]
+  "documentary-section-2": [
+    {
+      "id": 260,
+      "poster": "american-factory.jpeg",
+      "alt": "American Factory documentary poster"
+    },
+    {
+      "id": 261,
+      "poster": "making-a-murderer.jpeg",
+      "alt": "Making a Murderer documentary poster"
+    },
+    {
+      "id": 262,
+      "poster": "i-am-greta.jpeg",
+      "alt": "I Am Greta documentary poster"
+    },
+    {
+      "id": 263,
+      "poster": "the-rescue.jpeg",
+      "alt": "The Rescue documentary poster"
+    },
+    {
+      "id": 264,
+      "poster": "the-cove.jpeg",
+      "alt": "The Cove documentary poster"
+    },
+    {
+      "id": 265,
+      "poster": "cowspiracy.jpeg",
+      "alt": "Cowspiracy documentary poster"
+    },
+    {
+      "id": 266,
+      "poster": "three-identical-strangers.jpeg",
+      "alt": "Three Identical Strangers documentary poster"
+    },
+    {
+      "id": 267,
+      "poster": "flee.jpeg",
+      "alt": "Flee documentary poster"
+    },
+    {
+      "id": 268,
+      "poster": "the-painter-and-the-thief.jpeg",
+      "alt": "The Painter and the Thief documentary poster"
+    },
+    {
+      "id": 269,
+      "poster": "won’t-you-be-my-neighbor.jpeg",
+      "alt": "Won’t You Be My Neighbor? documentary poster"
+    }
+  ],
+  "documentary-section-3": [
+    {
+      "id": 270,
+      "poster": "blackfish.jpeg",
+      "alt": "Blackfish documentary poster"
+    },
+    {
+      "id": 271,
+      "poster": "my-octopus-teacher.jpeg",
+      "alt": "My Octopus Teacher documentary poster"
+    },
+    {
+      "id": 272,
+      "poster": "13th.jpeg",
+      "alt": "13th documentary poster"
+    },
+    {
+      "id": 273,
+      "poster": "the-social-dilemma.jpeg",
+      "alt": "The Social Dilemma documentary poster"
+    },
+    {
+      "id": 274,
+      "poster": "athlete-a.jpeg",
+      "alt": "Athlete A documentary poster"
+    },
+    {
+      "id": 275,
+      "poster": "grizzly-man.jpeg",
+      "alt": "Grizzly Man documentary poster"
+    },
+    {
+      "id": 276,
+      "poster": "free-solo.jpeg",
+      "alt": "Free Solo documentary poster"
+    },
+    {
+      "id": 277,
+      "poster": "jiro-dreams-of-sushi.jpeg",
+      "alt": "Jiro Dreams of Sushi documentary poster"
+    },
+    {
+      "id": 278,
+      "poster": "the-act-of-killing.jpeg",
+      "alt": "The Act of Killing documentary poster"
+    },
+    {
+      "id": 279,
+      "poster": "miss-america.jpeg",
+      "alt": "Miss Americana documentary poster"
+    }
+  ]
 }

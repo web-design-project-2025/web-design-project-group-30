@@ -1,166 +1,163 @@
 {
-    "science-fiction-section-1": [
-        {
-        "id": 280,
-        "poster": "blade-runner-2049.jpeg",
-        "alt": "Blade Runner 2049 movie poster"
-      },
-      {
-        "id": 281,
-        "poster": "inception.jpeg",
-        "alt": "Inception movie poster"
-      },
-      {
-        "id": 282,
-        "poster": "the-matrix.webp",
-        "alt": "The Matrix movie poster"
-      },
-      {
-        "id": 283,
-        "poster": "interstellar.jpeg",
-        "alt": "Interstellar movie poster"
-      },
-      {
-        "id": 284,
-        "poster": "arrival.jpeg",
-        "alt": "Arrival movie poster"
-      },
-      {
-        "id": 285,
-        "poster": "minority-report.jpeg",
-        "alt": "Minority Report movie poster"
-      },
-      {
-        "id": 286,
-        "poster": "star-trek.jpeg",
-        "alt": "Star Trek movie poster"
-      },
-      {
-        "id": 287,
-        "poster": "the-terminator.jpeg",
-        "alt": "The Terminator movie poster"
-      },
-      {
-        "id": 288,
-        "poster": "ex-machina.jpeg",
-        "alt": "Ex Machina movie poster"
-      },
-      {
-        "id": 289,
-        "poster": "moon.jpeg",
-        "alt": "Moon movie poster"
-      }      
-         
+  "science-fiction-section-1": [
+    {
+      "id": 280,
+      "poster": "blade-runner-2049.jpeg",
+      "alt": "Blade Runner 2049 movie poster"
+    },
+    {
+      "id": 281,
+      "poster": "inception.jpeg",
+      "alt": "Inception movie poster"
+    },
+    {
+      "id": 282,
+      "poster": "the-matrix.webp",
+      "alt": "The Matrix movie poster"
+    },
+    {
+      "id": 283,
+      "poster": "interstellar.jpeg",
+      "alt": "Interstellar movie poster"
+    },
+    {
+      "id": 284,
+      "poster": "arrival.jpeg",
+      "alt": "Arrival movie poster"
+    },
+    {
+      "id": 285,
+      "poster": "minority-report.jpeg",
+      "alt": "Minority Report movie poster"
+    },
+    {
+      "id": 286,
+      "poster": "star-trek.jpeg",
+      "alt": "Star Trek movie poster"
+    },
+    {
+      "id": 287,
+      "poster": "the-terminator.jpeg",
+      "alt": "The Terminator movie poster"
+    },
+    {
+      "id": 288,
+      "poster": "ex-machina.jpeg",
+      "alt": "Ex Machina movie poster"
+    },
+    {
+      "id": 289,
+      "poster": "moon.jpeg",
+      "alt": "Moon movie poster"
+    }
   ],
-  "science-fiction-section-2": [ 
-        {
-      
-            "id": 290,
-            "poster": "solaris.jpeg",
-            "alt": "Solaris movie poster"
-          },
-          {
-            "id": 291,
-            "poster": "her.jpeg",
-            "alt": "Her movie poster"
-          },
-          {
-            "id": 292,
-            "poster": "minority-report.jpeg",
-            "alt": "Minority Report movie poster"
-          },
-       
-        {
-          "id": 293,
-          "poster": "the-truman-show.jpeg",
-          "alt": "The Truman Show movie poster"
-        },
-        
-        {
-          "id": 294,
-          "poster": "the-prestige.jpeg",
-          "alt": "The Prestige movie poster"
-        },
-      {
-        "id": 295,
-        "poster": "children-of-men.jpeg",
-        "alt": "Children of Men movie poster"
-      },
-      {
-        "id": 296,
-        "poster": "interstellar.jpeg",
-        "alt": "Interstellar movie poster"
-      },
-        
-        {
-          "id": 297,
-          "poster": "the-matrix.webp",
-          "alt": "The Matrix movie poster"
-        },
-        
-        {
-          "id": 298,
-          "poster": "blade-runner-2049.jpeg",
-          "alt": "Blade Runner 2049 movie poster"
-        },
-        {
-          "id": 299,
-          "poster": "arrival.jpeg",
-          "alt": "Arrival movie poster"
-        }   
-   ],
-  "science-fiction-section-3": [ 
+  "science-fiction-section-2": [
+    {
+      "id": 290,
+      "poster": "solaris.jpeg",
+      "alt": "Solaris movie poster"
+    },
+    {
+      "id": 291,
+      "poster": "her.jpeg",
+      "alt": "Her movie poster"
+    },
+    {
+      "id": 292,
+      "poster": "minority-report.jpeg",
+      "alt": "Minority Report movie poster"
+    },
+
+    {
+      "id": 293,
+      "poster": "the-truman-show.jpeg",
+      "alt": "The Truman Show movie poster"
+    },
+
+    {
+      "id": 294,
+      "poster": "the-prestige.jpeg",
+      "alt": "The Prestige movie poster"
+    },
+    {
+      "id": 295,
+      "poster": "children-of-men.jpeg",
+      "alt": "Children of Men movie poster"
+    },
+    {
+      "id": 296,
+      "poster": "interstellar.jpeg",
+      "alt": "Interstellar movie poster"
+    },
+
+    {
+      "id": 297,
+      "poster": "the-matrix.webp",
+      "alt": "The Matrix movie poster"
+    },
+
+    {
+      "id": 298,
+      "poster": "blade-runner-2049.jpeg",
+      "alt": "Blade Runner 2049 movie poster"
+    },
+    {
+      "id": 299,
+      "poster": "arrival.jpeg",
+      "alt": "Arrival movie poster"
+    }
+  ],
+  "science-fiction-section-3": [
     {
       "id": 300,
       "poster": "the-matrix-reloaded.jpeg",
       "alt": "The Matrix Reloaded movie poster"
     },
-        {
-          "id": 301,
-          "poster": "ex-machina.jpeg",
-          "alt": "Ex Machina movie poster"
-        },
-        {
-          "id": 302,
-          "poster": "the-fifth-element.jpeg",
-          "alt": "The Fifth Element movie poster"
-        },
-        {
-          "id": 303,
-          "poster": "snowpiercer.jpeg",
-          "alt": "Snowpiercer movie poster"
-        },
-        {
-          "id": 304,
-          "poster": "gattaca.jpeg",
-          "alt": "Gattaca movie poster"
-        },
-        {
-          "id": 305,
-          "poster": "children-of-men.jpeg",
-          "alt": "Children of Men movie poster"
-        },
-        {
-          "id": 306,
-          "poster": "inception.jpeg",
-          "alt": "Inception movie poster"
-        },
-      
-        {
-          "id": 307,
-          "poster": "pacific-rim.jpeg",
-          "alt": "Pacific Rim movie poster"
-        },
-        {
-          "id": 308,
-          "poster": "the-terminator.jpeg",
-          "alt": "The Terminator movie poster"
-        },
-        {
-          "id": 309,
-          "poster": "blade-runner-2049.jpeg",
-          "alt": "Blade Runner 2049 movie poster"
-        }
-      
-   ]
+    {
+      "id": 301,
+      "poster": "ex-machina.jpeg",
+      "alt": "Ex Machina movie poster"
+    },
+    {
+      "id": 302,
+      "poster": "the-fifth-element.jpeg",
+      "alt": "The Fifth Element movie poster"
+    },
+    {
+      "id": 303,
+      "poster": "snowpiercer.jpeg",
+      "alt": "Snowpiercer movie poster"
+    },
+    {
+      "id": 304,
+      "poster": "gattaca.jpeg",
+      "alt": "Gattaca movie poster"
+    },
+    {
+      "id": 305,
+      "poster": "children-of-men.jpeg",
+      "alt": "Children of Men movie poster"
+    },
+    {
+      "id": 306,
+      "poster": "inception.jpeg",
+      "alt": "Inception movie poster"
+    },
+
+    {
+      "id": 307,
+      "poster": "pacific-rim.jpeg",
+      "alt": "Pacific Rim movie poster"
+    },
+    {
+      "id": 308,
+      "poster": "the-terminator.jpeg",
+      "alt": "The Terminator movie poster"
+    },
+    {
+      "id": 309,
+      "poster": "blade-runner-2049.jpeg",
+      "alt": "Blade Runner 2049 movie poster"
+    }
+  ]
 }
