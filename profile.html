@@ -1,126 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Review Website Velour</title>
-  <link rel="stylesheet" href="https://use.typekit.net/zms0gvm.css">
-  <link rel="stylesheet" href="https://use.typekit.net/zms0gvm.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/profile.css">
-  <script src="js/main.js" defer></script>
-  <script src="js/avatarapi.js" defer></script>
-  <script src="js/profile.js" defer></script>
-  <script src="js/secluded.js" defer></script>
-</head>
-<body>
-  <div class="logo-container">
-    <a href="index.html">
-     <img class="main-logo" src="img/Logo-white.png" alt="white Velour V Logo looking like a film tape">
-    </a>
-    <nav class="navbar">
-       <div class="navbar-container">
-           <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-           <ul class="nav-links">
-               <li class="search-link">
-                  <a href="index.html">
-                   <img src="img/search1.png" alt="Search-icon a magnifying glass">
-                      <span>Search</span>
-                  </a>
-              </li>
-              <li class="explore-link">
-                  <a href="allmovie.html">
-                   <img src="img/explore1.png" alt="Explore-icon a movie flap">
-                      <span>Explore</span>
-                  </a>
-              </li>
-              <li class="classics-link">
-                  <a href="classics.html">
-                   <img src="img/classics-icon.png" alt="Classics-icon an old movie tape ">
-                      <span>Classics</span>
-                  </a>
-              </li>
-                  <li class="trending-link">
-                      <a href="trending.html">
-                       <img src="img/trending1.png" alt="Trending-icon a graph increasing">
-                        <span>Trending</span>
-                      </a>
-                  </li>
-                      <li class="favorites-link">
-                          <a href="favourite.html">
-                           <img src="img/heart.png" alt="Favorites-icon a heart">
-                            <span>Favorites</span>
-                          </a>
-                      </li>
-                          <li class="profile-link">
-                              <a href="profile.html">
-                               <img src="img/profil1.png" alt="Profile-icon">
-                                <span>Profile</span>
-                              </a>
-                          </li>
-           </ul>
-       </div>
-    </nav>
-</div>
-  <header>
-  
-  <main>
-    <section class="banner">
-       <img src="img/profilewallpaper.png" alt="Purple banner">
-      <div class="profile">
-        <h1 >Generate Your Avatar</h1>
-        <img id="avatar" src="" alt="Avatar" />
-        <input type="text" id="seedInput" placeholder="Enter your name" />
-        <div>
-          <button id="generateBtn">Generate Avatar</button>
-          <button id="saveBtn">Save</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Review Website Velour</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/zms0gvm.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/main.js" defer></script>
+    <script src="js/avatarapi.js" defer></script>
+    <script src="js/profile.js" defer></script>
+    <script src="js/secluded.js" defer></script>
+  </head>
+  <body>
+    <div class="logo-container">
+      <a href="index.html">
+        <img
+          class="main-logo"
+          src="img/Logo-white.png"
+          alt="white Velour V Logo looking like a film tape"
+        />
+      </a>
+
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+          <ul class="nav-links">
+            <li class="search-link">
+              <a href="index.html">
+                <img
+                  src="img/search1.png"
+                  alt="Search-icon a magnifying glass"
+                />
+                <span>Search</span>
+              </a>
+            </li>
+            <li class="explore-link">
+              <a href="allmovie.html">
+                <img src="img/explore1.png" alt="Explore-icon a movie flap" />
+                <span>Explore</span>
+              </a>
+            </li>
+            <li class="classics-link">
+              <a href="classics.html">
+                <img
+                  src="img/classics-icon.png"
+                  alt="Classics-icon an old movie tape"
+                />
+                <span>Classics</span>
+              </a>
+            </li>
+            <li class="trending-link">
+              <a href="trending.html">
+                <img
+                  src="img/trending1.png"
+                  alt="Trending-icon a graph increasing"
+                />
+                <span>Trending</span>
+              </a>
+            </li>
+            <li class="favorites-link">
+              <a href="favourite.html">
+                <img src="img/heart.png" alt="Favorites-icon a heart" />
+                <span>Favorites</span>
+              </a>
+            </li>
+            <li class="profile-link">
+              <a href="profile.html">
+                <img src="img/profil1.png" alt="Profile-icon" />
+                <span>Profile</span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="name-display">
-          <span id="savedName"></span>
-        </div>
-      </div>
-    </section>
-    <div class="language-location">
-      <div class="dropdown-container">
-        <div class="dropdown-toggle" onclick="toggleDropdown('languageDropdown')">
-          <h3>Language</h3>
-          <p>English ▾</p>
-        </div>
-        <ul id="languageDropdown" class="dropdown hidden">
-          <li>English</li>
-        </ul>
-      </div>
-      <div class="dropdown-container drop-up">
-        <div class="dropdown-toggle" onclick="toggleDropdown('locationDropdown')">
-          <h3>Location</h3>
-          <p>Select ▴</p>
-        </div>
-        <ul id="locationDropdown" class="dropdown hidden">
-          <li>Africa</li>
-          <li>Asia</li>
-          <li>Europe</li>
-          <li>North America</li>
-          <li>South America</li>
-          <li>Australia</li>
-        </ul>
-      </div>
+      </nav>
     </div>
-  </main>
-  <footer>
-    <div class="footer-links">
+    <main>
+      <section class="banner">
+        <div class="profile">
+          <h1>Generate Your Avatar</h1>
+          <img id="avatar" src="" alt="Avatar" />
+          <input type="text" id="seedInput" placeholder="Enter your name" />
+          <div>
+            <button id="generateBtn">Generate Avatar</button>
+            <button id="saveBtn">Save</button>
+          </div>
+          <div class="name-display">
+            <span id="savedName"></span>
+          </div>
+        </div>
+      </section>
+
+      <div class="language-location">
+        <div class="dropdown-container">
+          <div
+            class="dropdown-toggle"
+            onclick="toggleDropdown('languageDropdown')"
+          >
+            <h3>Language</h3>
+            <p>English ▾</p>
+          </div>
+          <ul id="languageDropdown" class="dropdown hidden">
+            <li>English</li>
+          </ul>
+        </div>
+
+        <div class="dropdown-container drop-up">
+          <div
+            class="dropdown-toggle"
+            onclick="toggleDropdown('locationDropdown')"
+          >
+            <h3>Location</h3>
+            <p>Select ▴</p>
+          </div>
+          <ul id="locationDropdown" class="dropdown hidden">
+            <li>Africa</li>
+            <li>Asia</li>
+            <li>Europe</li>
+            <li>North America</li>
+            <li>South America</li>
+            <li>Australia</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-links">
         <nav>
-            <a href="index.html">HOME</a>
-            <a href="profile.html"> PROFILE </a>
+          <a href="index.html">HOME</a>
+          <a href="profile.html"> PROFILE </a>
         </nav>
-    </div>
-    <div class="social-media">
+      </div>
+      <div class="social-media">
         <p class="fa fa-facebook"><span>VELOUR</span></p>
         <p class="fa fa-twitter"><span>VELOUR</span></p>
         <p class="fa fa-instagram"><span>VELOUR</span></p>
         <p class="fa fa-google"><span>VELOUR@GMAIL.COM</span></p>
-    </div>
-    <p class="copyright">© 2025 Velour</p>
-</footer>
-</body>
+      </div>
+      <p class="copyright">© 2025 Velour</p>
+    </footer>
+  </body>
 </html>

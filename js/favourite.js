@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function toggleFavourite(id, title, poster) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const index = favourites.map(m => m.id).indexOf(id);
+  const index = favourites.map((m) => m.id).indexOf(id);
 
   if (index > -1) {
     favourites.splice(index, 1);
@@ -82,7 +82,7 @@ function updateFavouritesDisplay() {
 function removeFromFavourites(movieId) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const updated = favourites.filter(movie => movie.id !== movieId);
+  const updated = favourites.filter((movie) => movie.id !== movieId);
 
   localStorage.setItem("favourites", JSON.stringify(updated));
 }
@@ -92,7 +92,7 @@ function updateFavouriteIcons() {
   const buttons = document.querySelectorAll(".favourite-button");
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
-  const favIds = favourites.map(movie => movie.id);
+  const favIds = favourites.map((movie) => movie.id);
 
   for (let i = 0; i < buttons.length; i++) {
     const button = buttons[i];

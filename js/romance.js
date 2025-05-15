@@ -1,5 +1,10 @@
-function renderMovieSection(movies, container, numberToShow = 10, heading = "") {
-    let sectionHTML = `
+function renderMovieSection(
+  movies,
+  container,
+  numberToShow = 10,
+  heading = ""
+) {
+  let sectionHTML = `
       <section class="product">
         <button class="pre-btn">
           <img class="arrow-image" src="img/arrow-velour.png" alt="previous movies button">
@@ -9,9 +14,9 @@ function renderMovieSection(movies, container, numberToShow = 10, heading = "") 
         </button>
         <div class="product-container">
     `;
-  
-    movies.slice(0, numberToShow).forEach((movie) => {
-      sectionHTML += `
+
+  movies.slice(0, numberToShow).forEach((movie) => {
+    sectionHTML += `
         <div class="product-card">
           <a href="detailed-movie-review-page.html?id=${movie.id}">
             <div class="movie-image">
@@ -20,44 +25,56 @@ function renderMovieSection(movies, container, numberToShow = 10, heading = "") 
           </a>
         </div>
       `;
-    });
-  
-    sectionHTML += `
+  });
+
+  sectionHTML += `
         </div>
       </section>
     `;
-  
-    container.innerHTML += sectionHTML;
-  }
-  
-  fetch("data/romance.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const romanceSectionsContainer = document.getElementById("romance-sections-container");
-      if (!romanceSectionsContainer) return;
-  
-      const categories = [
-        "romance-section-1",
-        "romance-section-2",
-        "romance-section-3"
-      ];
-  
-      categories.forEach((category, index) => {
-        const movies = data[category];
-        if (!movies || movies.length === 0) return;
-        renderMovieSection(movies, romanceSectionsContainer, 10, `Section ${index + 1}`);
-      });
-  
-      setTimeout(() => {
-        const sections = document.querySelectorAll(".product");
-        sections.forEach((section) => {
-          const container = section.querySelector(".product-container");
-          const next = section.querySelector(".nxt-btn");
-          const prev = section.querySelector(".pre-btn");
-          const containerWidth = container.getBoundingClientRect().width;
-          next.addEventListener("click", () => container.scrollLeft += containerWidth);
-          prev.addEventListener("click", () => container.scrollLeft -= containerWidth);
-        });
-      }, 100);
+
+  container.innerHTML += sectionHTML;
+}
+
+fetch("data/romance.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const romanceSectionsContainer = document.getElementById(
+      "romance-sections-container"
+    );
+    if (!romanceSectionsContainer) return;
+
+    const categories = [
+      "romance-section-1",
+      "romance-section-2",
+      "romance-section-3",
+    ];
+
+    categories.forEach((category, index) => {
+      const movies = data[category];
+      if (!movies || movies.length === 0) return;
+      renderMovieSection(
+        movies,
+        romanceSectionsContainer,
+        10,
+        `Section ${index + 1}`
+      );
     });
-  
+
+    setTimeout(() => {
+      const sections = document.querySelectorAll(".product");
+      sections.forEach((section) => {
+        const container = section.querySelector(".product-container");
+        const next = section.querySelector(".nxt-btn");
+        const prev = section.querySelector(".pre-btn");
+        const containerWidth = container.getBoundingClientRect().width;
+        next.addEventListener(
+          "click",
+          () => (container.scrollLeft += containerWidth)
+        );
+        prev.addEventListener(
+          "click",
+          () => (container.scrollLeft -= containerWidth)
+        );
+      });
+    }, 100);
+  });

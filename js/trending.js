@@ -1,5 +1,10 @@
 // function that can be used to create the differnt sections
-function renderMovieSection(movies, container, numberToShow = 10, heading = "") {
+function renderMovieSection(
+  movies,
+  container,
+  numberToShow = 10,
+  heading = ""
+) {
   let sectionHTML = `
     <p class="trending-heading">${heading}</p>
     <section class="product">
@@ -33,12 +38,13 @@ function renderMovieSection(movies, container, numberToShow = 10, heading = "") 
   container.innerHTML += sectionHTML;
 }
 
-
 // fetch movies data and make different categories needed
 fetch("data/trending.json")
   .then((response) => response.json())
   .then((data) => {
-    const movieSectionsContainer = document.getElementById("movie-sections-container");
+    const movieSectionsContainer = document.getElementById(
+      "movie-sections-container"
+    );
     if (!movieSectionsContainer) return;
 
     const categories = [
@@ -47,18 +53,20 @@ fetch("data/trending.json")
       "trending-comedy-movies",
       "trending-horror-movies",
       "trending-documentary-movies",
-      "trending-science-fiction-movies"
+      "trending-science-fiction-movies",
     ];
 
     categories.forEach((category) => {
       const movies = data[category];
       if (!movies || movies.length === 0) return;
 
-      const heading = movies[0]["trending-heading"]?.toUpperCase() || category.replace("trending-", "").replace("-movies", "").toUpperCase();
+      const heading =
+        movies[0]["trending-heading"]?.toUpperCase() ||
+        category.replace("trending-", "").replace("-movies", "").toUpperCase();
       renderMovieSection(movies, movieSectionsContainer, 10, heading);
     });
 
-    //carousel for the movies 
+    //carousel for the movies
     //this following code/logic is adapted from the source:https://www.youtube.com/watch?v=OQZNAMjC6Vg used for the logic of the carousel effect
     setTimeout(() => {
       const sections = document.querySelectorAll(".product");
@@ -67,8 +75,14 @@ fetch("data/trending.json")
         const next = section.querySelector(".nxt-btn");
         const prev = section.querySelector(".pre-btn");
         const containerWidth = container.getBoundingClientRect().width;
-        next.addEventListener("click", () => container.scrollLeft += containerWidth);
-        prev.addEventListener("click", () => container.scrollLeft -= containerWidth);
+        next.addEventListener(
+          "click",
+          () => (container.scrollLeft += containerWidth)
+        );
+        prev.addEventListener(
+          "click",
+          () => (container.scrollLeft -= containerWidth)
+        );
       });
     }, 100);
   });

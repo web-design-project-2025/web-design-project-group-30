@@ -95,4 +95,3 @@ function toggleFilters() {
   const filterContainer = document.getElementById("filter-container");
   filterContainer.classList.toggle("active");
 }
-

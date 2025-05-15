@@ -89,11 +89,13 @@ function buildDetailedPage(movie) {
                         <h1>${movie.title}</h1>
                         <button class="favourite-button" data-id="${
                           movie.id
-                        }" data-title="${movie.title}" data-poster="${movie.poster}">
+                        }" data-title="${movie.title}" data-poster="${
+    movie.poster
+  }">
                         <img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
                     </div>
                       <div class="star-rating">
-                       ${movie.rating.replace(/⭐️/g, '★')}
+                       ${movie.rating.replace(/⭐️/g, "★")}
                       </div>
                       <div class="movie-meta">
                       <p><strong>Year:</strong> ${movie.year}</p>
@@ -150,12 +152,12 @@ function buildDetailedPage(movie) {
   <div class="review-one">
     <h3>${movie["first-name"]}</h3>
     <!-- Replace emoji with custom stars -->
-     <p>${movie["first-rating"].replace(/⭐️/g, '★')}</p> 
+     <p>${movie["first-rating"].replace(/⭐️/g, "★")}</p> 
     <p>${movie["first-review"]}</p>
   </div>
   <div class="review-two">
     <h3>${movie["second-name"]}</h3>
-     <p>${movie["second-rating"].replace(/⭐️/g, '★')}</p> 
+     <p>${movie["second-rating"].replace(/⭐️/g, "★")}</p> 
     <p>${movie["second-review"]}</p>
   </div>
 
@@ -198,12 +200,8 @@ function buildDetailedPage(movie) {
         </body>
     `;
 
-   
-    
-    
-  
-    setupStarRating();
-    loadreview();
+  setupStarRating();
+  loadreview();
 
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
@@ -319,7 +317,6 @@ function setupStarRating() {
     container.appendChild(star);
   }
 }
-
 
 function updateStarDisplay(container, rating) {
   const stars = container.querySelectorAll(".star");
