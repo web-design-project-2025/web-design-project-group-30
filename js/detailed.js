@@ -89,20 +89,27 @@ function buildDetailedPage(movie) {
                         <h1>${movie.title}</h1>
                         <button class="favourite-button" data-id="${
                           movie.id
-                        }" data-title="${movie.title}" data-poster="${
-    movie.poster
-  }"><img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
+                        }" data-title="${movie.title}" data-poster="${movie.poster}">
+                        <img src="img/favourite-unfilled.png" alt="Favourite" class="heart-icon" /></button>
                     </div>
-                    <div class="star-rating">${movie.rating}</div>
+                      <div class="star-rating">
+                       ${movie.rating.replace(/⭐️/g, '★')}
+                      </div>
+                      <div class="movie-meta">
+                      <p><strong>Year:</strong> ${movie.year}</p>
+                      <p><strong>Genre:</strong> ${movie.genre}</p>
+                      </div>
                 </div>
             </div>
 
 <h2>MOVIE SUMMARY</h2>
+<hr>
 <div class="movie-summary">
   <p>${movie.summary}</p>
 </div>
 
 <h2>VELOUR'S REVIEW</h2>
+<hr>
 <div class="velour-review">
   <p>
     ${movie["our-review"].slice(0, 200)}<span id="dots">...</span>
@@ -142,12 +149,13 @@ function buildDetailedPage(movie) {
 <div class="community-opinion">
   <div class="review-one">
     <h3>${movie["first-name"]}</h3>
-    <p>${movie["first-rating"]}</p>
+    <!-- Replace emoji with custom stars -->
+     <p>${movie["first-rating"].replace(/⭐️/g, '★')}</p> 
     <p>${movie["first-review"]}</p>
   </div>
   <div class="review-two">
     <h3>${movie["second-name"]}</h3>
-    <p>${movie["second-rating"]}</p>
+     <p>${movie["second-rating"].replace(/⭐️/g, '★')}</p> 
     <p>${movie["second-review"]}</p>
   </div>
 
@@ -159,6 +167,7 @@ function buildDetailedPage(movie) {
   <div class="review-form">
     <label for="rating">MOVIE RANKING:</label>
     <div id="starRating" class="star-rating-input"></div> 
+    <p class="review-stars">${"★".repeat(selectedRating)}</p>
 
     <label for="nameInput">USERNAME:</label>
     <input type="text" id="nameInput" placeholder="Your name" />
@@ -172,13 +181,29 @@ function buildDetailedPage(movie) {
 
         </main>
         <footer>
-            <p>© 2025 Velour</p>
+        <div class="footer-links">
+          <nav>
+              <a href="index.html">HOME</a>
+              <a href="profile.html"> PROFILE </a>
+          </nav>
+      </div>
+      <div class="social-media">
+          <p class="fa fa-facebook"><span>VELOUR</span></p>
+          <p class="fa fa-twitter"><span>VELOUR</span></p>
+          <p class="fa fa-instagram"><span>VELOUR</span></p>
+          <p class="fa fa-google"><span>VELOUR@GMAIL.COM</span></p>
+      </div>
+      <p class="copyright">© 2025 Velour</p>
         </footer>
         </body>
     `;
 
-  setupStarRating();
-  loadreview();
+   
+    
+    
+  
+    setupStarRating();
+    loadreview();
 
   setTimeout(() => {
     const favButton = document.querySelector(".favourite-button");
@@ -231,7 +256,7 @@ function loadreview() {
   reviews.forEach((entry, index) => {
     const div = document.createElement("div");
     div.className = "review";
-    const stars = `<span class="review-stars">${"⭐️".repeat(
+    const stars = `<span class="review-stars">${"★".repeat(
       entry.rating
     )}${"".repeat(5 - entry.rating)}</span>`;
 
@@ -294,6 +319,7 @@ function setupStarRating() {
     container.appendChild(star);
   }
 }
+
 
 function updateStarDisplay(container, rating) {
   const stars = container.querySelectorAll(".star");
