@@ -172,9 +172,9 @@ body {
   }
 
   .browse-button {
-    position:absolute;
-  max-width:fit-content;
-  left:18%;
+    position: absolute;
+    max-width: fit-content;
+    left: 18%;
     padding: 0.5rem;
     font-size: 0.8rem;
   }
