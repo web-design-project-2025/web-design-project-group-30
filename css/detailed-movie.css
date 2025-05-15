@@ -163,7 +163,6 @@ h3 {
   color: var(--highlight-color);
 }
 .star-rating {
-  margin-top: 7%;
   color: var(--highlight-color);
 }
 .community-opinion p:first-of-type {
@@ -191,14 +190,21 @@ h3 {
   border: none;
 }
 .favourite-button img {
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease-out;
+
+}
+.favourite-button:hover img {
+  transform: scale(2);
 }
 
 .favourite-button.filled img {
   width: 24px;
   height: 24px;
 }
+
+
 
 /*REVIEW*/
 .review {

@@ -27,6 +27,22 @@ body {
   padding-bottom: 1vw;
 }
 
+.trending-main-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.05);
+  animation: fadeSwell 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeSwell {
+  to {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
 .product {
   position: relative;
   overflow: hidden;
