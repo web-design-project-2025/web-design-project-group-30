@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   updateFavouritesDisplay();
 
-  //add to favourites
+  //Add to favourites
   const favButtons = document.querySelectorAll(".favourite-button");
   for (let i = 0; i < favButtons.length; i++) {
     favButtons[i].addEventListener("click", function (event) {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  //delete from favourites
+  //Delete from favourites
   const favContainer = document.querySelector(".favourite-items");
   if (favContainer) {
     favContainer.addEventListener("click", function (event) {
@@ -78,7 +78,7 @@ function updateFavouritesDisplay() {
   });
 }
 
-//remove from favourites
+//Remove from favourites
 function removeFromFavourites(movieId) {
   let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
@@ -87,7 +87,7 @@ function removeFromFavourites(movieId) {
   localStorage.setItem("favourites", JSON.stringify(updated));
 }
 
-//heart icon button
+//Heart icon button
 function updateFavouriteIcons() {
   const buttons = document.querySelectorAll(".favourite-button");
   const favourites = JSON.parse(localStorage.getItem("favourites")) || [];

@@ -1,4 +1,4 @@
-// function that can be used to create the differnt sections
+//Function that can be used to create the differnt sections
 function renderMovieSection(
   movies,
   container,
@@ -38,7 +38,7 @@ function renderMovieSection(
   container.innerHTML += sectionHTML;
 }
 
-// fetch movies data and make different categories needed
+//Fetch movies data and make different categories needed
 fetch("data/trending.json")
   .then((response) => response.json())
   .then((data) => {
@@ -66,8 +66,8 @@ fetch("data/trending.json")
       renderMovieSection(movies, movieSectionsContainer, 10, heading);
     });
 
-    //carousel for the movies
-    //this following code/logic is adapted from the source:https://www.youtube.com/watch?v=OQZNAMjC6Vg used for the logic of the carousel effect
+    //Carousel for the movies
+    //This following code/logic is adapted from the source:https://www.youtube.com/watch?v=OQZNAMjC6Vg used for the logic of the carousel effect
     setTimeout(() => {
       const sections = document.querySelectorAll(".product");
       sections.forEach((section) => {

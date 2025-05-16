@@ -21,8 +21,8 @@ fetch("data/movie.json")
   })
   .catch((error) => console.error("Error loading movies:", error));
 
-//sign in
-//the following code was adapted by this source: https://www.w3schools.com/howto/howto_js_popup_form.asp
+//Sign in
+//The following code was adapted by this source: https://www.w3schools.com/howto/howto_js_popup_form.asp
 function closeModal() {
   alert("You must sign in first.");
 }

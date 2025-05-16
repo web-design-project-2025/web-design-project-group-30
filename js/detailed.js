@@ -1,9 +1,9 @@
-// Parse URL parameter for the movie ID
+//Parse URL parameter for the movie ID
 function getMovieIdFromURL() {
   const params = new URLSearchParams(window.location.search);
   return parseInt(params.get("id"), 10);
 }
-//the following code was adapted from this source :https://www.w3schools.com/howto/howto_js_read_more.asp
+//The following code was adapted from this source :https://www.w3schools.com/howto/howto_js_read_more.asp
 function myFunction() {
   const dots = document.getElementById("dots");
   const moreText = document.getElementById("more");
@@ -20,7 +20,7 @@ function myFunction() {
   }
 }
 
-// Build the detailed page
+//Build the detailed page
 function buildDetailedPage(movie) {
   document.body.innerHTML = `
   <body>
@@ -223,7 +223,7 @@ function buildDetailedPage(movie) {
   }, 0);
 }
 
-// Fetch JSON and build page
+//Fetch JSON and build page
 window.addEventListener("DOMContentLoaded", () => {
   fetch("data/detailed.json")
     .then((response) => response.json())
@@ -241,7 +241,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Loads saved reviews from localStorage
+//Loads saved reviews from localStorage
 function loadreview() {
   const movieId = getMovieIdFromURL();
   const storageKey = `review-${movieId}`;
@@ -272,7 +272,7 @@ function loadreview() {
   });
 }
 
-// Save the review to localStorage
+//Save the review to localStorage
 function saveMessage() {
   const name = document.getElementById("nameInput").value.trim();
   const text = document.getElementById("reviewInput").value.trim();
@@ -296,7 +296,7 @@ function saveMessage() {
   loadreview();
 }
 
-// Enable custom star rating
+//Enable custom star rating
 let selectedRating = 0;
 
 function setupStarRating() {
@@ -325,7 +325,7 @@ function updateStarDisplay(container, rating) {
   });
 }
 
-//gives a confirmation if user really wants to delete their review
+//Gives a confirmation if user really wants to delete their review
 function deleteReview(index) {
   const confirmed = confirm("Are you sure you want to delete your review?");
   if (!confirmed) return;
