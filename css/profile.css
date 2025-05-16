@@ -1,12 +1,16 @@
 .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #793e98;
   color: white;
   background-size: cover;
   position: relative;
   width: 95%;
   height: 30vw;
+  min-height: 500px;
   overflow: hidden;
-  padding: 40px 20px;
+  padding: 20px 20px;
 }
 .profile {
   display: flex;
@@ -15,10 +19,7 @@
   text-align: center;
   z-index: 2;
   padding: 20px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 .name-display, #savedName {
   max-width: 90vw;
@@ -28,11 +29,10 @@
   font-weight: bold;
   margin: 0 auto 20px;
 }
-
-
 .banner h1 {
   font-family: "playfair-display", serif;
   font-weight: 700;
+  margin-top: 10%;
 }
 
 #avatar {
@@ -91,7 +91,7 @@ button:hover {
 #savedName {
   font-size: 2rem;
   font-weight: bold;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .language-location {
@@ -160,7 +160,8 @@ button:hover {
 
 @media (max-width: 667px) {
   .banner {
-    height: 60vh;
+    height: 40vh;
+    min-height: 200px;
   }
 
   .profile h1 {
@@ -239,7 +240,7 @@ button:hover {
 
   .profile h1 {
     padding-top:5%;
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 2rem;
   }
 
@@ -436,5 +437,37 @@ button:hover {
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 1160px) {
+  .banner {
+    height: 45vh;          
+    min-height: 350px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .profile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .profile h1 {
+    margin-top: 2%;
+  }
+
+  #avatar {
+    margin-bottom: 10px;
+  }
+
+  .name-display {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  #savedName {
+    margin-bottom: 5px;
+  }
+}
+
 
 
