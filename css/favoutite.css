@@ -181,7 +181,7 @@ body {
   .delete-button {
     font-size: 0.75rem;
     padding: 0.4rem 0.8rem;
-    align-items: ;
+    align-items: center;
   }
   .empty-state img {
     width: 100px;
