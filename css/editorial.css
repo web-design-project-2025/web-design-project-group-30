@@ -52,7 +52,7 @@ p {
   margin-bottom: 10px;
   line-height: 1.9;
 }
-/* Container */
+/*Container*/
 .editorial-container {
   max-width: 600px;
   margin: 0 auto;
@@ -65,18 +65,18 @@ p {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-/* Content wrapper */
+/*Content wrapper*/
 .editorial-content {
   text-align: left;
 }
-/* Title */
+/*Title*/
 .editorial-content h1 {
   font-size: 40px;
   margin-bottom: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-/* Social media section */
+/*Social media section*/
 .social-media {
   margin-bottom: 30px;
 }

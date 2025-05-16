@@ -134,7 +134,7 @@ body {
   background-color: #b652e3;
 }
 
-/*delete button*/
+/*Delete button*/
 .delete-button {
   margin-left: 5%;
   margin-right: 5%;
@@ -153,7 +153,7 @@ body {
   background-color: #b652e3;
 }
 
-/*smaller screens*/
+/*Smaller screens*/
 @media (max-width: 800px) {
   .main-heading-favourite {
     font-size: 12vw;
@@ -196,7 +196,7 @@ body {
   .browse-button {
     position: absolute;
     max-width: fit-content;
-    left: 18%;
+    left: 22%;
     padding: 0.5rem;
     font-size: 0.8rem;
   }
@@ -206,7 +206,7 @@ body {
   }
 }
 
-/* iPad screen */
+/*iPad screen*/
 @media (min-width: 800px) and (max-width: 1100px) {
   .main-heading-favourite {
     font-size: 8vw;

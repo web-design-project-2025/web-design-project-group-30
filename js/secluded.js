@@ -1,4 +1,4 @@
-//categories button
+//Categories button
 function categoriesFunction() {
   var categoryList = document.querySelector(".category-list");
 
@@ -9,8 +9,8 @@ function categoriesFunction() {
   }
 }
 
-//carousel effect
-// this following code/logic is adapted from the source:https://www.youtube.com/watch?v=OQZNAMjC6Vg used for the logic of the carousel effect
+//Carousel effect
+//This following code/logic is adapted from the source:https://www.youtube.com/watch?v=OQZNAMjC6Vg used for the logic of the carousel effect
 document.addEventListener("click", function (event) {
   const button = document.querySelector(".categories-row button");
   const list = document.querySelector(".category-list");
@@ -36,8 +36,8 @@ productContainers.forEach((item, i) => {
   });
 });
 
-//search bar
-//the following code was adapted by this source : https://www.w3schools.com/howto/howto_js_filter_lists.asp
+//Search bar
+//The following code was adapted by this source : https://www.w3schools.com/howto/howto_js_filter_lists.asp
 function filterSearchResults() {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById("search-bar");
@@ -85,12 +85,12 @@ function toggleReadMore() {
   }
 }
 
-/*toggle menu*/
+/*Toggle menu*/
 function toggleMenu() {
   const navLinks = document.querySelector(".nav-links");
   navLinks.classList.toggle("show");
 }
-/*toggle filter menu on mobile*/
+/*Toggle filter menu on mobile*/
 function toggleFilters() {
   const filterContainer = document.getElementById("filter-container");
   filterContainer.classList.toggle("active");

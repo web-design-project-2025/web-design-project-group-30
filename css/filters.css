@@ -1,4 +1,4 @@
-/*filters*/
+/*Filters*/
 .filter-toggle {
   display: none;
 }
@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 
-/*filters on mobile*/
+/*Filters on mobile*/
 @media (max-width: 667px) {
   .filter-toggle {
     display: block;

@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(setupScrollButtons, 100);
   }
-
+  //Clicking and hovering on star rating filter
   function handleStars(applyFilterFn) {
     starSpans.forEach((star) => {
       const rating = parseInt(star.getAttribute("data-value"));
@@ -191,3 +191,11 @@ document.addEventListener("DOMContentLoaded", () => {
     container.innerHTML += sectionHTML;
   }
 });
+
+/*Sources/Refrences used when coding
+Sorting Array: https://www.freecodecamp.org/news/how-to-sort-javascript-array-accurately
+Flat: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+Object Entries:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+Strict Inequality: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_inequality
+forEach:https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach
+*/

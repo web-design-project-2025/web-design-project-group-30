@@ -289,7 +289,7 @@ h3 {
   z-index: 1;
 }
 
-/*search bar*/
+/*Search bar*/
 .search-container {
   display: flex;
   justify-content: center;
@@ -356,7 +356,7 @@ h3 {
   background-color: #f0f0f0;
   cursor: pointer;
 }
-/*smaller screens*/
+/*Smaller screens*/
 @media (max-width: 667px) {
   .logo-container {
     position: relative;
@@ -561,7 +561,7 @@ h3 {
     position: relative;
   }
 }
-/* category button*/
+/*Category button*/
 @media (max-width: 830px) and (min-width: 668px) {
   .category-list {
     display: flex;
@@ -615,7 +615,7 @@ h3 {
     text-align: center;
   }
 }
-/*bigger screens*/
+/*Bigger screens*/
 @media (min-width: 668px) {
   .search-container {
     position: absolute;
@@ -703,7 +703,7 @@ h3 {
   }
 }
 
-/*categories button*/
+/*Categories button*/
 
 .categories-heading-main-page h2 {
   text-align: center;
@@ -713,7 +713,7 @@ h3 {
   margin-top: 100px;
 }
 
-/*bigger screens*/
+/*Bigger screens*/
 @media (min-width: 668px) {
   .search-container {
     position: absolute;
@@ -808,7 +808,7 @@ footer {
   position: relative;
   transition: transform 0.3s ease, color 0.3s ease;
 }
-/* sign in*/
+/*Sign in*/
 #modal {
   position: fixed;
   top: 0;
@@ -854,7 +854,7 @@ footer {
   transform: scale(1.1);
 }
 
-/* sign in*/
+/*Sign in*/
 #modal {
   position: fixed;
   top: 0;
@@ -958,7 +958,7 @@ svg path {
   text-align: center;
 }
 
-/*smaller screens*/
+/*Smaller screens*/
 @media (max-width: 800px) {
   .velour {
     position: relative;
@@ -971,7 +971,7 @@ svg path {
   }
 }
 
-/* iPad screen */
+/*iPad screen*/
 @media (min-width: 800px) and (max-width: 1100px) {
   .v-white {
     width: 90px;
