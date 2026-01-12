@@ -36,38 +36,65 @@ productContainers.forEach((item, i) => {
   });
 });
 
-//Search bar
-//The following code was adapted by this source : https://www.w3schools.com/howto/howto_js_filter_lists.asp
-function filterSearchResults() {
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById("search-bar");
-  filter = input.value.toUpperCase();
-  ul = document.getElementsByClassName("search-result")[0];
-  li = ul.getElementsByTagName("li");
-
-  changed;
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    li[i].style.display = txtValue.toUpperCase().includes(filter) ? "" : "none";
-  }
-}
-
+const searchToggle = document.getElementById("searchToggle");
+const searchOverlay = document.getElementById("searchOverlay");
+const searchContainer = document.querySelector(".search-container");
 const searchInput = document.getElementById("search-bar");
 const searchList = document.querySelector(".search-result");
 
-searchInput.addEventListener("focus", () => {
-  searchList.style.display = "block";
+// Open search
+searchToggle.addEventListener("click", function (e) {
+  e.preventDefault();
+  e.stopPropagation();
+
+  searchOverlay.style.display = "block";
+  searchInput.focus();
 });
 
-document.addEventListener("click", (event) => {
-  if (
-    !searchInput.contains(event.target) &&
-    !searchList.contains(event.target)
-  ) {
-    searchList.style.display = "none";
+// Prevent overlay from closing when clicking inside search box
+searchContainer.addEventListener("click", function (e) {
+  e.stopPropagation();
+});
+
+// Close search when clicking outside the box
+searchOverlay.addEventListener("click", function () {
+  closeSearch();
+});
+
+// Close search with ESC key
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    closeSearch();
   }
 });
+
+// Helper function to close search
+function closeSearch() {
+  searchOverlay.style.display = "none";
+  searchInput.value = "";
+  filterSearchResults();
+}
+
+// (W3Schools adapted)
+
+function filterSearchResults() {
+  const filter = searchInput.value.toLowerCase();
+  const li = searchList.getElementsByTagName("li");
+
+  for (let i = 0; i < li.length; i++) {
+    const a = li[i].getElementsByTagName("a")[0];
+    const txtValue = a.textContent.toLowerCase();
+
+    // Allow partial & flexible matching
+    li[i].style.display =
+      txtValue.includes(filter) || filter.includes(txtValue) ? "block" : "none";
+  }
+
+  // Always show results container while typing
+  searchList.style.display = "block";
+}
+
+// READ MORE
 
 function toggleReadMore() {
   var dots = document.getElementById("dots");

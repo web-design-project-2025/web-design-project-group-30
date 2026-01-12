@@ -23,7 +23,7 @@
         <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
         <ul class="nav-links">
             <li class="search-link">
-                <a href="index.html">
+                <a href="#" id="searchToggle">
                  <img src="img/search1.png" alt="Search-icon a magnifying glass">
                     <span>Search</span>
                 </a>
@@ -68,6 +68,28 @@
   </header>
 
   <main>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="bar">
+                <input
+                  type="text"
+                  id="search-bar"
+                  onkeyup="filterSearchResults()"
+                  placeholder="Search"
+                />
+                <button onclick="filterSearchResults()">Search</button>
+            </div>
+    
+            <div class="search-result">
+                <ul>
+                    <li><a href="favourite.html">My Favorites</a></li>
+                    <li><a href="horror.html">Horror</a></li>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <div class="trending-main-picture-container">
       <img class="trending-main-picture" src="img/horror-banner.jpg" alt="Trending" />

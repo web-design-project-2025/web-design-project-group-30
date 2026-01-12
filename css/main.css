@@ -290,47 +290,57 @@ h3 {
 }
 
 /*Search bar*/
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: none;
+  z-index: 9999;
+}
 .search-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 75px;
+  background: #111;
+  width: 90%;
+  max-width: 650px;
+  margin: 120px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+}
+
+.search-container input {
   width: 100%;
-  position: relative;
-  z-index: 10;
-  margin-left: 3%;
+  padding: 16px;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 .search-result {
-  display: none;
-  position: absolute;
-  z-index: 99;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 500px;
-  background-color: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
 }
-.search-result ul {
+
+.search-result li {
   list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 73%;
+  padding: 14px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
 }
-.search-result li a {
-  border: 1px solid #f0f0f0;
-  background-color: #fff;
-  padding: 1px;
+
+.search-result li:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search-result a {
+  color: white;
   text-decoration: none;
-  font-size: 12px;
-  color: var(--primary-color);
-  text-align: center;
   display: block;
-  cursor: pointer;
 }
-.search-result li a:hover {
-  background-color: #c4c3c3;
-}
+
+
 
 .bar {
   display: flex;
@@ -456,18 +466,26 @@ h3 {
   .categories {
     position: relative;
   }
-  .search-container {
-    display: block;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 9;
-    width: 70%;
-  }
-  .search-result {
-    left: 50%;
-  }
 
+    .search-container {
+      display: block;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10002; /* higher than the hamburger menu */
+      width: 80%;
+      max-width: 400px;
+      background-color: #111; /* keep it visible */
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+    }
+  
+    .search-result {
+      margin-top: 15px;
+    }
+  
   .all-ratings {
     display: flex;
     flex-direction: column;
